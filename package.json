@@ -10,7 +10,7 @@
     "@fontsource/open-sans": "^4.5.8",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
-    "algoliasearch": "^4.11.0",
+    "algoliasearch": "^4.14.0",
     "gatsby": "^4.14.0",
     "gatsby-plugin-algolia": "^0.26.0",
     "gatsby-plugin-feed": "^4.3.0",
