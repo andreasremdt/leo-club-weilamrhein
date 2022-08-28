@@ -160,3 +160,17 @@ img {
   width: clamp(16rem, 90vw, 80rem);
   margin-inline: auto;
 }
+
+.box {
+  background-color: white;
+  box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.13);
+  border-radius: 2px;
+}
+
+.box:is(.small) {
+  padding: 1.5rem;
+}
+
+.box:is(.large) {
+  padding: 1.5rem 4rem;
+}

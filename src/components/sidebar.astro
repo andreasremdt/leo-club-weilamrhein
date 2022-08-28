@@ -1,0 +1,74 @@
+---
+import Title from "./title.astro";
+import SocialLinks from "./social-links.astro";
+---
+
+<aside class="sidebar">
+  <section class="box small centered">
+    <Title as="h3">Über Uns</Title>
+
+    <p>
+      Wir sind Jugendliche und Erwachsene und engagieren uns für das Wohl von benachteiligten Menschen, etwa aus Kinder-
+      oder Pflegeheimen.
+    </p>
+  </section>
+
+  <section class="box small centered">
+    <Title as="h3">Netzwerke</Title>
+
+    <p>Folge uns in den sozialen Netzwerken, um keine Neuigkeiten zu verpassen!</p>
+
+    <SocialLinks class="social" />
+  </section>
+
+  <section class="box small">
+    <Title as="h3">Aktuelles</Title>
+  </section>
+
+  <section class="box small">
+    <Title as="h3">Kategorien</Title>
+
+    <ul>
+      <li>
+        <a class="link" href="/aktionen/begegnungen/">Begegnungen</a>
+      </li>
+      <li>
+        <a class="link" href="/aktionen/pflegeheim/">Pflegeheim</a>
+      </li>
+      <li>
+        <a class="link" href="/aktionen/kinder/">Kinder</a>
+      </li>
+      <li>
+        <a class="link" href="/aktionen/weitere/">Weitere</a>
+      </li>
+      <li>
+        <a class="link" href="/aktionen/neuigkeiten/">Neuigkeiten</a>
+      </li>
+    </ul>
+  </section>
+</aside>
+
+<style>
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .centered {
+    text-align: center;
+  }
+
+  .social {
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+  .link {
+    transition: color 0.1s linear;
+  }
+
+  .link:where(:hover, :focus-visible) {
+    color: var(--clr-primary);
+  }
+</style>
