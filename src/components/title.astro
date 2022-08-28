@@ -1,0 +1,31 @@
+---
+import Twigs from "./twigs.astro";
+
+export interface Props extends astroHTML.JSX.HTMLAttributes {
+  as: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+}
+
+const { class: className, as: Tag } = Astro.props;
+---
+
+<Tag class:list={["title", className]}>
+  <Twigs class="twigs" variant="light">
+    <slot />
+  </Twigs>
+</Tag>
+
+<style>
+  .title {
+    background-color: var(--clr-gray-500);
+    color: white;
+    padding-inline: 1rem;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+  }
+
+  .twigs {
+    justify-content: space-between;
+    height: 44px;
+    font-size: 14px;
+  }
+</style>

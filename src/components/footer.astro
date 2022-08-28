@@ -1,0 +1,141 @@
+---
+import SocialLinks from "./social-links.astro";
+import Title from "./title.astro";
+
+const today = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container inner">
+    <section>
+      <Title as="h4">Über Uns</Title>
+      <p>
+        Wir sind Jugendliche und Erwachsene und engagieren uns für das Wohl von benachteiligten Menschen, etwa aus
+        Kinder- oder Pflegeheimen.
+      </p>
+
+      <p>
+        <a href="https://www.leo-clubs.de/" target="_blank" rel="noopener nofollow noreferrer">
+          Erfahre mehr über Leo-Clubs in Deutschland
+        </a>
+      </p>
+    </section>
+    <section>
+      <Title as="h4">Aktuelles</Title>
+    </section>
+    <section>
+      <Title as="h4">Bilder</Title>
+    </section>
+    <section>
+      <Title as="h4">Menu</Title>
+
+      <ul>
+        <li>
+          <a class="link" href="/">Startseite</a>
+        </li>
+        <li>
+          <a class="link" href="/aktionen/">Aktionen</a>
+        </li>
+        <li>
+          <a class="link" href="/ueber-uns/">Über Uns</a>
+        </li>
+        <li>
+          <a class="link" href="/mitglied-werden/">Mitglied werden</a>
+        </li>
+        <li>
+          <a class="link" href="/kontakt/">Kontakt</a>
+        </li>
+        <li>
+          <a class="link" href="/impressum/">Impressum</a>
+        </li>
+        <li>
+          <a class="link" href="/datenschutz/">Datenschutz</a>
+        </li>
+        <li>
+          <a class="link" href="/sitemap/">Sitemap</a>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="lower">
+    <div class="container wrapper">
+      <SocialLinks hasText />
+
+      <p class="copyright">
+        &copy; {today}
+        <a href="/">Leo-Club Weil am Rhein</a>
+        . Alle Rechte vorbehalten.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background-color: white;
+    border-top: 1px solid var(--clr-gray-200);
+    box-shadow: 0 -2px 4px hsla(0, 0%, 0%, 0.07);
+    padding-block: 2rem;
+  }
+
+  .inner {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .link {
+    transition: color 0.1s linear;
+  }
+
+  .link:where(:hover, :focus-visible) {
+    color: var(--clr-primary);
+  }
+
+  .lower {
+    border-top: 1px solid var(--clr-gray-200);
+    margin-top: 2rem;
+    padding-top: 2rem;
+    font-family: var(--ff-sans);
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 1100px) {
+    .inner {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .wrapper {
+      justify-content: center;
+    }
+
+    .navigation {
+      width: 100%;
+      margin-bottom: 0.5rem;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .inner {
+      grid-template-columns: 1fr;
+    }
+
+    .lower,
+    .copyright {
+      font-size: 12px;
+    }
+
+    .copyright {
+      text-align: center;
+    }
+  }
+</style>
