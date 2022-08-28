@@ -1,0 +1,84 @@
+---
+import Ribbon from "./ribbon.astro";
+import Twigs from "./twigs.astro";
+---
+
+<nav class="navigation">
+  <div class="container inner">
+    <a class="logo" href="/">
+      <span class="sr-only">Startseite</span>
+      <Ribbon variant="dark">Leo-Clubs</Ribbon>
+      <span aria-hidden="true">Leo-Club Weil am Rhein</span>
+      <Twigs variant="dark" class="twigs">Seit 2009</Twigs>
+    </a>
+    <a class="link" href="/aktionen/">Aktionen</a>
+    <a class="link" href="/ueber-uns/">Über Uns</a>
+    <a class="link" href="/mitglied-werden/">Mitglied werden</a>
+    <a class="link" href="/kontakt/">Kontakt</a>
+  </div>
+</nav>
+
+<style>
+  .navigation {
+    padding-block: 2rem;
+    background-color: white;
+    border-bottom: 1px solid var(--clr-gray-200);
+    box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.07);
+  }
+
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+  }
+
+  .link {
+    font-family: var(--ff-sans);
+    text-transform: uppercase;
+    color: var(--clr-gray-500);
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: color 0.1s linear;
+  }
+
+  .link:where(:hover, :focus-visible) {
+    color: var(--clr-primary);
+  }
+
+  .logo {
+    color: var(--clr-primary);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .twigs {
+    font-size: 12px;
+  }
+
+  @media (min-width: 56.25rem) {
+    .link:nth-child(0),
+    .link:nth-child(1) {
+      order: 1;
+    }
+
+    .logo {
+      order: 2;
+    }
+
+    .link:nth-child(4),
+    .link:nth-child(5) {
+      order: 3;
+    }
+  }
+
+  @media (max-width: 56.25rem) {
+    .logo {
+      margin-bottom: 1.5rem;
+      font-size: clamp(20px, calc(1vw + 1rem), 25px);
+      width: 100%;
+    }
+  }
+</style>
