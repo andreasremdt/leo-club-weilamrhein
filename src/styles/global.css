@@ -119,6 +119,9 @@ textarea,
 select {
   font: inherit;
   padding: unset;
+  font-family: var(--ff-sans);
+  color: inherit;
+  width: 100%;
 }
 
 svg,
@@ -151,4 +154,9 @@ img {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+.container {
+  width: clamp(16rem, 90vw, 80rem);
+  margin-inline: auto;
 }
