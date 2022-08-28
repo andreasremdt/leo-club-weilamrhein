@@ -174,3 +174,20 @@ img {
 .box:is(.large) {
   padding: 1.5rem 4rem;
 }
+
+.button {
+  display: inline-flex;
+  border: unset;
+  padding: unset;
+}
+
+.button:is(.secondary) {
+  color: var(--clr-primary);
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: color 0.1s linear;
+}
+
+.button:is(.secondary):where(:hover, :focus-visible) {
+  color: var(--clr-gray-500);
+}

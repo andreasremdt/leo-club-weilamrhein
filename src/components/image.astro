@@ -1,0 +1,29 @@
+---
+import { removeFileExtension } from "../helpers";
+
+export interface Props {
+  src: string;
+  category: string;
+  alt: string;
+  width: number;
+  height: number;
+}
+
+const { src, category, alt, width, height } = Astro.props;
+const url = `${category}/${removeFileExtension(src)}`;
+---
+
+<picture>
+  <source
+    srcset={`https://res.cloudinary.com/leoclub/image/upload/c_fill,g_center,h_${width},w_${height},q_65/${url}.webp`}
+    type="image/webp"
+  />
+  <img
+    src={`https://res.cloudinary.com/leoclub/image/upload/c_fill,g_center,h_${width},w_${height},q_65/${url}.jpg`}
+    width={width}
+    height={height}
+    alt={alt}
+    loading="lazy"
+    decoding="async"
+  />
+</picture>

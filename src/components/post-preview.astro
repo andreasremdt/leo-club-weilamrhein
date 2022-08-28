@@ -1,0 +1,97 @@
+---
+import { formatDate, getCategoryFromUrl } from "../helpers";
+import Image from "../components/image.astro";
+
+export interface Props {
+  title: string;
+  url: string;
+  excerpt: string;
+  date: string;
+  thumbnail?: string;
+}
+
+const { title, url, excerpt, date, thumbnail } = Astro.props;
+---
+
+<article class="box preview">
+  <div class="inner">
+    <h2 class="title">
+      <a class="link" href={url}>{title}</a>
+    </h2>
+
+    <time datetime={date} class="date">
+      Veröffentlicht am {formatDate(date)}
+    </time>
+
+    <p class="excerpt">{excerpt}...</p>
+
+    <a href={url} class="button secondary"> Weiterlesen</a>
+  </div>
+
+  {
+    thumbnail && (
+      <figure class="thumbnail">
+        <Image src={thumbnail} category={getCategoryFromUrl(url)} width={300} height={300} alt={title} />
+      </figure>
+    )
+  }
+</article>
+
+<style>
+  .preview {
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+  }
+
+  .preview:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  .inner {
+    padding: 1.5rem;
+  }
+
+  .title {
+    line-height: 1.3;
+  }
+
+  .link {
+    transition: color 0.1s linear;
+  }
+
+  .link:where(:hover, :focus-visible) {
+    color: var(--clr-primary);
+  }
+
+  .date {
+    font-size: 14px;
+  }
+
+  .excerpt {
+    margin-block: 1rem;
+  }
+
+  .thumbnail {
+    position: relative;
+    display: flex;
+    background-color: var(--clr-gray-500);
+    flex-shrink: 0;
+  }
+
+  .thumbnail::before,
+  .thumbnail::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    z-index: 1;
+  }
+
+  .thumbnail::before {
+    inset: calc(-2px + 1.5rem) calc(2px + 1.5rem);
+  }
+
+  .thumbnail::after {
+    inset: 1.5rem;
+  }
+</style>

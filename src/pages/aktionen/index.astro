@@ -1,0 +1,28 @@
+---
+import PostPreview from "../../components/post-preview.astro";
+import PageLayout from "../../layouts/page-layout.astro";
+import { getPostExcerpt, getPostThumbnail } from "../../helpers";
+
+const posts = (await Astro.glob("./**/*.{md,mdx}")).sort(
+  (a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+);
+---
+
+<PageLayout
+  title="Unsere Aktionen"
+  description="Erfahren Sie mehr über unsere zahlreichen Aktionen in Deutschland, Frankreich und der Schweiz."
+>
+  <main>
+    {
+      posts.map((post) => (
+        <PostPreview
+          title={post.frontmatter.title}
+          date={post.frontmatter.date}
+          url={post.url}
+          thumbnail={getPostThumbnail(post)}
+          excerpt={getPostExcerpt(post)}
+        />
+      ))
+    }
+  </main>
+</PageLayout>
