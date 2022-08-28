@@ -1,67 +1,154 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
-body {
-	font-family: Verdana, sans-serif;
-	margin: auto;
-	padding: 20px;
-	max-width: 65ch;
-	text-align: left;
-	background-color: #fff;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-	line-height: 1.5;
-	color: #444;
+:root {
+  --clr-primary: hsl(39, 58%, 52%);
+  --clr-red: hsl(0, 72%, 51%);
+  --clr-gray-500: hsl(12, 6%, 15%);
+  --clr-gray-400: hsl(33, 5%, 32%);
+  --clr-gray-300: hsl(24, 5%, 64%);
+  --clr-gray-200: hsl(20, 6%, 90%);
+  --clr-gray-100: hsl(60, 5%, 96%);
+
+  --ff-serif: Lora, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --ff-sans: "Open Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
 }
+
+@font-face {
+  font-family: Lora;
+  font-display: swap;
+  src: url(/fonts/lora-variable.woff2) format("woff2 supports variations"),
+    url(/fonts/lora-variable.woff2) format("woff2-variations");
+  font-weight: 400 700;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/open-sans-semibold.woff2) format("woff2");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
 h1,
 h2,
 h3,
 h4,
-h5,
-h6,
-strong,
-b {
-	color: #222;
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: unset;
 }
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+ul,
+ol {
+  margin-bottom: unset;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--clr-gray-500);
+}
+
+p,
+ul,
+ol {
+  font-size: 15px;
+}
+
+p + p {
+  margin-top: 1rem;
+}
+
+p > a {
+  border-bottom: 1px solid var(--clr-primary);
+  transition: color 0.1s linear, border-color 0.1s linear;
+}
+
+p > a:where(:hover, :focus-visible) {
+  color: var(--clr-gray-500);
+  border-color: var(--clr-gray-500);
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--ff-serif);
+  text-rendering: optimizeSpeed;
+  color: var(--clr-gray-400);
+  line-height: 1.7;
+  background-color: var(--clr-gray-100);
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
 a {
-	color: #3273dc;
+  color: inherit;
+  text-decoration: none;
 }
-nav a {
-	margin-right: 10px;
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
 }
-textarea {
-	width: 100%;
-	font-size: 16px;
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  padding: unset;
 }
-input {
-	font-size: 16px;
-}
-content {
-	line-height: 1.6;
-}
-table {
-	width: 100%;
-}
+
+svg,
 img {
-	max-width: 100%;
-	height: auto;
+  vertical-align: middle;
 }
-code {
-	padding: 2px 5px;
-	background-color: #f2f2f2;
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
-pre {
-	padding: 1rem;
-}
-pre > code {
-	all: unset;
-}
-blockquote {
-	border: 1px solid #999;
-	color: #222;
-	padding: 2px 0px 2px 20px;
-	margin: 0px;
-	font-style: italic;
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
