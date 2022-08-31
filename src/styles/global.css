@@ -75,12 +75,24 @@ p + p {
   margin-top: 1rem;
 }
 
-p > a {
+p + picture {
+  margin-block: 2rem;
+}
+
+p + :where(h1, h2, h3, h4, h5, h6),
+table + :where(h1, h2, h3, h4, h5, h6),
+ul + :where(h1, h2, h3, h4, h5, h6) {
+  margin-top: 2rem;
+}
+
+p > a,
+td > a {
   border-bottom: 1px solid var(--clr-primary);
   transition: color 0.1s linear, border-color 0.1s linear;
 }
 
-p > a:where(:hover, :focus-visible) {
+p > a:where(:hover, :focus-visible),
+td > a:where(:hover, :focus-visible) {
   color: var(--clr-gray-500);
   border-color: var(--clr-gray-500);
 }
@@ -127,6 +139,26 @@ select {
 svg,
 img {
   vertical-align: middle;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+th {
+  text-align: left;
+  color: var(--clr-gray-500);
+}
+
+th,
+td {
+  padding: 0.5rem;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid var(--clr-gray-200);
 }
 
 @media (prefers-reduced-motion: reduce) {

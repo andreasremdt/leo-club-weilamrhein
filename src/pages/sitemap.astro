@@ -1,0 +1,77 @@
+---
+import PageLayout from "../layouts/page-layout.astro";
+import { formatDate } from "../helpers";
+
+const posts = (await Astro.glob("./aktionen/**/*.{md,mdx}")).sort(
+  (a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+);
+---
+
+<PageLayout title="Sitemap" description="Hier finden Sie eine Übersicht all unserer Seiten und Berichte.">
+  <main class="box large">
+    <h2>Seiten</h2>
+    <ul>
+      <li>
+        <a href="/" class="link">Startseite</a>
+      </li>
+      <li>
+        <a href="/aktionen/" class="link">Aktionen</a>
+        <ul>
+          <li>
+            <a href="/aktionen/begegnungen/" class="link">Begegnungen mit Menschen mit Behinderung</a>
+          </li>
+          <li>
+            <a href="/aktionen/kinder/" class="link">Ausflüge mit Kindern</a>
+          </li>
+          <li>
+            <a href="/aktionen/pflegeheim/" class="link">Besuche im Pflegeheim</a>
+          </li>
+          <li>
+            <a href="/aktionen/weitere/" class="link">Weitere Aktionen</a>
+          </li>
+          <li>
+            <a href="/aktionen/news/" class="link">Neuigkeiten</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="/ueber-uns/" class="link">Über Uns</a>
+      </li>
+      <li>
+        <a href="/mitglied-werden/" class="link">Mitglied werden</a>
+      </li>
+      <li>
+        <a href="/kontakt/" class="link">Kontakt</a>
+      </li>
+      <li>
+        <a href="/impressum/" class="link">Impressum</a>
+      </li>
+      <li>
+        <a href="/datenschutz/" class="link">Datenschutz</a>
+      </li>
+    </ul>
+
+    <h2>Berichte</h2>
+    <ul>
+      {
+        posts.map((post) => (
+          <li>
+            <a href={post.url} class="link">
+              {formatDate(post.frontmatter.date)} - {post.frontmatter.title}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</PageLayout>
+
+<style>
+  .link {
+    transition: color 0.1s linear;
+  }
+
+  .link:where(:hover, :focus-visible) {
+    color: var(--clr-primary);
+  }
+</style>
