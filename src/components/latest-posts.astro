@@ -1,0 +1,45 @@
+---
+import { formatDate } from "../helpers";
+
+const posts = (await Astro.glob("../pages/aktionen/**/*.{md,mdx}"))
+  .sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf())
+  .slice(0, 2);
+---
+
+{
+  posts.map((post) => (
+    <article class="post">
+      <h3 class="title">
+        <a href={post.url} class="link">
+          {post.frontmatter.title}
+        </a>
+      </h3>
+      <time datetime={post.frontmatter.date} class="date">
+        Veröffentlicht am {formatDate(post.frontmatter.date)}
+      </time>
+    </article>
+  ))
+}
+
+<style>
+  .post:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    font-size: 17px;
+    line-height: 1.2;
+  }
+
+  .date {
+    font-size: 14px;
+  }
+
+  .link {
+    transition: color 0.1s linear;
+  }
+
+  .link:where(:hover, :focus-visible) {
+    color: var(--clr-primary);
+  }
+</style>

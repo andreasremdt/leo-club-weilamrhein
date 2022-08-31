@@ -1,5 +1,6 @@
 ---
 import SocialLinks from "./social-links.astro";
+import LatestPosts from "./latest-posts.astro";
 import Title from "./title.astro";
 
 const today = new Date().getFullYear();
@@ -22,6 +23,8 @@ const today = new Date().getFullYear();
     </section>
     <section>
       <Title as="h4">Aktuelles</Title>
+
+      <LatestPosts />
     </section>
     <section>
       <Title as="h4">Bilder</Title>
