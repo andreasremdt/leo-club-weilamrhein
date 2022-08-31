@@ -3,6 +3,7 @@ import BaseLayout from "./base-layout.astro";
 import Sidebar from "../components/sidebar.astro";
 import Image from "../components/image.astro";
 import Ribbon from "../components/ribbon.astro";
+import Gallery from "../components/gallery.astro";
 import { formatDate, getCategoryFromUrl } from "../helpers";
 
 const {
@@ -34,11 +35,13 @@ const category = getCategoryFromUrl(Astro.url.pathname);
 
       {
         images?.length > 0 && (
-          <figure class="gallery">
-            {images.map((image: string) => (
-              <Image src={image} category={category} width={300} height={200} alt="" />
-            ))}
-          </figure>
+          <Gallery
+            images={images.map((src: string) => ({ src, category }))}
+            width={300}
+            height={200}
+            galleryId="post"
+            class="gallery"
+          />
         )
       }
     </main>
@@ -103,6 +106,10 @@ const category = getCategoryFromUrl(Astro.url.pathname);
 
   .date {
     font-size: 14px;
+  }
+
+  .gallery {
+    margin-top: 2rem;
   }
 
   @media (max-width: 62.5rem) {

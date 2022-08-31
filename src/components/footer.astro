@@ -2,8 +2,18 @@
 import SocialLinks from "./social-links.astro";
 import LatestPosts from "./latest-posts.astro";
 import Title from "./title.astro";
+import Gallery from "./gallery.astro";
+import { getCategoryFromUrl } from "../helpers";
 
 const today = new Date().getFullYear();
+const images = (await Astro.glob("../pages/aktionen/**/*.{md,mdx}"))
+  .sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf())
+  .filter((post) => Boolean(post.frontmatter.images))
+  .slice(0, 6)
+  .map((post) => ({
+    src: post.frontmatter.images[0],
+    category: getCategoryFromUrl(post.url),
+  }));
 ---
 
 <footer class="footer">
@@ -28,6 +38,8 @@ const today = new Date().getFullYear();
     </section>
     <section>
       <Title as="h4">Bilder</Title>
+
+      <Gallery images={images} width={100} height={100} galleryId="footer" />
     </section>
     <section>
       <Title as="h4">Menu</Title>

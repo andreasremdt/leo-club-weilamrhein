@@ -21,3 +21,9 @@ export function getPostExcerpt(post: Record<string, any>) {
 export function getPostThumbnail(post: Record<string, any>) {
   return post.frontmatter.images?.[0];
 }
+
+export function getCloudinaryUrl(src: string, extension: string, width: number, height?: number) {
+  return `https://res.cloudinary.com/leoclub/image/upload/c_fill,g_center,w_${width},${
+    height ? `h_${height},` : ""
+  }q_65/${removeFileExtension(src)}.${extension}`;
+}

@@ -1,0 +1,71 @@
+---
+import { getCloudinaryUrl } from "../helpers";
+import Image from "./image.astro";
+
+export interface Props extends astroHTML.JSX.HTMLAttributes {
+  images: {
+    src: string;
+    category: string;
+  }[];
+  width: number;
+  height: number;
+  galleryId: string;
+}
+
+const { images, width, height, galleryId, class: className } = Astro.props;
+---
+
+<figure class:list={["gallery", className]}>
+  {
+    images.map((image) => (
+      <a href={getCloudinaryUrl(`${image.category}/${image.src}`, "jpg", 1920)} data-fancybox={galleryId} class="link">
+        <Image src={image.src} category={image.category} width={width} height={height} alt="" class="image" />
+      </a>
+    ))
+  }
+</figure>
+
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .link {
+    background-color: var(--clr-gray-500);
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .link::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: transparent url(/zoom-in.svg) no-repeat center;
+    opacity: 0;
+    transition: opacity 0.1s linear, transform 0.4s ease-out;
+    background-color: hsla(39, 58%, 52%, 0.6);
+    transform: scale(1);
+  }
+
+  .link:where(:hover, :focus-visible)::before {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  .image {
+    border-radius: 2px;
+    height: auto;
+  }
+</style>
+
+<script>
+  import { Fancybox } from "@fancyapps/ui";
+  import "@fancyapps/ui/dist/fancybox.css";
+
+  Fancybox.bind("[data-fancybox]", {
+    Thumbs: false,
+  });
+</script>
