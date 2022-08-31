@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Fasnachtsdisco im Markus-Pflüger-Heim
 date: 2014-02-12 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Grillevent am Eichener See
 date: 2012-09-10 01:13:00
 images:

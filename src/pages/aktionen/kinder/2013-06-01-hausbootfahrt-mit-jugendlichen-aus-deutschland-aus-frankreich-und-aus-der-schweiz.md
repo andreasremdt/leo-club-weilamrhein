@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Hausbootfahrt mit Jugendlichen aus Deutschland, aus Frankreich und aus der Schweiz
 date: 2013-06-01 01:13:00
 images:

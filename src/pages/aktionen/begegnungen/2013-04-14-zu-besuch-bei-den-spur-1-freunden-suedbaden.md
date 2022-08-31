@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Zu Besuch bei den Spur 1-Freunden Südbaden
 date: 2013-04-14 01:13:00
 images:

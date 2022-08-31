@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leo-Lions-Service-Day
 date: 2015-05-03 01:13:00
 ---

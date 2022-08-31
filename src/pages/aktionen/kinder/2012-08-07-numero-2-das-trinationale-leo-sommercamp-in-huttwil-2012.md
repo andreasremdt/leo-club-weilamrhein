@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: "Numero 2: Das trinationale Leo-Sommercamp in Huttwil 2012"
 date: 2012-08-07 01:13:00
 images:

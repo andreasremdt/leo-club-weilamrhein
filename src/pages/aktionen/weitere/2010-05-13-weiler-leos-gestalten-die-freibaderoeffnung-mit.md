@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Weiler Leos gestalten die Freibaderöffnung mit
 date: 2010-05-13 01:13:00
 images:

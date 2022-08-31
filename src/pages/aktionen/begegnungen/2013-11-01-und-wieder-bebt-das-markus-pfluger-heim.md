@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Und wieder bebt das Markus-Pflüger-Heim
 date: 2013-11-01 01:13:00
 images:

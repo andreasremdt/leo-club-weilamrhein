@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: K&M spendet Leo-Club 2.500€ für Projekt Begegnungen
 date: 2015-09-23 01:13:00
 ---

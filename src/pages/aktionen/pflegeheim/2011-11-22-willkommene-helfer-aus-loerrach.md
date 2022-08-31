@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Willkommene Helfer aus Lörrach
 date: 2011-11-22 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: "Alle Jahre wieder: Die große Weihnachtsmann – Aktion im Rhein Center"
 date: 2011-12-21 01:13:00
 images:

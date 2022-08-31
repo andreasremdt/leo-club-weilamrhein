@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Tolle Stunden im OKIDOKI Kinderland
 date: 2012-06-22 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Weiler Leos mit “KiSEL”- Kindern auf großer Fahrt
 date: 2011-06-22 01:13:00
 images:

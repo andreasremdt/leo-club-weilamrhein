@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leo-Club spendet Lebensmittel an Bedürftige
 date: 2019-04-24 05:13:00
 images:

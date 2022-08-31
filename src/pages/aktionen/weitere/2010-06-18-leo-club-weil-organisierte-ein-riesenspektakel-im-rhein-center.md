@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leo-Club Weil organisierte ein Riesenspektakel im Rhein Center
 date: 2010-06-18 01:13:00
 images:

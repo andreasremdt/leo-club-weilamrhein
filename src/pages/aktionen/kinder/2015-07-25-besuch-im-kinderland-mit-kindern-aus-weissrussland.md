@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Besuch im Kinderland mit Kindern aus Weissrussland
 date: 2015-07-25 01:13:00
 images:

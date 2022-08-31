@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Noch ein Abstecher ins Eiscafé CORTINA
 date: 2011-09-10 01:13:00
 images:

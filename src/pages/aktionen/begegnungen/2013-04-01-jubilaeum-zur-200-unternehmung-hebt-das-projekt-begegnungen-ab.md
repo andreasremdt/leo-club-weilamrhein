@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: "Jubiläum: Zur 200. Unternehmung hebt das Projekt „Begegnungen“ ab"
 date: 2013-04-01 01:13:00
 images:

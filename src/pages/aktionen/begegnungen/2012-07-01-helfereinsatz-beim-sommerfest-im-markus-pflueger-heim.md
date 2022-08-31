@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Helfereinsatz beim Sommerfest im Markus-Pflüger-Heim
 date: 2012-07-01 01:13:00
 images:

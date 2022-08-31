@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Benefizkonzert in der Altrheinhalle in Märkt
 date: 2014-08-22 01:13:00
 images:

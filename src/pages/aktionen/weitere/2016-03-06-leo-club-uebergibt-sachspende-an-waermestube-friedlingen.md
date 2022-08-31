@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leo-Club übergibt Sachspende an Wärmestube Friedlingen
 date: 2016-03-06 01:13:00
 images:

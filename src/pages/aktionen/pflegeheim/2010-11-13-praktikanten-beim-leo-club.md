@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Praktikanten beim Leo-Club
 date: 2010-11-13 01:13:00
 images:

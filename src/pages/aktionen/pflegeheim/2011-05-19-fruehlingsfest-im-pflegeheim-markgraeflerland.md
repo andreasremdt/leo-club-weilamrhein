@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Frühlingsfest im Pflegeheim Markgräflerland
 date: 2011-05-19 01:13:00
 images:

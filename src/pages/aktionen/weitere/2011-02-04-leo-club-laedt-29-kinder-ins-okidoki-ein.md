@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leo-Club lädt 29 Kinder ins OKIDOKI ein
 date: 2011-02-04 01:13:00
 images:

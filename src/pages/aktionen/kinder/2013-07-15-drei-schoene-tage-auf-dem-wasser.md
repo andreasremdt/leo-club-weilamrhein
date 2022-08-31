@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Drei schöne Tage auf dem Wasser
 date: 2013-07-15 01:13:00
 images:

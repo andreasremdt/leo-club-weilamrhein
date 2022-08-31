@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Auch 2013 - Weihnachtsmann Rheincenter
 date: 2013-12-23 01:13:00
 ---

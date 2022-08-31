@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: "Laguna – Okidoki – Titisee: Alles “Klassna”!"
 date: 2011-07-06 01:13:00
 images:

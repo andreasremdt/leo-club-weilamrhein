@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Willkommene Gäste beim Leo-Benefizkonzert
 date: 2013-07-19 01:13:00
 images:

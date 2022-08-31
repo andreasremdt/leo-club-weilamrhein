@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: L(e)os – Verkäufer beim Straßenfest
 date: 2010-09-03 01:13:00
 images:

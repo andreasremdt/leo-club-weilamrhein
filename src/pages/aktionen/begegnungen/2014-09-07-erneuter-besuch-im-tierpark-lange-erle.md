@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Erneuter Besuch im Tierpark “Lange Erle”
 date: 2014-09-07 01:13:00
 images:

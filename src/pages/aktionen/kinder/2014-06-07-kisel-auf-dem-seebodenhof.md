@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: KiSEL auf dem Seebodenhof
 date: 2014-06-07 01:13:00
 images:

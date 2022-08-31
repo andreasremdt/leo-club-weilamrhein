@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Wiedersehen beim Fest „Miteinander“
 date: 2013-07-21 01:13:00
 images:

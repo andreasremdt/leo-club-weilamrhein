@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Albino-Tigerpython war der Star
 date: 2009-12-16 01:13:00
 images:

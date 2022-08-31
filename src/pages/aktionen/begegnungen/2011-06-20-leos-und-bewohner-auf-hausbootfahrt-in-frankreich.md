@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leos und Bewohner auf Hausbootfahrt in Frankreich
 date: 2011-06-20 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Ausflug zum Strandbad in Basel
 date: 2011-08-11 01:13:00
 images:

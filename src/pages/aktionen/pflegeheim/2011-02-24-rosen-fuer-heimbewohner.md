@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Rosen für Heimbewohner
 date: 2011-02-24 01:13:00
 images:

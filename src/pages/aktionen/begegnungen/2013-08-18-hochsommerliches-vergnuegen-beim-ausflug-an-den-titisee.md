@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Hochsommerliches Vergnügen beim Ausflug an den Titisee
 date: 2013-08-18 01:13:00
 images:

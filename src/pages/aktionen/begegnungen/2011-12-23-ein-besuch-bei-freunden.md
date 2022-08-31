@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Ein Besuch bei Freunden
 date: 2011-12-23 01:13:00
 images:

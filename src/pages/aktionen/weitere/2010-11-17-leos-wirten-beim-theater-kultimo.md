@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leos wirten beim Theater Kultimo
 date: 2010-11-17 01:13:00
 images:

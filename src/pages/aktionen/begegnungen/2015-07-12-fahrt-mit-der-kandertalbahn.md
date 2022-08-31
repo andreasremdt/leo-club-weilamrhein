@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Fahrt mit der Kandertalbahn
 date: 2015-07-12 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Rollstuhlparcours beim Fest Miteinander
 date: 2010-09-26 01:13:00
 images:

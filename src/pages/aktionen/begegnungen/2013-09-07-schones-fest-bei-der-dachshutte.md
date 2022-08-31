@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Schönes Fest bei der Dachshütte
 date: 2013-09-07 01:13:00
 images:

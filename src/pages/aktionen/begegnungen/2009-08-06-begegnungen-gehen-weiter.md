@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: “Begegnungen” gehen weiter
 date: 2009-08-06 01:13:00
 images:

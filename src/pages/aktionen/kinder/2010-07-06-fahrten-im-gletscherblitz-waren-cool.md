@@ -1,7 +1,7 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Fahrten im Gletscherblitz waren “cool”!
 date: 2010-07-06 01:13:00
-layout: ../../../layouts/post-layout.astro
 images:
   - 01-01.jpg
   - 01-02.jpg

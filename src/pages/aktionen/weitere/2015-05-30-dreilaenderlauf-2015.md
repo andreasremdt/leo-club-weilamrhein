@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Dreiländerlauf 2015
 date: 2015-05-30 01:13:00
 images:

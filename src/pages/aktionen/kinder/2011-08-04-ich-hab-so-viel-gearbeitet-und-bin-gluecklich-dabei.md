@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: “Ich hab’ so viel gearbeitet und bin glücklich dabei!”
 date: 2011-08-04 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leos mit Schlauchbooten bei der Eröffnung des Weiler Freibads
 date: 2011-05-14 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Halloweendisco im Markus-Pfüger-Heim
 date: 2011-10-29 01:13:00
 images:

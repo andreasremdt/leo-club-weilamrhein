@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Weiler Leos organisieren Halloweendisco im Wiechser Markus-Pflüger-Heim
 date: 2010-10-31 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Zu Besuch bei der Saisoneröffnung des SC Freiburg
 date: 2010-08-10 01:13:00
 images:

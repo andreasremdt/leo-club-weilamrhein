@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Zu Besuch auf Hausbootfahrt
 date: 2015-10-04 01:13:00
 images:

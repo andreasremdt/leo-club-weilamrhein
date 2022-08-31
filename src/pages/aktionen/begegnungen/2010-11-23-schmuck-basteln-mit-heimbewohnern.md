@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Schmuck basteln mit Heimbewohnern
 date: 2010-11-23 01:13:00
 images:

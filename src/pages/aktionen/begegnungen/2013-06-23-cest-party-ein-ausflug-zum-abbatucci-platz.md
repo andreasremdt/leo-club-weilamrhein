@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: „C’EST PARTY“ – Ein Ausflug zum Abbatucci-Platz
 date: 2013-06-23 01:13:00
 images:

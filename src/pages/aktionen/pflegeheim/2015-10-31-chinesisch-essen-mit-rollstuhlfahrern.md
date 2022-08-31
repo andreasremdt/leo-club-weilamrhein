@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Chinesisch Essen mit Rollstuhlfahrern
 date: 2015-10-31 01:13:00
 ---

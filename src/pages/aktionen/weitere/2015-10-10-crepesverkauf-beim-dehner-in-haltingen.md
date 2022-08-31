@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Crêpesverkauf beim Dehner in Haltingen
 date: 2015-10-10 01:13:00
 images:

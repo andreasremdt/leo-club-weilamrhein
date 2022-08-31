@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Ein Fahrrad für Annette
 date: 2013-11-02 01:13:00
 images:

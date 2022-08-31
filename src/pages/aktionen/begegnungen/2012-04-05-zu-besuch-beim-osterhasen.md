@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Zu Besuch beim Osterhasen
 date: 2012-04-05 01:13:00
 images:

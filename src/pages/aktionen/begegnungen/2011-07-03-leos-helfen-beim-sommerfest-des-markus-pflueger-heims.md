@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leos helfen beim Sommerfest des Markus-Pflüger-Heims
 date: 2011-07-03 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Hausbootfahrt mit Bewohnern in 2019
 date: 2019-06-25 05:13:00
 images:

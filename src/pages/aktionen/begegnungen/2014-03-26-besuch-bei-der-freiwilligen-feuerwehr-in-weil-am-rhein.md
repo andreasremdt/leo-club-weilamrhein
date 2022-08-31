@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Besuch bei der freiwilligen Feuerwehr in Weil am Rhein
 date: 2014-03-26 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Ort der Besinnung, Ruhe und Entspannung für die Bewohner und Mitarbeiter des Markus-Pflüger-Heims
 date: 2006-07-15 01:13:00
 images:

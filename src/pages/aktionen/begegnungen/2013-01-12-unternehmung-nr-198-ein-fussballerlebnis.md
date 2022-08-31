@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Unternehmung Nr 198 – Ein Fußballerlebnis
 date: 2013-01-12 01:13:00
 images:

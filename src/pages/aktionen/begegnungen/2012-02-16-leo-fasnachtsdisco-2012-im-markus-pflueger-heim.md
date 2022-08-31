@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leo-Fasnachtsdisco 2012 im Markus-Pflüger-Heim
 date: 2012-02-16 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Rosenaktion im Weiler Pflegeheim
 date: 2010-03-01 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Ostereierverkauf im Rhein Center
 date: 2012-04-16 01:13:00
 images:

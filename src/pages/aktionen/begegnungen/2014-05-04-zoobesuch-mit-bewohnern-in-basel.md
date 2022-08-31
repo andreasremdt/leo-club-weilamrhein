@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Zoobesuch mit Bewohnern in Basel
 date: 2014-05-04 01:13:00
 images:

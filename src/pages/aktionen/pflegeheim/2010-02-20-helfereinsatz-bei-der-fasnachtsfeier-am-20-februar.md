@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Helfereinsatz bei der Fasnachtsfeier am 20. Februar
 date: 2010-02-20 01:13:00
 images:

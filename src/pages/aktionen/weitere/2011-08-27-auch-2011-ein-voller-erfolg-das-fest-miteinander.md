@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Auch 2011 ein voller Erfolg – das Fest Miteinander
 date: 2011-08-27 01:13:00
 images:

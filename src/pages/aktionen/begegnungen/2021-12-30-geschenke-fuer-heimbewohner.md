@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Weihnachtsgeschenke für Heimbewohner
 date: 2021-12-30 01:13:00
 images:

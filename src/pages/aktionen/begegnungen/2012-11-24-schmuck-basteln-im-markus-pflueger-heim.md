@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Schmuck basteln im Markus-Pflüger-Heim
 date: 2012-11-24 01:13:00
 images:

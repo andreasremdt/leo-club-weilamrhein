@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Viel Spaß bei rasanten Fahrten
 date: 2012-06-04 01:13:00
 images:

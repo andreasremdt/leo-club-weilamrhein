@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Harte Arbeit, karger Lohn
 date: 2010-10-01 01:13:00
 images:

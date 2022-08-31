@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Besuch des Schlossgrabenfests
 date: 2015-09-20 01:13:00
 images:

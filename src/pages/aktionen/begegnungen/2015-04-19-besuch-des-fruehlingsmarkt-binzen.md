@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Besuch des Frühlingsmarkt Binzen
 date: 2015-04-19 01:13:00
 ---

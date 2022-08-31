@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Achttägige Hausbootfahrt in Frankreich
 date: 2010-06-20 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Treffen beim Fest “Miteinander” 2011
 date: 2011-07-24 01:13:00
 images:

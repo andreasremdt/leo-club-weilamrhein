@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Besuch der Buckhütte im Elbenschwand
 date: 2014-06-30 01:13:00
 images:

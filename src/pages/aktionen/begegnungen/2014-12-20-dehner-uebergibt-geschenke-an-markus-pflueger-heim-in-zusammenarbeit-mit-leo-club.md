@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Dehner übergibt Geschenke an Markus-Pflüger-Heim in Zusammenarbeit mit Leo-Club
 date: 2014-12-20 01:13:00
 images:

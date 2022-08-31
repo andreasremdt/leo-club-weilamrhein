@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Grättimannaktion im Weiler Pflegeheim
 date: 2014-12-08 01:13:00
 images:

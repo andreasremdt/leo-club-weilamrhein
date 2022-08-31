@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Gemütlichkeit und Wohlfühlen war angesagt
 date: 2009-05-15 01:13:00
 ---

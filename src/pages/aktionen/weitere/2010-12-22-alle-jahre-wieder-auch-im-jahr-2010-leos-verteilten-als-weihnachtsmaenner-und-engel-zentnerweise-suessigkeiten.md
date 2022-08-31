@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: "Alle Jahre wieder, auch im Jahr 2010: Leos verteilten als Weihnachtsmänner und Engel zentnerweise Süßigkeiten"
 date: 2010-12-22 01:13:00
 images:

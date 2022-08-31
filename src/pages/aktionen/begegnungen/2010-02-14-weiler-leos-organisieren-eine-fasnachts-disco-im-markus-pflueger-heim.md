@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Weiler Leos organisieren eine Fasnachts-Disco im Markus-Pflüger-Heim
 date: 2010-02-14 01:13:00
 images:

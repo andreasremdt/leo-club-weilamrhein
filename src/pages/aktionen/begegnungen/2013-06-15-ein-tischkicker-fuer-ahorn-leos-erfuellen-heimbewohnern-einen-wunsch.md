@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Ein Tischkicker für „Ahorn“ / Leos erfüllen Heimbewohnern einen Wunsch
 date: 2013-06-15 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: „Ein ganz tolles Wochenende“
 date: 2012-10-01 01:13:00
 images:

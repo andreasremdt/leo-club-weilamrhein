@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Helfereinsatz beim Fest Miteinander
 date: 2015-07-26 01:13:00
 images:

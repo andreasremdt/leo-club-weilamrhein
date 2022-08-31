@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leos helfen beim Dreiländerlauf
 date: 2012-05-26 01:13:00
 images:

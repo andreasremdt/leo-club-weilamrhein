@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Drittes trinationales Sommercamp in Huttwil – ein voller Erfolg
 date: 2013-08-06 01:13:00
 images:

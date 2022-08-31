@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Ein toller Ausflug auf den Belchen
 date: 2011-09-07 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Ausflug zum Préhisto-Parc
 date: 2012-05-28 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: "Seifenkistenwettbewerb beim Binzener Frühlingsfest: Der Leo-Club war dabei"
 date: 2011-04-10 01:13:00
 images:

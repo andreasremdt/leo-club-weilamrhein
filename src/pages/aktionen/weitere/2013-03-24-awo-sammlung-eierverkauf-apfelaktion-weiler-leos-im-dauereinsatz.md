@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: "AWO-Sammlung – Eierverkauf – Apfelaktion: Weiler Leos im Dauereinsatz"
 date: 2013-03-24 01:13:00
 images:

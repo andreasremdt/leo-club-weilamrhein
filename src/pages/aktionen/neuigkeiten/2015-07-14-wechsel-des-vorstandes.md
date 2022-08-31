@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Wechsel des Vorstandes
 date: 2015-07-14 01:13:00
 ---

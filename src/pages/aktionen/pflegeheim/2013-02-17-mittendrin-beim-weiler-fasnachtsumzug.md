@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Mittendrin beim Weiler Fasnachtsumzug
 date: 2013-02-17 01:13:00
 images:

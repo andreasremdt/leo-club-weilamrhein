@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Grättimannaktion 2010 im Pflegeheim
 date: 2010-12-15 01:13:00
 images:

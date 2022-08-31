@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Gemeinsames Baden in den Balinea Thermen Bad Bellingen
 date: 2011-01-10 01:13:00
 images:

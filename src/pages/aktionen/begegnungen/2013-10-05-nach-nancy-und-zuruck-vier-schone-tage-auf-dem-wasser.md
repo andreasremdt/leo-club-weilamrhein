@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Nach Nancy und zurück – vier schöne Tage auf dem Wasser
 date: 2013-10-05 01:13:00
 images:

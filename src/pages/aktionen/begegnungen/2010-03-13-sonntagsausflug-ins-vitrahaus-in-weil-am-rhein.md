@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Sonntagsausflug ins VitraHaus in Weil am Rhein
 date: 2010-03-13 01:13:00
 images:

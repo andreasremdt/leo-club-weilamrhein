@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Treffen mit dem Osterhasen im Rhein Center
 date: 2010-04-12 01:13:00
 images:

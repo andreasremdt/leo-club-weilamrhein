@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leos aus Weil am Rhein und Heimbewohner aus Wiechs als Autopfleger
 date: 2010-05-15 01:13:00
 images:

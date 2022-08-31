@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: „Nach em Räge schint d’Sunne”
 date: 2013-07-19 01:13:00
 images:

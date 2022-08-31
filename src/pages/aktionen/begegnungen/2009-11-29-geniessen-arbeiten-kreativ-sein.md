@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Genießen – Arbeiten – Kreativ sein
 date: 2009-11-29 01:13:00
 images:

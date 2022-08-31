@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Ein grandioses Flugerlebnis
 date: 2012-08-15 01:13:00
 images:

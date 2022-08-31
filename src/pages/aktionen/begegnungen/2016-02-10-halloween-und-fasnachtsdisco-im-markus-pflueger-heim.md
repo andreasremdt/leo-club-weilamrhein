@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Halloween- und Fasnachtsdisco im Markus-Pflüger-Heim
 date: 2016-02-10 01:13:00
 images:

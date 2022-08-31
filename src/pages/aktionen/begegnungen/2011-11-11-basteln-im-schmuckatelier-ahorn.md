@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Basteln im Schmuckatelier “Ahorn”
 date: 2011-11-11 01:13:00
 images:

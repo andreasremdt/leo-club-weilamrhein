@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leos helfen bei der Fasnachtsfeier im Pflegeheim
 date: 2011-03-08 01:13:00
 images:

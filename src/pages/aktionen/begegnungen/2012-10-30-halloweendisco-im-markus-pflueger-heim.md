@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Halloweendisco im Markus-Pflüger-Heim
 date: 2012-10-30 01:13:00
 images:

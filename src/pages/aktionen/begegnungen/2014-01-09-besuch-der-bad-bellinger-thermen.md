@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Besuch der Bad Bellinger Thermen
 date: 2014-01-09 01:13:00
 images:

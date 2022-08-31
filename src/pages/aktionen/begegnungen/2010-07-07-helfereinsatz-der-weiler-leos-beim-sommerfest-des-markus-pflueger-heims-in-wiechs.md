@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Helfereinsatz der Weiler Leos beim Sommerfest des Markus-Pflüger-Heims in Wiechs
 date: 2010-07-07 01:13:00
 images:

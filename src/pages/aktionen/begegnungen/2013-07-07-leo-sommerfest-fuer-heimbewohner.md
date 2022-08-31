@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leo-Sommerfest für Heimbewohner
 date: 2013-07-07 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Fasnachtsumzug in Weil am Rhein – Der Leo Club war dabei!
 date: 2012-02-18 01:13:00
 images:

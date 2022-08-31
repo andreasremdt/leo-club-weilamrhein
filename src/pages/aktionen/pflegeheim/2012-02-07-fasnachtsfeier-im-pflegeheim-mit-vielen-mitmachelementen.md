@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Fasnachtsfeier im Pflegeheim mit vielen Mitmachelementen
 date: 2012-02-07 01:13:00
 images:

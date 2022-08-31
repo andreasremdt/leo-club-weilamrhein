@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Weiler Leos helfen beim Dreiländerlauf in Basel
 date: 2013-05-26 01:13:00
 images:

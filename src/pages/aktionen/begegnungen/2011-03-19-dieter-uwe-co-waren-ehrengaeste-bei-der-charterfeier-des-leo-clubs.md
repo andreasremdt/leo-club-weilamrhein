@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Dieter, Uwe & Co. waren Ehrengäste bei der Charterfeier des Leo-Clubs
 date: 2011-03-19 01:13:00
 images:

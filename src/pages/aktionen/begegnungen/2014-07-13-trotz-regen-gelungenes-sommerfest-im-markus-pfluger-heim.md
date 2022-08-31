@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: "Trotz Regen: gelungenes Sommerfest im Markus-Pflüger-Heim"
 date: 2014-07-13 01:13:00
 images:

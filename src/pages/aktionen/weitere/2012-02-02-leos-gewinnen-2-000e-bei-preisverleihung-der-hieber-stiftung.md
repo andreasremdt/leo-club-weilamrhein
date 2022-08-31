@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leos gewinnen 2.000€ bei Preisverleihung der Hieber Stiftung
 date: 2012-02-02 01:13:00
 images:

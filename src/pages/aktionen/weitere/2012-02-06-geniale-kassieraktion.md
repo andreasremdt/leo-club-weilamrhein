@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Geniale Kassieraktion
 date: 2012-02-06 01:13:00
 images:

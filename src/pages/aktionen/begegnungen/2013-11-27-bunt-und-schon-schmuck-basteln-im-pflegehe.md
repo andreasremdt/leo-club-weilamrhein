@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Bunt und schön – Schmuck basteln im Pflegeheim
 date: 2013-11-27 01:13:00
 images:

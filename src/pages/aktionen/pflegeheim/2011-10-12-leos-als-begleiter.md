@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leos als Begleiter
 date: 2011-10-12 01:13:00
 images:

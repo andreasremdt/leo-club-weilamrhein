@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: “Erholung auf, am und im schönsten Element”
 date: 2012-03-10 01:13:00
 images:

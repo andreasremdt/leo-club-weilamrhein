@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Helfereinsatz bei „Miteinander“ 2013
 date: 2013-07-21 01:13:00
 images:

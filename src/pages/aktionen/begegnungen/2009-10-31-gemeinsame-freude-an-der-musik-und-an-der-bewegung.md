@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Gemeinsame Freude an der Musik und an der Bewegung
 date: 2009-10-31 01:13:00
 images:

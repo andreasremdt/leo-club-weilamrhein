@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leos freuen sich über die Mithilfe einer Lörracher Schulklasse
 date: 2011-03-16 01:13:00
 images:

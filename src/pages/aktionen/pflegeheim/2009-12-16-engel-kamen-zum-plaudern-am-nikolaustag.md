@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Engel kamen zum Plaudern am Nikolaustag
 date: 2009-12-16 01:13:00
 images:

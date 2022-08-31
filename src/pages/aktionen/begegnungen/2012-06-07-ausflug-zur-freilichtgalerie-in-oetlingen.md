@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Ausflug zur Freilichtgalerie in Ötlingen
 date: 2012-06-07 01:13:00
 images:

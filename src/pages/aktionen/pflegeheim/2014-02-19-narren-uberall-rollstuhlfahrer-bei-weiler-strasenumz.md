@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Narren überall – Rollstuhlfahrer bei Weiler Straßenumzug
 date: 2014-02-19 01:13:00
 ---

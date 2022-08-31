@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Zum Segeln auf dem Schluchsee…
 date: 2010-08-09 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Treffen beim Weihnachtsessen
 date: 2010-12-23 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Zu Besuch bei Circolo in Freiburg
 date: 2012-01-07 01:13:00
 images:

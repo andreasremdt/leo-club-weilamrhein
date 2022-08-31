@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Drehorgelmusik bringt Jung und Alt zusammen
 date: 2010-06-16 01:13:00
 ---

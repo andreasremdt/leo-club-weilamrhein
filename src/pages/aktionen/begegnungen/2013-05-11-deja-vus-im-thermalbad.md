@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Déjà-vus im Thermalbad
 date: 2013-05-11 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: “Begegnungen” als nachhaltiges Projekt ausgezeichnet
 date: 2011-02-12 01:13:00
 images:

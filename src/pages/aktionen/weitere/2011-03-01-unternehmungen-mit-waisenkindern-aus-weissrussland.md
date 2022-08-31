@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Unternehmungen mit Waisenkindern aus Weißrussland
 date: 2011-03-01 01:13:00
 images:

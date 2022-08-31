@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Gelungene Fasnachtsdisco am Freitag, den 13.
 date: 2015-02-13 01:13:00
 images:

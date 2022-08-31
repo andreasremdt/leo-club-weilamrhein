@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Vergnügen im Schritttempo
 date: 2012-09-04 01:13:00
 

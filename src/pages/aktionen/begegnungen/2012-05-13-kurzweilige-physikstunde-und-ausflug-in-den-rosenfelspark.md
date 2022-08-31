@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Kurzweilige Physikstunde und Ausflug in den Rosenfelspark
 date: 2012-05-13 01:13:00
 images:

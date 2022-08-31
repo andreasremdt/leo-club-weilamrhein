@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: “Jugend hilft” – Projekt 2009
 date: 2010-08-20 01:13:00
 images:

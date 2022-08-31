@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Jugendfreizeit mit trinationaler Beteiligung
 date: 2012-04-20 01:13:00
 images:

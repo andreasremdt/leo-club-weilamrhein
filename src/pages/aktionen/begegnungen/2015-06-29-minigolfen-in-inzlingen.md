@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Minigolfen in Inzlingen
 date: 2015-06-29 01:13:00
 images:

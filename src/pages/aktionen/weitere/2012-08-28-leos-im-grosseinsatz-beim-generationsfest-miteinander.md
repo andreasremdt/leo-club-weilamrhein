@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leos im Großeinsatz beim Generationsfest „Miteinander“
 date: 2012-08-28 01:13:00
 images:

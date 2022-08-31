@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Leos betreuten den Teamparcours “Junior – Senior”
 date: 2010-09-26 01:13:00
 images:

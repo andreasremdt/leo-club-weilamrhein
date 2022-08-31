@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: "Alle Jahre wieder Leos verschenken Fotokalender im Markus-Pflüger-Heim"
 date: 2012-12-23 01:13:00
 images:

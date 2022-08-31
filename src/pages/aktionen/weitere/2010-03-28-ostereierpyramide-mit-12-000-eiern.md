@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Ostereierpyramide mit 12.000 Eiern
 date: 2010-03-28 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Fasnachtsdisco mit den Leos am Schmutzige Dunschdig
 date: 2011-02-14 01:13:00
 images:

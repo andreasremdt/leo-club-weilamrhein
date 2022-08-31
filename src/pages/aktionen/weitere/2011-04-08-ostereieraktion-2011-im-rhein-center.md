@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Ostereieraktion 2011 im Rhein Center
 date: 2011-04-08 01:13:00
 images:

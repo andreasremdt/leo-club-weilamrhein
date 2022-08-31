@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Eine Begegnung mit dem Weihnachtsmann
 date: 2011-12-21 01:13:00
 images:

@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Neuer Vorstand für 2018/19
 date: 2018-08-15 05:26:00
 ---

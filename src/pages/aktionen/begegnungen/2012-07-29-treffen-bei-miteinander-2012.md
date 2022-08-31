@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Treffen bei „Miteinander 2012“
 date: 2012-07-29 01:13:00
 images:

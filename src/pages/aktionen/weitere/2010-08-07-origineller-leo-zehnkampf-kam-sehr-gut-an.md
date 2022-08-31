@@ -1,4 +1,5 @@
 ---
+layout: ../../../layouts/post-layout.astro
 title: Origineller “Leo Zehnkampf” kam sehr gut an
 date: 2010-08-07 01:13:00
 images:
