@@ -1,17 +1,46 @@
 ---
 import BaseLayout from "./base-layout.astro";
 import Sidebar from "../components/sidebar.astro";
+import Image from "../components/image.astro";
+import Ribbon from "../components/ribbon.astro";
+import { formatDate, getCategoryFromUrl } from "../helpers";
 
 const {
-  frontmatter: { title, description },
+  frontmatter: { title, description, images, date },
 } = Astro.props;
+const category = getCategoryFromUrl(Astro.url.pathname);
 ---
 
 <BaseLayout title={title} description={description}>
   <div class="container main">
     <main class="box large">
-      <h1>{title}</h1>
+      {
+        images?.length > 0 && (
+          <figure class="thumbnail">
+            <Image src={images[0]} category={category} width={1000} height={500} alt={title} />
+          </figure>
+        )
+      }
+
+      <header class:list={["header", { "has-thumbnail": Boolean(images) }]}>
+        <Ribbon variant="light">{category}</Ribbon>
+        <h1 class="title">{title}</h1>
+        <time datetime={date} class="date">
+          Veröffentlicht am {formatDate(date)}
+        </time>
+      </header>
+
       <slot />
+
+      {
+        images?.length > 0 && (
+          <figure class="gallery">
+            {images.map((image: string) => (
+              <Image src={image} category={category} width={300} height={200} alt="" />
+            ))}
+          </figure>
+        )
+      }
     </main>
     <Sidebar />
   </div>
@@ -30,6 +59,46 @@ const {
     font-size: clamp(24px, calc(2vw + 1rem), 36px);
     margin-bottom: 0.5rem;
     grid-column: span 2;
+  }
+
+  .thumbnail {
+    margin: -1.5rem -4rem 0 -4rem;
+  }
+
+  .header {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: white url(/leafs.svg) no-repeat center bottom;
+    background-size: 40px;
+    margin-bottom: 2rem;
+  }
+
+  .header:where(.has-thumbnail) {
+    transform: translateY(-7rem);
+    border-radius: 2px;
+    position: relative;
+    margin-bottom: -4rem;
+  }
+
+  .header:where(.has-thumbnail)::before,
+  .header:where(.has-thumbnail)::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    z-index: -1;
+  }
+
+  .header:where(.has-thumbnail)::before {
+    inset: calc(-2px - 1.5rem) calc(2px - 1.5rem);
+  }
+
+  .header:where(.has-thumbnail)::after {
+    inset: -1.5rem;
+  }
+
+  .title {
+    margin-block: 1rem 0;
+    font-size: 28px;
   }
 
   @media (max-width: 62.5rem) {

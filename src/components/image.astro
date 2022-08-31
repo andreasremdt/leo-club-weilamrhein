@@ -15,11 +15,11 @@ const url = `${category}/${removeFileExtension(src)}`;
 
 <picture>
   <source
-    srcset={`https://res.cloudinary.com/leoclub/image/upload/c_fill,g_center,h_${width},w_${height},q_65/${url}.webp`}
+    srcset={`https://res.cloudinary.com/leoclub/image/upload/c_fill,g_center,w_${width},h_${height},q_65/${url}.webp`}
     type="image/webp"
   />
   <img
-    src={`https://res.cloudinary.com/leoclub/image/upload/c_fill,g_center,h_${width},w_${height},q_65/${url}.jpg`}
+    src={`https://res.cloudinary.com/leoclub/image/upload/c_fill,g_center,w_${width},h_${height},q_65/${url}.jpg`}
     width={width}
     height={height}
     alt={alt}
