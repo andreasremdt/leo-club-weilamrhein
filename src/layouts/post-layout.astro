@@ -18,7 +18,7 @@ const category = getCategoryFromUrl(Astro.url.pathname);
       {
         images?.length > 0 && (
           <figure class="thumbnail">
-            <Image src={images[0]} category={category} width={1000} height={500} alt={title} />
+            <Image src={images[0]} category={category} width={1000} height={500} alt={title} loading="eager" />
           </figure>
         )
       }

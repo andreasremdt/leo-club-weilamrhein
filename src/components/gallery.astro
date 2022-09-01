@@ -6,6 +6,7 @@ export interface Props extends astroHTML.JSX.HTMLAttributes {
   images: {
     src: string;
     category: string;
+    alt?: string;
   }[];
   width: number;
   height: number;
@@ -19,7 +20,14 @@ const { images, width, height, galleryId, class: className } = Astro.props;
   {
     images.map((image) => (
       <a href={getCloudinaryUrl(`${image.category}/${image.src}`, "jpg", 1920)} data-fancybox={galleryId} class="link">
-        <Image src={image.src} category={image.category} width={width} height={height} alt="" class="image" />
+        <Image
+          src={image.src}
+          category={image.category}
+          width={width}
+          height={height}
+          alt={image.alt || ""}
+          class="image"
+        />
       </a>
     ))
   }

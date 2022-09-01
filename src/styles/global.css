@@ -75,7 +75,8 @@ p + p {
   margin-top: 1rem;
 }
 
-p + picture {
+p + picture,
+p + iframe {
   margin-block: 2rem;
 }
 

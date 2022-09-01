@@ -13,13 +13,14 @@ const images = (await Astro.glob("../pages/aktionen/**/*.{md,mdx}"))
   .map((post) => ({
     src: post.frontmatter.images[0],
     category: getCategoryFromUrl(post.url),
+    alt: post.frontmatter.title,
   }));
 ---
 
 <footer class="footer">
   <div class="container inner">
     <section>
-      <Title as="h4">Über Uns</Title>
+      <Title as="h3">Über Uns</Title>
       <p>
         Wir sind Jugendliche und Erwachsene und engagieren uns für das Wohl von benachteiligten Menschen, etwa aus
         Kinder- oder Pflegeheimen.
@@ -32,17 +33,17 @@ const images = (await Astro.glob("../pages/aktionen/**/*.{md,mdx}"))
       </p>
     </section>
     <section>
-      <Title as="h4">Aktuelles</Title>
+      <Title as="h3">Aktuelles</Title>
 
       <LatestPosts />
     </section>
     <section>
-      <Title as="h4">Bilder</Title>
+      <Title as="h3">Bilder</Title>
 
       <Gallery images={images} width={100} height={100} galleryId="footer" />
     </section>
     <section>
-      <Title as="h4">Menu</Title>
+      <Title as="h3">Menu</Title>
 
       <ul>
         <li>

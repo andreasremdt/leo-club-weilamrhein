@@ -8,9 +8,10 @@ export interface Props {
   width: number;
   height?: number;
   class?: string;
+  loading?: "eager" | "lazy";
 }
 
-const { src, category, alt, width, height, class: className } = Astro.props;
+const { src, category, alt, width, height, class: className, loading = "lazy" } = Astro.props;
 const url = `${category}/${src}`;
 ---
 
@@ -22,7 +23,7 @@ const url = `${category}/${src}`;
     width={width}
     height={height}
     alt={alt}
-    loading="lazy"
+    loading={loading}
     decoding="async"
     class={className}
   />
