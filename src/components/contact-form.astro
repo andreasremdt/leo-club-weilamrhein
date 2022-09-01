@@ -1,0 +1,196 @@
+<form class="form" data-form>
+  <div class="input-group">
+    <label class="label" for="name">Vor- und Nachname</label>
+    <input
+      data-validate
+      class="form-control"
+      type="text"
+      id="name"
+      name="name"
+      required
+      data-error="Bitte geben deinen Vor- und Nachnamen an"
+    />
+  </div>
+
+  <div class="input-group">
+    <label class="label" for="email">E-Mail-Adresse</label>
+    <input
+      data-validate
+      class="form-control"
+      type="email"
+      id="email"
+      name="email"
+      required
+      data-error="Bitte gebe eine gültige E-Mail-Addresse an"
+    />
+  </div>
+
+  <div class="input-group">
+    <label class="label" for="phone">Telefonnummer (optional)</label>
+    <input class="form-control" type="text" id="phone" name="phone" />
+  </div>
+
+  <div class="input-group">
+    <input type="text" name="honeypot" id="honeypot" autocomplete="off" aria-hidden="true" tabindex="-1" hidden />
+    <label class="label" for="message">Deine Nachricht</label>
+    <textarea
+      data-validate
+      class="form-control"
+      id="message"
+      name="message"
+      required
+      data-error="Bitte schreibe mindestens 10 Buchstaben"
+      minlength="10"></textarea>
+  </div>
+
+  <button type="submit" class="button primary" aria-live="assertive" data-submit>Nachricht senden</button>
+</form>
+
+<style>
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .input-group:nth-child(4) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+  }
+
+  .label {
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--clr-gray-500);
+    display: block;
+    margin-bottom: 0.1rem;
+  }
+
+  .form-control {
+    border: 1px solid var(--clr-gray-300);
+    border-radius: 2px;
+    appearance: none;
+    padding: 0.75rem;
+    font: 14px/1.2 var(--ff-sans);
+    transition: border-color 0.1s linear, box-shadow 0.1s linear;
+    width: 100%;
+  }
+
+  .form-control:is(textarea) {
+    flex: 1;
+    resize: none;
+  }
+
+  .form-control:hover {
+    border-color: var(--clr-gray-500);
+  }
+
+  .form-control:focus-visible {
+    border-color: var(--clr-primary);
+    box-shadow: 0 0 0 3px hsla(39, 58%, 52%, 0.2);
+    outline: none;
+  }
+
+  .form-control:is([aria-invalid="true"]) {
+    border-color: var(--clr-red);
+  }
+
+  .form-control:is([aria-invalid="true"]):focus-visible {
+    box-shadow: 0 0 0 3px hsla(0, 72%, 51%, 0.2);
+  }
+
+  .button {
+    grid-column: 1 / 3;
+  }
+</style>
+
+<script>
+  const form = document.querySelector("[data-form]") as HTMLFormElement;
+  const inputs = document.querySelectorAll("[data-validate]") as NodeListOf<HTMLInputElement>;
+  const button = document.querySelector("[data-submit]") as HTMLButtonElement;
+
+  function validate(input: HTMLInputElement) {
+    if (!input.checkValidity() && !input.hasAttribute("aria-invalid")) {
+      const error = document.createElement("p");
+
+      error.className = "error";
+      error.id = `${input.name}-error`;
+      error.setAttribute("aria-live", "assertive");
+      error.textContent = input.getAttribute("data-error");
+
+      input.setAttribute("aria-invalid", "true");
+      input.setAttribute("aria-describedby", `${input.name}-error`);
+      input.insertAdjacentElement("afterend", error);
+    } else if (input.checkValidity() && input.hasAttribute("aria-invalid")) {
+      input.nextElementSibling?.remove();
+      input.removeAttribute("aria-invalid");
+      input.removeAttribute("aria-describedby");
+    }
+  }
+
+  function sendEmail(data: FormData) {
+    button.textContent = "Nachricht wird gesendet...";
+    button.disabled = true;
+
+    fetch("/.netlify/functions/send-email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(Object.fromEntries(data)),
+    })
+      .then((response) => response.json())
+      .then(() => {
+        button.textContent = "Deine Nachricht wurde erfolgreich zugestellt!";
+      })
+      .catch(() => {
+        button.textContent = "Fehler beim Zustellen der Nachricht. Versuche es später erneut.";
+        button.disabled = false;
+      });
+  }
+
+  function handleSubmit(event: SubmitEvent) {
+    event.preventDefault();
+
+    for (const input of inputs) {
+      validate(input);
+    }
+
+    const firstInvalidInput = document.querySelector('[aria-invalid="true"]') as HTMLInputElement;
+
+    if (firstInvalidInput) {
+      firstInvalidInput.focus();
+    } else {
+      sendEmail(new FormData(event.target as HTMLFormElement));
+    }
+  }
+
+  function handleBlur(event: FocusEvent) {
+    const input = event.target as HTMLInputElement;
+
+    validate(input);
+  }
+
+  function handleInput(event: Event) {
+    const input = event.target as HTMLInputElement;
+
+    if (input.hasAttribute("aria-invalid")) {
+      validate(input);
+    }
+  }
+
+  form.setAttribute("novalidate", "true");
+  form.addEventListener("submit", handleSubmit);
+
+  for (const input of inputs) {
+    input.addEventListener("blur", handleBlur);
+    input.addEventListener("input", handleInput);
+  }
+</script>
