@@ -141,6 +141,14 @@ img {
   vertical-align: middle;
 }
 
+iframe {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16/9;
+  border: unset;
+  vertical-align: middle;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -222,4 +230,8 @@ tr:not(:last-child) {
 
 .button:is(.secondary):where(:hover, :focus-visible) {
   color: var(--clr-gray-500);
+}
+
+.centered {
+  text-align: center;
 }

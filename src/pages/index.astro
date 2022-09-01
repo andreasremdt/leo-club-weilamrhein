@@ -1,48 +1,155 @@
 ---
-import BaseHead from "../components/base-head.astro";
-import PageLayout from "../layouts/page-layout.astro";
+import BaseLayout from "../layouts/base-layout.astro";
+import Image from "../components/image.astro";
+import Title from "../components/title.astro";
 ---
 
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <BaseHead title="sad" description="sda" />
-  </head>
-  <body>
-    <PageLayout title="Hello there" description="sdasd" hasSidebar>
-      <main>
-        <h1>🧑‍🚀 Hello, Astronaut!</h1>
+<BaseLayout
+  title="Willkommen"
+  description="Wir sind Jugendliche und Erwachsene und engagieren uns für das Wohl von benachteiligten Menschen, etwa aus Kinder- oder Pflegeheimen."
+>
+  <main class="container main">
+    <figure class="banner">
+      <Image
+        src="20-01.jpg"
+        category="pflegeheim"
+        width={1300}
+        height={700}
+        alt="Leo-Mitglieder verteilen Rosen im Weiler Pflegeheim"
+      />
+      <figcaption class="caption box centered">
+        <h1 class="tagline">Miteinander statt Gegeneinander</h1>
         <p>
-          Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template serves as
-          a lightweight, minimally-styled starting point for anyone looking to build a personal website, blog, or portfolio
-          with Astro.
+          Der Leo-Club Weil am Rhein ist ein sozial engagierter Jugendclub aus dem Dreiländereck, dessen Mitglieder sich
+          für Menschen mit Behinderung, benachteiligte Kinder und Heimbewohner einsetzt.
         </p>
+        <a href="/ueber-uns/" class="button secondary">Erfahre mehr über uns</a>
+      </figcaption>
+    </figure>
+
+    <div class="sections">
+      <section class="w-1/3 box small centered">
+        <Title as="h2">Engagieren</Title>
         <p>
-          This template comes with a few integrations already configured in your
-          <code>astro.config.mjs</code> file. You can customize your setup with
-          <a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind, React, or Vue to
-          your project.
+          Wir sind Freiwillige im Alter zwischen 14 und 30 Jahren, welche sich ehrenamtlich für benachteiligte Menschen
+          einsetzen.
         </p>
-        <p>Here are a few ideas on how to get started with the template:</p>
-        <ul>
-          <li>Edit this page in <code>src/pages/index.astro</code></li>
-          <li>Edit the site header items in <code>src/components/Header.astro</code></li>
-          <li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-          <li>Check out the included blog posts in <code>src/pages/blog/</code></li>
-          <li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-        </ul>
+        <a href="/ueber-uns/" class="button secondary">Erfahre mehr</a>
+      </section>
+
+      <section class="w-1/3 box small centered">
+        <Title as="h2">Bewegen</Title>
         <p>
-          Have fun! If you get stuck, remember to <a href="https://docs.astro.build/">read the docs</a> or <a
-            href="https://astro.build/chat">join us on Discord</a
-          > to ask questions.
+          Wir unternehmen Ausflüge mit Kindern oder Bewohnern eines Pflegeheims, sammeln Spenden oder arbeiten mit den
+          Lions zusammen.
         </p>
+        <a href="/aktionen/" class="button secondary">Berichte lesen</a>
+      </section>
+
+      <section class="w-1/3 box small centered">
+        <Title as="h2">Mitmachen</Title>
         <p>
-          Looking for a blog template with a bit more personality? Check out <a
-            href="https://github.com/Charca/astro-blog-template"
-            >astro-blog-template
-          </a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
+          Unser Ziel ist eine Gesellschaft, in der sich jeder sozial engagiert und für hilfsbedürftige Menschen
+          einsetzt.
         </p>
-      </main>
-    </PageLayout>
-  </body>
-</html>
+        <a href="/mitglied-werden/" class="button secondary">Mitglied werden</a>
+      </section>
+
+      <figure class="w-1/2 box small">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/Y3VODSWWxgI"
+          title="Video zum Leo-Club"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </figure>
+
+      <section class="w-1/2 box small">
+        <p>
+          Leo-Clubs ist eine weltweit tätige, zu den Lions gehörende Organisation bestehend aus tausenden von Clubs und
+          noch viel mehr Mitgliedern. In der Regel kannst du ab 16 Jahre Leo werden, das Maximalalter liegt bei 30.
+        </p>
+
+        <p>
+          Unser Club wurde 2009 gegründet und hat seither mehr als 200 Aktionen durchgeführt. Einen Teil dieser Aktionen
+          kannst du im Video sehen.
+        </p>
+
+        <p>
+          Hast du Lust, mitzumachen? Noch nicht sicher, worum es wirklich geht? Informiere dich über <a
+            href="/ueber-uns/">unsere Geschichte</a
+          > oder entdecke <a href="/aktionen/">unsere Aktionen</a>. Oder lerne mehr über die <a href="/mitglied-werden/"
+            >Mitgliedschaft</a
+          >.
+        </p>
+      </section>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .main {
+    margin-block: 3rem;
+  }
+
+  .banner {
+    position: relative;
+    box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.13);
+    border-radius: 2px;
+    margin-bottom: 12rem;
+  }
+
+  .banner::before,
+  .banner::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    z-index: 1;
+  }
+
+  .banner::before {
+    inset: calc(-2px + 1.5rem) calc(2px + 1.5rem);
+  }
+
+  .banner::after {
+    inset: 1.5rem;
+  }
+
+  .caption {
+    position: absolute;
+    top: 100%;
+    max-width: 70%;
+    left: 15%;
+    right: 15%;
+    padding: 2rem;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+
+  .tagline {
+    background: white url(/leafs.svg) no-repeat center bottom;
+    background-size: 40px;
+    margin-bottom: 1rem;
+    padding-bottom: 3rem;
+    font-size: 32px;
+  }
+
+  .sections {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5rem;
+  }
+
+  .w-1\/3 {
+    grid-column: span 2;
+  }
+
+  .w-1\/2 {
+    grid-column: span 3;
+  }
+
+  .button {
+    margin-top: 1rem;
+  }
+</style>
