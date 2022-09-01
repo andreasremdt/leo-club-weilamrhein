@@ -2,7 +2,7 @@
 import PageLayout from "../layouts/page-layout.astro";
 import { formatDate } from "../helpers";
 
-const posts = (await Astro.glob("./aktionen/**/*.{md,mdx}")).sort(
+const posts = (await Astro.glob("./aktionen/**/*.md")).sort(
   (a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
 );
 ---

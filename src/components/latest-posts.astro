@@ -1,7 +1,7 @@
 ---
 import { formatDate } from "../helpers";
 
-const posts = (await Astro.glob("../pages/aktionen/**/*.{md,mdx}"))
+const posts = (await Astro.glob("../pages/aktionen/**/*.md"))
   .sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf())
   .slice(0, 2);
 ---
