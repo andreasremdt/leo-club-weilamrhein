@@ -2,10 +2,11 @@
 import Title from "./title.astro";
 import SocialLinks from "./social-links.astro";
 import LatestPosts from "./latest-posts.astro";
+import Box from "./box.astro";
 ---
 
 <aside class="sidebar">
-  <section class="box small centered">
+  <Box class="centered" variant="small">
     <Title as="h2">Über Uns</Title>
 
     <p>
@@ -14,23 +15,23 @@ import LatestPosts from "./latest-posts.astro";
     </p>
 
     <a href="/ueber-uns/" class="button secondary">Erfahre mehr</a>
-  </section>
+  </Box>
 
-  <section class="box small centered">
+  <Box class="centered" variant="small">
     <Title as="h2">Netzwerke</Title>
 
     <p>Folge uns in den sozialen Netzwerken, um keine Neuigkeiten zu verpassen!</p>
 
     <SocialLinks class="social" />
-  </section>
+  </Box>
 
-  <section class="box small">
+  <Box variant="small">
     <Title as="h2">Aktuelles</Title>
 
     <LatestPosts />
-  </section>
+  </Box>
 
-  <section class="box small">
+  <Box variant="small">
     <Title as="h2">Kategorien</Title>
 
     <ul>
@@ -50,7 +51,7 @@ import LatestPosts from "./latest-posts.astro";
         <a class="link" href="/aktionen/neuigkeiten/">Neuigkeiten</a>
       </li>
     </ul>
-  </section>
+  </Box>
 </aside>
 
 <style>

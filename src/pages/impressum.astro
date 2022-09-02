@@ -1,4 +1,5 @@
 ---
+import Box from "../components/box.astro";
 import PageLayout from "../layouts/page-layout.astro";
 ---
 
@@ -6,7 +7,7 @@ import PageLayout from "../layouts/page-layout.astro";
   title="Impressum"
   description="Daten zum aktuellen Vorstand, dem Hilfswerk, unseren Bankkonten und dem Haftungsausschluss."
 >
-  <main class="box large">
+  <Box as="main">
     <table>
       <thead>
         <tr>
@@ -125,5 +126,5 @@ import PageLayout from "../layouts/page-layout.astro";
       wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte
       umgehend entfernen.
     </p>
-  </main>
+  </Box>
 </PageLayout>

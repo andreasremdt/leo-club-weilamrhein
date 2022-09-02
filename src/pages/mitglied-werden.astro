@@ -1,13 +1,14 @@
 ---
 import PageLayout from "../layouts/page-layout.astro";
 import Image from "../components/image.astro";
+import Box from "../components/box.astro";
 ---
 
 <PageLayout
   title="Mitglied werden"
   description="Willst du Mitglied in unserem Club werden, dann lese dir diese Seite genau durch. Wir freuen uns über den Interesse!"
 >
-  <main class="box large">
+  <Box as="main">
     <p>
       Hast du Interesse, anderen Menschen zu helfen und dich zusammen mit uns sozial zu engagieren? Wir sind ein offener
       Club und heißen Interessierte stets willkommen. Einmal im Monat treffen wir uns zu einer Clubsitzung, um die
@@ -66,5 +67,5 @@ import Image from "../components/image.astro";
         rel="noopener nofollow noreferrer">gleichartige Clubs</a
       > vielleicht ist ja einer in deiner Nähe?
     </p>
-  </main>
+  </Box>
 </PageLayout>

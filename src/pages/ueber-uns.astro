@@ -1,13 +1,14 @@
 ---
 import PageLayout from "../layouts/page-layout.astro";
 import Image from "../components/image.astro";
+import Box from "../components/box.astro";
 ---
 
 <PageLayout
   title="Über Uns"
   description="Unser Club wurde 2009 durch Schüler der ehemaligen Schülerzeitung Sch'cool gegründet. Erfahre mehr auf dieser Seite."
 >
-  <main class="box large">
+  <Box as="main">
     <p>
       Wir setzen uns für unsere Mitmenschen ein - zusammen mit tausenden anderen <a
         href="https://www.leo-clubs.de/"
@@ -74,5 +75,5 @@ import Image from "../components/image.astro";
         href="/mitglied-werden/">Hier</a
       > erhälst du mehr Informationen, wie man Leo wird.
     </p>
-  </main>
+  </Box>
 </PageLayout>

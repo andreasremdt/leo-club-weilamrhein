@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../layouts/page-layout.astro";
+import Box from "../components/box.astro";
 import { formatDate } from "../helpers";
 
 const posts = (await Astro.glob("./aktionen/**/*.md")).sort(
@@ -8,7 +9,7 @@ const posts = (await Astro.glob("./aktionen/**/*.md")).sort(
 ---
 
 <PageLayout title="Sitemap" description="Hier finden Sie eine Übersicht all unserer Seiten und Berichte.">
-  <main class="box large">
+  <Box as="main">
     <h2>Seiten</h2>
     <ul>
       <li>
@@ -63,7 +64,7 @@ const posts = (await Astro.glob("./aktionen/**/*.md")).sort(
         ))
       }
     </ul>
-  </main>
+  </Box>
 </PageLayout>
 
 <style>

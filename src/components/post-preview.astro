@@ -1,6 +1,7 @@
 ---
 import { formatDate, getCategoryFromUrl } from "../helpers";
 import Image from "../components/image.astro";
+import Box from "./box.astro";
 
 export interface Props {
   title: string;
@@ -13,7 +14,7 @@ export interface Props {
 const { title, url, excerpt, date, thumbnail } = Astro.props;
 ---
 
-<article class="box preview">
+<Box as="article" class="preview" variant="small">
   <div class="inner">
     <h2 class="title">
       <a class="link" href={url}>{title}</a>
@@ -35,13 +36,14 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
       </figure>
     )
   }
-</article>
+</Box>
 
 <style>
   .preview {
     display: flex;
     flex-direction: row-reverse;
     overflow: hidden;
+    padding: unset !important;
   }
 
   .preview:not(:last-child) {

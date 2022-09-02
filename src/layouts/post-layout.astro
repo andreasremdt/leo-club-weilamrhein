@@ -4,6 +4,7 @@ import Sidebar from "../components/sidebar.astro";
 import Image from "../components/image.astro";
 import Ribbon from "../components/ribbon.astro";
 import Gallery from "../components/gallery.astro";
+import Box from "../components/box.astro";
 import { formatDate, getCategoryFromUrl } from "../helpers";
 
 const {
@@ -14,7 +15,7 @@ const category = getCategoryFromUrl(Astro.url.pathname);
 
 <BaseLayout title={title} description={description}>
   <div class="container main">
-    <main class="box large">
+    <Box as="main">
       {
         images?.length > 0 && (
           <figure class="thumbnail">
@@ -44,7 +45,7 @@ const category = getCategoryFromUrl(Astro.url.pathname);
           />
         )
       }
-    </main>
+    </Box>
     <Sidebar />
   </div>
 </BaseLayout>

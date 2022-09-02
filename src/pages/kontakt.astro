@@ -1,13 +1,14 @@
 ---
 import PageLayout from "../layouts/page-layout.astro";
 import ContactForm from "../components/contact-form.astro";
+import Box from "../components/box.astro";
 ---
 
 <PageLayout
   title="Kontakt aufnehmen"
   description="Fragen, Anfragen oder sonstige Nachrichten kannst du uns hier gerne direkt zusenden. Wir freuen uns über jede Nachricht."
 >
-  <main class="box large">
+  <Box as="main">
     <p>
       Wir freuen uns, dass du Kontakt mit uns aufnehmen möchtest. Fülle dazu einfach das Formular aus und klicke
       anschließend auf “Senden”.
@@ -20,5 +21,5 @@ import ContactForm from "../components/contact-form.astro";
     </p>
 
     <ContactForm />
-  </main>
+  </Box>
 </PageLayout>

@@ -1,4 +1,5 @@
 ---
+import Box from "../components/box.astro";
 import PageLayout from "../layouts/page-layout.astro";
 ---
 
@@ -6,7 +7,7 @@ import PageLayout from "../layouts/page-layout.astro";
   title="Datenschutz nach DSGVO"
   description="Datenschutzerklärung des Leo-Clubs. Wir nehmen den Schutz persönlicher Daten sehr ernst."
 >
-  <main class="box large">
+  <Box as="main">
     <h2>I. Name und Anschrift des Leo-Clubs</h2>
 
     <p>
@@ -195,5 +196,5 @@ import PageLayout from "../layouts/page-layout.astro";
     <p>
       Alle personenbezogenen Daten, die im Zuge der Kontaktaufnahme gespeichert wurden, werden in diesem Fall gelöscht.
     </p>
-  </main>
+  </Box>
 </PageLayout>
