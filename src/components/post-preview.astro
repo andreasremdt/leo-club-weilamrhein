@@ -2,6 +2,7 @@
 import { formatDate, getCategoryFromUrl } from "../helpers";
 import Image from "../components/image.astro";
 import Box from "./box.astro";
+import Button from "./button.astro";
 
 export interface Props {
   title: string;
@@ -26,7 +27,7 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
 
     <p class="excerpt">{excerpt}...</p>
 
-    <a href={url} class="button secondary"> Weiterlesen</a>
+    <Button href={url}>Weiterlesen</Button>
   </div>
 
   {

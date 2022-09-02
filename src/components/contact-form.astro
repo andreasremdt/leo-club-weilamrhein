@@ -1,3 +1,7 @@
+---
+import Button from "./button.astro";
+---
+
 <form class="form" data-form>
   <div class="input-group">
     <label class="label" for="name">Vor- und Nachname</label>
@@ -43,7 +47,7 @@
       minlength="10"></textarea>
   </div>
 
-  <button type="submit" class="button primary" aria-live="assertive" data-submit>Nachricht senden</button>
+  <Button type="submit" variant="primary" aria-live="assertive" data-submit>Nachricht senden</Button>
 </form>
 
 <style>
