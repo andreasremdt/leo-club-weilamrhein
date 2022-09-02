@@ -4,6 +4,7 @@ import SocialLinks from "./social-links.astro";
 import LatestPosts from "./latest-posts.astro";
 import Button from "./button.astro";
 import Box from "./box.astro";
+import Link from "./link.astro";
 ---
 
 <aside class="sidebar">
@@ -37,19 +38,19 @@ import Box from "./box.astro";
 
     <ul>
       <li>
-        <a class="link" href="/aktionen/begegnungen/">Begegnungen</a>
+        <Link class="link" href="/aktionen/begegnungen/">Begegnungen</Link>
       </li>
       <li>
-        <a class="link" href="/aktionen/pflegeheim/">Pflegeheim</a>
+        <Link class="link" href="/aktionen/pflegeheim/">Pflegeheim</Link>
       </li>
       <li>
-        <a class="link" href="/aktionen/kinder/">Kinder</a>
+        <Link class="link" href="/aktionen/kinder/">Kinder</Link>
       </li>
       <li>
-        <a class="link" href="/aktionen/weitere/">Weitere</a>
+        <Link class="link" href="/aktionen/weitere/">Weitere</Link>
       </li>
       <li>
-        <a class="link" href="/aktionen/neuigkeiten/">Neuigkeiten</a>
+        <Link class="link" href="/aktionen/neuigkeiten/">Neuigkeiten</Link>
       </li>
     </ul>
   </Box>
@@ -73,7 +74,7 @@ import Box from "./box.astro";
     transition: color 0.1s linear;
   }
 
-  .link:where(:hover, :focus-visible) {
+  .link:where(:hover, :focus-visible, .active) {
     color: var(--clr-primary);
   }
 

@@ -1,6 +1,7 @@
 ---
 import Ribbon from "./ribbon.astro";
 import Twigs from "./twigs.astro";
+import Link from "./link.astro";
 ---
 
 <nav class="navigation">
@@ -11,10 +12,10 @@ import Twigs from "./twigs.astro";
       <span aria-hidden="true">Leo-Club Weil am Rhein</span>
       <Twigs variant="dark" class="twigs">Seit 2009</Twigs>
     </a>
-    <a class="link" href="/aktionen/">Aktionen</a>
-    <a class="link" href="/ueber-uns/">Über Uns</a>
-    <a class="link" href="/mitglied-werden/">Mitglied werden</a>
-    <a class="link" href="/kontakt/">Kontakt</a>
+    <Link class="link" href="/aktionen/">Aktionen</Link>
+    <Link class="link" href="/ueber-uns/">Über Uns</Link>
+    <Link class="link" href="/mitglied-werden/">Mitglied werden</Link>
+    <Link class="link" href="/kontakt/">Kontakt</Link>
   </div>
 </nav>
 
@@ -45,6 +46,11 @@ import Twigs from "./twigs.astro";
 
   .link:where(:hover, :focus-visible) {
     color: var(--clr-primary);
+  }
+
+  .link:where(.active) {
+    color: var(--clr-primary);
+    border-bottom: 1px solid var(--clr-primary);
   }
 
   .logo {

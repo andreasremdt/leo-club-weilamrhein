@@ -3,6 +3,7 @@ import SocialLinks from "./social-links.astro";
 import LatestPosts from "./latest-posts.astro";
 import Title from "./title.astro";
 import Gallery from "./gallery.astro";
+import Link from "./link.astro";
 import { getCategoryFromUrl } from "../helpers";
 
 const today = new Date().getFullYear();
@@ -47,28 +48,28 @@ const images = (await Astro.glob("../pages/aktionen/**/*.md"))
 
       <ul>
         <li>
-          <a class="link" href="/">Startseite</a>
+          <Link class="link" href="/">Startseite</Link>
         </li>
         <li>
-          <a class="link" href="/aktionen/">Aktionen</a>
+          <Link class="link" href="/aktionen/">Aktionen</Link>
         </li>
         <li>
-          <a class="link" href="/ueber-uns/">Über Uns</a>
+          <Link class="link" href="/ueber-uns/">Über Uns</Link>
         </li>
         <li>
-          <a class="link" href="/mitglied-werden/">Mitglied werden</a>
+          <Link class="link" href="/mitglied-werden/">Mitglied werden</Link>
         </li>
         <li>
-          <a class="link" href="/kontakt/">Kontakt</a>
+          <Link class="link" href="/kontakt/">Kontakt</Link>
         </li>
         <li>
-          <a class="link" href="/impressum/">Impressum</a>
+          <Link class="link" href="/impressum/">Impressum</Link>
         </li>
         <li>
-          <a class="link" href="/datenschutz/">Datenschutz</a>
+          <Link class="link" href="/datenschutz/">Datenschutz</Link>
         </li>
         <li>
-          <a class="link" href="/sitemap/">Sitemap</a>
+          <Link class="link" href="/sitemap/">Sitemap</Link>
         </li>
       </ul>
     </section>
@@ -105,7 +106,7 @@ const images = (await Astro.glob("../pages/aktionen/**/*.md"))
     transition: color 0.1s linear;
   }
 
-  .link:where(:hover, :focus-visible) {
+  .link:where(:hover, :focus-visible, .active) {
     color: var(--clr-primary);
   }
 
