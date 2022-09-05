@@ -48,7 +48,10 @@ const { title, description, hasSidebar = true } = Astro.props;
   @media (max-width: 62.5rem) {
     .has-sidebar {
       grid-template-columns: 1fr;
-      gap: 1.5rem;
+    }
+
+    .main {
+      margin-block: 1.5rem;
     }
 
     .title {

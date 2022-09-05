@@ -18,13 +18,13 @@ const category = getCategoryFromUrl(Astro.url.pathname);
     <Box as="main">
       {
         images?.length > 0 && (
-          <figure class="thumbnail">
+          <figure class="banner">
             <Image src={images[0]} category={category} width={1000} height={500} alt={title} loading="eager" />
           </figure>
         )
       }
 
-      <header class:list={["header", "centered", { "has-thumbnail": Boolean(images) }]}>
+      <header class:list={["header", "centered", { "has-banner": Boolean(images) }]}>
         <Ribbon variant="light">{category}</Ribbon>
         <h1 class="title">{title}</h1>
         <time datetime={date} class="date">
@@ -63,10 +63,28 @@ const category = getCategoryFromUrl(Astro.url.pathname);
     font-size: clamp(24px, calc(2vw + 1rem), 36px);
     margin-bottom: 0.5rem;
     grid-column: span 2;
+    line-height: 1.2;
   }
 
-  .thumbnail {
+  .banner {
+    position: relative;
     margin: -1.5rem -4rem 0 -4rem;
+  }
+
+  .banner::before,
+  .banner::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    z-index: 1;
+  }
+
+  .banner::before {
+    inset: calc(-2px + 1.5rem) calc(2px + 1.5rem);
+  }
+
+  .banner::after {
+    inset: 1.5rem;
   }
 
   .header {
@@ -76,27 +94,10 @@ const category = getCategoryFromUrl(Astro.url.pathname);
     margin-bottom: 2rem;
   }
 
-  .header:where(.has-thumbnail) {
+  .header:where(.has-banner) {
     transform: translateY(-7rem);
     border-radius: 2px;
-    position: relative;
     margin-bottom: -4rem;
-  }
-
-  .header:where(.has-thumbnail)::before,
-  .header:where(.has-thumbnail)::after {
-    content: "";
-    position: absolute;
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    z-index: -1;
-  }
-
-  .header:where(.has-thumbnail)::before {
-    inset: calc(-2px - 1.5rem) calc(2px - 1.5rem);
-  }
-
-  .header:where(.has-thumbnail)::after {
-    inset: -1.5rem;
   }
 
   .title {
@@ -121,6 +122,43 @@ const category = getCategoryFromUrl(Astro.url.pathname);
     .title {
       grid-column: 1;
       margin-bottom: 0;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .banner {
+      margin: -1.5rem -1.5rem 0 -1.5rem;
+    }
+
+    .banner::before {
+      inset: calc(-2px + 0.75rem) calc(2px + 0.75rem);
+    }
+
+    .banner::after {
+      inset: 0.75rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .header:where(.has-banner) {
+      transform: translateY(0);
+      margin-bottom: 2rem;
+    }
+
+    .banner::before {
+      inset: calc(-2px + 0.75rem) calc(2px + 0.75rem) -1px calc(2px + 0.75rem);
+    }
+
+    .banner::after {
+      inset: 0.75rem 0.75rem -2px 0.75rem;
+    }
+
+    .header {
+      padding: 3rem 0;
+    }
+
+    .title {
+      font-size: 24px;
     }
   }
 </style>

@@ -75,7 +75,7 @@ p + p {
   margin-top: 1rem;
 }
 
-p + picture,
+p + picture > img,
 p + iframe {
   margin-block: 2rem;
 }
@@ -123,6 +123,7 @@ a {
 img,
 picture {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -198,7 +199,7 @@ tr:not(:last-child) {
 }
 
 .container {
-  width: clamp(16rem, 96vw, 80rem);
+  width: clamp(16rem, calc(100vw - 2rem), 80rem);
   margin-inline: auto;
 }
 
@@ -213,4 +214,9 @@ tr:not(:last-child) {
   font-family: var(--ff-sans);
   top: 100%;
   right: 0;
+}
+
+::selection {
+  background-color: hsla(39, 58%, 52%, 0.5);
+  color: var(--clr-gray-500);
 }

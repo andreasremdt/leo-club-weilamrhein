@@ -15,7 +15,7 @@ const { src, category, alt, width, height, class: className, loading = "lazy" } 
 const url = `${category}/${src}`;
 ---
 
-<picture>
+<picture class="picture">
   <source srcset={getCloudinaryUrl(url, "avif", width, height)} type="image/avif" />
   <source srcset={getCloudinaryUrl(url, "webp", width, height)} type="image/webp" />
   <img
@@ -28,3 +28,9 @@ const url = `${category}/${src}`;
     class={className}
   />
 </picture>
+
+<style>
+  .picture {
+    display: contents;
+  }
+</style>
