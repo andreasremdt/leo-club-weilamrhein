@@ -2,6 +2,7 @@
 interface ButtonBaseProps {
   variant?: "primary" | "secondary";
 }
+type NativeType = "submit" | "reset" | "button" | null | undefined;
 type HTMLButtonProps = astroHTML.JSX.ButtonHTMLAttributes;
 type HTMLAnchorProps = astroHTML.JSX.AnchorHTMLAttributes;
 export type Props = ButtonBaseProps & (HTMLAnchorProps | HTMLButtonProps);
@@ -15,7 +16,7 @@ const { variant = "secondary", class: className, type, href, ...props } = Astro.
       <slot />
     </a>
   ) : (
-    <button type={type} class:list={["button", variant, className]} {...props}>
+    <button type={type as NativeType} class:list={["button", variant, className]} {...props}>
       <slot />
     </button>
   )

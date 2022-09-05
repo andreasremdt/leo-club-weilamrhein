@@ -18,7 +18,7 @@ const posts = (await Astro.glob("./**/*.md")).sort(
         <PostPreview
           title={post.frontmatter.title}
           date={post.frontmatter.date}
-          url={post.url}
+          url={post.url as string}
           thumbnail={getPostThumbnail(post)}
           excerpt={getPostExcerpt(post)}
         />

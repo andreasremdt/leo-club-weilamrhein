@@ -13,7 +13,7 @@ const images = (await Astro.glob("../pages/aktionen/**/*.md"))
   .slice(0, 6)
   .map((post) => ({
     src: post.frontmatter.images[0],
-    category: getCategoryFromUrl(post.url),
+    category: getCategoryFromUrl(post.url as string),
     alt: post.frontmatter.title,
   }));
 ---
