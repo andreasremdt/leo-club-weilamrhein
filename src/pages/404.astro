@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../layouts/base-layout.astro";
+import Button from "../components/button.astro";
+---
+
+<BaseLayout title="Seite nicht gefunden">
+  <main class="container main" id="content">
+    <h1>Seite nicht gefunden</h1>
+    <p>
+      Leider wurde die gewünschte Seite nicht gefunden. Versichere dich, dass du die Adresse richtig geschrieben hast.
+      Möglicherweise wurde der Artikel auch geändert oder gelöscht.
+    </p>
+    <Button href="/">Zur Startseite</Button>
+  </main>
+</BaseLayout>
+
+<style>
+  .main {
+    margin-block: 3rem;
+    text-align: center;
+  }
+
+  .main p {
+    max-width: 60%;
+    margin: 0 auto 1rem auto;
+  }
+</style>
