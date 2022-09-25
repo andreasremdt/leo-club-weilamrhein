@@ -1,16 +1,29 @@
 ---
+import type { PaginateFunction } from "astro";
 import PostPreview from "../../components/post-preview.astro";
 import Button from "../../components/button.astro";
 import PageLayout from "../../layouts/page-layout.astro";
 import { getPostExcerpt, getPostThumbnail } from "../../helpers";
 
-const posts = (await Astro.glob("./**/*.md")).sort(
-  (a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
-);
+export async function getStaticPaths({ paginate }: { paginate: PaginateFunction }) {
+  const posts = (await Astro.glob("./**/*.md")).sort(
+    (a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+  );
+
+  return paginate(posts, { pageSize: 10 });
+}
+
+function getPageTitle(page: number) {
+  if (page === 1) return "";
+
+  return ` - Seite ${page}`;
+}
+
+const { page } = Astro.props;
 ---
 
 <PageLayout
-  title="Unsere Aktionen"
+  title={`Unsere Aktionen ${getPageTitle(page.currentPage)}`}
   description="Erfahren Sie mehr über unsere zahlreichen Aktionen in Deutschland, Frankreich und der Schweiz."
 >
   <main>
@@ -74,7 +87,7 @@ const posts = (await Astro.glob("./**/*.md")).sort(
       </ul>
     </nav>
     {
-      posts.map((post) => (
+      page.data.map((post: any) => (
         <PostPreview
           title={post.frontmatter.title}
           date={post.frontmatter.date}
@@ -84,6 +97,30 @@ const posts = (await Astro.glob("./**/*.md")).sort(
         />
       ))
     }
+
+    <nav class="pagination">
+      <p>Seite {page.currentPage} von {page.lastPage}</p>
+      <ul>
+        {
+          page.url.prev && (
+            <li>
+              <Button variant="primary" href={page.url.prev}>
+                Zurück
+              </Button>
+            </li>
+          )
+        }
+        {
+          page.url.next && (
+            <li>
+              <Button variant="primary" href={page.url.next}>
+                Weiter
+              </Button>
+            </li>
+          )
+        }
+      </ul>
+    </nav>
   </main>
 </PageLayout>
 
@@ -107,6 +144,21 @@ const posts = (await Astro.glob("./**/*.md")).sort(
     background-color: white;
     box-shadow: 0 2px 4px hsl(0deg 0% 0% / 13%);
     align-items: center;
+    column-gap: 0.5rem;
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 1.5rem;
+  }
+
+  .pagination ul {
+    list-style-type: none;
+    padding-left: unset;
+    margin-top: unset;
+    display: flex;
     column-gap: 0.5rem;
   }
 </style>
