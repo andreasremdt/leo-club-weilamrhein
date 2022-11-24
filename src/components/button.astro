@@ -25,37 +25,51 @@ const { variant = "secondary", class: className, type, href, ...props } = Astro.
 <style>
   .button {
     display: inline-flex;
-    border: unset;
+    border: 1px solid;
     padding: unset;
     cursor: pointer;
-    transition: color 0.1s linear, background-color 0.1s linear;
-  }
-
-  .button:is(.primary) {
-    background-color: var(--clr-gray-500);
-    color: white;
+    transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
     border-radius: 2px;
     font-size: 14px;
-    justify-content: center;
-    padding: 0.75rem;
     font-family: var(--ff-sans);
     font-weight: 600;
     text-transform: uppercase;
+    appearance: none;
+    justify-content: center;
+    outline: none;
   }
 
-  .button:is(.primary):where(:hover, :focus-visible):not([disabled]) {
+  .primary {
+    background-color: var(--clr-gray-500);
+    border-color: var(--clr-gray-500);
+    color: white;
+    padding: 0.75rem;
+  }
+
+  .primary:where(:hover, :focus-visible):not([disabled]) {
     color: var(--clr-gray-500);
     background-color: var(--clr-primary);
+    border-color: var(--clr-primary);
   }
 
-  .button:is(.secondary) {
+  .primary:focus-visible {
+    box-shadow: 0 0 0 3px hsla(43, 89%, 39%, 0.5);
+  }
+
+  .secondary {
+    background-color: transparent;
     color: var(--clr-primary);
-    text-transform: uppercase;
-    font-weight: bold;
+    padding: 0.4rem 0.75rem;
+    border-color: var(--clr-primary);
   }
 
-  .button:is(.secondary):where(:hover, :focus-visible) {
+  .secondary:where(:hover, :focus-visible) {
     color: var(--clr-gray-500);
+    border-color: var(--clr-gray-500);
+  }
+
+  .secondary:focus-visible {
+    box-shadow: 0 0 0 3px hsla(12, 6%, 15%, 0.3);
   }
 
   .button:is(.primary)[disabled] {
