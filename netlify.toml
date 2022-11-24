@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  functions = "netlify/functions"
+  publish = "dist"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Content-Security-Policy = "default-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'self'; script-src 'self'; connect-src https://h5w1iq3ps8-dsn.algolia.net; img-src 'self' https://res.cloudinary.com; base-uri 'self'; frame-src https://www.youtube-nocookie.com; frame-ancestors 'self'; object-src 'none';"
