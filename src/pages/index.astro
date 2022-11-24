@@ -99,7 +99,7 @@ import Button from "components/button.astro";
 
   .banner {
     position: relative;
-    box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.13);
+    box-shadow: 0 2px 4px hsl(var(--clr-gray-500) / 0.1);
     border-radius: 2px;
     margin-bottom: 12rem;
   }
@@ -108,7 +108,7 @@ import Button from "components/button.astro";
   .banner::after {
     content: "";
     position: absolute;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid hsl(var(--clr-white) / 0.8);
     z-index: 1;
   }
 
@@ -131,7 +131,7 @@ import Button from "components/button.astro";
   }
 
   .tagline {
-    background: white url(/leafs.svg) no-repeat center bottom;
+    background: hsl(var(--clr-white)) url(/leafs.svg) no-repeat center bottom;
     background-size: 40px;
     margin-bottom: 1rem;
     padding-bottom: 3rem;

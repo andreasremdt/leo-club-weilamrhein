@@ -95,13 +95,13 @@ import Button from "components/button.astro";
   .label {
     font-size: 15px;
     font-weight: bold;
-    color: var(--clr-gray-500);
+    color: hsl(var(--clr-gray-500));
     display: block;
     margin-bottom: 0.1rem;
   }
 
   .form-control {
-    border: 1px solid var(--clr-gray-300);
+    border: 1px solid hsl(var(--clr-gray-300));
     border-radius: 2px;
     appearance: none;
     padding: 0.75rem;
@@ -115,21 +115,21 @@ import Button from "components/button.astro";
   }
 
   .form-control:hover {
-    border-color: var(--clr-gray-500);
+    border-color: hsl(var(--clr-gray-500));
   }
 
   .form-control:focus-visible {
-    border-color: var(--clr-primary);
-    box-shadow: 0 0 0 3px hsla(39, 58%, 52%, 0.2);
+    border-color: hsl(var(--clr-primary));
+    box-shadow: 0 0 0 3px hsl(var(--clr-primary) / 0.2);
     outline: none;
   }
 
   .form-control:is([aria-invalid="true"]) {
-    border-color: var(--clr-red);
+    border-color: hsl(var(--clr-red));
   }
 
   .form-control:is([aria-invalid="true"]):focus-visible {
-    box-shadow: 0 0 0 3px hsla(0, 72%, 51%, 0.2);
+    box-shadow: 0 0 0 3px hsl(var(--clr-red) / 0.2);
   }
 </style>
 

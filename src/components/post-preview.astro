@@ -64,7 +64,7 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
   }
 
   .link:where(:hover, :focus-visible) {
-    color: var(--clr-primary);
+    color: hsl(var(--clr-primary));
   }
 
   .date {
@@ -78,7 +78,7 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
   .thumbnail {
     position: relative;
     display: flex;
-    background-color: var(--clr-gray-500);
+    background-color: hsl(var(--clr-gray-500));
     max-width: 300px;
     flex: 1 0 33%;
   }
@@ -87,7 +87,7 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
   .thumbnail::after {
     content: "";
     position: absolute;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid hsl(var(--clr-white) / 0.8);
     z-index: 1;
   }
 

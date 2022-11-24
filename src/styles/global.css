@@ -1,11 +1,11 @@
 :root {
-  --clr-primary: hsl(43, 89%, 39%);
-  --clr-red: hsl(0, 72%, 51%);
-  --clr-gray-500: hsl(12, 6%, 15%);
-  --clr-gray-400: hsl(33, 5%, 32%);
-  --clr-gray-300: hsl(24, 5%, 64%);
-  --clr-gray-200: hsl(20, 6%, 90%);
-  --clr-gray-100: hsl(60, 5%, 96%);
+  --clr-primary: 43 89% 39%;
+  --clr-white: 0 0% 100%;
+  --clr-red: 0 72% 51%;
+  --clr-gray-500: 12 6% 15%;
+  --clr-gray-300: 24 5% 64%;
+  --clr-gray-200: 20 6% 90%;
+  --clr-gray-100: 60 5% 96%;
 
   --ff-serif: Lora, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   --ff-sans: "Open Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -62,7 +62,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: var(--clr-gray-500);
+  color: hsl(var(--clr-gray-500));
 }
 
 p,
@@ -88,14 +88,14 @@ ul + :where(h1, h2, h3, h4, h5, h6) {
 
 p > a,
 td > a {
-  border-bottom: 1px solid var(--clr-primary);
+  border-bottom: 1px solid hsl(var(--clr-primary));
   transition: color 0.1s linear, border-color 0.1s linear;
 }
 
 p > a:where(:hover, :focus-visible),
 td > a:where(:hover, :focus-visible) {
-  color: var(--clr-gray-500);
-  border-color: var(--clr-gray-500);
+  color: hsl(var(--clr-gray-500));
+  border-color: hsl(var(--clr-gray-500));
 }
 
 html:focus-within {
@@ -108,7 +108,7 @@ body {
   text-rendering: optimizeSpeed;
   color: var(--clr-gray-400);
   line-height: 1.7;
-  background-color: var(--clr-gray-100);
+  background-color: hsl(var(--clr-gray-100));
 }
 
 a:not([class]) {
@@ -159,7 +159,7 @@ table {
 
 th {
   text-align: left;
-  color: var(--clr-gray-500);
+  color: hsl(var(--clr-gray-500));
 }
 
 th,
@@ -168,7 +168,7 @@ td {
 }
 
 tr:not(:last-child) {
-  border-bottom: 1px solid var(--clr-gray-200);
+  border-bottom: 1px solid hsl(var(--clr-gray-200));
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -196,7 +196,7 @@ tr:not(:last-child) {
 }
 
 .error {
-  color: var(--clr-red);
+  color: hsl(var(--clr-red));
   font-size: 13px;
   position: absolute;
   font-family: var(--ff-sans);
@@ -205,6 +205,6 @@ tr:not(:last-child) {
 }
 
 ::selection {
-  background-color: hsla(39, 58%, 52%, 0.5);
-  color: var(--clr-gray-500);
+  background-color: hsl(var(--clr-primary) / 0.5);
+  color: hsl(var(--clr-gray-500));
 }

@@ -73,6 +73,6 @@ const posts = (await Astro.glob("./aktionen/**/*.md")).sort(
   }
 
   .link:where(:hover, :focus-visible) {
-    color: var(--clr-primary);
+    color: hsl(var(--clr-primary));
   }
 </style>

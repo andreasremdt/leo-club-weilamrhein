@@ -29,11 +29,11 @@ const { class: className, variant } = Astro.props;
   }
 
   .light .icon {
-    color: white;
+    color: hsl(var(--clr-white));
   }
 
   .dark .icon {
-    color: var(--clr-gray-500);
+    color: hsl(var(--clr-gray-500));
   }
 
   .text {
@@ -45,10 +45,10 @@ const { class: className, variant } = Astro.props;
   }
 
   .light .text {
-    color: white;
+    color: hsl(var(--clr-white));
   }
 
   .dark .text {
-    color: var(--clr-gray-500);
+    color: hsl(var(--clr-gray-500));
   }
 </style>

@@ -40,40 +40,40 @@ const { variant = "secondary", class: className, type, href, ...props } = Astro.
   }
 
   .primary {
-    background-color: var(--clr-gray-500);
-    border-color: var(--clr-gray-500);
-    color: white;
+    background-color: hsl(var(--clr-gray-500));
+    border-color: hsl(var(--clr-gray-500));
+    color: hsl(var(--clr-white));
     padding: 0.75rem;
   }
 
   .primary:where(:hover, :focus-visible):not([disabled]) {
-    color: var(--clr-gray-500);
-    background-color: var(--clr-primary);
-    border-color: var(--clr-primary);
+    color: hsl(var(--clr-gray-500));
+    background-color: hsl(var(--clr-primary));
+    border-color: hsl(var(--clr-primary));
   }
 
   .primary:focus-visible {
-    box-shadow: 0 0 0 3px hsla(43, 89%, 39%, 0.5);
+    box-shadow: 0 0 0 3px hsl(var(--clr-primary) / 0.3);
   }
 
   .secondary {
     background-color: transparent;
-    color: var(--clr-primary);
+    color: hsl(var(--clr-primary));
     padding: 0.4rem 0.75rem;
-    border-color: var(--clr-primary);
+    border-color: hsl(var(--clr-primary));
   }
 
   .secondary:where(:hover, :focus-visible) {
-    color: var(--clr-gray-500);
-    border-color: var(--clr-gray-500);
+    color: hsl(var(--clr-gray-500));
+    border-color: hsl(var(--clr-gray-500));
   }
 
   .secondary:focus-visible {
-    box-shadow: 0 0 0 3px hsla(12, 6%, 15%, 0.3);
+    box-shadow: 0 0 0 3px hsl(var(--clr-gray-500) / 0.3);
   }
 
   .button:is(.primary)[disabled] {
     cursor: not-allowed;
-    background-color: var(--clr-gray-300);
+    background-color: hsl(var(--clr-gray-300));
   }
 </style>

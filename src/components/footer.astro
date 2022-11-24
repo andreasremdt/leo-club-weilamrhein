@@ -90,9 +90,9 @@ const images = (await Astro.glob("../pages/aktionen/**/*.md"))
 
 <style>
   .footer {
-    background-color: white;
-    border-top: 1px solid var(--clr-gray-200);
-    box-shadow: 0 -2px 4px hsla(0, 0%, 0%, 0.07);
+    background-color: hsl(var(--clr-white));
+    border-top: 1px solid hsl(var(--clr-gray-200));
+    box-shadow: 0 -2px 4px hsl(var(--clr-gray-500) / 0.1);
     padding-block: 2rem;
   }
 
@@ -107,11 +107,11 @@ const images = (await Astro.glob("../pages/aktionen/**/*.md"))
   }
 
   .link:where(:hover, :focus-visible, .active) {
-    color: var(--clr-primary);
+    color: hsl(var(--clr-primary));
   }
 
   .lower {
-    border-top: 1px solid var(--clr-gray-200);
+    border-top: 1px solid hsl(var(--clr-gray-200));
     margin-top: 2rem;
     padding-top: 2rem;
     font-family: var(--ff-sans);

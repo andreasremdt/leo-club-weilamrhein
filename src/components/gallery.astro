@@ -41,7 +41,7 @@ const { images, width, height, galleryId, class: className } = Astro.props;
   }
 
   .link {
-    background-color: var(--clr-gray-500);
+    background-color: hsl(var(--clr-gray-500));
     border-radius: 2px;
     overflow: hidden;
     position: relative;
@@ -54,7 +54,7 @@ const { images, width, height, galleryId, class: className } = Astro.props;
     background: transparent url(/zoom-in.svg) no-repeat center;
     opacity: 0;
     transition: opacity 0.1s linear, transform 0.4s ease-out;
-    background-color: hsla(39, 58%, 52%, 0.6);
+    background-color: hsl(var(--clr-primary) / 0.6);
     transform: scale(1);
   }
 

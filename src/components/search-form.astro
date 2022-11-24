@@ -35,7 +35,7 @@
   }
 
   :global(:where(.ais-SearchBox-submit, .ais-SearchBox-reset):where(:hover, :focus-visible) svg) {
-    fill: var(--clr-primary);
+    fill: hsl(var(--clr-primary));
   }
 
   :global(.ais-SearchBox-submitIcon, .ais-SearchBox-resetIcon) {
@@ -49,9 +49,9 @@
     left: 50%;
     max-height: 50%;
     right: 0;
-    background-color: white;
+    background-color: hsl(var(--clr-white));
     z-index: 2;
-    box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.13);
+    box-shadow: 0 2px 4px hsl(var(--clr-gray-500) / 0.1);
     border-radius: 2px;
     padding: 3.5rem 1.5rem 1.5rem;
     max-height: 50vh;
@@ -69,7 +69,7 @@
   }
 
   :global(.ais-Hits-item:where(:hover, :focus-visible) .ais-Hits-title) {
-    color: var(--clr-primary);
+    color: hsl(var(--clr-primary));
   }
 
   :global(.ais-Hits-title) {
@@ -83,7 +83,7 @@
   }
 
   :global(.ais-Highlight-highlighted) {
-    background-color: hsla(39, 58%, 52%, 0.5);
+    background-color: hsl(var(--clr-primary) / 0.5);
   }
 
   :global(.ais-Hits-empty) {
@@ -96,10 +96,10 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: var(--clr-gray-100);
+    background-color: hsl(var(--clr-gray-100));
     display: block;
     padding: 0.5rem 1.5rem;
-    border-bottom: 1px solid var(--clr-gray-200);
+    border-bottom: 1px solid hsl(var(--clr-gray-200));
     font-family: var(--ff-sans);
     text-transform: uppercase;
   }

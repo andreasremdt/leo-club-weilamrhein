@@ -30,15 +30,15 @@ const { class: className, variant } = Astro.props;
   }
 
   .light {
-    color: var(--clr-primary);
+    color: hsl(var(--clr-primary));
   }
 
   .dark {
-    color: var(--clr-gray-500);
+    color: hsl(var(--clr-gray-500));
   }
 
   .text {
-    color: white;
+    color: hsl(var(--clr-white));
     position: relative;
     line-height: 2.4;
     font-family: var(--ff-sans);
