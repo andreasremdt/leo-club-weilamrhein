@@ -1,10 +1,10 @@
 ---
-import SocialLinks from "./social-links.astro";
-import LatestPosts from "./latest-posts.astro";
-import Title from "./title.astro";
-import Gallery from "./gallery.astro";
-import Link from "./link.astro";
-import { getCategoryFromUrl } from "../helpers";
+import SocialLinks from "components/social-links.astro";
+import LatestPosts from "components/latest-posts.astro";
+import Title from "components/title.astro";
+import Gallery from "components/gallery.astro";
+import Link from "components/link.astro";
+import { getCategoryFromUrl } from "lib/helpers";
 
 const today = new Date().getFullYear();
 const images = (await Astro.glob("../pages/aktionen/**/*.md"))

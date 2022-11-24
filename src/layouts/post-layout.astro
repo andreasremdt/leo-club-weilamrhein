@@ -1,11 +1,11 @@
 ---
-import BaseLayout from "./base-layout.astro";
-import Sidebar from "../components/sidebar.astro";
-import Image from "../components/image.astro";
-import Ribbon from "../components/ribbon.astro";
-import Gallery from "../components/gallery.astro";
-import Box from "../components/box.astro";
-import { formatDate, getCategoryFromUrl } from "../helpers";
+import BaseLayout from "layouts/base-layout.astro";
+import Sidebar from "components/sidebar.astro";
+import Image from "components/image.astro";
+import Ribbon from "components/ribbon.astro";
+import Gallery from "components/gallery.astro";
+import Box from "components/box.astro";
+import { formatDate, getCategoryFromUrl } from "lib/helpers";
 
 const {
   frontmatter: { title, description, images, date },

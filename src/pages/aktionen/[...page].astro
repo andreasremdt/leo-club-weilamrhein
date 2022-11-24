@@ -1,9 +1,9 @@
 ---
 import type { PaginateFunction } from "astro";
-import PostPreview from "../../components/post-preview.astro";
-import Button from "../../components/button.astro";
-import PageLayout from "../../layouts/page-layout.astro";
-import { getPostExcerpt, getPostThumbnail } from "../../helpers";
+import PostPreview from "components/post-preview.astro";
+import Button from "components/button.astro";
+import PageLayout from "layouts/page-layout.astro";
+import { getPostExcerpt, getPostThumbnail } from "lib/helpers";
 
 export async function getStaticPaths({ paginate }: { paginate: PaginateFunction }) {
   const posts = (await Astro.glob("./**/*.md")).sort(

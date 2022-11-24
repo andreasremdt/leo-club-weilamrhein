@@ -7,7 +7,7 @@ export function formatDate(date: string) {
 }
 
 export function getCategoryFromUrl(url: string) {
-  return url.split("/")[2];
+  return url.split("/")[2] as string;
 }
 
 export function removeFileExtension(filename: string) {
