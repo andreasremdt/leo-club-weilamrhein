@@ -27,3 +27,26 @@ export function getCloudinaryUrl(src: string, extension: string, width: number, 
     height ? `h_${height},` : ""
   }q_65/${removeFileExtension(src)}.${extension}`;
 }
+
+export const CATEGORIES = [
+  {
+    slug: "/aktionen/begegnungen/",
+    title: "Begegnungen mit Menschen",
+  },
+  {
+    slug: "/aktionen/pflegeheim/",
+    title: "Besuche im Pflegeheim",
+  },
+  {
+    slug: "/aktionen/kinder/",
+    title: "Ausflüge mit Kindern",
+  },
+  {
+    slug: "/aktionen/weitere/",
+    title: "Weitere Aktionen",
+  },
+  {
+    slug: "/aktionen/neuigkeiten/",
+    title: "Aktuelle Neuigkeiten",
+  },
+];

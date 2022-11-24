@@ -1,4 +1,5 @@
 ---
+import CategorySelector from "components/category-selector.astro";
 import PostPreview from "components/post-preview.astro";
 import PageLayout from "layouts/page-layout.astro";
 import { getPostExcerpt, getPostThumbnail } from "lib/helpers";
@@ -13,6 +14,8 @@ const posts = (await Astro.glob("./weitere/*.md")).sort(
   description="Andere Aktionen, etwa der Osterhase oder Weihnachtsmann im Rheincenter."
 >
   <main>
+    <CategorySelector />
+
     {
       posts.map((post) => (
         <PostPreview
