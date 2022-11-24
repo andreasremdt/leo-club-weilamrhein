@@ -1,0 +1,184 @@
+<div data-search-box></div>
+<div data-search-hits hidden>
+  <div data-search-stats></div>
+</div>
+
+<style>
+  :global(.ais-SearchBox-form) {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 18.75rem;
+    justify-content: flex-end;
+    height: 2.625rem;
+  }
+
+  :global(.ais-SearchBox-input) {
+    border: unset;
+    padding-inline: 1rem;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+  }
+
+  :global(.ais-SearchBox-submit, .ais-SearchBox-reset) {
+    position: relative;
+    width: 2rem;
+    border: unset;
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+  }
+
+  :global(:where(.ais-SearchBox-submit, .ais-SearchBox-reset) svg) {
+    transition: fill 0.1s linear;
+  }
+
+  :global(:where(.ais-SearchBox-submit, .ais-SearchBox-reset):where(:hover, :focus-visible) svg) {
+    fill: var(--clr-primary);
+  }
+
+  :global(.ais-SearchBox-submitIcon, .ais-SearchBox-resetIcon) {
+    width: 18px;
+    height: 18px;
+  }
+
+  :global(.ais-Hits) {
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 50%;
+    max-height: 50%;
+    right: 0;
+    background-color: white;
+    z-index: 2;
+    box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.13);
+    border-radius: 2px;
+    padding: 3.5rem 1.5rem 1.5rem;
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+
+  :global(.ais-Hits-list) {
+    list-style: none;
+    padding-left: unset;
+    margin-block: unset;
+  }
+
+  :global(.ais-Hits-item:not(:last-child)) {
+    margin-bottom: 1rem;
+  }
+
+  :global(.ais-Hits-item:where(:hover, :focus-visible) .ais-Hits-title) {
+    color: var(--clr-primary);
+  }
+
+  :global(.ais-Hits-title) {
+    font-size: 17px;
+    line-height: 1.2;
+    transition: color 0.1s linear;
+  }
+
+  :global(.ais-Hits-date) {
+    font-size: 14px;
+  }
+
+  :global(.ais-Highlight-highlighted) {
+    background-color: hsla(39, 58%, 52%, 0.5);
+  }
+
+  :global(.ais-Hits-empty) {
+    font-weight: bold;
+    text-align: color;
+  }
+
+  :global(.ais-Stats-text) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--clr-gray-100);
+    display: block;
+    padding: 0.5rem 1.5rem;
+    border-bottom: 1px solid var(--clr-gray-200);
+    font-family: var(--ff-sans);
+    text-transform: uppercase;
+  }
+</style>
+
+<script>
+  import algoliasearch from "algoliasearch/lite";
+  import instantsearch from "instantsearch.js";
+  import { searchBox, hits, stats } from "instantsearch.js/es/widgets";
+
+  import { formatDate } from "../helpers";
+
+  const searchClient = algoliasearch(
+    import.meta.env.PUBLIC_ALGOLIA_APPLICATION_ID,
+    import.meta.env.PUBLIC_ALGOLIA_API_KEY
+  );
+
+  const search = instantsearch({
+    indexName: "posts",
+    searchClient,
+  });
+
+  const searchBoxElement = document.querySelector("[data-search-box]") as HTMLElement;
+  const hitsElement = document.querySelector("[data-search-hits]") as HTMLElement;
+  const statsElement = document.querySelector("[data-search-stats]") as HTMLElement;
+
+  function handleKeyDown(event: KeyboardEvent) {
+    if (event.key === "Escape" && !hitsElement.hidden) {
+      hitsElement.hidden = true;
+    }
+  }
+
+  function handleClick(event: MouseEvent) {
+    if (!hitsElement.hidden && !(event.target as HTMLElement).closest("[data-search-hits]")) {
+      hitsElement.hidden = true;
+    }
+  }
+
+  document.addEventListener("keydown", handleKeyDown);
+  document.addEventListener("click", handleClick);
+
+  search.addWidgets([
+    searchBox({
+      container: searchBoxElement,
+      placeholder: "Seite durchsuchen...",
+      queryHook(query, search) {
+        if (query.length > 0) {
+          search(query);
+          hitsElement.hidden = false;
+        } else {
+          hitsElement.hidden = true;
+        }
+      },
+    }),
+    stats({
+      container: statsElement,
+      templates: {
+        text(data, { html }) {
+          return html`<p>${data.nbHits} Ergebnisse gefunden</p>`;
+        },
+      },
+    }),
+    hits({
+      container: hitsElement,
+      templates: {
+        item(hit, { html, components }) {
+          return html`
+            <a href="${hit.slug}" class="ais-Hits-link">
+              <h2 class="ais-Hits-title">${components.Highlight({ attribute: "title", hit })}</h2>
+              <time datetime="${hit.date}" class="ais-Hits-date">${formatDate(hit.date)}</time>
+            </a>
+          `;
+        },
+        empty(results, { html }) {
+          return html`<p class="ais-Hits-empty">Keine Ergebnisse für "${results.query}" gefunden.</p>`;
+        },
+      },
+    }),
+  ]);
+
+  search.start();
+</script>
