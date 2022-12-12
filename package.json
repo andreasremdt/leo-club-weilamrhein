@@ -26,7 +26,7 @@
     "@netlify/functions": "^1.3.0",
     "algoliasearch": "^4.14.2",
     "astro": "^1.6.12",
-    "astro-compress": "^1.1.12",
+    "astro-compress": "^1.1.20",
     "instantsearch.js": "^4.49.1"
   },
   "devDependencies": {
