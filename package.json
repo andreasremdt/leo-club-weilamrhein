@@ -30,7 +30,7 @@
     "instantsearch.js": "^4.49.2"
   },
   "devDependencies": {
-    "prettier": "^2.8.1",
+    "prettier": "^2.8.2",
     "prettier-plugin-astro": "^0.7.0"
   }
 }
