@@ -27,7 +27,7 @@
     "algoliasearch": "^4.14.3",
     "astro": "^2.0.10",
     "astro-compress": "^1.1.32",
-    "instantsearch.js": "^4.50.3"
+    "instantsearch.js": "^4.51.0"
   },
   "devDependencies": {
     "prettier": "^2.8.4",
