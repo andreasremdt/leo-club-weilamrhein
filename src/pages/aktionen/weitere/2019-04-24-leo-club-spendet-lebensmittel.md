@@ -4,7 +4,6 @@ title: Leo-Club spendet Lebensmittel an Bedürftige
 date: 2019-04-24 05:13:00
 images:
   - 82-01.jpg
-gallery: []
 ---
 
 In Zusammenarbeit mit Hieber und der Dreiländereck-Tafel Lörrach-Weil am Rhein hat der Leo-Club mehr als 70 Stoffbeutel mit Lebensmitteln an Bedürftige kostenlos verteilt. Zu den Lebensmitteln gehörten u. a. Nudeln, Kaffee, Milch, Konserven und Süßigkeiten für Kinder, aber auch zahlreiche Hygieneartikel.
