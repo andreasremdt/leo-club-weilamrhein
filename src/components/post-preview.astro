@@ -40,14 +40,14 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
 </Box>
 
 <style>
-  .preview {
+  :global(.preview) {
     display: flex;
     flex-direction: row-reverse;
     overflow: hidden;
     padding: unset !important;
   }
 
-  .preview:not(:last-child) {
+  :global(.preview:not(:last-child)) {
     margin-bottom: 2rem;
   }
 
