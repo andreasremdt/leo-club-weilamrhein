@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.3.2",
-    "@astrojs/sitemap": "^3.0.3",
+    "@astrojs/sitemap": "^3.0.4",
     "@fancyapps/ui": "^5.0.30",
     "@netlify/functions": "^2.4.1",
     "algoliasearch": "^4.22.0",
