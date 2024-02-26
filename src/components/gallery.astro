@@ -1,6 +1,6 @@
 ---
-import { getCloudinaryUrl } from "lib/helpers";
-import Image from "components/image.astro";
+import { getCloudinaryUrl } from "@/lib/helpers";
+import Image from "@/components/image.astro";
 
 export interface Props extends astroHTML.JSX.HTMLAttributes {
   images: {
@@ -19,7 +19,11 @@ const { images, width, height, galleryId, class: className } = Astro.props;
 <figure class:list={["gallery", className]}>
   {
     images.map((image) => (
-      <a href={getCloudinaryUrl(`${image.category}/${image.src}`, "jpg", 1920)} data-fancybox={galleryId} class="link">
+      <a
+        href={getCloudinaryUrl(`${image.category}/${image.src}`, "jpg", 1920)}
+        data-fancybox={galleryId}
+        class="link"
+      >
         <Image
           src={image.src}
           category={image.category}
@@ -53,7 +57,9 @@ const { images, width, height, galleryId, class: className } = Astro.props;
     inset: 0;
     background: transparent url(/zoom-in.svg) no-repeat center;
     opacity: 0;
-    transition: opacity 0.1s linear, transform 0.4s ease-out;
+    transition:
+      opacity 0.1s linear,
+      transform 0.4s ease-out;
     background-color: hsl(var(--clr-primary) / 0.6);
     transform: scale(1);
   }
@@ -71,7 +77,7 @@ const { images, width, height, galleryId, class: className } = Astro.props;
 
 <script>
   import { Fancybox } from "@fancyapps/ui";
-  import "@fancyapps/ui/dist/fancybox/fancybox.css"
+  import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
   Fancybox.bind("[data-fancybox]", {
     Thumbs: false,

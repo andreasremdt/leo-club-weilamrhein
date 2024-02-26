@@ -1,15 +1,20 @@
 ---
-import CategorySelector from "components/category-selector.astro";
-import PostPreview from "components/post-preview.astro";
-import PageLayout from "layouts/page-layout.astro";
-import { getPostExcerpt, getPostThumbnail } from "lib/helpers";
+import CategorySelector from "@/components/category-selector.astro";
+import PostPreview from "@/components/post-preview.astro";
+import PageLayout from "@/layouts/page-layout.astro";
+import { getPostExcerpt, getPostThumbnail } from "@/lib/helpers";
 
 const posts = (await Astro.glob("./pflegeheim/*.md")).sort(
-  (a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+  (a, b) =>
+    new Date(b.frontmatter.date).valueOf() -
+    new Date(a.frontmatter.date).valueOf(),
 );
 ---
 
-<PageLayout title="Besuche im Pflegeheim" description="Berichte unserer Besuche im Weiler Pflegeheim Markgräflerland.">
+<PageLayout
+  title="Besuche im Pflegeheim"
+  description="Berichte unserer Besuche im Weiler Pflegeheim Markgräflerland."
+>
   <main>
     <CategorySelector />
 

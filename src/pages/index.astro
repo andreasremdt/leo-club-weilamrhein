@@ -1,16 +1,16 @@
 ---
-import BaseLayout from "layouts/base-layout.astro";
-import Image from "components/image.astro";
-import Title from "components/title.astro";
-import Box from "components/box.astro";
-import Button from "components/button.astro";
+import BaseLayout from "@/layouts/base-layout.astro";
+import Image from "@/components/image.astro";
+import Title from "@/components/title.astro";
+import Box from "@/components/box.astro";
+import Button from "@/components/button.astro";
 ---
 
 <BaseLayout
   title="Willkommen"
   description="Wir sind Jugendliche und Erwachsene und engagieren uns für das Wohl von benachteiligten Menschen, etwa aus Kinder- oder Pflegeheimen."
 >
-  <main class="container main" id="content">
+  <main class="main container" id="content">
     <figure class="banner">
       <Image
         src="20-01.jpg"
@@ -23,37 +23,38 @@ import Button from "components/button.astro";
       <Box as="figcaption" class="caption centered" variant="small">
         <h1 class="tagline">Miteinander statt Gegeneinander</h1>
         <p>
-          Der Leo-Club Weil am Rhein ist ein sozial engagierter Jugendclub aus dem Dreiländereck, dessen Mitglieder sich
-          für Menschen mit Behinderung, benachteiligte Kinder und Heimbewohner einsetzt.
+          Der Leo-Club Weil am Rhein ist ein sozial engagierter Jugendclub aus
+          dem Dreiländereck, dessen Mitglieder sich für Menschen mit
+          Behinderung, benachteiligte Kinder und Heimbewohner einsetzt.
         </p>
         <Button href="/ueber-uns/">Erfahre mehr über uns</Button>
       </Box>
     </figure>
 
     <div class="sections">
-      <Box class="w-1/3 centered" variant="small">
+      <Box class="centered w-1/3" variant="small">
         <Title as="h2">Engagieren</Title>
         <p>
-          Wir sind Freiwillige im Alter zwischen 14 und 30 Jahren, welche sich ehrenamtlich für benachteiligte Menschen
-          einsetzen.
+          Wir sind Freiwillige im Alter zwischen 14 und 30 Jahren, welche sich
+          ehrenamtlich für benachteiligte Menschen einsetzen.
         </p>
         <Button href="/ueber-uns/">Erfahre mehr</Button>
       </Box>
 
-      <Box class="w-1/3 centered" variant="small">
+      <Box class="centered w-1/3" variant="small">
         <Title as="h2">Bewegen</Title>
         <p>
-          Wir unternehmen Ausflüge mit Kindern oder Bewohnern eines Pflegeheims, sammeln Spenden oder arbeiten mit den
-          Lions zusammen.
+          Wir unternehmen Ausflüge mit Kindern oder Bewohnern eines Pflegeheims,
+          sammeln Spenden oder arbeiten mit den Lions zusammen.
         </p>
         <Button href="/aktionen/">Berichte lesen</Button>
       </Box>
 
-      <Box class="w-1/3 centered" variant="small">
+      <Box class="centered w-1/3" variant="small">
         <Title as="h2">Mitmachen</Title>
         <p>
-          Unser Ziel ist eine Gesellschaft, in der sich jeder sozial engagiert und für hilfsbedürftige Menschen
-          einsetzt.
+          Unser Ziel ist eine Gesellschaft, in der sich jeder sozial engagiert
+          und für hilfsbedürftige Menschen einsetzt.
         </p>
         <Button href="/mitglied-werden/">Mitglied werden</Button>
       </Box>
@@ -70,21 +71,22 @@ import Button from "components/button.astro";
 
       <Box class="w-1/2" variant="small">
         <p>
-          Leo-Clubs ist eine weltweit tätige, zu den Lions gehörende Organisation bestehend aus tausenden von Clubs und
-          noch viel mehr Mitgliedern. In der Regel kannst du ab 16 Jahre Leo werden, das Maximalalter liegt bei 30.
+          Leo-Clubs ist eine weltweit tätige, zu den Lions gehörende
+          Organisation bestehend aus tausenden von Clubs und noch viel mehr
+          Mitgliedern. In der Regel kannst du ab 16 Jahre Leo werden, das
+          Maximalalter liegt bei 30.
         </p>
 
         <p>
-          Unser Club wurde 2009 gegründet und hat seither mehr als 200 Aktionen durchgeführt. Einen Teil dieser Aktionen
-          kannst du im Video sehen.
+          Unser Club wurde 2009 gegründet und hat seither mehr als 200 Aktionen
+          durchgeführt. Einen Teil dieser Aktionen kannst du im Video sehen.
         </p>
 
         <p>
-          Hast du Lust, mitzumachen? Noch nicht sicher, worum es wirklich geht? Informiere dich über <a
-            href="/ueber-uns/">unsere Geschichte</a
-          > oder entdecke
-          <a href="/aktionen/">unsere Aktionen</a>. Oder lerne mehr über die <a href="/mitglied-werden/"
-            >Mitgliedschaft</a
+          Hast du Lust, mitzumachen? Noch nicht sicher, worum es wirklich geht?
+          Informiere dich über <a href="/ueber-uns/">unsere Geschichte</a> oder entdecke
+          <a href="/aktionen/">unsere Aktionen</a>. Oder lerne mehr über die <a
+            href="/mitglied-werden/">Mitgliedschaft</a
           >.
         </p>
       </Box>

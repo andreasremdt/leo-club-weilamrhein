@@ -1,5 +1,5 @@
 ---
-import Button from "components/button.astro";
+import Button from "@/components/button.astro";
 ---
 
 <form class="form" data-form>
@@ -35,7 +35,15 @@ import Button from "components/button.astro";
   </div>
 
   <div class="input-group">
-    <input type="text" name="honeypot" id="honeypot" autocomplete="off" aria-hidden="true" tabindex="-1" hidden />
+    <input
+      type="text"
+      name="honeypot"
+      id="honeypot"
+      autocomplete="off"
+      aria-hidden="true"
+      tabindex="-1"
+      hidden
+    />
     <label class="label" for="message">Deine Nachricht</label>
     <textarea
       data-validate
@@ -47,7 +55,9 @@ import Button from "components/button.astro";
       minlength="10"></textarea>
   </div>
 
-  <Button type="submit" variant="primary" aria-live="assertive" data-submit>Nachricht senden</Button>
+  <Button type="submit" variant="primary" aria-live="assertive" data-submit
+    >Nachricht senden</Button
+  >
 </form>
 
 <style>
@@ -107,7 +117,9 @@ import Button from "components/button.astro";
     padding: 0.75rem;
     font-family: var(--ff-sans);
     line-height: 1.2;
-    transition: border-color 0.1s linear, box-shadow 0.1s linear;
+    transition:
+      border-color 0.1s linear,
+      box-shadow 0.1s linear;
     width: 100%;
   }
 
@@ -136,7 +148,9 @@ import Button from "components/button.astro";
 
 <script>
   const form = document.querySelector("[data-form]") as HTMLFormElement;
-  const inputs = document.querySelectorAll("[data-validate]") as NodeListOf<HTMLInputElement>;
+  const inputs = document.querySelectorAll(
+    "[data-validate]",
+  ) as NodeListOf<HTMLInputElement>;
   const button = document.querySelector("[data-submit]") as HTMLButtonElement;
 
   function validate(input: HTMLInputElement) {
@@ -174,7 +188,8 @@ import Button from "components/button.astro";
         button.textContent = "Deine Nachricht wurde erfolgreich zugestellt!";
       })
       .catch(() => {
-        button.textContent = "Fehler beim Zustellen der Nachricht. Versuche es später erneut.";
+        button.textContent =
+          "Fehler beim Zustellen der Nachricht. Versuche es später erneut.";
         button.disabled = false;
       });
   }
@@ -186,7 +201,9 @@ import Button from "components/button.astro";
       validate(input);
     }
 
-    const firstInvalidInput = document.querySelector('[aria-invalid="true"]') as HTMLInputElement;
+    const firstInvalidInput = document.querySelector(
+      '[aria-invalid="true"]',
+    ) as HTMLInputElement;
 
     if (firstInvalidInput) {
       firstInvalidInput.focus();

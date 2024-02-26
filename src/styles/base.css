@@ -1,3 +1,5 @@
+@import "@fancyapps/ui/dist/fancybox/fancybox.css";
+
 :root {
   --clr-primary: 43 89% 39%;
   --clr-white: 0 0% 100%;
@@ -54,6 +56,10 @@
     U+2122, U+2212, U+2215;
   font-display: swap;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *,
 *::before,

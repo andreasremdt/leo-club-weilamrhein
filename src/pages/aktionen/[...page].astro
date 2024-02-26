@@ -1,14 +1,20 @@
 ---
 import type { PaginateFunction } from "astro";
-import PostPreview from "components/post-preview.astro";
-import Button from "components/button.astro";
-import PageLayout from "layouts/page-layout.astro";
-import CategorySelector from "components/category-selector.astro";
-import { getPostExcerpt, getPostThumbnail } from "lib/helpers";
+import PostPreview from "@/components/post-preview.astro";
+import Button from "@/components/button.astro";
+import PageLayout from "@/layouts/page-layout.astro";
+import CategorySelector from "@/components/category-selector.astro";
+import { getPostExcerpt, getPostThumbnail } from "@/lib/helpers";
 
-export async function getStaticPaths({ paginate }: { paginate: PaginateFunction }) {
+export async function getStaticPaths({
+  paginate,
+}: {
+  paginate: PaginateFunction;
+}) {
   const posts = (await Astro.glob("./**/*.md")).sort(
-    (a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf(),
   );
 
   return paginate(posts, { pageSize: 10 });

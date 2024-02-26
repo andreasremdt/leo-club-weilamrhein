@@ -1,14 +1,19 @@
 ---
-import PageLayout from "layouts/page-layout.astro";
-import Box from "components/box.astro";
-import { formatDate } from "lib/helpers";
+import PageLayout from "@/layouts/page-layout.astro";
+import Box from "@/components/box.astro";
+import { formatDate } from "@/lib/helpers";
 
 const posts = (await Astro.glob("./aktionen/**/*.md")).sort(
-  (a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+  (a, b) =>
+    new Date(b.frontmatter.date).valueOf() -
+    new Date(a.frontmatter.date).valueOf(),
 );
 ---
 
-<PageLayout title="Sitemap" description="Hier finden Sie eine Übersicht all unserer Seiten und Berichte.">
+<PageLayout
+  title="Sitemap"
+  description="Hier finden Sie eine Übersicht all unserer Seiten und Berichte."
+>
   <Box as="main">
     <h2>Seiten</h2>
     <ul>
@@ -19,13 +24,17 @@ const posts = (await Astro.glob("./aktionen/**/*.md")).sort(
         <a href="/aktionen/" class="link">Aktionen</a>
         <ul>
           <li>
-            <a href="/aktionen/begegnungen/" class="link">Begegnungen mit Menschen mit Behinderung</a>
+            <a href="/aktionen/begegnungen/" class="link"
+              >Begegnungen mit Menschen mit Behinderung</a
+            >
           </li>
           <li>
             <a href="/aktionen/kinder/" class="link">Ausflüge mit Kindern</a>
           </li>
           <li>
-            <a href="/aktionen/pflegeheim/" class="link">Besuche im Pflegeheim</a>
+            <a href="/aktionen/pflegeheim/" class="link"
+              >Besuche im Pflegeheim</a
+            >
           </li>
           <li>
             <a href="/aktionen/weitere/" class="link">Weitere Aktionen</a>

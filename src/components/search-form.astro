@@ -43,7 +43,10 @@
     transition: color 0.1s linear;
   }
 
-  :global(.ais-SearchBox-submit:where(:hover, :focus-visible), .ais-SearchBox-reset:where(:hover, :focus-visible)) {
+  :global(
+      .ais-SearchBox-submit:where(:hover, :focus-visible),
+      .ais-SearchBox-reset:where(:hover, :focus-visible)
+    ) {
     color: hsl(var(--clr-primary));
   }
 
@@ -122,11 +125,11 @@
   import instantsearch from "instantsearch.js";
   import { searchBox, hits, stats } from "instantsearch.js/es/widgets";
 
-  import { formatDate } from "lib/helpers";
+  import { formatDate } from "@/lib/helpers";
 
   const searchClient = algoliasearch(
     import.meta.env.PUBLIC_ALGOLIA_APPLICATION_ID,
-    import.meta.env.PUBLIC_ALGOLIA_API_KEY
+    import.meta.env.PUBLIC_ALGOLIA_API_KEY,
   );
 
   const search = instantsearch({
@@ -134,9 +137,15 @@
     searchClient,
   });
 
-  const searchBoxElement = document.querySelector("[data-search-box]") as HTMLElement;
-  const hitsElement = document.querySelector("[data-search-hits]") as HTMLElement;
-  const statsElement = document.querySelector("[data-search-stats]") as HTMLElement;
+  const searchBoxElement = document.querySelector(
+    "[data-search-box]",
+  ) as HTMLElement;
+  const hitsElement = document.querySelector(
+    "[data-search-hits]",
+  ) as HTMLElement;
+  const statsElement = document.querySelector(
+    "[data-search-stats]",
+  ) as HTMLElement;
 
   function handleKeyDown(event: KeyboardEvent) {
     if (event.key === "Escape" && !hitsElement.hidden) {
@@ -145,7 +154,10 @@
   }
 
   function handleClick(event: MouseEvent) {
-    if (!hitsElement.hidden && !(event.target as HTMLElement).closest("[data-search-hits]")) {
+    if (
+      !hitsElement.hidden &&
+      !(event.target as HTMLElement).closest("[data-search-hits]")
+    ) {
       hitsElement.hidden = true;
     }
   }
@@ -202,13 +214,19 @@
         item(hit, { html, components }) {
           return html`
             <a href="${hit.slug}" class="ais-Hits-link">
-              <h2 class="ais-Hits-title">${components.Highlight({ attribute: "title", hit })}</h2>
-              <time datetime="${hit.date}" class="ais-Hits-date">${formatDate(hit.date)}</time>
+              <h2 class="ais-Hits-title">
+                ${components.Highlight({ attribute: "title", hit })}
+              </h2>
+              <time datetime="${hit.date}" class="ais-Hits-date"
+                >${formatDate(hit.date)}</time
+              >
             </a>
           `;
         },
         empty(results, { html }) {
-          return html`<p class="ais-Hits-empty">Keine Ergebnisse für "${results.query}" gefunden.</p>`;
+          return html`<p class="ais-Hits-empty">
+            Keine Ergebnisse für "${results.query}" gefunden.
+          </p>`;
         },
       },
     }),

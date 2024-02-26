@@ -1,12 +1,20 @@
 ---
-import { CATEGORIES } from "lib/helpers";
+import { CATEGORIES } from "@/lib/helpers";
 ---
 
 <div class="selector">
-  <select data-action="category-selector" aria-label="Einträge nach Kategorie filtern" class="select">
+  <select
+    data-action="category-selector"
+    aria-label="Einträge nach Kategorie filtern"
+    class="select"
+  >
     <option value="" selected disabled>Einträge nach Kategorie filtern</option>
     <option value="/aktionen/">Alle Aktionen</option>
-    {CATEGORIES.map((category) => <option value={category.slug}>{category.title}</option>)}
+    {
+      CATEGORIES.map((category) => (
+        <option value={category.slug}>{category.title}</option>
+      ))
+    }
   </select>
 </div>
 
@@ -20,7 +28,9 @@ import { CATEGORIES } from "lib/helpers";
     border-radius: 2px;
     padding: 0.75rem;
     font-family: var(--ff-sans);
-    transition: border-color 0.1s linear, box-shadow 0.1s linear;
+    transition:
+      border-color 0.1s linear,
+      box-shadow 0.1s linear;
     width: 100%;
     background-color: white;
     box-shadow: 0 2px 4px hsl(var(--clr-gray-500) / 0.1);
@@ -29,7 +39,9 @@ import { CATEGORIES } from "lib/helpers";
 </style>
 
 <script>
-  const select = document.querySelector('[data-action="category-selector"]') as HTMLSelectElement;
+  const select = document.querySelector(
+    '[data-action="category-selector"]',
+  ) as HTMLSelectElement;
 
   function handleSelectCategory(event: Event) {
     const { value } = event.target as HTMLSelectElement;

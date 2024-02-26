@@ -1,15 +1,20 @@
 ---
-import CategorySelector from "components/category-selector.astro";
-import PostPreview from "components/post-preview.astro";
-import PageLayout from "layouts/page-layout.astro";
-import { getPostExcerpt, getPostThumbnail } from "lib/helpers";
+import CategorySelector from "@/components/category-selector.astro";
+import PostPreview from "@/components/post-preview.astro";
+import PageLayout from "@/layouts/page-layout.astro";
+import { getPostExcerpt, getPostThumbnail } from "@/lib/helpers";
 
 const posts = (await Astro.glob("./neuigkeiten/*.md")).sort(
-  (a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+  (a, b) =>
+    new Date(b.frontmatter.date).valueOf() -
+    new Date(a.frontmatter.date).valueOf(),
 );
 ---
 
-<PageLayout title="Aktuelle Neuigkeiten" description="Informationen zum Club, Wahlen und sonstige Änderungen">
+<PageLayout
+  title="Aktuelle Neuigkeiten"
+  description="Informationen zum Club, Wahlen und sonstige Änderungen"
+>
   <main>
     <CategorySelector />
 
