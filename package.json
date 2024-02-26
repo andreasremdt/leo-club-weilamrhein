@@ -23,7 +23,7 @@
   "dependencies": {
     "@astrojs/check": "^0.3.2",
     "@astrojs/sitemap": "^3.0.3",
-    "@fancyapps/ui": "^5.0.30",
+    "@fancyapps/ui": "^5.0.33",
     "@netlify/functions": "^2.4.1",
     "algoliasearch": "^4.22.0",
     "astro": "^4.0.5",
