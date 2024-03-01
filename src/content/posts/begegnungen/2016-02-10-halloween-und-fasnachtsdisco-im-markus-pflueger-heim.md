@@ -3,7 +3,7 @@ title: Halloween- und Fasnachtsdisco im Markus-Pflüger-Heim
 published: true
 created_at: 2016-02-10 01:13:00
 images:
-  - src: 80-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/80-01.jpg
 ---
 
 Die Halloweendisco findet seit Jahren regelmäßig am 31. Oktober (oder ein paar Tage früher/später) in der Cafeteria des Markus-Pflüger-Heims statt. Alle Bewohner des Heims sind herzlich eingeladen, an dem Abend teilzunehmen und ausgelassen mit Leos und anderen Begleitern zu tanzen. Die Bandbreite an Liedern war auch in diesem Jahr wieder besonders groß, angefangen bei deutschen Schlagern wie "Atemlos" über betagtere Stücke wie "Heute fährt die 18 bis nach Istanbul" bis zu modernen Discohits von Culcha Candela.

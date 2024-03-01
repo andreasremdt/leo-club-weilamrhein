@@ -3,7 +3,7 @@ title: Treffen mit dem Osterhasen im Rhein Center
 published: true
 created_at: 2010-04-12 01:13:00
 images:
-  - src: 08-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/08-01.jpg
 ---
 
 Die Leos verkaufen in der Karwoche wieder 12.000 Ostereier im Rhein Center. – Wenn das kein Grund für einen Abstecher nach Weil am Rhein ist! So dachten Dieter, Uwe & Co. aus dem Markus-Pflüger-Heim in Wiechs. Zusammen mit zwei Betreuerinnen besuchten sie ihre jungen Freunde am dritten von vier Verkaufstagen. Mehr als drei Viertel der größten Anhäufung von Ostereiern weit und breit waren zum Zeitpunkt ihres Besuchs bereits verkauft, aber die Pyramide präsentierte sich ihnen noch immer recht farbenfroh.

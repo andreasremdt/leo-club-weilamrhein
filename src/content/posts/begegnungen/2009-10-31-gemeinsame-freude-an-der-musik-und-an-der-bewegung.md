@@ -3,7 +3,7 @@ title: Gemeinsame Freude an der Musik und an der Bewegung
 published: true
 created_at: 2009-10-31 01:13:00
 images:
-  - src: 03-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/03-01.jpg
 ---
 
 Auf den Ausflügen, welche die Mitglieder des Leo-Clubs Weil am Rhein – Dreiländerecks gemeinsam mit Bewohnern des Markus-Pflüger-Heims in Wiechs unternehmen, steht das unbeschwerte, fröhliche Zusammensein im Mittelpunkt. Man hat zusammen jede Menge Spaß, man spielt zusammen, singt und lacht. Auch das gemeinsame Kochen und Essen hat einen hohen Stellenwert. Nicht wegzudenken aus dem Programm der “Begegnungen” sind auch die Discobesuche. Am Abend des 31. Oktobers 2009 traf man sich zum zwanzigsten Mal zum Tanzen bei einer Disco im Pflegeheim.

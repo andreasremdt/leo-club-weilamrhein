@@ -3,7 +3,7 @@ title: Leos als Begleiter
 published: true
 created_at: 2011-10-12 01:13:00
 images:
-  - src: 11-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/11-01.jpg
 ---
 
 Von Zeit zu Zeit wird bei den Leos nachgefragt, ob einige dazu bereit sind, Leute aus dem Pflegeheim Markgräflerland in Rollstühlen zu Veranstaltungen außer Haus zu schieben. Ein Beispiel: Am 12.10.2011 gehörten fünf Leos zu einer Gruppe von Helfern, die eine muntere Schar von Heimbewohnern vom Pflegeheim zum rund einen Kilometer entfernten Haus der Volksbildung schoben. “Dr bluddi Wahnsinn!”, hieß die Komödie, die vom Mundart-Theater Kultimo gespielt wurde.

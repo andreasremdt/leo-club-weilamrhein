@@ -3,7 +3,7 @@ title: Zu Besuch bei Circolo in Freiburg
 published: true
 created_at: 2012-01-07 01:13:00
 images:
-  - src: 33-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/33-01.jpg
 ---
 
 Das Jahr 2012 ist noch jung, doch das ist kein Grund für uns, die Freundschaft zu den Bewohnern des Markus-Pflüger-Heims schleifen zu lassen. So fuhren wir am 7. Januar mit der Bahn nach Freiburg und genossen eine witzige und zugleich atemberaubende Show im bekannten Weihnachtszirkus “Circolo”.

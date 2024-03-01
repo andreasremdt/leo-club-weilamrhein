@@ -3,7 +3,7 @@ title: Geniale Kassieraktion
 published: true
 created_at: 2012-02-06 01:13:00
 images:
-  - src: 22-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/22-01.jpg
 ---
 
 Zwei Wochen lang haben wir im Februar zahlreiche Fotos vom Projekt „Begegnungen“ im dm-Markt im Rhein Center in Weil am Rhein ausgestellt. Unsere gemeinsamen Unternehmungen mit Bewohnerinnen und Bewohnern des Markus-Pflüger-Heims in Wiechs hatten wir zuvor schon ausführlich bei der Volkshochschule der Älteren vorgestellt und dabei auch auf die dm-Kassieraktion im Rahmen des Wettbewerbs „Ideen Initiative Zukunft“ aufmerksam gemacht. Zudem hatten wir Vorberichte in der Badischen Zeitung und in der Weiler Zeitung veröffentlicht.

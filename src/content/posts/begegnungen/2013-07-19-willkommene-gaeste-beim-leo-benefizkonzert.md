@@ -3,7 +3,7 @@ title: Willkommene Gäste beim Leo-Benefizkonzert
 published: true
 created_at: 2013-07-19 01:13:00
 images:
-  - src: 56-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/56-01.jpg
 ---
 
 Polonaise schon nach wenigen Minuten: Mitreißen ließ sich das Publikum am 19.7.2013 im Gemeindesaal von St. Peter und Paul bei Sarah-Janes musikalischen Grüßen aus der Schweiz. – Und allen voran lief Tobias von Station „Ahorn“!

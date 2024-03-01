@@ -3,7 +3,7 @@ title: Gemeinsames Baden in den Balinea Thermen Bad Bellingen
 published: true
 created_at: 2011-01-10 01:13:00
 images:
-  - src: 19-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/19-01.jpg
 ---
 
 Für Uwe und Dieter vom Markus-Pflüger-Heim und Leo-Club – Betreuer Gerhard war es das zweite Mal, dass sie mit der Projektgruppe “Begegnungen” zum gemeinsamen Baden von Heimbewohnern aus Wiechs und jungen Leuten aus Weil am Rhein ins Thermalbad nach Bad Bellingen fuhren. Nach genau zehn Jahren und einem Tag genossen sie wie die anderen in der großen Badegruppe den vierstündigen Aufenthalt. Und hinterher waren sie sich einig: “So lange warten wir nicht mehr bis zum dritten Mal!”

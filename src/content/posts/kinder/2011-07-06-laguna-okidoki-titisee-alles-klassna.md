@@ -3,12 +3,12 @@ title: "Laguna – Okidoki – Titisee: Alles “Klassna”!"
 published: true
 created_at: 2011-07-06 01:13:00
 images:
-  - src: 04-01.jpg
-  - src: 04-03.jpg
-  - src: 04-02.jpg
-  - src: 04-04.jpg
-  - src: 04-05.jpg
-  - src: 04-06.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/04-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/04-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/04-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/04-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/04-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/04-06.jpg
 ---
 
 Einige Leos sind bereits seit drei, vier oder fünf Jahren bei den alljährlichen Ausflügen Weiler Jugendlicher mit Ferienkindern aus Weißrussland dabei. Gründungspräsidentin Leyla erinnert sich gar an Spielnachmittage vor zwölf oder dreizehn Jahren. Was früher Mitarbeiter der Realschulzeitung “Sch’cool” bei einer gemeinsamen Unternehmung erlebten, freut die Leos heute bei mehreren Ausflügen: Es ist schön, den zehn Kindern eine Freude zu bereiten!Die erste Begegnung im Jahr 2011 fand am 28. Juni beim gemeinsamen Besuch des Badelands “Laguna” statt. Gleich zu Beginn stellte es sich heraus, wie schön es ist, dass mit Regina Schneider und Julian Sinenko zwei Leos Russisch sprechen können. Und auch die als Gäste zu allen Unternehmungen eingeladenen Alicia, Elisabeth, Jessica und Vanessa aus der 6a der Theodor-Heuss-Realschule Lörrach sorgten mit ihren Sprachkenntnissen bei den gleichaltrigen Mädchen aus Weißrussland für Vertrautheit. Vier Stunden lang vergnügte man sich auf den drei Wasserrutschen, im Außenbecken und zu jeder halben Stunde im Wellenbecken. – Toll übrigens, dass Laguna-Geschäftsführer Holger Schumacher der Gruppe einmal mehr freien Eintritt gewährte!Drei Tage später wurden die sportlichen und vergnüglichen Aktivitäten vom Wasser auf Land verlegt: Von 14 bis 19 Uhr spielte, tobte und kreischte die illustre Rasselband im Lörracher Indoor-Spieleland OKIDOKI. Neben den Eintrittskarten spendierten die Leos auch einen Snack mit Hamburgern, Pommes und Cola. Was hier das Tollste gewesen ist, konnte hinterher niemand sagen. Es war alles “super”, “genial” oder in der an diesem Tag vorherrschende Sprache ausgedrückt: “klassna”!

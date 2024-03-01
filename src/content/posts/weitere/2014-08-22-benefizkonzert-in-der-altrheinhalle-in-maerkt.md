@@ -3,8 +3,8 @@ title: Benefizkonzert in der Altrheinhalle in Märkt
 published: true
 created_at: 2014-08-22 01:13:00
 images:
-  - src: 31-02.jpg
-  - src: 31-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/31-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/31-01.jpg
 ---
 
 Am Samstag, den 22. August 2014, fand ein Benefizkonzert des Hilfswerks des Leo-Club Weil am Rhein in der Althreinhalle in Märkt statt. Das Konzert war insofern besonders, als dass die Band Lampenfieber aus dem weit entfernten Ort Lüdenscheit auftrat und die Besucher mit rockiger Musik unterhielten. Die Band Lampenfieber setzt sich aus diversen Menschen mit Behinderung zusammen und wurde aus diesem Grund vom Leo-Club engagiert.

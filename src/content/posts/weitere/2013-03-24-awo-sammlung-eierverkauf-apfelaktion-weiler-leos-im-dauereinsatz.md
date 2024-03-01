@@ -3,9 +3,9 @@ title: "AWO-Sammlung – Eierverkauf – Apfelaktion: Weiler Leos im Dauereinsat
 published: true
 created_at: 2013-03-24 01:13:00
 images:
-  - src: 27-01.jpg
-  - src: 27-02.jpg
-  - src: 27-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/27-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/27-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/27-03.jpg
 ---
 
 Es war ein arbeitsreiches Frühjahr für die Weiler Leos! Bevor sie in der Karwoche wie jedes Jahr nonstop 12.000 Ostereier im Rhein Center verkaufen durften, bewährten sich zahlreiche Leos an zwei Samstagen im März einmal mehr bei der AWO-Landessammlung. Vor Hieber’s Frische Center in Weil sammelten sie jeweils von 8 bis 20 Uhr für den guten Zweck. Aus Überzeugung! Denn was der Weiler Ortsverein der Arbeiterwohlfahrt so alles auf die Beine stellt, verdient höchste Anerkennung – und eben auch Unterstützung, wenn für die vielfältigen Aktionen zugunsten behinderter bzw. älterer Menschen Geld gesammelt wird. Das Ergebnis konnte sich sehen lassen. Rund 2.000 Euro befanden sich schließlich in den Sammeldosen.

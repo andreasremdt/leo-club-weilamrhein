@@ -3,11 +3,11 @@ title: Mittendrin beim Weiler Fasnachtsumzug
 published: true
 created_at: 2013-02-17 01:13:00
 images:
-  - src: 17-01.jpg
-  - src: 17-02.jpg
-  - src: 17-03.jpg
-  - src: 17-04.jpg
-  - src: 17-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/17-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/17-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/17-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/17-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/17-05.jpg
 ---
 
 Es gehört schon viel Mut dazu, sich mitten in das Getümmel rund um Fasnacht zu stürzen. An allen Ecken und Enden lauern Gefahren in Form von erschreckenden Kreaturen, welche im besten Fall Süßigkeiten und im Schlimmsten Fall viel Konfetti verteilen. Dass gehört einfach zur Straßenfasnacht dazu, so auch beim alljährlichen Weiler Umzug am Sonntag, den 17. Februar. Das dachten sich auch Rollstuhlfahrer des Weiler Pflegeheims Markgräflerland, welche sich von uns Leos an die Hauptstraße schieben ließen und die Show genossen. Gute zweieinhalb Stunden standen wir bei frischen Temperaturen an der Hauptstraße und beobachteten die über 140 Gruppen an uns vorüberziehen. Die Kostüme boten dabei eine große Vielfalt, angefangen bei fürchterlichen Hexen über Indianer bis zu Männern ohne lange Hosen.

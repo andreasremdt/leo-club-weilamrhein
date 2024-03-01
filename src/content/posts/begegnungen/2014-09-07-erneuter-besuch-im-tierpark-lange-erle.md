@@ -3,11 +3,11 @@ title: Erneuter Besuch im Tierpark “Lange Erle”
 published: true
 created_at: 2014-09-07 01:13:00
 images:
-  - src: 70-01.jpg
-  - src: 70-02.jpg
-  - src: 70-03.jpg
-  - src: 70-04.jpg
-  - src: 70-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/70-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/70-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/70-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/70-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/70-05.jpg
 ---
 
 Am 7.September um 11:00 Uhr machten die Bewohner des Markus Pflüger Heim den Tierpark „Lange Erle“ unsicher. Den Sonntagvormittag haben wir zunächst passend zu dem Motto „ Das Leben ist ungewiss. Essen wir den Nachtisch zuerst.“ mit ein wenig Kuchen gestartet. Währenddessen wurde die Pfanne schon mal angeschaltet und nach und nach unsere Feinkost hineingeben. Zunächst wurden die Zwiebeln und die Zucchini in die Pfanne gegeben, worauf sich gleich der angenehme Geruch des Gemüses ausbreitete. Dazu wurden im Anschluss die Schupfnudeln hineingegeben, worauf Klöpfer und Wienerle folgten.

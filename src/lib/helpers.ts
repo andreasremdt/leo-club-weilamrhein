@@ -19,7 +19,7 @@ export function getPostExcerpt(post: Record<string, any>) {
 }
 
 export function getPostThumbnail(post: Record<string, any>) {
-  return post.data.images?.[0];
+  return post.data.images?.[0].src;
 }
 
 export function getCloudinaryUrl(

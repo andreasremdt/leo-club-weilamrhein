@@ -3,12 +3,12 @@ title: Leos betreuten den Teamparcours “Junior – Senior”
 published: true
 created_at: 2010-09-26 01:13:00
 images:
-  - src: 08-06.jpg
-  - src: 08-01.jpg
-  - src: 08-02.jpg
-  - src: 08-03.jpg
-  - src: 08-04.jpg
-  - src: 08-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/08-06.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/08-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/08-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/08-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/08-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/08-05.jpg
 ---
 
 Informationen, Spiel und Spaß für Jung und Alt hatten die Organisatoren der generationenübergreifenden Veranstaltung versprochen, die am Sonntag, 26. September, auf dem Gelände des Mehrgenerationenhauses in Friedlingen stattgefunden hat. Zwischen 15 und 19 Uhr begegneten sich dort, in der Riedlistraße 16, Senioren, Kinder und Jugendliche und feierten zusammen ein Fest.

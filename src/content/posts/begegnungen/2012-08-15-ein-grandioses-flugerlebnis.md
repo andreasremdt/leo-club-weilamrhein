@@ -3,19 +3,19 @@ title: Ein grandioses Flugerlebnis
 published: true
 created_at: 2012-08-15 01:13:00
 images:
-  - src: 42-01.jpg
-  - src: 42-02.jpg
-  - src: 42-03.jpg
-  - src: 42-04.jpg
-  - src: 42-05.jpg
-  - src: 42-06.jpg
-  - src: 42-07.jpg
-  - src: 42-08.jpg
-  - src: 42-09.jpg
-  - src: 42-10.jpg
-  - src: 42-11.jpg
-  - src: 42-12.jpg
-  - src: 43-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/42-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/42-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/42-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/42-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/42-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/42-06.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/42-07.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/42-08.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/42-09.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/42-10.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/42-11.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/42-12.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/43-01.jpg
 ---
 
 Der Motor brüllt laut, als Karl-Heinz Knab, Pilot beim Markgräfler Luftsportverein, den Gashebel zu sich zieht. Augenblicklich schießt die Maschine nach vorne und nimmt Anlauf auf der mit Gras überwachsenen Startbahn. Nach 100 Metern ist die Geschwindigkeit hoch genug, um die Maschine durch den Auftrieb abheben zu lassen. Karl-Heins Knab zieht den Steuerknüppel zu sich, langsam neigt sich die Nase des Flugzeugs nach oben, die Vibrationen werden weniger und der Flug ruhiger. Wir haben es geschafft, wir befinden uns nun im Luftraum von Südbaden!

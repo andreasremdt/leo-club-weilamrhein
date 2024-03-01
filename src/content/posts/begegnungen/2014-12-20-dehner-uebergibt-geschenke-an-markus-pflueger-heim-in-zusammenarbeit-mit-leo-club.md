@@ -3,14 +3,14 @@ title: Dehner übergibt Geschenke an Markus-Pflüger-Heim in Zusammenarbeit mit 
 published: true
 created_at: 2014-12-20 01:13:00
 images:
-  - src: 72-03.jpg
-  - src: 72-01.jpg
-  - src: 72-02.jpg
-  - src: 72-04.jpg
-  - src: 72-05.jpg
-  - src: 72-06.jpg
-  - src: 72-07.jpg
-  - src: 72-08.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/72-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/72-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/72-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/72-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/72-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/72-06.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/72-07.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/72-08.jpg
 ---
 
 Hilfsbedürftigen Menschen etwas Gutes tun – dass war das Ziel von Dehner, als sie die Aktion mit den Geschenkkugeln bereits zum zweiten Mal starteten. Dank dieser Aktion konnten die Bewohner des Markus-Pflüger-Heims in Wiechs bereits einige Tage vor Heiligabend reich beschenkt werden – mit Geschenken, die sie sich selbst gewünscht hatten. In Zusammenarbeit mit dem Leo-Club Weil am Rhein wurden die Wünsche zum 1. Advent gesammelt und am 21. Dezember schließlich feierlich zu Kaffee und Kuchen übergeben.

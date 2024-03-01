@@ -3,14 +3,14 @@ title: Hausbootfahrt mit Jugendlichen aus Deutschland, aus Frankreich und aus de
 published: true
 created_at: 2013-06-01 01:13:00
 images:
-  - src: 11-01.jpg
-  - src: 11-03.jpg
-  - src: 11-02.jpg
-  - src: 11-04.jpg
-  - src: 11-05.jpg
-  - src: 11-06.jpg
-  - src: 11-07.jpg
-  - src: 11-08.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/11-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/11-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/11-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/11-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/11-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/11-06.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/11-07.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/11-08.jpg
 ---
 
 Hausbootfahrten gehören seit Jahren zum Ausflugsprogramm der Jugendlichen und jungen Erwachsenen vom Leo-Club Weil am Rhein – Dreiländereck. Zehnmal schon haben sie Menschen mit Behinderung zum gemeinsamen Wasserwandern eingeladen. Und eine Freude ist es ihnen auch gewesen, vor zwei Jahren mit Kindern suchtkranker Eltern und deren Betreuern sowie im letzten Jahr mit Kindern aus einem Basler Kinderheim auf Kanälen in Frankreich zu schippern.

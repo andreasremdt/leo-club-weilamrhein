@@ -3,8 +3,8 @@ title: Fahrten im Gletscherblitz waren “cool”!
 published: true
 created_at: 2010-07-06 01:13:00
 images:
-  - src: 01-01.jpg
-  - src: 01-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/01-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/01-02.jpg
 ---
 
 Diesen Samstag werden die 30 Teilnehmer am Ausflug in den Steinwasen-Park in Oberried gewiss noch lange in sehr guter Erinnerung behalten. Die vom Leo-Club Weil am Rhein – Dreiländereck organisierte und finanzierte ganztägige Unternehmung bot vor allem den zehn im Juni in Weil am Rhein weilenden Jungen aus Shlobin in Weißrussland ganz neue Eindrücke. Im Fernsehen hatten sie Attraktionen wie den “Spacerunner”, eine Wildwasserfahrt, Sommerrodelbahnen oder den “Gletscherblitz” schon gesehen – aber nun live in solchen Fahrzeugen den Rausch der Geschwindigkeit zu erleben, das war das, was ihre deutschen Partner als “cool” bezeichnen. “Echt cool” fanden es auch alle, dass der Steinwasen-Park den zehn Jungen aus Weißrussland freien Eintritt gewährte.Als Erstes standen Fahrten im “Spacerunner” an. Die flotten Zweisitzer luden förmlich dazu ein, gemischte Gespanne zu bilden. Keinem der weißrussischen Jungen war bei der Fahrt auf der kurvenreichen Strecke im “Eisgewölbe” bange. Gemeinsam wurden bei dem vielen Rauf und Runter laut geschrien. Spätestens bei der dritten Fahrt konnte es keinem mehr schnell genug gehen: “Vollgas vom ersten bis zum letzten Meter” war selbstverständlich. Und die Rolle als Co-Piloten genügte auch keinem der Ferienkinder mehr. Alle wollten selbst beschleunigen!

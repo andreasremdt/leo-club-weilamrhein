@@ -3,18 +3,18 @@ title: Unser Projekt lebt!
 published: true
 created_at: 2023-12-15 05:13:00
 images:
-  - src: 86-04.jpg
-  - src: 85-01.jpg
-  - src: 85-02.jpg
-  - src: 85-03.jpg
-  - src: 85-04.jpg
-  - src: 85-05.jpg
-  - src: 86-01.jpg
-  - src: 86-02.jpg
-  - src: 86-03.jpg
-  - src: 86-05.jpg
-  - src: 86-06.jpg
-  - src: 86-07.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/86-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/85-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/85-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/85-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/85-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/85-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/86-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/86-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/86-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/86-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/86-06.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/86-07.jpg
 ---
 
 Das Projekt „Begegnungen mit behinderten Menschen“ wurde im September 2000 als Schulprojekt ins Leben gerufen. Neun Jahre später wurde es vom neu gegründeten Leo-Club Weil am Rhein – Dreiländereck übernommen.

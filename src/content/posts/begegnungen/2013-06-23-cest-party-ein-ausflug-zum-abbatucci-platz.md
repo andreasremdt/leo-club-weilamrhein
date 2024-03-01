@@ -3,8 +3,8 @@ title: „C’EST PARTY“ – Ein Ausflug zum Abbatucci-Platz
 published: true
 created_at: 2013-06-23 01:13:00
 images:
-  - src: 54-02.jpg
-  - src: 54-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/54-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/54-01.jpg
 ---
 
 Der in Weils französischer Nachbarstadt neu gestaltete Abbatucci-Platz macht einen guten Eindruck: Er wirkt aufgeräumt und belebt, bietet viele Geschäfte und ein abwechslungsreiches Bild in Huningue. Zur großen Eröffnungsfeier „C’EST PARTY!“ am Wochenende des 22. & 23. Juni 2013 beschlossen wir, diesem Fest einen Besuch abzustatten. Auch und vor allem wegen eines besonderen Programmpunkts, der „Show Bizarr“ des Österreichischen Künstlers Christoph Priesner. Dieser sollte am Samstag und am Sonntag auftreten und machte schon auf dem Plakat einen lustigen Eindruck, wie er mit seinem kleinen Motorroller, Fliegerbrille und langer Leiter über dem Kopf dahinsauste.

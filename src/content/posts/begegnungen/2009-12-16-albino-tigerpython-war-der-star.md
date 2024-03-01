@@ -3,7 +3,7 @@ title: Albino-Tigerpython war der Star
 published: true
 created_at: 2009-12-16 01:13:00
 images:
-  - src: 05-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/05-01.jpg
 ---
 
 “Was machen wir als Nächstes mit den Leos?”, ist eine Frage, die von den am Langzeitprojekt “Begegnungen” beteiligten Heimbewohnern im Markus-Pflüger-Heim in Wiechs oft gestellt wird. Auch im zehnten Jahr sind die Unternehmungen mit Weiler Jugendlichen und jungen Erwachsenen von einem besonderen Reiz, nicht zuletzt auch deshalb, weil sich immer wieder ganz Neues ergibt. So auch beim letzten gemeinsamen Ausflug im Jahr 2009.

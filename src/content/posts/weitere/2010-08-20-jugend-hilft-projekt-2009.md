@@ -3,7 +3,7 @@ title: “Jugend hilft” – Projekt 2009
 published: true
 created_at: 2010-08-20 01:13:00
 images:
-  - src: 06-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/06-01.jpg
 ---
 
 “Es waren drei überaus erlebnisreiche Tage im Schwarzwald!” Bei dieser Einschätzung waren sich alle 23 Teilnehmer an einer dreitägigen Sommerfreizeit mit vielfältigen Wassersportangeboten einig. Zielgruppe dieser Unternehmung waren Kinder und Jugendliche aus dem Landkreis Lörrach, die von der Organisation KiSEL betreut werden. Die Organisation lag in den Händen von sieben Mitgliedern des Leo-Clubs Weil am Rhein und eines Betreuers aus den Reihen des Weiler Lions Clubs.

@@ -3,7 +3,7 @@ title: „Ein ganz tolles Wochenende“
 published: true
 created_at: 2012-10-01 01:13:00
 images:
-  - src: 44-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/44-01.jpg
 ---
 
 Das vierte Septemberwochenende sollte für 19 Teilnehmer am Projekt „Begegnungen“ ein ganz besonderes werden. Wieder einmal war man von Freitagmittag bis Sonntagabend gemeinsam unterwegs, – zum zehnten Mal auf einer Hausbootfahrt. Bei schönem Herbstwetter führte die Fahrt mit drei Booten auf dem Rhein-Marne-Kanal von Niderviller nach Saverne und zurück.Für die Jugendlichen und jungen Erwachsenen des Leo-Clubs Weil am Rhein – Dreiländereck, die das Projekt im Jahr 2009 übernommen haben, gehören Hausbootfahrten zu den klassischen Unternehmungen. In den letzten Jahren sind sie außer mit Heimbewohnern auch mit Kindern suchtkranker Eltern sowie mit Kindern aus einem Basler Kinderheim auf gemeinsame Fahrt gegangen.Den Rhein-Marne-Kanal kennen die meisten Leos inzwischen aus dem Effeff. Sie wissen, wo es sich besonders lohnt, anzulegen, eine Rast zu machen oder etwas zu besichtigen. Man kennt die zahlreichen Schleusen sowie die beiden großen Tunnels und das hochinteressante Schiffshebewerk, dessen Passieren immer wieder ein großes Erlebnis ist. Die siebzehnjährige Chiara aus Rosenau im Elsass, die zum ersten Mal bei einer größeren Reise mit Heimbewohnern dabei war, kam aus dem Staunen nicht heraus: „Das ist alles so schön! Ich bin richtig glücklich!“

@@ -3,15 +3,15 @@ title: Ostereierverkauf im Rhein Center
 published: true
 created_at: 2012-04-16 01:13:00
 images:
-  - src: 23-04.jpg
-  - src: 23-02.jpg
-  - src: 23-01.jpg
-  - src: 23-03.jpg
-  - src: 23-05.jpg
-  - src: 23-06.jpg
-  - src: 23-07.jpg
-  - src: 23-08.jpg
-  - src: 23-09.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/23-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/23-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/23-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/23-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/23-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/23-06.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/23-07.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/23-08.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/23-09.jpg
 ---
 
 Im Leo Club Weil am Rhein haben sich zahlreiche Aktionen bereits fest etabliert. Dazu gehören etwa die Weihnachtsmann-Aktion an den vier Samstagen im Advent, die Rosen-Aktion am Valentinstag und die Grättimann-Aktion am Nikolaustag im Weiler Pflegeheim oder das Sommercamp in Huttwil. Zu diesen Aktionen zählt auch die Ostereier-Aktion im Rhein Center, welche jeden April zu Ostern stattfindet. Dazu wird im Erdgeschoss des Rhein Centers eine Holzpyramide aufgebaut, auf welcher innerhalb von einigen wenigen Tagen 12.000 bunt bemalte Eier gestapelt und anschließend für einen günstigen Preis verkauft werden.

@@ -3,7 +3,7 @@ title: Genießen – Arbeiten – Kreativ sein
 published: true
 created_at: 2009-11-29 01:13:00
 images:
-  - src: 04-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/04-01.jpg
 ---
 
 Bei ihrer letzten mehrtägigen Aktivität im Jahr 2009 konnten Weiler Leos auf viele Erfahrungen zurückgreifen und ein zugleich kreatives und arbeitsintensives Programm gemeinsam mit elf Bewohnern des Wiechser Markus-Pflüger-Heims absolvieren.Auf Anregung eines Heimbewohners hatte sich die unternehmungslustige Gruppe dieses Jahr wieder einmal zum Plätzchen-Backen im Werner-Mennicke-Haus der Ev. Familienferienstätte Rührberg verabredet. Gemeinsam wurden 2,5 kg Butter, 20 Eier und 3 kg Mehl zu fünf Sorten Weihnachtsbrötchen verarbeitet. Zudem wurden zwei Schwarzwälder Kirsch-Torten zum Verzehr an Ort und Stelle hergestellt.

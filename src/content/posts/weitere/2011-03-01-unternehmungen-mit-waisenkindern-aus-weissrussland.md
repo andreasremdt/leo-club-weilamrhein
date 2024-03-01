@@ -3,7 +3,7 @@ title: Unternehmungen mit Waisenkindern aus Weißrussland
 published: true
 created_at: 2011-03-01 01:13:00
 images:
-  - src: 14-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/14-01.jpg
 ---
 
 Auf Einladung des Arbeitskreises Tschernobyl-Waisenkinder werden vom 16.6. bis zum 5.7. zehn Mädchen aus Weißrussland zur Erholung nach Weil am Rhein kommen. Anfang Juli wollen die Leos an vier Tagen etwas mit den Ferienkindern unternehmen.

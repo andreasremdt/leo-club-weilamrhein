@@ -3,7 +3,7 @@ title: Weiler Leos mit “KiSEL”- Kindern auf großer Fahrt
 published: true
 created_at: 2011-06-22 01:13:00
 images:
-  - src: 03-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/03-01.jpg
 ---
 
 Elf Mitglieder des Weiler Leo-Clubs ermöglichten 15 Kindern suchtkranker Eltern aus dem Landkreis Lörrach ein außergewöhnliches Freizeiterlebnis. Vier Tage befuhren sie mit drei großen Hausbooten zwei Kanäle im Elsass.Gleich nach Fahrtbeginn in Niderviller gab es viel zu Staunen: beim Durchfahren von zwei langen Tunnels und dem Passieren des Schiffshebewerks von Arzviller. Zehnmal war beim Schleusen gutes Teamwork gefragt – und es hat jedes Mal alles geklappt! Gut gefallen hat es vor allem den Jungs, dass jeder, der wollte, mal selbst steuern durfte.Auch das Zusammenleben auf engem Raum bereitete zu keinem Zeitpunkt Probleme. Man verstand sich auf Anhieb, kochte und speiste zusammen, spielte, scherzte und redete viel und genoss gemeinsam ein abwechslungsreiches Freizeitprogramm.

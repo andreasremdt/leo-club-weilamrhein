@@ -3,7 +3,7 @@ title: Weiler Leos organisieren eine Fasnachts-Disco im Markus-Pflüger-Heim
 published: true
 created_at: 2010-02-14 01:13:00
 images:
-  - src: 06-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/06-01.jpg
 ---
 
 Als der langjährige Heimleiter und DJ Bernd Sevecke im Herbst 2009 in den Ruhestand verabschiedet wurde, schien die Tradition der Power-Discos im Markus-Pflüger-Heim zu Ende zu gehen. “Das darf nicht sein!”, sagten sich die Weiler Leos und nahmen die Sache in Absprache mit der neuen Heimleitung selbst in die Hand.

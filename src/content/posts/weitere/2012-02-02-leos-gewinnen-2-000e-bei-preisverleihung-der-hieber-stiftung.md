@@ -3,7 +3,7 @@ title: Leos gewinnen 2.000€ bei Preisverleihung der Hieber Stiftung
 published: true
 created_at: 2012-02-02 01:13:00
 images:
-  - src: 21-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/21-01.jpg
 ---
 
 Diesen Freitagnachmittag werden die bei der Preisübergabe im Schulungsraum des Hieber Marktes in Binzen anwesenden Leos gewiss noch lange in bester Erinnerung behalten. Sie waren sehr gerne zur Verleihung des Hieber Stiftungspreises gekommen, – dass dieser Preis aber so hoch dotiert sein sollte, das ahnten sie nicht!

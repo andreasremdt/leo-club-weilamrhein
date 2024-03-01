@@ -3,9 +3,9 @@ title: Und wieder bebt das Markus-Pflüger-Heim
 published: true
 created_at: 2013-11-01 01:13:00
 images:
-  - src: 61-01.jpg
-  - src: 61-02.jpg
-  - src: 61-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/61-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/61-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/61-03.jpg
 ---
 
 Erneut haben die Leos das Markus-Pflüger-Heim mit lauter Musik und viel Stimmung beben lassen. Die alljährlich am Halloweenabend stattfindende Disco sorgte wieder für regen Anklang und eine volle Tanzfläche. Dazu wurde ein kleiner Tanzwettbewerb geboten, bei welchem mutige Bewohner und Leos auf einem erhöhten Podium zeigen konnten, was für ein Talent in ihnen steckte. Die Sieger, Jürgen und Tobias, haben sich an diesem Abend ohne jeden Zweifel stark ins Zeug gelegt, denn sie hatten nach langer Zeit wieder einen gemeinsamen Auftritt als Michael Jackson und Pink. Dementsprechend forderte das Publikum mehrere Zugaben!

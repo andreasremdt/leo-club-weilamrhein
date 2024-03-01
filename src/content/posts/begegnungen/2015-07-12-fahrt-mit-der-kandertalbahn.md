@@ -3,14 +3,14 @@ title: Fahrt mit der Kandertalbahn
 published: true
 created_at: 2015-07-12 01:13:00
 images:
-  - src: 76-01.jpg
-  - src: 76-03.jpg
-  - src: 76-04.jpg
-  - src: 76-05.jpg
-  - src: 76-06.jpg
-  - src: 76-07.jpg
-  - src: 76-08.jpg
-  - src: 76-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/76-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/76-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/76-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/76-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/76-06.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/76-07.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/76-08.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/76-02.jpg
 ---
 
 Am Sonntag, den 12. Juli 2015, unternahmen wir eine Kandertalbahnfahrt nach Kandern und zurück, zusammen mit den Bewohnern des Markus-Pflüger-Heims aus Wiechs. Treffpunkt war in Haltingen, von wo aus die historische und nur im Sommer fahrende Bahn startete.

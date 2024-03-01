@@ -3,13 +3,13 @@ title: Nach Nancy und zurück – vier schöne Tage auf dem Wasser
 published: true
 created_at: 2013-10-05 01:13:00
 images:
-  - src: 60-01.jpg
-  - src: 60-02.jpg
-  - src: 60-03.jpg
-  - src: 60-04.jpg
-  - src: 60-05.jpg
-  - src: 60-06.jpg
-  - src: 60-07.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/60-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/60-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/60-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/60-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/60-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/60-06.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/60-07.jpg
 ---
 
 Nancy ist eine schöne Stadt. Besonders der Place Stanislas mit seinem angrenzenden großen Park, dem Parc de la Pépinière, sorgt oftmals zu Recht für Begeisterung bei seinen Besuchern. So auch bei den Weiler Leos und Bewohnern des Markus-Pflüger-Heims. – Den Nationalfeiertrag in Deutschland, Donnerstag, den 3. Oktober, hatten wir gemeinsam dazu genutzt, um und auf eine letzte Hausbootfahrt in diesem Jahres zu begeben. Das verlängerte Wochenende war eine tolle Gelegenheit, vier schöne Tage auf dem Wasser zu verbringen. Dabei wurde viel gefahren, aber auch viel Zeit miteinander verbracht. Mit drei gemieteten Hausbooten kam auch der Fahrspaß nicht zu kurz.

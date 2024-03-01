@@ -3,9 +3,9 @@ title: Bunt und schön – Schmuck basteln im Pflegeheim
 published: true
 created_at: 2013-11-27 01:13:00
 images:
-  - src: 61-01.jpg
-  - src: 61-02.jpg
-  - src: 61-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/61-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/61-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/61-03.jpg
 ---
 
 Es war ein nasskalter und unangenehmer Herbsttag, auch wenn kein Schnee vor unseren Fenstern lag. Dieser Winter war sowieso sehr schneearm, was die einen freute, die anderen ärgerte. Viele Menschen möchten das Haus zu dieser Jahreszeit am liebsten gar nicht mehr verlassen und sich in eine warme Decke vor der Heizung einhüllen. An diese Jahreszeit müssen wir auch unsere Ausflüge mit den Bewohnern des Markus-Pflüger-Heims anpassen, Grillen oder Spaziergänge sind da eher ungeeignet. Und so trafen wir uns im Dezember 2013 mit den Bewohnern, um gemeinsam im Markus-Pflüger-Heim Geschenke – genauer gesagt Schmuck – zu basteln.

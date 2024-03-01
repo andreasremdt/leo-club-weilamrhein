@@ -3,39 +3,39 @@ title: Jugendfreizeit mit trinationaler Beteiligung
 published: true
 created_at: 2012-04-20 01:13:00
 images:
-  - src: 06-02.jpg
-  - src: 06-01.jpg
-  - src: 06-03.jpg
-  - src: 06-04.jpg
-  - src: 06-05.jpg
-  - src: 06-06.jpg
-  - src: 06-07.jpg
-  - src: 06-08.jpg
-  - src: 06-09.jpg
-  - src: 06-10.jpg
-  - src: 06-11.jpg
-  - src: 06-12.jpg
-  - src: 06-13.jpg
-  - src: 06-14.jpg
-  - src: 06-15.jpg
-  - src: 06-16.jpg
-  - src: 06-17.jpg
-  - src: 06-18.jpg
-  - src: 06-19.jpg
-  - src: 06-20.jpg
-  - src: 06-21.jpg
-  - src: 06-22.jpg
-  - src: 06-23.jpg
-  - src: 06-24.jpg
-  - src: 06-26.jpg
-  - src: 06-27.jpg
-  - src: 06-28.jpg
-  - src: 06-29.jpg
-  - src: 06-30.jpg
-  - src: 06-31.jpg
-  - src: 06-32.jpg
-  - src: 06-33.jpg
-  - src: 06-34.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-06.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-07.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-08.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-09.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-10.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-11.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-12.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-13.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-14.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-15.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-16.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-17.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-18.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-19.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-20.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-21.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-22.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-23.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-24.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-26.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-27.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-28.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-29.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-30.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-31.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-32.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-33.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/06-34.jpg
 ---
 
 Zusammen mit den Bewohnern des Markus-Pflüger-Heims haben wir bereits viele Hausbootfahrten erlebt, die meisten auf dem Rhein-Marne-Kanal in Frankreich. Diesmal war es jedoch etwas anders, denn wir befanden uns zusammen mit fünf Kindern eines Basler Kinderheims auf großer Fahrt – von Hesse nach Lutzelbourg und zurück. Vier Tage lang bewegten wir zwei Zehn-Personen-Hausboote durch den langen, künstlichen Kanal, vorbei an Bergen, durch Tunnel und Schleusen sowie einem großen Schiffshebewerk. Neben der Fahrt wurde die Zeit mit Spielen und anderen gemeinsamen Aktivitäten vertrieben. Und eines kann man sagen – die Zeit ging schneller vorbei, als es uns lieb war.

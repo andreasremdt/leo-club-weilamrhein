@@ -3,7 +3,7 @@ title: Weihnachtsgeschenke für Heimbewohner
 published: true
 created_at: 2021-12-30 01:13:00
 images:
-  - src: 84-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/84-01.jpg
 ---
 
 33 Heimbewohner des Markus-Pflüger-Heims in Wiechs sowie dessen Außenwohngruppen im Landkreis durften sich dieses Jahr über zahlreiche Leo-Weihnachtsgeschenke freuen. Nachdem seit der letzten, gemeinsamen Aktion bereits viel Zeit vergangen war, konnten wir den Heimbewohnern auf diese Art eine kleine Freude zur Zeit der Besinnlichkeit und Ruhe machen und so für einen kleinen Lichtblick in der sonst so düsteren Jahreszeit sorgen.

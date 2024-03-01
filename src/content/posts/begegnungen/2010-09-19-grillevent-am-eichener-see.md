@@ -3,7 +3,7 @@ title: Grillevent am Eichener See
 published: true
 created_at: 2010-09-19 01:13:00
 images:
-  - src: 13-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/13-01.jpg
 ---
 
 Die Bewohner der Markus-Pflüger-Heim-Außenwohngruppe “Linde” haben die Weiler Leos zum Grillen an den Eichener See eingeladen. Gemeinsam mit ihrer Betreuerin Susanne hatten sie alles liebevoll vorbereitet. Zahlreiche Salate sowie leckeres Grillgut warteten auf hungrige Verwerter.

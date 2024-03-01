@@ -3,8 +3,8 @@ title: "Alle Jahre wieder: Die große Weihnachtsmann – Aktion im Rhein Center"
 published: true
 created_at: 2011-12-21 01:13:00
 images:
-  - src: 20-01.jpg
-  - src: 20-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/20-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/20-02.jpg
 ---
 
 Wer ist das mit den großen Schuhen und dem langen Bart? Es ist der Weihnachtsmann, der aus dem Aufzug trat. – Auch im Jahr 2011 war er an den vier Samstagen im Advent sowie am Nikolaustag mit seinem Gefolge im großen Einkaufscenter im Stadtteil Friedlingen unermüdlich im Einsatz, um für strahlende Kindergesichter und glückliche Eltern zu sorgen.

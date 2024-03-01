@@ -3,11 +3,11 @@ title: Minigolfen in Inzlingen
 published: true
 created_at: 2015-06-29 01:13:00
 images:
-  - src: 75-01.jpg
-  - src: 75-02.jpg
-  - src: 75-03.jpg
-  - src: 75-04.jpg
-  - src: 75-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/75-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/75-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/75-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/75-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/75-05.jpg
 ---
 
 Sommer, Sonne, Sonnenschein - und davon reichlich. Was bietet sich diese Tage also an? Genau, eine Aktion unter freiem Himmel, zusammen mit den Bewohnern aus dem Markus-Pflüger-Heim in Wiechs. Diesesmal haben wir uns den Minigolfplatz im beschaulichen Inzlingen, bekannt für sein Wasserschloß ausgesucht und dort ein paar schöne Stunden verbracht.

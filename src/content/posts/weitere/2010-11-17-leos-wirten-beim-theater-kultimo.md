@@ -3,7 +3,7 @@ title: Leos wirten beim Theater Kultimo
 published: true
 created_at: 2010-11-17 01:13:00
 images:
-  - src: 11-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/11-01.jpg
 ---
 
 „Grossmutti gibt Gas“, heißt es in der Mundartkomödie in vier Akten nach Willi Fleddermann, die vom Theater Kultimo im Weiler Haus der Volksbildung aufgeführt wird. Wir Leos sind dabei – als Wirte vor der Veranstaltung, in der Pause und danach!

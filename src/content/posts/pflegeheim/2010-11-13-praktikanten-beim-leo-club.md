@@ -3,8 +3,8 @@ title: Praktikanten beim Leo-Club
 published: true
 created_at: 2010-11-13 01:13:00
 images:
-  - src: 05-01.jpg
-  - src: 05-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/05-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/05-02.jpg
 ---
 
 Zwölf Schülerinnen und Schüler der Klasse 8e der Theodor-Heuss-Realschule Lörrach haben sich entschlossen, ihr SE-Praktikum beim Leo-Club Weil am Rhein – Dreiländereck zu machen. Insgesamt mindestens 15 Stunden lang wird sich jede der Personen im Laufe des Schuljahrs 2010 / 2011 bei diversen Unternehmungen engagieren. “SE” bedeutet “Soziales Engagement” und genau dieses haben die Praktikanten aus Lörrach bei ihren ersten Einsätzen in hervorragender Weise an den Tag gelegt.Elf THR-Praktikanten waren zum Beispiel beteiligt, als die Leos im Oktober im Weiler Pflegeheim Markgräflerland mit der Drehorgel über alle Stationen zogen. Alle haben ihre Sache ganz toll gemacht, genauso wie am Donnerstag, 11.11.2010 als Helfer bei einem Fest zur Fasnachteröffnung im Foyer des Pflegeheims.

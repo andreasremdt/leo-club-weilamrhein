@@ -3,7 +3,7 @@ title: Ausflug zur Freilichtgalerie in Ötlingen
 published: true
 created_at: 2012-06-07 01:13:00
 images:
-  - src: 39-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/39-01.jpg
 ---
 
 Dieter (73), der älteste Projektteilnehmer, hatte den Vorschlag für diesen Ausflug gemacht. Schon vor längerer Zeit ist er durch ein Prospekt auf die „ART-Dorf.de“ aufmerksam geworden. Die Fotos von den großflächigen Gemälden an den Hausfassaden hatten es ihm angetan: „Das wäre was für uns!“ Und wie recht er hatte!Am 9. Juni waren elf Heimbewohner und eine Betreuerin mit dem Zug nach Haltingen angereist. Dort wurden sie gegen 11 Uhr von den Leos erwartet und mit Autos nach Ötlingen gefahren, „ganz nach oben“, ans obere Ende der Freilichtgalerie. Nach dem Genuss eines von den Leos mitgebrachten Welcome-Apéros wurden die ersten Bilder im Umfeld der Druckerei Hanemann in Augenschein genommen. Großen Gefallen fanden alle an einem Bild mit Pinguinen: „Die stehen so zusammen wie wir!“ Klar, dass dies ein tolles Hintergrundmotiv für das obligatorische Gruppenfoto darstellen würde. Die Vorstellung war faszinierend, es wurde sozusagen ein Zwei-Gruppen-Foto gemacht.

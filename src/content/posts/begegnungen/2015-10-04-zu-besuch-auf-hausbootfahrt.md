@@ -3,10 +3,10 @@ title: Zu Besuch auf Hausbootfahrt
 published: true
 created_at: 2015-10-04 01:13:00
 images:
-  - src: 78-01.jpg
-  - src: 78-02.jpg
-  - src: 78-03.jpg
-  - src: 78-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/78-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/78-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/78-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/78-04.jpg
 ---
 
 Hausbootfahrten haben eine lange Tradition zwischen Bewohnern und Leos. Beinahe jedes Jahr wird - meist am Wochenende - eine Hausbootfahrt auf dem Rhein-Marne-Kanal in Frankreich unternommen. Die Zeit wird genutzt, um sich mit dem Bewohnern zu unterhalten, Spiele zu spielen, die Gegend zu entdecken und eine schöne, gemeinsame Zeit zu verbringen.

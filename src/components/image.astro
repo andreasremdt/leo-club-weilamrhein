@@ -22,20 +22,19 @@ const {
   bordered,
   loading = "lazy",
 } = Astro.props;
-const url = `${category}/${src}`;
 ---
 
 <picture class:list={["h-full", { bordered: bordered }]}>
-  <source
+  <!-- <source
     srcset={getCloudinaryUrl(url, "avif", width, height)}
     type="image/avif"
   />
   <source
     srcset={getCloudinaryUrl(url, "webp", width, height)}
     type="image/webp"
-  />
+  /> -->
   <img
-    src={getCloudinaryUrl(url, "jpg", width, height)}
+    src={src}
     width={width}
     height={height}
     alt={alt}

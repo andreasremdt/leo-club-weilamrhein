@@ -3,7 +3,7 @@ title: Ausflug zum Strandbad in Basel
 published: true
 created_at: 2011-08-11 01:13:00
 images:
-  - src: 27-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/27-01.jpg
 ---
 
 Am 11. August 2011 trafen sich 14 Mitglieder der Projektgruppe “Begegnungen” auf dem Parkhausdach der Messe Basel. Der warme Donnerstagnachmittag war wie geschaffen für diesen Ausflug an den einzigartigen Stadtstrand!

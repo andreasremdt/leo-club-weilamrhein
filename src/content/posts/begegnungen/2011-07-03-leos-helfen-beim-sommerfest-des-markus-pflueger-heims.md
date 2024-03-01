@@ -3,8 +3,8 @@ title: Leos helfen beim Sommerfest des Markus-Pflüger-Heims
 published: true
 created_at: 2011-07-03 01:13:00
 images:
-  - src: 25-01.jpg
-  - src: 25-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/25-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/25-02.jpg
 ---
 
 Das Sommerfest ist ein Ort der Begegnung. Es hat Tradition, dass sich hier am ersten Sonntag im Monat Juli viele Angehörige und Freunde einfinden, um zusammen mit den Heimbewohnerinnen und Heimbewohner einen schönen Nachmittag zu verbringen. Klar, dass auch immer einige Leos die Gelegenheit nutzen, um sich mit den Leuten von “Ahorn”, “Linde” usw. zu treffen. Wie jedes Jahr kamen sie am 3.7.2011 auch zum Arbeiten. Zwischen 12 und 17 Uhr wurde jede Menge Teller, Besteck und Gläser von rund 300 Festteilnehmern eingesammelt und zur Geschirrrückgabe bei der Heimküche geschleppt.

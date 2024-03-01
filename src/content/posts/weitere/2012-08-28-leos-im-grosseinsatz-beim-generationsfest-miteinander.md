@@ -3,9 +3,9 @@ title: Leos im Großeinsatz beim Generationsfest „Miteinander“
 published: true
 created_at: 2012-08-28 01:13:00
 images:
-  - src: 25-01.jpg
-  - src: 25-02.jpg
-  - src: 25-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/25-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/25-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/25-03.jpg
 ---
 
 „Das Wetter hätte nicht besser sein können!“ Das fanden viele der ca. 500 Besucher des alljährlichen Generationenfestes „Miteinander“, welches wie in den letzten drei Jahren wieder auf dem Gelände des Mehrgenerationenhauses im Weiler Stadtteil Friedlingen stattfand. Bei nicht zu heißen Temperaturen bot das Fest einiges an Unterhaltung und ließ dabei keine Wünsche aus – angefangen bei diversen musikalischen Darbietungen und Zirkusvorführungen über den von den Leos betreuten Teamparcours „Junior – Senior“ bis zum Besuch von Kostas Papanastasiou aus der Fernsehserie „Lindenstraße“. Keinem Besucher dürfte es langweilig gewesen sein!

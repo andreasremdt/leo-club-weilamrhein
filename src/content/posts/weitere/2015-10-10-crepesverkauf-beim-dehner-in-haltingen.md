@@ -3,13 +3,13 @@ title: Crêpesverkauf beim Dehner in Haltingen
 published: true
 created_at: 2015-10-10 01:13:00
 images:
-  - src: 35-01.jpg
-  - src: 35-02.jpg
-  - src: 35-03.jpg
-  - src: 35-04.jpg
-  - src: 35-05.jpg
-  - src: 35-06.jpg
-  - src: 35-07.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/35-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/35-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/35-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/35-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/35-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/35-06.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/35-07.jpg
 ---
 
 Sie kaufen nicht zufällig Samstag Nachmittags beim Dehner ein, oder? Falls doch, dann haben wir an drei Wochenenden im Herbst diesen Jahres etwas für Sie: leckeren, selbst zubereiteten Crêpes mit verschiedenen Zutaten. Egal ob Nutella, Zimt & Zucker, Schinken oder Apfelmus: zu Crêpes passt einfach alles.

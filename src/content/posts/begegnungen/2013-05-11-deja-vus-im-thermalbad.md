@@ -3,7 +3,7 @@ title: Déjà-vus im Thermalbad
 published: true
 created_at: 2013-05-11 01:13:00
 images:
-  - src: 52-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/52-01.jpg
 ---
 
 Für die meisten der 22 Personen, die am ersten Samstag des Monats Mai bei der 202. Unternehmung im Rahmen des Projekts „Begegnungen“ dabei gewesen sind, lief der Nachmittag in schon bestens bekannter Form ab.Die Heimbewohner aus Wiechs fuhren mit ihrer Betreuerin Claudia von Schopfheim aus mit der S-Bahn nach Basel. Unterwegs stiegen Leo Julian und ein Praktikant der Theodor-Heuss-Realschule Lörrach zu und halfen beim Umsteigen in die Regionalbahn in Richtung Freiburg. In Haltingen wurde die Gruppe mit den Leos um Clubpräsident Murat komplettiert.

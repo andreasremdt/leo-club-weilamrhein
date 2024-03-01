@@ -3,11 +3,11 @@ title: Unternehmung Nr 198 – Ein Fußballerlebnis
 published: true
 created_at: 2013-01-12 01:13:00
 images:
-  - src: 48-01.jpg
-  - src: 48-02.jpg
-  - src: 47-01.jpg
-  - src: 47-02.jpg
-  - src: 47-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/48-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/48-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/47-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/47-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/47-03.jpg
 ---
 
 Die Bayern spielen in Basel! 30.080 Zuschauer im St. Jakob – Stadion und 18 Teilnehmer des Projekts „Begegnungen“ sind auf der Tribüne Zeugen eines fulminanten Auftritts des Tabellenführers der Bundesliga gegen den amtierenden Schweizer Fußballmeister!

@@ -32,7 +32,7 @@ let { Content } = await entry.render();
           category="kinder"
           width={1000}
           height={500}
-          alt={entry.data.images[0].src}
+          alt={entry.data.images[0].alt || ""}
           loading="eager"
           bordered
         />

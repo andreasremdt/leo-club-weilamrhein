@@ -3,10 +3,10 @@ title: Leo-Club übergibt Sachspende an Wärmestube Friedlingen
 published: true
 created_at: 2016-03-06 01:13:00
 images:
-  - src: 37-01.jpg
-  - src: 37-02.jpg
-  - src: 37-03.jpg
-  - src: 37-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/37-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/37-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/37-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/37-04.jpg
 ---
 
 Für die Überreichung einer Sachspende besuchte der Leo-Club Weil am Rhein am 05. März 2016 die Wärmestube in Friedlingen. Neben einem Großteil der Clubmitglieder beteiligten sich zudem 4 Gäste an dem Besuch. Ziel der Aktion war es, den Obdachlosen in Weil am Rhein und Umgebung im Rahmen einer deutschlandweiten Leo-Aktion etwas Gutes zu tun.
