@@ -19,3 +19,30 @@ export async function getPosts(limit = Infinity) {
 export function getCategory(slug: string) {
   return slug.split("/").at(0);
 }
+
+export function getPostThumbnail(post: Record<string, any>) {
+  return post.data.images?.[0].src;
+}
+
+export const CATEGORIES = [
+  {
+    slug: "/aktionen/begegnungen/",
+    title: "Begegnungen mit Menschen",
+  },
+  {
+    slug: "/aktionen/pflegeheim/",
+    title: "Besuche im Pflegeheim",
+  },
+  {
+    slug: "/aktionen/kinder/",
+    title: "Ausflüge mit Kindern",
+  },
+  {
+    slug: "/aktionen/weitere/",
+    title: "Weitere Aktionen",
+  },
+  {
+    slug: "/aktionen/neuigkeiten/",
+    title: "Aktuelle Neuigkeiten",
+  },
+];

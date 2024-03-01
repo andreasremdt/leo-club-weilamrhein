@@ -2,10 +2,9 @@
 import type { GetStaticPaths } from "astro";
 import { getPosts } from "@/lib/utils";
 import PostPreview from "@/components/post-preview.astro";
-import Button from "@/components/button.astro";
 import Layout from "@/layouts/default.astro";
 import CategorySelector from "@/components/category-selector.astro";
-import { getPostExcerpt, getPostThumbnail } from "@/lib/helpers";
+import { getPostThumbnail } from "@/lib/utils";
 
 export let getStaticPaths = (async ({ paginate }) => {
   let posts = await getPosts();
@@ -42,18 +41,18 @@ let { page } = Astro.props;
       {
         page.url.prev && (
           <li>
-            <Button variant="primary" href={page.url.prev}>
+            <a class="btn btn-primary" href={page.url.prev}>
               Zurück
-            </Button>
+            </a>
           </li>
         )
       }
       {
         page.url.next && (
           <li>
-            <Button variant="primary" href={page.url.next}>
+            <a class="btn btn-primary" href={page.url.next}>
               Weiter
-            </Button>
+            </a>
           </li>
         )
       }

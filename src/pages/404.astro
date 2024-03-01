@@ -1,28 +1,19 @@
 ---
-import BaseLayout from "@/layouts/base-layout.astro";
-import Button from "@/components/button.astro";
+import Layout from "@/layouts/default.astro";
 ---
 
-<BaseLayout title="Seite nicht gefunden">
-  <main class="main container" id="content">
-    <h1>Seite nicht gefunden</h1>
-    <p>
-      Leider wurde die gewünschte Seite nicht gefunden. Versichere dich, dass du
-      die Adresse richtig geschrieben hast. Möglicherweise wurde der Artikel
-      auch geändert oder gelöscht.
-    </p>
-    <Button href="/">Zur Startseite</Button>
-  </main>
-</BaseLayout>
+<Layout
+  title="Seite nicht gefunden"
+  description="Wir sind Jugendliche und Erwachsene und engagieren uns für das Wohl von benachteiligten Menschen, etwa aus Kinder- oder Pflegeheimen."
+  class="text-center"
+>
+  <h1 class="h1">Seite nicht gefunden</h1>
 
-<style>
-  .main {
-    margin-block: 3rem;
-    text-align: center;
-  }
+  <p class="mx-auto my-4 max-w-lg">
+    Leider wurde die gewünschte Seite nicht gefunden. Versichere dich, dass du
+    die Adresse richtig geschrieben hast. Möglicherweise wurde der Artikel auch
+    geändert oder gelöscht.
+  </p>
 
-  .main p {
-    max-width: 60%;
-    margin: 0 auto 1rem auto;
-  }
-</style>
+  <a class="btn btn-primary" href="/">Zur Startseite</a>
+</Layout>
