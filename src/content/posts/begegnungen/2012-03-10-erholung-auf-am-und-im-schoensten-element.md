@@ -1,0 +1,11 @@
+---
+title: “Erholung auf, am und im schönsten Element”
+published: true
+created_at: 2012-03-10 01:13:00
+images:
+  - src: 35-01.jpg
+---
+
+Wie so oft, wenn Jugendliche und junge Erwachsene vom Leo-Club Weil am Rhein – Dreiländereck mit Bewohnerinnen und Bewohnern aus dem Markus-Pflüger-Heim in Wiechs sich zu einer gemeinsamen Unternehmung treffen, spielte im Monat März das Wasser eine Hauptrolle.“Erholung auf, am und im schönsten Element” kommt bei Jung und Alt immer gut an. Dies war bei gemeinsamen Tretboot- und mehrtägigen Hausbootfahrten ebenso der Fall wie bei Grillevents an Seen und bei allerlei Badevergnügen. In der langen Geschichte der “Begegnungen” stand das Baden in den Balinea Thermen nun zum dritten Mal auf dem Programm.Dieter, ein Projektteilnehmer der ersten Stunde, ließ es sich nicht nehmen, mit den jüngsten Leos vor allem die Wasserattraktionen im Außenbereich auszutesten. 60 Jahre Altersunterschied spielten beispielsweise im Oval des Strömungskanals keine Rolle. Gemeinsam ließ man sich treiben, tollte unbeschwert herum und lachte übermütig aus vollem Halse.
+
+Nachdem zahlreiche Massagedüsen und die Luftsprudelliegen ausprobiert worden waren, fehlte es nicht am Mut, auch das kalte Wasser in der Wassertretanlage auszuhalten. Apropos Mut: Bewunderung fand bei den Leos ein Senior aus dem Pflegeheim, der sich in Begleitung als Nichtschwimmer ins Wasser traute und sich, mehr als er zuvor angenommen hatte, zum ersten Mal in seinem Leben am warmen Nass in einem Thermalbecken erfreute. Seine größte Freude war der gemeinsame Aufenthalt der ganzen Gruppe in einem kleinen Pool zwischen den Ruheräumen. Das mit grünlichem, natur belassenen Thermalwasser gefüllte Becken fanden alle so toll, dass man sich hier recht lange tummelte, bevor die Einen noch ins Dampfbad gingen und Andere dem Wiederholungsdrang bei diversen Wasserattraktionen in den Außenbecken nachgaben. Als man nach dem Baden noch eine Stunde bei einem mitgebrachten Vesper zusammen saß, kam das Gespräch unweigerlich auf die nächsten Vorhaben der unternehmungslustigen Gruppe: Am Nachmittag des ersten April wollen einige Heimbewohner die Leos bei der Ostereierpyramide im Rhein Center besuchen. Und Ende April geht’s beim Tretboot fahren auf dem Weiher von Courtavon im Elsass wieder aufs Wasser.

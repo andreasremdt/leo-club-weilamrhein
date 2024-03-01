@@ -11,7 +11,12 @@ const { class: className, variant } = Astro.props;
     viewBox="0 0 37.571 8.997"
     width="142"
     height="34"
-    class="text-stone-900"
+    class:list={[
+      {
+        "text-stone-900": variant === "dark",
+        "text-yellow-600": variant === "light",
+      },
+    ]}
   >
     <path
       fill="currentColor"

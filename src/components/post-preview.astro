@@ -20,8 +20,8 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
     thumbnail && (
       <figure class="aspect-square w-1/3 flex-shrink-0">
         <Image
-          src={thumbnail}
-          category={getCategoryFromUrl(url)}
+          src={thumbnail.src}
+          category="kinder"
           width={300}
           height={300}
           alt={title}
@@ -34,7 +34,10 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
 
   <div class="p-4">
     <h2 class="h2">
-      <a class="transition-colors hover:text-yellow-600" href={url}>{title}</a>
+      <a
+        class="transition-colors hover:text-yellow-600"
+        href={`/aktionen/${url}`}>{title}</a
+      >
     </h2>
 
     <time datetime={date}>

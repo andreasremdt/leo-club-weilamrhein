@@ -1,23 +1,17 @@
 ---
-import { formatDate } from "@/lib/helpers";
+import { getPosts, formatDate } from "@/lib/utils";
 
-const posts = (await Astro.glob("../pages/aktionen/**/*.md"))
-  .sort(
-    (a, b) =>
-      new Date(b.frontmatter.date).valueOf() -
-      new Date(a.frontmatter.date).valueOf(),
-  )
-  .slice(0, 2);
+const posts = await getPosts(2);
 ---
 
 {
   posts.map((post) => (
     <article class="mb-4">
       <h4 class="mb-1 text-lg font-bold leading-tight text-stone-900 transition-colors hover:text-yellow-600">
-        <a href={post.url}>{post.frontmatter.title}</a>
+        <a href={`/aktionen/${post.slug}`}>{post.data.title}</a>
       </h4>
-      <time datetime={post.frontmatter.date}>
-        Veröffentlicht am {formatDate(post.frontmatter.date)}
+      <time datetime={post.data.created_at.toISOString()}>
+        Veröffentlicht am {formatDate(post.data.created_at)}
       </time>
     </article>
   ))
