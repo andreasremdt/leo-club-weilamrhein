@@ -1,7 +1,6 @@
 ---
+import { Picture } from "astro:assets";
 import Layout from "@/layouts/default.astro";
-import Image from "@/components/image.astro";
-import Box from "@/components/box.astro";
 ---
 
 <Layout
@@ -51,13 +50,14 @@ import Box from "@/components/box.astro";
     wir.
   </p>
 
-  <Image
+  <Picture
     src="https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/sommercamp-in-huttwil.jpg"
-    category="allgemein"
+    formats={["avif", "webp"]}
+    alt="teilnehmer des sommercamps in huttwil halten eine flagge der regio lions hoch"
     width={800}
     height={450}
-    alt="Leo-Aktion in Huttwil"
     loading="eager"
+    quality={80}
   />
 
   <p>

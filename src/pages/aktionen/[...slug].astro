@@ -1,9 +1,10 @@
 ---
+import { Picture } from "astro:assets";
 import type { GetStaticPaths } from "astro";
 import Layout from "@/layouts/default.astro";
-import Image from "@/components/image.astro";
 import { getPosts, formatDate } from "@/lib/utils";
 import Ribbon from "@/components/ribbon.astro";
+import Gallery from "@/components/gallery.astro";
 
 export let getStaticPaths = (async () => {
   let posts = await getPosts();
@@ -27,14 +28,15 @@ let { Content } = await entry.render();
   {
     entry.data.images ? (
       <figure class="-m-4">
-        <Image
+        <Picture
           src={entry.data.images[0].src}
-          category="kinder"
-          width={1000}
-          height={500}
+          formats={["avif", "webp"]}
           alt={entry.data.images[0].alt || ""}
+          width={1000}
+          height={600}
+          quality={80}
           loading="eager"
-          bordered
+          pictureAttributes={{ class: "bordered" }}
         />
       </figure>
     ) : null
@@ -68,19 +70,13 @@ let { Content } = await entry.render();
 
   {
     entry.data.images ? (
-      <figure class="mt-6 grid grid-cols-2 gap-4 md:mt-12 md:grid-cols-3 md:gap-8">
-        {entry.data.images.map((image) => (
-          <a href={image.src} data-fancybox="gallery" class="">
-            <Image
-              src={image.src}
-              alt={image.alt || ""}
-              category="kinder"
-              width={400}
-              height={350}
-            />
-          </a>
-        ))}
-      </figure>
+      <Gallery
+        class="mt-6"
+        images={entry.data.images}
+        galleryId="post"
+        width={400}
+        height={400}
+      />
     ) : null
   }
 </Layout>

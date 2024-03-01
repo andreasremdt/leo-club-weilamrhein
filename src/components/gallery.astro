@@ -1,11 +1,9 @@
 ---
-import { getCloudinaryUrl } from "@/lib/helpers";
-import Image from "@/components/image.astro";
+import { Picture } from "astro:assets";
 
 export interface Props extends astroHTML.JSX.HTMLAttributes {
   images: {
     src: string;
-    category: string;
     alt?: string;
   }[];
   width: number;
@@ -16,21 +14,22 @@ export interface Props extends astroHTML.JSX.HTMLAttributes {
 const { images, width, height, galleryId, class: className } = Astro.props;
 ---
 
-<figure class="grid grid-cols-3 gap-1">
+<figure class:list={["grid grid-cols-3 gap-1", className]}>
   {
     images.map((image) => (
       <a
-        href=""
+        href={image.src}
         data-fancybox={galleryId}
         class="overflow-hidden bg-yellow-600"
       >
-        <Image
+        <Picture
           src={image.src}
-          category={image.category}
+          formats={["avif", "webp"]}
+          alt={image.alt || ""}
           width={width}
           height={height}
-          alt={image.alt || ""}
-          class="transition-all duration-300 hover:scale-110 hover:opacity-70"
+          quality={80}
+          class="aspect-square object-cover transition-all duration-300 hover:scale-110 hover:opacity-70"
         />
       </a>
     ))

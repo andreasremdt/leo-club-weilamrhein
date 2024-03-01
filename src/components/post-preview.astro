@@ -1,12 +1,12 @@
 ---
+import { Picture } from "astro:assets";
 import { formatDate } from "@/lib/utils";
-import Image from "@/components/image.astro";
 
 export interface Props {
   title: string;
   url: string;
   excerpt: string;
-  date: string;
+  date: Date;
   thumbnail?: string;
 }
 
@@ -17,14 +17,15 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
   {
     thumbnail && (
       <figure class="aspect-square w-1/3 flex-shrink-0">
-        <Image
+        <Picture
           src={thumbnail}
-          category="kinder"
-          width={300}
-          height={300}
+          formats={["avif", "webp"]}
           alt={title}
-          bordered
-          class="h-full w-full object-cover object-center"
+          width={400}
+          height={400}
+          quality={80}
+          class="h-full object-cover"
+          pictureAttributes={{ class: "bordered h-full" }}
         />
       </figure>
     )
@@ -38,7 +39,7 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
       >
     </h2>
 
-    <time datetime={date}>
+    <time datetime={date.toISOString()}>
       Veröffentlicht am {formatDate(date)}
     </time>
 

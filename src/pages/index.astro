@@ -1,6 +1,6 @@
 ---
+import { Picture } from "astro:assets";
 import Layout from "@/layouts/default.astro";
-import Image from "@/components/image.astro";
 import Title from "@/components/title.astro";
 ---
 
@@ -9,15 +9,16 @@ import Title from "@/components/title.astro";
   description="Wir sind Jugendliche und Erwachsene und engagieren uns für das Wohl von benachteiligten Menschen, etwa aus Kinder- oder Pflegeheimen."
 >
   <figure class="relative mb-48">
-    <Image
+    <Picture
       src="https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/20-01.jpg"
-      category="pflegeheim"
+      formats={["avif", "webp"]}
+      alt="leo-mitglieder verteilen rosen im weiler pflegeheim"
       width={1280}
       height={700}
-      alt="Leo-Mitglieder verteilen Rosen im Weiler Pflegeheim"
       loading="eager"
-      class="shadow-lg"
-      bordered
+      quality={80}
+      class="aspect-video object-cover shadow-lg"
+      pictureAttributes={{ class: "bordered" }}
     />
     <figcaption
       class="box absolute bottom-0 left-1/2 w-2/3 -translate-x-1/2 translate-y-1/2 space-y-4 p-8 text-center"

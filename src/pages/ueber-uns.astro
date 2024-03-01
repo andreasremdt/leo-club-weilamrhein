@@ -1,6 +1,6 @@
 ---
+import { Picture } from "astro:assets";
 import Layout from "@/layouts/default.astro";
-import Image from "@/components/image.astro";
 ---
 
 <Layout
@@ -23,13 +23,14 @@ import Image from "@/components/image.astro";
     Behinderung oder Pflegebedürfige - eine schöne Zeit beschert.
   </p>
 
-  <Image
+  <Picture
     src="https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/78-01.jpg"
-    category="begegnungen"
+    formats={["avif", "webp"]}
+    alt="hausboot auf dem rhein-marne kanal in frankreich vor einem schiffshebewerk"
     width={800}
     height={450}
-    alt="Hausbootfahrt mit Bewohnern des Markus-Pflüger-Heim"
     loading="eager"
+    quality={80}
   />
 
   <p>
@@ -59,13 +60,13 @@ import Image from "@/components/image.astro";
     Jahr eine gemeinsame Hausbootfahrt in Frankreich durchzuführen.
   </p>
 
-  <Image
+  <Picture
     src="https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/20-01.jpg"
-    category="pflegeheim"
+    formats={["avif", "webp"]}
+    alt="leo-mitglieder verteilen rosen im weiler pflegeheim"
     width={800}
     height={450}
-    alt="Hausbootfahrt mit Bewohnern des Markus-Pflüger-Heim"
-    loading="eager"
+    quality={80}
   />
 
   <p>
