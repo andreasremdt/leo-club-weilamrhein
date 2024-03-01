@@ -8,6 +8,7 @@ export interface Props {
   width: number;
   height?: number;
   class?: string;
+  bordered?: boolean;
   loading?: "eager" | "lazy";
 }
 
@@ -18,12 +19,13 @@ const {
   width,
   height,
   class: className,
+  bordered,
   loading = "lazy",
 } = Astro.props;
 const url = `${category}/${src}`;
 ---
 
-<picture class="picture">
+<picture class:list={["h-full", { bordered: bordered }]}>
   <source
     srcset={getCloudinaryUrl(url, "avif", width, height)}
     type="image/avif"
@@ -42,9 +44,3 @@ const url = `${category}/${src}`;
     class={className}
   />
 </picture>
-
-<style>
-  .picture {
-    display: contents;
-  }
-</style>

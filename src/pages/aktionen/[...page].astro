@@ -2,7 +2,7 @@
 import type { PaginateFunction } from "astro";
 import PostPreview from "@/components/post-preview.astro";
 import Button from "@/components/button.astro";
-import PageLayout from "@/layouts/page-layout.astro";
+import Layout from "@/layouts/default.astro";
 import CategorySelector from "@/components/category-selector.astro";
 import { getPostExcerpt, getPostThumbnail } from "@/lib/helpers";
 
@@ -29,9 +29,11 @@ function getPageTitle(page: number) {
 const { page } = Astro.props;
 ---
 
-<PageLayout
+<Layout
   title={`Unsere Aktionen ${getPageTitle(page.currentPage)}`}
   description="Erfahren Sie mehr über unsere zahlreichen Aktionen in Deutschland, Frankreich und der Schweiz."
+  hasSidebar
+  hasTitle
 >
   <main>
     <CategorySelector />
@@ -72,21 +74,4 @@ const { page } = Astro.props;
       </ul>
     </nav>
   </main>
-</PageLayout>
-
-<style>
-  .pagination {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    column-gap: 1.5rem;
-  }
-
-  .pagination ul {
-    list-style-type: none;
-    padding-left: unset;
-    margin-top: unset;
-    display: flex;
-    column-gap: 0.5rem;
-  }
-</style>
+</Layout>

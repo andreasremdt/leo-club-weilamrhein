@@ -6,13 +6,13 @@ export interface Props extends astroHTML.JSX.HTMLAttributes {
 const { class: className, hasText } = Astro.props;
 ---
 
-<nav class:list={["navigation", className]}>
+<nav class:list={["flex gap-x-6", className]}>
   <a
     href="https://www.facebook.com/pages/Leo-Club-Weil-am-Rhein/189139934566022"
     target="_blank"
     rel="noopener nofollow noreferrer"
     title="Der Leo-Club auf Facebook"
-    class="link"
+    class="flex items-center gap-x-2 transition-colors hover:text-yellow-600"
   >
     <svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22">
       <path
@@ -27,7 +27,7 @@ const { class: className, hasText } = Astro.props;
     target="_blank"
     rel="noopener nofollow noreferrer"
     title="Der Leo-Club auf YouTube"
-    class="link"
+    class="flex items-center gap-x-2 transition-colors hover:text-yellow-600"
   >
     <svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22">
       <path
@@ -42,7 +42,7 @@ const { class: className, hasText } = Astro.props;
     target="_blank"
     rel="noopener nofollow noreferrer"
     title="Der Leo-Club auf Instagram"
-    class="link"
+    class="flex items-center gap-x-2 transition-colors hover:text-yellow-600"
   >
     <svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22">
       <path
@@ -53,24 +53,3 @@ const { class: className, hasText } = Astro.props;
     {hasText && "Instagram"}
   </a>
 </nav>
-
-<style>
-  .navigation {
-    display: flex;
-    align-items: center;
-    gap: 0 1rem;
-  }
-
-  .link {
-    transition: color 0.1s linear;
-    line-height: 1;
-    display: inline-flex;
-    align-items: center;
-    gap: 0 0.5rem;
-    color: hsl(var(--clr-gray-500));
-  }
-
-  .link:where(:hover, :focus-visible) {
-    color: hsl(var(--clr-primary));
-  }
-</style>

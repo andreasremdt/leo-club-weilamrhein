@@ -15,115 +15,34 @@ export interface Props {
 const { title, url, excerpt, date, thumbnail } = Astro.props;
 ---
 
-<Box as="article" class="preview" variant="small">
-  <div class="inner">
-    <h2 class="title">
-      <a class="link" href={url}>{title}</a>
-    </h2>
-
-    <time datetime={date} class="date">
-      Veröffentlicht am {formatDate(date)}
-    </time>
-
-    <p class="excerpt">{excerpt}...</p>
-
-    <Button href={url}>Weiterlesen</Button>
-  </div>
-
+<article class="box mb-8 flex gap-x-4 p-0">
   {
     thumbnail && (
-      <figure class="thumbnail">
+      <figure class="aspect-square w-1/3 flex-shrink-0">
         <Image
           src={thumbnail}
           category={getCategoryFromUrl(url)}
           width={300}
           height={300}
           alt={title}
-          class="image"
+          bordered
+          class="h-full w-full object-cover object-center"
         />
       </figure>
     )
   }
-</Box>
 
-<style>
-  :global(.preview) {
-    display: flex;
-    flex-direction: row-reverse;
-    overflow: hidden;
-    padding: unset !important;
-  }
+  <div class="p-4">
+    <h2 class="h2">
+      <a class="transition-colors hover:text-yellow-600" href={url}>{title}</a>
+    </h2>
 
-  :global(.preview:not(:last-child)) {
-    margin-bottom: 2rem;
-  }
+    <time datetime={date}>
+      Veröffentlicht am {formatDate(date)}
+    </time>
 
-  .inner {
-    padding: 1.5rem;
-  }
+    <p class="my-4">{excerpt}...</p>
 
-  .title {
-    line-height: 1.3;
-  }
-
-  .link {
-    transition: color 0.1s linear;
-  }
-
-  .link:where(:hover, :focus-visible) {
-    color: hsl(var(--clr-primary));
-  }
-
-  .date {
-    font-size: 14px;
-  }
-
-  .excerpt {
-    margin-block: 1rem;
-  }
-
-  .thumbnail {
-    position: relative;
-    display: flex;
-    background-color: hsl(var(--clr-gray-500));
-    max-width: 300px;
-    flex: 1 0 33%;
-  }
-
-  .thumbnail::before,
-  .thumbnail::after {
-    content: "";
-    position: absolute;
-    border: 1px solid hsl(var(--clr-white) / 0.8);
-    z-index: 1;
-  }
-
-  .thumbnail::before {
-    inset: calc(-2px + 1.5rem) calc(2px + 1.5rem);
-  }
-
-  .thumbnail::after {
-    inset: 1.5rem;
-  }
-
-  .image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  @media (max-width: 600px) {
-    .preview {
-      flex-direction: column-reverse;
-    }
-
-    .thumbnail {
-      max-width: 100%;
-      aspect-ratio: 16/9;
-    }
-
-    .title {
-      font-size: 20px;
-    }
-  }
-</style>
+    <a class="btn btn-primary" href={url}>Weiterlesen</a>
+  </div>
+</article>

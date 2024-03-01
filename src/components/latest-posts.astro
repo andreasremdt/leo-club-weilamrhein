@@ -12,38 +12,13 @@ const posts = (await Astro.glob("../pages/aktionen/**/*.md"))
 
 {
   posts.map((post) => (
-    <article class="post">
-      <h3 class="title">
-        <a href={post.url} class="link">
-          {post.frontmatter.title}
-        </a>
-      </h3>
-      <time datetime={post.frontmatter.date} class="date">
+    <article class="mb-4">
+      <h4 class="mb-1 text-lg font-bold leading-tight text-stone-900 transition-colors hover:text-yellow-600">
+        <a href={post.url}>{post.frontmatter.title}</a>
+      </h4>
+      <time datetime={post.frontmatter.date}>
         Veröffentlicht am {formatDate(post.frontmatter.date)}
       </time>
     </article>
   ))
 }
-
-<style>
-  .post:not(:last-child) {
-    margin-bottom: 1rem;
-  }
-
-  .title {
-    font-size: 17px;
-    line-height: 1.2;
-  }
-
-  .date {
-    font-size: 14px;
-  }
-
-  .link {
-    transition: color 0.1s linear;
-  }
-
-  .link:where(:hover, :focus-visible) {
-    color: hsl(var(--clr-primary));
-  }
-</style>

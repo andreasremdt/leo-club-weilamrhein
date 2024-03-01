@@ -16,13 +16,13 @@ export interface Props extends astroHTML.JSX.HTMLAttributes {
 const { images, width, height, galleryId, class: className } = Astro.props;
 ---
 
-<figure class:list={["gallery", className]}>
+<figure class="grid grid-cols-3 gap-1">
   {
     images.map((image) => (
       <a
         href={getCloudinaryUrl(`${image.category}/${image.src}`, "jpg", 1920)}
         data-fancybox={galleryId}
-        class="link"
+        class="overflow-hidden bg-yellow-600"
       >
         <Image
           src={image.src}
@@ -30,50 +30,12 @@ const { images, width, height, galleryId, class: className } = Astro.props;
           width={width}
           height={height}
           alt={image.alt || ""}
-          class="image"
+          class="transition-all duration-300 hover:scale-110 hover:opacity-70"
         />
       </a>
     ))
   }
 </figure>
-
-<style>
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-  }
-
-  .link {
-    background-color: hsl(var(--clr-gray-500));
-    border-radius: 2px;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .link::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: transparent url(/zoom-in.svg) no-repeat center;
-    opacity: 0;
-    transition:
-      opacity 0.1s linear,
-      transform 0.4s ease-out;
-    background-color: hsl(var(--clr-primary) / 0.6);
-    transform: scale(1);
-  }
-
-  .link:where(:hover, :focus-visible)::before {
-    opacity: 1;
-    transform: scale(1.2);
-  }
-
-  .image {
-    border-radius: 2px;
-    width: 100%;
-  }
-</style>
 
 <script>
   import { Fancybox } from "@fancyapps/ui";

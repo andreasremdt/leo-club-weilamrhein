@@ -1,31 +1,16 @@
 ---
+import type { HTMLAttributes } from "astro/types";
 import Twigs from "@/components/twigs.astro";
 
-export interface Props extends astroHTML.JSX.HTMLAttributes {
+export interface Props extends HTMLAttributes<"h1"> {
   as: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 }
 
 const { class: className, as: Tag } = Astro.props;
 ---
 
-<Tag class:list={["title", className]}>
-  <Twigs class="twigs" variant="light">
+<Tag class:list={["bg-stone-900 py-3", className]}>
+  <Twigs variant="light">
     <slot />
   </Twigs>
 </Tag>
-
-<style>
-  .title {
-    background-color: hsl(var(--clr-gray-500));
-    color: hsl(var(--clr-white));
-    padding-inline: 1rem;
-    border-radius: 2px;
-    margin-bottom: 1rem;
-  }
-
-  :global(.twigs) {
-    justify-content: space-between;
-    height: 44px;
-    font-size: 14px;
-  }
-</style>

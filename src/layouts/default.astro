@@ -1,0 +1,85 @@
+---
+import Header from "@/components/header.astro";
+import Footer from "@/components/footer.astro";
+import "@/styles/base.css";
+import Sidebar from "@/components/sidebar.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  hasSidebar?: boolean;
+  hasTitle?: boolean;
+  hasBackground?: boolean;
+  class?: string;
+}
+
+const {
+  title,
+  description,
+  image,
+  hasSidebar,
+  hasTitle,
+  hasBackground,
+  class: className,
+} = Astro.props;
+---
+
+<html lang="de" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Andreas Remdt" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f9c910" />
+
+    <meta property="og:title" content={`${title} | Leo-Club Weil am Rhein`} />
+    <meta property="og:description" content={description} />
+    {image ? <meta property="og:image" content={image} /> : null}
+    <meta property="og:site_name" content="Leo-Club Weil am Rhein" />
+    <meta property="og:url" content={Astro.url} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={`${title} | Leo-Club Weil am Rhein`} />
+    <meta name="twitter:description" content={description} />
+    {image ? <meta name="twitter:image" content={image} /> : null}
+
+    <title>{title} | Leo-Club Weil am Rhein</title>
+
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+  </head>
+  <body class="bg-stone-100 font-serif leading-relaxed text-stone-700">
+    <a
+      href="#content"
+      class="btn btn-primary absolute -top-1 left-1/2 z-10 -translate-x-1/2 -translate-y-full rounded-t-none transition-transform focus:translate-y-0"
+      >Zum Inhalt springen</a
+    >
+
+    <Header />
+
+    <main
+      class:list={[
+        "mx-auto max-w-7xl gap-8 px-2 py-16",
+        { "grid grid-cols-8": hasSidebar },
+      ]}
+      id="content"
+    >
+      {hasTitle ? <h1 class="h1 col-span-8">{title}</h1> : null}
+      <div
+        class:list={[
+          { "col-span-5 self-start": hasSidebar, box: hasBackground },
+          className,
+        ]}
+      >
+        <slot />
+      </div>
+
+      {hasSidebar ? <Sidebar /> : null}
+    </main>
+
+    <Footer />
+  </body>
+</html>

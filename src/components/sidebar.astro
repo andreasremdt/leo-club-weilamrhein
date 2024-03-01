@@ -2,48 +2,48 @@
 import Title from "@/components/title.astro";
 import SocialLinks from "@/components/social-links.astro";
 import LatestPosts from "@/components/latest-posts.astro";
-import Button from "@/components/button.astro";
-import Box from "@/components/box.astro";
-import Link from "@/components/link.astro";
 import { CATEGORIES } from "@/lib/helpers";
 ---
 
-<aside class="sidebar">
-  <Box class="centered" variant="small">
-    <Title as="h2">Über Uns</Title>
+<aside class="sticky top-8 col-span-3 space-y-8 self-start">
+  <section class="box space-y-4 text-center">
+    <Title as="h3">Über Uns</Title>
 
     <p>
       Wir sind Jugendliche und Erwachsene und engagieren uns für das Wohl von
       benachteiligten Menschen, etwa aus Kinder- oder Pflegeheimen.
     </p>
 
-    <Button href="/ueber-uns/">Erfahre mehr</Button>
-  </Box>
+    <a href="/ueber-uns/" class="btn btn-primary">Erfahre mehr</a>
+  </section>
 
-  <Box class="centered" variant="small">
-    <Title as="h2">Netzwerke</Title>
+  <section class="box space-y-4 text-center">
+    <Title as="h3">Netzwerke</Title>
 
     <p>
       Folge uns in den sozialen Netzwerken, um keine Neuigkeiten zu verpassen!
     </p>
 
-    <SocialLinks class="social" />
-  </Box>
+    <SocialLinks class="justify-center" />
+  </section>
 
-  <Box variant="small">
-    <Title as="h2">Aktuelles</Title>
+  <section class="box space-y-4">
+    <Title as="h3">Aktuelles</Title>
 
     <LatestPosts />
-  </Box>
+  </section>
 
-  <Box variant="small">
-    <Title as="h2">Kategorien</Title>
+  <section class="box space-y-4">
+    <Title as="h3">Kategorien</Title>
 
-    <ul class="categories">
+    <ul class="ml-2">
       {
         CATEGORIES.map((category) => (
           <li>
-            <Link class="link" href={category.slug}>
+            <a
+              class="flex items-center gap-x-2 transition-colors hover:text-yellow-600"
+              href={category.slug}
+            >
               <svg
                 viewBox="0 0 24 24"
                 width="18"
@@ -56,51 +56,10 @@ import { CATEGORIES } from "@/lib/helpers";
                 />
               </svg>
               {category.title}
-            </Link>
+            </a>
           </li>
         ))
       }
     </ul>
-  </Box>
+  </section>
 </aside>
-
-<style>
-  .sidebar {
-    position: sticky;
-    top: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-
-  .social {
-    margin-top: 1rem;
-    justify-content: center;
-  }
-
-  .link {
-    transition: color 0.1s linear;
-    display: flex;
-    column-gap: 0.5rem;
-    align-items: center;
-  }
-
-  .link:where(:hover, :focus-visible, .active) {
-    color: hsl(var(--clr-primary));
-  }
-
-  .button {
-    margin-top: 1rem;
-  }
-
-  .categories {
-    list-style-type: none;
-    padding-left: unset;
-  }
-
-  @media (max-width: 62.5rem) {
-    .sidebar {
-      margin-top: 1.5rem;
-    }
-  }
-</style>

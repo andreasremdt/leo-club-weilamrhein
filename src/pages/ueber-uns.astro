@@ -1,87 +1,88 @@
 ---
-import PageLayout from "@/layouts/page-layout.astro";
+import Layout from "@/layouts/default.astro";
 import Image from "@/components/image.astro";
-import Box from "@/components/box.astro";
 ---
 
-<PageLayout
+<Layout
   title="Über Uns"
   description="Unser Club wurde 2009 durch Schüler der ehemaligen Schülerzeitung Sch'cool gegründet. Erfahre mehr auf dieser Seite."
+  hasSidebar
+  hasTitle
+  hasBackground
+  class="prose max-w-none prose-a:border-b prose-a:border-yellow-600 prose-a:no-underline prose-a:transition-colors hover:prose-a:border-stone-900 prose-img:shadow-lg"
 >
-  <Box as="main">
-    <p>
-      Wir setzen uns für unsere Mitmenschen ein - zusammen mit tausenden anderen <a
-        href="https://www.leo-clubs.de/"
-        target="_blank"
-        rel="noopener nofollow noreferrer">gleichartigen Clubs weltweit</a
-      >. Gegründet und ansässig in Weil am Rhein, bestehen wir aus rund 7
-      aktiven Mitgliedern und weiteren Gästen, welche diverse Aktionen planen
-      und durchführen. Seit unserer Clubgründung haben wir bereits mehr als 100
-      Aktionen durchgeführt und vielen Menschen - seien es Kinder, Menschen mit
-      Behinderung oder Pflegebedürfige - eine schöne Zeit beschert.
-    </p>
+  <p>
+    Wir setzen uns für unsere Mitmenschen ein - zusammen mit tausenden anderen <a
+      href="https://www.leo-clubs.de/"
+      target="_blank"
+      rel="noopener nofollow noreferrer">gleichartigen Clubs weltweit</a
+    >. Gegründet und ansässig in Weil am Rhein, bestehen wir aus rund 7 aktiven
+    Mitgliedern und weiteren Gästen, welche diverse Aktionen planen und
+    durchführen. Seit unserer Clubgründung haben wir bereits mehr als 100
+    Aktionen durchgeführt und vielen Menschen - seien es Kinder, Menschen mit
+    Behinderung oder Pflegebedürfige - eine schöne Zeit beschert.
+  </p>
 
-    <Image
-      src="78-01.jpg"
-      category="begegnungen"
-      width={800}
-      height={450}
-      alt="Hausbootfahrt mit Bewohnern des Markus-Pflüger-Heim"
-      loading="eager"
-    />
+  <Image
+    src="78-01.jpg"
+    category="begegnungen"
+    width={800}
+    height={450}
+    alt="Hausbootfahrt mit Bewohnern des Markus-Pflüger-Heim"
+    loading="eager"
+  />
 
-    <p>
-      Unser Club wurde im Jahr 2009 nach einer längeren Planungsphase unter der
-      Patenschaft des <a
-        href="https://www.leo-clubs.de/"
-        target="_blank"
-        rel="noopener nofollow noreferrer">Lions Clubs Weil am Rhein</a
-      > gegründet. Die offizielle Gründungsfeier fand am 19. September 2009 im Pflegeheim
-      Markgräflerland in Weil am Rhein statt. Zusammen mit Mitgliedern des Lions
-      Clubs hatte das junge Ehepaar Leyla und Murat Kükner ein Konzept zur Gründung
-      des Clubs entwickelt.
-    </p>
+  <p>
+    Unser Club wurde im Jahr 2009 nach einer längeren Planungsphase unter der
+    Patenschaft des <a
+      href="https://www.leo-clubs.de/"
+      target="_blank"
+      rel="noopener nofollow noreferrer">Lions Clubs Weil am Rhein</a
+    > gegründet. Die offizielle Gründungsfeier fand am 19. September 2009 im Pflegeheim
+    Markgräflerland in Weil am Rhein statt. Zusammen mit Mitgliedern des Lions Clubs
+    hatte das junge Ehepaar Leyla und Murat Kükner ein Konzept zur Gründung des Clubs
+    entwickelt.
+  </p>
 
-    <p>
-      In der Gründungsversammlung wurde Leyla zur Gründungspräsidentin gewählt.
-      Ein Jahr später wurde Murat ihr Nachfolger. Seit der Clubgründung haben
-      sich zahlreiche Unternehmungen fest etabliert. Ganz wichtig sind uns die
-      Unternehmungen im Rahmen des übernommenen früheren Schulprojekts
-      "Begegnungen mit Menschen mit Behinderung". Mindestens einmal im Monat
-      kommt es zu einem Treffen mit Bewohnern des <a
-        href="http://www.markus-pflueger-heim.de/"
-        target="_blank"
-        rel="noopener nofollow noreferrer">Markus-Pfüger-Heims</a
-      > in Wiechs. Neben zahlreichen Tagesausflügen stehen auch mehrtägige Freizeiten
-      auf dem Programm. Im Rahmen der finanziellen Machbarkeit wird angestrebt, jedes
-      Jahr eine gemeinsame Hausbootfahrt in Frankreich durchzuführen.
-    </p>
+  <p>
+    In der Gründungsversammlung wurde Leyla zur Gründungspräsidentin gewählt.
+    Ein Jahr später wurde Murat ihr Nachfolger. Seit der Clubgründung haben sich
+    zahlreiche Unternehmungen fest etabliert. Ganz wichtig sind uns die
+    Unternehmungen im Rahmen des übernommenen früheren Schulprojekts
+    "Begegnungen mit Menschen mit Behinderung". Mindestens einmal im Monat kommt
+    es zu einem Treffen mit Bewohnern des <a
+      href="http://www.markus-pflueger-heim.de/"
+      target="_blank"
+      rel="noopener nofollow noreferrer">Markus-Pfüger-Heims</a
+    > in Wiechs. Neben zahlreichen Tagesausflügen stehen auch mehrtägige Freizeiten
+    auf dem Programm. Im Rahmen der finanziellen Machbarkeit wird angestrebt, jedes
+    Jahr eine gemeinsame Hausbootfahrt in Frankreich durchzuführen.
+  </p>
 
-    <Image
-      src="20-01.jpg"
-      category="pflegeheim"
-      width={800}
-      height={450}
-      alt="Hausbootfahrt mit Bewohnern des Markus-Pflüger-Heim"
-      loading="eager"
-    />
+  <Image
+    src="20-01.jpg"
+    category="pflegeheim"
+    width={800}
+    height={450}
+    alt="Hausbootfahrt mit Bewohnern des Markus-Pflüger-Heim"
+    loading="eager"
+  />
 
-    <p>
-      Im Laufe der Zeit kamen immer wieder neue Aktivitäten dazu, so zum
-      Beispiel die Ausflüge mit Kindern suchtkranker Eltern, bei denen wir mit
-      der Organisation <a
-        href="http://www.kisel.de/"
-        target="_blank"
-        rel="noopener nofollow noreferrer">KiSEL in Lörrach</a
-      > zusammenarbeiten.
-    </p>
+  <p>
+    Im Laufe der Zeit kamen immer wieder neue Aktivitäten dazu, so zum Beispiel
+    die Ausflüge mit Kindern suchtkranker Eltern, bei denen wir mit der
+    Organisation <a
+      href="http://www.kisel.de/"
+      target="_blank"
+      rel="noopener nofollow noreferrer">KiSEL in Lörrach</a
+    > zusammenarbeiten.
+  </p>
 
-    <p>
-      Wir planen, auch in Zukunft so weiterzumachen wie bisher. Dabei sind wir
-      für Interessierte und neue Mitglieder immer offen und haben bei den
-      meisten Aktionen noch ein Plätzchen frei. Haben wir dein Interesse
-      geweckt? <a href="/mitglied-werden/">Hier</a> erhälst du mehr Informationen,
-      wie man Leo wird.
-    </p>
-  </Box>
-</PageLayout>
+  <p>
+    Wir planen, auch in Zukunft so weiterzumachen wie bisher. Dabei sind wir für
+    Interessierte und neue Mitglieder immer offen und haben bei den meisten
+    Aktionen noch ein Plätzchen frei. Haben wir dein Interesse geweckt? <a
+      href="/mitglied-werden/">Hier</a
+    > erhälst du mehr Informationen, wie man Leo wird.
+  </p>
+</Layout>

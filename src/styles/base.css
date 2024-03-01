@@ -1,227 +1,103 @@
 @import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
 @font-face {
-	font-family: Lora;
-	font-style: normal;
-	font-weight: 700;
-	src: local("Lora Bold"), local("Lora-Bold"), url(/fonts/lora-bold.woff2) format("woff2");
-	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
-	font-display: swap;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local("Lora Bold"),
+    local("Lora-Bold"),
+    url(/fonts/lora-bold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+  font-display: swap;
 }
 @font-face {
-	font-family: Lora;
-	font-style: normal;
-	font-weight: 400;
-	src: local("Lora Regular"), local("Lora-Regular"), url(/fonts/lora-regular.woff2) format("woff2");
-	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
-	font-display: swap;
+  font-family: Lora;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Lora Regular"),
+    local("Lora-Regular"),
+    url(/fonts/lora-regular.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: Open Sans;
-	font-style: normal;
-	font-weight: 400;
-	src: local("Open Sans Regular"), local("OpenSans-Regular"), url(/fonts/open-sans-regular.woff2) format("woff2");
-	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
-	font-display: swap;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Open Sans Regular"),
+    local("OpenSans-Regular"),
+    url(/fonts/open-sans-regular.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: Open Sans;
-	font-style: normal;
-	font-weight: 600;
-	src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(/fonts/open-sans-semibold.woff2) format("woff2");
-	unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215;
-	font-display: swap;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local("Open Sans SemiBold"),
+    local("OpenSans-SemiBold"),
+    url(/fonts/open-sans-semibold.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+  font-display: swap;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: unset;
-}
-
-ul[role="list"],
-ol[role="list"] {
-  list-style: none;
-}
-
-ul,
-ol {
-  margin-bottom: unset;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  color: hsl(var(--clr-gray-500));
-}
-
-p,
-ul,
-ol {
-  font-size: 15px;
-}
-
-p + p {
-  margin-top: 1rem;
-}
-
-p + picture > img,
-p + iframe {
-  margin-block: 2rem;
-}
-
-p + :where(h1, h2, h3, h4, h5, h6),
-table + :where(h1, h2, h3, h4, h5, h6),
-ul + :where(h1, h2, h3, h4, h5, h6) {
-  margin-top: 2rem;
-}
-
-p > a,
-td > a {
-  border-bottom: 1px solid hsl(var(--clr-primary));
-  transition: color 0.1s linear, border-color 0.1s linear;
-}
-
-p > a:where(:hover, :focus-visible),
-td > a:where(:hover, :focus-visible) {
-  color: hsl(var(--clr-gray-500));
-  border-color: hsl(var(--clr-gray-500));
-}
-
-html:focus-within {
-  scroll-behavior: smooth;
-}
-
-body {
-  min-height: 100vh;
-  font-family: var(--ff-serif);
-  text-rendering: optimizeSpeed;
-  color: var(--clr-gray-400);
-  line-height: 1.7;
-  background-color: hsl(var(--clr-gray-100));
-}
-
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-img,
-picture {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
-  padding: unset;
-  font-family: var(--ff-sans);
-  color: inherit;
-  width: 100%;
-}
-
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
-  appearance: none;
-}
-
-svg,
-img {
-  vertical-align: middle;
-}
-
-iframe {
-  width: 100%;
-  height: 100%;
-  aspect-ratio: 16/9;
-  border: unset;
-  vertical-align: middle;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 15px;
-}
-
-th {
-  text-align: left;
-  color: hsl(var(--clr-gray-500));
-}
-
-th,
-td {
-  padding: 0.5rem;
-}
-
-tr:not(:last-child) {
-  border-bottom: 1px solid hsl(var(--clr-gray-200));
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-    scroll-behavior: auto;
-  }
-
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+@layer base {
+  iframe {
+    @apply aspect-video h-auto w-full shadow-xl;
   }
 }
 
-.container {
-  width: clamp(16rem, calc(100vw - 2rem), 80rem);
-  margin-inline: auto;
-}
+@layer components {
+  .box {
+    @apply bg-white p-4 shadow-md shadow-stone-200;
+  }
 
-.centered {
-  text-align: center;
-}
+  .btn {
+    @apply inline-flex h-10 cursor-pointer items-center rounded-sm border px-6 font-sans text-sm font-semibold uppercase transition-colors focus-visible:outline-none focus-visible:ring-4 disabled:pointer-events-none disabled:cursor-not-allowed;
+  }
 
-.error {
-  color: hsl(var(--clr-red));
-  font-size: 13px;
-  position: absolute;
-  font-family: var(--ff-sans);
-  top: 100%;
-  right: 0;
-}
+  .btn-primary {
+    @apply border-yellow-600 bg-white text-yellow-600 hover:border-stone-900 hover:text-stone-900;
+  }
+  .label {
+    @apply mb-1 block font-medium text-gray-900;
+  }
 
-::selection {
-  background-color: hsl(var(--clr-primary) / 0.5);
-  color: hsl(var(--clr-gray-500));
+  .link {
+    @apply border-b border-yellow-600 text-stone-900 transition-colors hover:border-stone-900;
+  }
+
+  .h1 {
+    @apply text-4xl font-bold leading-none text-stone-900;
+  }
+
+  .h2 {
+    @apply text-2xl font-bold leading-none text-stone-900;
+  }
+
+  .label {
+    @apply mb-1 block font-bold text-stone-900;
+  }
+
+  .input {
+    @apply h-10 w-full border border-stone-300;
+  }
+
+  .bordered {
+    @apply relative block before:absolute before:bottom-3 before:left-5 before:right-5 before:top-3 before:border before:border-white after:absolute after:inset-4 after:border after:border-white;
+  }
 }

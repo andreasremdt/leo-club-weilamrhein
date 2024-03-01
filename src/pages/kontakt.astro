@@ -1,26 +1,27 @@
 ---
-import PageLayout from "@/layouts/page-layout.astro";
+import Layout from "@/layouts/default.astro";
 import ContactForm from "@/components/contact-form.astro";
-import Box from "@/components/box.astro";
 ---
 
-<PageLayout
+<Layout
   title="Kontakt aufnehmen"
   description="Fragen, Anfragen oder sonstige Nachrichten kannst du uns hier gerne direkt zusenden. Wir freuen uns über jede Nachricht."
+  hasSidebar
+  hasTitle
+  hasBackground
+  class="prose max-w-none prose-a:border-b prose-a:border-yellow-600 prose-a:no-underline prose-a:transition-colors hover:prose-a:border-stone-900 prose-img:shadow-lg"
 >
-  <Box as="main">
-    <p>
-      Wir freuen uns, dass du Kontakt mit uns aufnehmen möchtest. Fülle dazu
-      einfach das Formular aus und klicke anschließend auf “Senden”.
-    </p>
+  <p>
+    Wir freuen uns, dass du Kontakt mit uns aufnehmen möchtest. Fülle dazu
+    einfach das Formular aus und klicke anschließend auf “Senden”.
+  </p>
 
-    <p>
-      Alternativ kannst du uns auch direkt per E-Mail an <a
-        href="mailto:kontakt@leo-club-weilamrhein.de"
-        >kontakt@leo-club-weilamrhein.de</a
-      > anschreiben. Wir melden uns bei dir so schnell wie möglich.
-    </p>
+  <p>
+    Alternativ kannst du uns auch direkt per E-Mail an <a
+      href="mailto:kontakt@leo-club-weilamrhein.de"
+      >kontakt@leo-club-weilamrhein.de</a
+    > anschreiben. Wir melden uns bei dir so schnell wie möglich.
+  </p>
 
-    <ContactForm />
-  </Box>
-</PageLayout>
+  <ContactForm />
+</Layout>

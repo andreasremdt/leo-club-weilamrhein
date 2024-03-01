@@ -1,5 +1,5 @@
 ---
-import PageLayout from "@/layouts/page-layout.astro";
+import Layout from "@/layouts/default.astro";
 import Box from "@/components/box.astro";
 import { formatDate } from "@/lib/helpers";
 
@@ -10,78 +10,95 @@ const posts = (await Astro.glob("./aktionen/**/*.md")).sort(
 );
 ---
 
-<PageLayout
+<Layout
   title="Sitemap"
   description="Hier finden Sie eine Übersicht all unserer Seiten und Berichte."
+  hasSidebar
+  hasTitle
+  hasBackground
+  class=""
 >
-  <Box as="main">
-    <h2>Seiten</h2>
-    <ul>
-      <li>
-        <a href="/" class="link">Startseite</a>
-      </li>
-      <li>
-        <a href="/aktionen/" class="link">Aktionen</a>
-        <ul>
-          <li>
-            <a href="/aktionen/begegnungen/" class="link"
-              >Begegnungen mit Menschen mit Behinderung</a
-            >
-          </li>
-          <li>
-            <a href="/aktionen/kinder/" class="link">Ausflüge mit Kindern</a>
-          </li>
-          <li>
-            <a href="/aktionen/pflegeheim/" class="link"
-              >Besuche im Pflegeheim</a
-            >
-          </li>
-          <li>
-            <a href="/aktionen/weitere/" class="link">Weitere Aktionen</a>
-          </li>
-          <li>
-            <a href="/aktionen/news/" class="link">Neuigkeiten</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="/ueber-uns/" class="link">Über Uns</a>
-      </li>
-      <li>
-        <a href="/mitglied-werden/" class="link">Mitglied werden</a>
-      </li>
-      <li>
-        <a href="/kontakt/" class="link">Kontakt</a>
-      </li>
-      <li>
-        <a href="/impressum/" class="link">Impressum</a>
-      </li>
-      <li>
-        <a href="/datenschutz/" class="link">Datenschutz</a>
-      </li>
-    </ul>
+  <h2 class="h2 mb-4">Seiten</h2>
+  <ul class="list-disc pl-8">
+    <li>
+      <a class="transition-colors hover:text-yellow-600" href="/">Startseite</a>
+    </li>
+    <li>
+      <a class="transition-colors hover:text-yellow-600" href="/aktionen/"
+        >Aktionen</a
+      >
+      <ul class="list-disc pl-8">
+        <li>
+          <a
+            class="transition-colors hover:text-yellow-600"
+            href="/aktionen/begegnungen/"
+            >Begegnungen mit Menschen mit Behinderung</a
+          >
+        </li>
+        <li>
+          <a
+            class="transition-colors hover:text-yellow-600"
+            href="/aktionen/kinder/">Ausflüge mit Kindern</a
+          >
+        </li>
+        <li>
+          <a
+            class="transition-colors hover:text-yellow-600"
+            href="/aktionen/pflegeheim/">Besuche im Pflegeheim</a
+          >
+        </li>
+        <li>
+          <a
+            class="transition-colors hover:text-yellow-600"
+            href="/aktionen/weitere/">Weitere Aktionen</a
+          >
+        </li>
+        <li>
+          <a
+            class="transition-colors hover:text-yellow-600"
+            href="/aktionen/news/">Neuigkeiten</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a class="transition-colors hover:text-yellow-600" href="/ueber-uns/"
+        >Über Uns</a
+      >
+    </li>
+    <li>
+      <a
+        class="transition-colors hover:text-yellow-600"
+        href="/mitglied-werden/">Mitglied werden</a
+      >
+    </li>
+    <li>
+      <a class="transition-colors hover:text-yellow-600" href="/kontakt/"
+        >Kontakt</a
+      >
+    </li>
+    <li>
+      <a class="transition-colors hover:text-yellow-600" href="/impressum/"
+        >Impressum</a
+      >
+    </li>
+    <li>
+      <a class="transition-colors hover:text-yellow-600" href="/datenschutz/"
+        >Datenschutz</a
+      >
+    </li>
+  </ul>
 
-    <h2>Berichte</h2>
-    <ul>
-      {
-        posts.map((post) => (
-          <li>
-            <a href={post.url} class="link">
-              {formatDate(post.frontmatter.date)} - {post.frontmatter.title}
-            </a>
-          </li>
-        ))
-      }
-    </ul>
-  </Box>
-</PageLayout>
-
-<style>
-  .link {
-    transition: color 0.1s linear;
-  }
-
-  .link:where(:hover, :focus-visible) {
-    color: hsl(var(--clr-primary));
-  }
-</style>
+  <h2 class="h2 mb-4 mt-8">Berichte</h2>
+  <ul class="list-disc pl-8">
+    {
+      posts.map((post) => (
+        <li>
+          <a class="transition-colors hover:text-yellow-600" href={post.url}>
+            {formatDate(post.frontmatter.date)} - {post.frontmatter.title}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>
