@@ -63,14 +63,17 @@ const {
     <main
       class:list={[
         "mx-auto max-w-7xl gap-8 px-2 py-16",
-        { "grid grid-cols-8": hasSidebar },
+        { "grid grid-cols-12": hasSidebar },
       ]}
       id="content"
     >
-      {hasTitle ? <h1 class="h1 col-span-8">{title}</h1> : null}
+      {hasTitle ? <h1 class="h1 col-span-12">{title}</h1> : null}
       <div
         class:list={[
-          { "col-span-5 self-start": hasSidebar, box: hasBackground },
+          {
+            "col-span-8 self-start": hasSidebar,
+            "box px-12": hasBackground,
+          },
           className,
         ]}
       >
