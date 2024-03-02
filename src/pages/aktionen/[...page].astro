@@ -4,7 +4,6 @@ import { getPosts } from "@/lib/utils";
 import PostPreview from "@/components/post-preview.astro";
 import Layout from "@/layouts/default.astro";
 import CategorySelector from "@/components/category-selector.astro";
-import { getPostThumbnail } from "@/lib/utils";
 
 export let getStaticPaths = (async ({ paginate }) => {
   let posts = await getPosts();
@@ -29,7 +28,7 @@ let { page } = Astro.props;
         title={entry.data.title}
         date={entry.data.created_at}
         url={entry.slug}
-        thumbnail={getPostThumbnail(entry)}
+        thumbnail={entry.data.images?.[0].src}
         excerpt={entry.body.slice(0, 200)}
       />
     ))

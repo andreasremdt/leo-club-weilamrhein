@@ -4,13 +4,11 @@ import { getPosts } from "@/lib/utils";
 import PostPreview from "@/components/post-preview.astro";
 import Layout from "@/layouts/default.astro";
 import CategorySelector from "@/components/category-selector.astro";
-import { getCategory, getPostThumbnail } from "@/lib/utils";
+import { getCategory } from "@/lib/utils";
 
 export let getStaticPaths = (async ({ paginate }) => {
   let posts = await getPosts();
-  let categories = new Set<string>(
-    posts.map((post) => getCategory(post.slug)).flat(),
-  );
+  let categories = new Set(posts.map((post) => getCategory(post.slug)).flat());
 
   return Array.from(categories).flatMap((category) => {
     return paginate(
@@ -37,7 +35,7 @@ let { page } = Astro.props;
         title={entry.data.title}
         date={entry.data.created_at}
         url={entry.slug}
-        thumbnail={getPostThumbnail(entry)}
+        thumbnail={entry.data.images?.[0].src}
         excerpt={entry.body.slice(0, 200)}
       />
     ))
