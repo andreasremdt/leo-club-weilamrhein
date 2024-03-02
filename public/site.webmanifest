@@ -1,6 +1,6 @@
 {
   "name": "Leo-Club Weil am Rhein",
-  "short_name": "Leo-Club",
+  "short_name": "Leo-Club Weil am Rhein",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#cc9a3e",
+  "theme_color": "#ca8a04",
   "background_color": "#ffffff",
   "display": "browser"
 }
