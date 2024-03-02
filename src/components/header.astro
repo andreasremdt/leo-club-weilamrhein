@@ -1,6 +1,4 @@
 ---
-import Ribbon from "@/components/ribbon.astro";
-import Twigs from "@/components/twigs.astro";
 import { Picture } from "astro:assets";
 ---
 
@@ -17,6 +15,7 @@ import { Picture } from "astro:assets";
         width={75}
         height={75}
         quality={80}
+        loading="eager"
       />
       <span class="sr-only">Startseite</span>
     </a>

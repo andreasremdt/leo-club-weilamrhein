@@ -5,7 +5,6 @@ import Title from "@/components/title.astro";
 import Gallery from "@/components/gallery.astro";
 import { getPosts } from "@/lib/utils";
 import Picture from "astro/components/Picture.astro";
-import { width, height } from "tailwindcss/defaultTheme";
 
 const images = (await getPosts())
   .map((post) => {
@@ -19,7 +18,7 @@ const images = (await getPosts())
   .slice(0, 9) as { src: string; alt?: string }[];
 ---
 
-<footer class="bg-white py-8 shadow-lg shadow-stone-200">
+<footer class="shadow-upsert bg-white py-8">
   <div class="mx-auto grid max-w-7xl grid-cols-4 gap-8 px-2">
     <section>
       <Title as="h3" class="mb-8">Über Uns</Title>

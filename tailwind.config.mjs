@@ -6,11 +6,14 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
-			fontFamily: {
-				sans: ["Open Sans", ...theme.fontFamily.sans],
-				serif: ["Lora", ...theme.fontFamily.serif]
-			}
-		},
+      fontFamily: {
+        sans: ["Open Sans", ...theme.fontFamily.sans],
+        serif: ["Lora", ...theme.fontFamily.serif],
+      },
+      boxShadow: {
+        upsert: "0 -10px 15px -3px #e7e5e4",
+      },
+    },
   },
   plugins: [typography],
 };
