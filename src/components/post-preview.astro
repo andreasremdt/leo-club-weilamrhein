@@ -39,7 +39,7 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
       >
     </h2>
 
-    <time datetime={date.toISOString()}>
+    <time datetime={date.toISOString()} class="text-sm text-stone-500">
       Veröffentlicht am {formatDate(date)}
     </time>
 

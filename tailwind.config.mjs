@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Open Sans", ...theme.fontFamily.sans],
+        sans: ["Titillium Web", ...theme.fontFamily.sans],
         serif: ["Lora", ...theme.fontFamily.serif],
       },
       boxShadow: {
