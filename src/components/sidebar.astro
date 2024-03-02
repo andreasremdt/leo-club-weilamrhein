@@ -1,5 +1,4 @@
 ---
-import Title from "@/components/title.astro";
 import SocialLinks from "@/components/social-links.astro";
 import LatestPosts from "@/components/latest-posts.astro";
 import { CATEGORIES } from "@/lib/utils";
@@ -7,7 +6,7 @@ import { CATEGORIES } from "@/lib/utils";
 
 <aside class="sticky top-8 col-span-4 space-y-8 self-start">
   <section class="box space-y-4 text-center">
-    <Title as="h3">Über Uns</Title>
+    <h3 class="title">Über Uns</h3>
 
     <p>
       Wir sind Jugendliche und Erwachsene und engagieren uns für das Wohl von
@@ -18,7 +17,7 @@ import { CATEGORIES } from "@/lib/utils";
   </section>
 
   <section class="box space-y-4 text-center">
-    <Title as="h3">Netzwerke</Title>
+    <h3 class="title">Netzwerke</h3>
 
     <p>
       Folge uns in den sozialen Netzwerken, um keine Neuigkeiten zu verpassen!
@@ -28,13 +27,13 @@ import { CATEGORIES } from "@/lib/utils";
   </section>
 
   <section class="box space-y-4">
-    <Title as="h3">Aktuelles</Title>
+    <h3 class="title">Aktuelles</h3>
 
     <LatestPosts />
   </section>
 
   <section class="box space-y-4">
-    <Title as="h3">Kategorien</Title>
+    <h3 class="title">Kategorien</h3>
 
     <ul class="ml-2">
       {

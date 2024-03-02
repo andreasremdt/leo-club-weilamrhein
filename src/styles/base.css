@@ -67,7 +67,7 @@
   }
 
   .button {
-    @apply inline-flex h-10 cursor-pointer items-center rounded-sm border border-yellow-600 bg-white px-6 font-sans text-sm font-semibold uppercase text-yellow-600 transition-colors focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-yellow-600/20 enabled:hover:border-stone-900 enabled:hover:text-stone-900 disabled:cursor-not-allowed disabled:opacity-70;
+    @apply inline-flex h-10 cursor-pointer items-center rounded-sm border border-yellow-600 bg-white px-6 font-sans text-sm font-semibold uppercase text-yellow-600 transition-colors hover:border-stone-900 hover:text-stone-900 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-yellow-600/20 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-70;
   }
 
   .label {
@@ -76,6 +76,13 @@
 
   .link {
     @apply border-b border-yellow-600 text-stone-900 outline-none transition-colors hover:border-stone-900 focus-visible:ring-4 focus-visible:ring-yellow-600/20 focus-visible:ring-offset-2;
+  }
+
+  .title {
+    @apply bg-stone-900 bg-no-repeat py-3 text-center font-sans text-sm font-semibold uppercase text-white;
+
+    background-image: url(/leafs-left.svg), url(/leafs-right.svg);
+    background-position: 1rem, calc(100% - 1rem);
   }
 
   .h1 {

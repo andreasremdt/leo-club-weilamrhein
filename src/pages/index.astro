@@ -1,7 +1,6 @@
 ---
 import { Picture } from "astro:assets";
 import Layout from "@/layouts/default.astro";
-import Title from "@/components/title.astro";
 ---
 
 <Layout
@@ -23,21 +22,9 @@ import Title from "@/components/title.astro";
     <figcaption
       class="box absolute bottom-0 left-1/2 w-2/3 -translate-x-1/2 translate-y-1/2 space-y-4 p-8 text-center"
     >
-      <h1 class="h1">Miteinander statt Gegeneinander</h1>
-
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 9.538 6.882"
-        width="42"
-        height="42"
-        aria-hidden="true"
-        class="mx-auto"
-      >
-        <path
-          d="M.757 4.31s.457.41.928.41l-.209.214C.902 4.281 0 5.091 0 5.091s.458.41.929.41l-.14.143c-.66.15-.73 1.172-.73 1.172s.986-.074 1.132-.754l.14-.146c0 .487.397.96.397.96s.783-.93.153-1.526l.21-.214c0 .486.396.96.396.96s.783-.931.15-1.527l.21-.214c0 .487.397.96.397.96s.783-.93.153-1.526l.21-.214c0 .486.396.96.396.96s.783-.931.154-1.527l.613-.635.617.635c-.63.596.15 1.53.15 1.53s.398-.474.398-.96l.209.213c-.633.596.15 1.53.15 1.53s.397-.474.397-.96l.21.214c-.633.595.15 1.526.15 1.526s.397-.47.397-.96l.209.214c-.632.595.15 1.527.15 1.527s.398-.474.398-.96l.14.142c.145.683 1.132.754 1.132.754s-.071-1.021-.727-1.172l-.14-.145c.47 0 .928-.41.928-.41s-.9-.81-1.476-.16l-.21-.213c.472 0 .93-.41.93-.41s-.903-.81-1.48-.157l-.206-.214c.471 0 .926-.41.926-.41s-.9-.81-1.476-.159l-.21-.214c.472 0 .93-.41.93-.41s-.903-.81-1.477-.156l-.616-.635L6.66.415 6.257 0 4.77 1.537 3.286 0l-.402.418 1.487 1.537-.614.635c-.574-.65-1.476.159-1.476.159s.457.407.928.41L3 3.373c-.574-.65-1.476.157-1.476.157s.458.41.929.41l-.21.214C1.67 3.5.768 4.31.768 4.31z"
-          fill="currentColor"></path>
-      </svg>
-
+      <h1 class="h1 bg-[url(/leafs-center.svg)] bg-bottom bg-no-repeat pb-16">
+        Miteinander statt Gegeneinander
+      </h1>
       <p>
         Der Leo-Club Weil am Rhein ist ein sozial engagierter Jugendclub aus dem
         Dreiländereck, dessen Mitglieder sich für Menschen mit Behinderung,
@@ -49,7 +36,7 @@ import Title from "@/components/title.astro";
 
   <div class="grid grid-cols-3 gap-x-8">
     <article class="box space-y-4 text-center">
-      <Title as="h2" class="">Engagieren</Title>
+      <h2 class="title">Engagieren</h2>
       <p>
         Wir sind Freiwillige im Alter zwischen 14 und 30 Jahren, welche sich
         ehrenamtlich für benachteiligte Menschen einsetzen.
@@ -58,7 +45,7 @@ import Title from "@/components/title.astro";
     </article>
 
     <article class="box space-y-4 text-center">
-      <Title as="h2" class="">Bewegen</Title>
+      <h2 class="title">Bewegen</h2>
       <p>
         Wir unternehmen Ausflüge mit Kindern oder Bewohnern eines Pflegeheims,
         sammeln Spenden oder arbeiten mit den Lions zusammen.
@@ -67,7 +54,7 @@ import Title from "@/components/title.astro";
     </article>
 
     <article class="box space-y-4 text-center">
-      <Title as="h2" class="">Mitmachen</Title>
+      <h2 class="title">Mitmachen</h2>
       <p>
         Unser Ziel ist eine Gesellschaft, in der sich jeder sozial engagiert und
         für hilfsbedürftige Menschen einsetzt.
