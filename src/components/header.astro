@@ -1,6 +1,7 @@
 ---
 import Ribbon from "@/components/ribbon.astro";
 import Twigs from "@/components/twigs.astro";
+import { Picture } from "astro:assets";
 ---
 
 <header class="bg-white px-2 shadow-lg shadow-stone-200">
@@ -9,14 +10,15 @@ import Twigs from "@/components/twigs.astro";
       class="order-2 flex flex-col items-center outline-none focus-visible:ring-4 focus-visible:ring-yellow-600/20 focus-visible:ring-offset-2"
       href="/"
     >
+      <Picture
+        src="https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/logo.png"
+        formats={["avif", "webp"]}
+        alt="logo des leo clubs"
+        width={75}
+        height={75}
+        quality={80}
+      />
       <span class="sr-only">Startseite</span>
-      <Ribbon variant="dark">Leo-Clubs</Ribbon>
-      <span
-        aria-hidden="true"
-        class="my-2 block text-2xl font-bold text-yellow-600"
-        >Leo-Club Weil am Rhein</span
-      >
-      <Twigs variant="dark">Seit 2009</Twigs>
     </a>
 
     <a

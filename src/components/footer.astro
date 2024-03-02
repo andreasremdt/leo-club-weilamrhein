@@ -3,28 +3,37 @@ import SocialLinks from "@/components/social-links.astro";
 import LatestPosts from "@/components/latest-posts.astro";
 import Title from "@/components/title.astro";
 import Gallery from "@/components/gallery.astro";
+import { getPosts } from "@/lib/utils";
+import Picture from "astro/components/Picture.astro";
+import { width, height } from "tailwindcss/defaultTheme";
 
-const images = [];
+const images = (await getPosts())
+  .map((post) => {
+    if (post.data.images) {
+      return post.data.images.at(0);
+    }
 
-// const images = (await Astro.glob("../pages/aktionen/**/*.md"))
-//   .sort(
-//     (a, b) =>
-//       new Date(b.frontmatter.date).valueOf() -
-//       new Date(a.frontmatter.date).valueOf(),
-//   )
-//   .filter((post) => Boolean(post.frontmatter.images))
-//   .slice(0, 6)
-//   .map((post) => ({
-//     src: post.frontmatter.images[0],
-//     category: getCategoryFromUrl(post.url as string),
-//     alt: post.frontmatter.title,
-//   }));
+    return null;
+  })
+  .filter(Boolean)
+  .slice(0, 9) as { src: string; alt?: string }[];
 ---
 
 <footer class="bg-white py-8 shadow-lg shadow-stone-200">
   <div class="mx-auto grid max-w-7xl grid-cols-4 gap-8 px-2">
     <section>
       <Title as="h3" class="mb-8">Über Uns</Title>
+
+      <Picture
+        src="https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/logo.png"
+        formats={["avif", "webp"]}
+        alt="logo des leo clubs"
+        width={75}
+        height={75}
+        quality={80}
+        class="float-left mr-4"
+      />
+
       <p class="mb-4">
         Wir sind Jugendliche und Erwachsene und engagieren uns für das Wohl von
         benachteiligten Menschen, etwa aus Kinder- oder Pflegeheimen.
