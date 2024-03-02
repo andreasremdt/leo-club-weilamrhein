@@ -1,5 +1,5 @@
-<form data-form class="grid grid-cols-2 gap-4">
-  <div>
+<form data-form class="grid grid-cols-2 gap-8">
+  <div class="relative">
     <label class="label" for="name">Vor- und Nachname</label>
     <input
       data-validate
@@ -12,7 +12,7 @@
     />
   </div>
 
-  <div class="col-start-1 col-end-2">
+  <div class="relative col-start-1 col-end-2">
     <label class="label" for="email">E-Mail-Adresse</label>
     <input
       data-validate
@@ -25,12 +25,12 @@
     />
   </div>
 
-  <div class="col-start-1 col-end-2">
+  <div class="relative col-start-1 col-end-2">
     <label class="label" for="phone">Telefonnummer (optional)</label>
     <input class="input" type="text" id="phone" name="phone" />
   </div>
 
-  <div class="col-start-2 row-start-1 row-end-4 flex flex-col">
+  <div class="relative col-start-2 row-start-1 row-end-4 flex flex-col">
     <input
       type="text"
       name="honeypot"
@@ -52,98 +52,106 @@
   </div>
 
   <button
-    class="btn btn-primary col-start-1 col-end-3 justify-center"
+    class="button col-start-1 col-end-3 justify-center"
     type="submit"
     aria-live="assertive"
     data-submit>Nachricht senden</button
   >
+</form>
 
-  <script>
-    const form = document.querySelector("[data-form]") as HTMLFormElement;
-    const inputs = document.querySelectorAll(
-      "[data-validate]",
-    ) as NodeListOf<HTMLInputElement>;
-    const button = document.querySelector("[data-submit]") as HTMLButtonElement;
+<script>
+  let form = document.querySelector("[data-form]") as HTMLFormElement;
+  let inputs = form.querySelectorAll(
+    "input, textarea",
+  ) as NodeListOf<HTMLInputElement>;
+  let button = form.querySelector('button[type="submit"]') as HTMLButtonElement;
 
-    function validate(input: HTMLInputElement) {
-      if (!input.checkValidity() && !input.hasAttribute("aria-invalid")) {
-        const error = document.createElement("p");
+  form.setAttribute("novalidate", "novalidate");
+  form.setAttribute("aria-assertive", "polite");
 
-        error.className = "text-red-500 m-0";
-        error.id = `${input.name}-error`;
-        error.setAttribute("aria-live", "assertive");
-        error.textContent = input.getAttribute("data-error");
+  function validate(input: HTMLInputElement) {
+    if (!input.checkValidity() && !input.hasAttribute("aria-invalid")) {
+      let error = document.createElement("p");
 
-        input.setAttribute("aria-invalid", "true");
-        input.setAttribute("aria-describedby", `${input.name}-error`);
-        input.insertAdjacentElement("afterend", error);
-      } else if (input.checkValidity() && input.hasAttribute("aria-invalid")) {
-        input.nextElementSibling?.remove();
-        input.removeAttribute("aria-invalid");
-        input.removeAttribute("aria-describedby");
-      }
+      error.setAttribute("id", `${input.name}-error`);
+      error.setAttribute("aria-live", "assertive");
+      error.classList.add(
+        "text-red-500",
+        "m-0",
+        "font-sans",
+        "font-semibold",
+        "text-sm",
+        "absolute",
+        "top-full",
+        "right-0",
+      );
+      error.textContent = input.getAttribute("data-error");
+
+      input.setAttribute("aria-invalid", "true");
+      input.setAttribute("aria-describedby", `${input.name}-error`);
+      input.insertAdjacentElement("afterend", error);
+    } else if (input.checkValidity() && input.hasAttribute("aria-invalid")) {
+      input.nextElementSibling?.remove();
+      input.removeAttribute("aria-invalid");
+      input.removeAttribute("aria-describedby");
     }
+  }
 
-    function sendEmail(data: FormData) {
-      button.textContent = "Nachricht wird gesendet...";
-      button.disabled = true;
+  async function send() {
+    button.setAttribute("disabled", "");
+    button.textContent = "Bitte warten...";
 
-      fetch("/.netlify/functions/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(Object.fromEntries(data)),
-      })
-        .then((response) => response.json())
-        .then(() => {
-          button.textContent = "Deine Nachricht wurde erfolgreich zugestellt!";
-        })
-        .catch(() => {
-          button.textContent =
-            "Fehler beim Zustellen der Nachricht. Versuche es später erneut.";
-          button.disabled = false;
-        });
+    let response = await fetch("/api/send-email", {
+      method: "POST",
+      body: new FormData(form),
+    });
+
+    if (response.ok) {
+      button.textContent = "Nachricht wurde gesendet";
+    } else {
+      button.textContent = "Fehler beim Zustellen";
+      button.removeAttribute("disabled");
     }
+  }
 
-    function handleSubmit(event: SubmitEvent) {
-      event.preventDefault();
+  function handleSubmit(event: SubmitEvent) {
+    event.preventDefault();
 
-      for (const input of inputs) {
-        validate(input);
-      }
+    inputs.forEach(validate);
 
-      const firstInvalidInput = document.querySelector(
-        '[aria-invalid="true"]',
-      ) as HTMLInputElement;
+    let firstInvalid = form.querySelector<HTMLInputElement>(
+      '[aria-invalid="true"]',
+    );
 
-      if (firstInvalidInput) {
-        firstInvalidInput.focus();
-      } else {
-        sendEmail(new FormData(event.target as HTMLFormElement));
-      }
+    if (firstInvalid) {
+      firstInvalid.focus();
+    } else {
+      send();
     }
+  }
 
-    function handleBlur(event: FocusEvent) {
-      const input = event.target as HTMLInputElement;
+  function handleBlur(event: FocusEvent) {
+    let input = event.target as HTMLInputElement;
 
+    if (input.hasAttribute("data-touched")) {
       validate(input);
     }
+  }
 
-    function handleInput(event: Event) {
-      const input = event.target as HTMLInputElement;
+  function handleInput(event: Event) {
+    let input = event.target as HTMLInputElement;
 
-      if (input.hasAttribute("aria-invalid")) {
-        validate(input);
-      }
+    input.setAttribute("data-touched", "true");
+
+    if (input.getAttribute("aria-invalid") === "true") {
+      validate(input);
     }
+  }
 
-    form.setAttribute("novalidate", "true");
-    form.addEventListener("submit", handleSubmit);
+  form.addEventListener("submit", handleSubmit);
 
-    for (const input of inputs) {
-      input.addEventListener("blur", handleBlur);
-      input.addEventListener("input", handleInput);
-    }
-  </script>
-</form>
+  for (let input of inputs) {
+    input.addEventListener("blur", handleBlur);
+    input.addEventListener("input", handleInput);
+  }
+</script>

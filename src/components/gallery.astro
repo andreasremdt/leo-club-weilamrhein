@@ -21,7 +21,7 @@ const { images, width, height, galleryId, class: className } = Astro.props;
       <a
         href={image.src}
         data-fancybox={galleryId}
-        class="overflow-hidden bg-yellow-600"
+        class="group overflow-hidden bg-yellow-600 outline-none"
       >
         <Picture
           src={image.src}
@@ -30,7 +30,7 @@ const { images, width, height, galleryId, class: className } = Astro.props;
           width={width}
           height={height}
           quality={80}
-          class="aspect-square object-cover transition-all duration-300 hover:scale-110 hover:opacity-70"
+          class="aspect-square object-cover transition-all duration-300 hover:scale-110 hover:opacity-70 group-focus-within:opacity-60 group-focus-visible:scale-110"
         />
       </a>
     ))

@@ -7,8 +7,13 @@ const posts = await getPosts(2);
 {
   posts.map((post) => (
     <article class="mb-4">
-      <h4 class="mb-1 text-lg font-bold leading-tight text-stone-900 transition-colors hover:text-yellow-600">
-        <a href={`/aktionen/${post.slug}`}>{post.data.title}</a>
+      <h4 class="mb-1">
+        <a
+          href={`/aktionen/${post.slug}`}
+          class="text-lg font-bold leading-tight text-stone-900 outline-none transition-colors hover:text-yellow-600 focus-visible:text-yellow-600 focus-visible:ring-4 focus-visible:ring-yellow-600/20"
+        >
+          {post.data.title}
+        </a>
       </h4>
       <time datetime={post.data.created_at.toISOString()}>
         Veröffentlicht am {formatDate(post.data.created_at)}

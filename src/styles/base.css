@@ -66,19 +66,16 @@
     @apply bg-white p-8 shadow-md shadow-stone-200;
   }
 
-  .btn {
-    @apply inline-flex h-10 cursor-pointer items-center rounded-sm border px-6 font-sans text-sm font-semibold uppercase transition-colors focus-visible:outline-none focus-visible:ring-4 disabled:pointer-events-none disabled:cursor-not-allowed;
+  .button {
+    @apply inline-flex h-10 cursor-pointer items-center rounded-sm border border-yellow-600 bg-white px-6 font-sans text-sm font-semibold uppercase text-yellow-600 transition-colors focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-yellow-600/20 enabled:hover:border-stone-900 enabled:hover:text-stone-900 disabled:cursor-not-allowed disabled:opacity-70;
   }
 
-  .btn-primary {
-    @apply border-yellow-600 bg-white text-yellow-600 hover:border-stone-900 hover:text-stone-900;
-  }
   .label {
     @apply mb-1 block font-medium text-gray-900;
   }
 
   .link {
-    @apply border-b border-yellow-600 text-stone-900 transition-colors hover:border-stone-900;
+    @apply border-b border-yellow-600 text-stone-900 outline-none transition-colors hover:border-stone-900 focus-visible:ring-4 focus-visible:ring-yellow-600/20 focus-visible:ring-offset-2;
   }
 
   .h1 {
@@ -94,10 +91,14 @@
   }
 
   .input {
-    @apply h-10 w-full border border-stone-300;
+    @apply h-10 w-full border border-stone-300 p-2 font-sans shadow-sm outline-none transition-colors hover:border-stone-500 focus:border-yellow-600 focus:ring-4 focus:ring-yellow-600/20 aria-[invalid]:border-red-600 aria-[invalid]:focus:ring-red-200;
   }
 
   .bordered {
     @apply relative block before:absolute before:bottom-3 before:left-5 before:right-5 before:top-3 before:border before:border-white after:absolute after:inset-4 after:border after:border-white;
+  }
+
+  .content {
+    @apply prose max-w-none prose-a:border-b prose-a:border-yellow-600 prose-a:no-underline prose-a:outline-none prose-a:transition-colors hover:prose-a:border-stone-900 focus-visible:prose-a:text-yellow-600 focus-visible:prose-a:ring-4 focus-visible:prose-a:ring-yellow-600/20 prose-img:shadow-lg;
   }
 }

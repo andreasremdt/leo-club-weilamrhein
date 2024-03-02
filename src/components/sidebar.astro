@@ -14,7 +14,7 @@ import { CATEGORIES } from "@/lib/utils";
       benachteiligten Menschen, etwa aus Kinder- oder Pflegeheimen.
     </p>
 
-    <a href="/ueber-uns/" class="btn btn-primary">Erfahre mehr</a>
+    <a href="/ueber-uns/" class="button">Erfahre mehr</a>
   </section>
 
   <section class="box space-y-4 text-center">
@@ -41,7 +41,7 @@ import { CATEGORIES } from "@/lib/utils";
         CATEGORIES.map((category) => (
           <li>
             <a
-              class="flex items-center gap-x-2 transition-colors hover:text-yellow-600"
+              class="flex items-center gap-x-2 outline-none transition-colors hover:text-yellow-600 focus-visible:text-yellow-600 focus-visible:ring-4 focus-visible:ring-yellow-600/20"
               href={category.slug}
             >
               <svg

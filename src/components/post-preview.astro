@@ -34,7 +34,7 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
   <div class="p-8">
     <h2 class="h2">
       <a
-        class="transition-colors hover:text-yellow-600"
+        class="outline-none transition-colors hover:text-yellow-600 focus-visible:text-yellow-600 focus-visible:ring-4 focus-visible:ring-yellow-600/20"
         href={`/aktionen/${url}`}>{title}</a
       >
     </h2>
@@ -45,6 +45,6 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
 
     <p class="my-4">{excerpt}...</p>
 
-    <a class="btn btn-primary" href={url}>Weiterlesen</a>
+    <a class="button" href={url}>Weiterlesen</a>
   </div>
 </article>
