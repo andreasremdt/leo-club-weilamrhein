@@ -2,7 +2,7 @@
 import Layout from "@/layouts/default.astro";
 import { getPosts, formatDate } from "@/lib/utils";
 
-const posts = await getPosts();
+let posts = await getPosts();
 ---
 
 <Layout

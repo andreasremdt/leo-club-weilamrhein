@@ -127,23 +127,21 @@
 
   import { formatDate } from "@/lib/utils";
 
-  const searchClient = algoliasearch(
+  let searchClient = algoliasearch(
     import.meta.env.PUBLIC_ALGOLIA_APPLICATION_ID,
     import.meta.env.PUBLIC_ALGOLIA_API_KEY,
   );
 
-  const search = instantsearch({
+  let search = instantsearch({
     indexName: "posts",
     searchClient,
   });
 
-  const searchBoxElement = document.querySelector(
+  let searchBoxElement = document.querySelector(
     "[data-search-box]",
   ) as HTMLElement;
-  const hitsElement = document.querySelector(
-    "[data-search-hits]",
-  ) as HTMLElement;
-  const statsElement = document.querySelector(
+  let hitsElement = document.querySelector("[data-search-hits]") as HTMLElement;
+  let statsElement = document.querySelector(
     "[data-search-stats]",
   ) as HTMLElement;
 

@@ -24,7 +24,7 @@ export function getPostThumbnail(post: Record<string, any>) {
   return post.data.images?.[0].src;
 }
 
-export const CATEGORIES = [
+export let CATEGORIES = [
   {
     slug: "/aktionen/begegnungen/",
     title: "Begegnungen mit Menschen",

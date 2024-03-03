@@ -5,7 +5,7 @@ import Gallery from "@/components/gallery.astro";
 import { getPosts } from "@/lib/utils";
 import Picture from "astro/components/Picture.astro";
 
-const images = (await getPosts())
+let images = (await getPosts())
   .map((post) => {
     if (post.data.images) {
       let [image] = post.data.images;

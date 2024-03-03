@@ -13,7 +13,7 @@ export interface Props extends HTMLAttributes<"div"> {
   galleryId: string;
 }
 
-const { images, width, height, galleryId, class: className } = Astro.props;
+let { images, width, height, galleryId, class: className } = Astro.props;
 ---
 
 <figure class:list={["grid grid-cols-3 gap-1", className]}>
