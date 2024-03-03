@@ -2,35 +2,34 @@
 title: Vergnügen im Schritttempo
 published: true
 created_at: 2012-09-04 01:13:00
-
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-05.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-06.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-07.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-08.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-09.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-8.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-10.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-11.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-12.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-13.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-14.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-15.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-16.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-17.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-18.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-19.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-20.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-21.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-22.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-23.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-24.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-25.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-26.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-03.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-01.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-02.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-04.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-05.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-06.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-07.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-08.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-09.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-8.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-10.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-11.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-12.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-13.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-14.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-15.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-16.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-17.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-18.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-19.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-20.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-21.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-22.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-23.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-24.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-25.jpg
+  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/10-26.jpg
 ---
 
 Die Mitglieder des Leo-Clubs Weil am Rhein – Dreiländereck schätzen die Arbeit der Lörracher Hilfsorganisation KiSEL (Kinder suchtkranker Eltern) seit vielen Jahren. Daher laden sie die Kinder und ihre Betreuer alljährlich zu einer mehrtägigen Unternehmung ein. Nach Wassersporttagen im Schwarzwald und einer Hausbootfahrt im Elsass in den beiden letzten Jahren boten sie in diesem Jahr eine erlebnisreiche Planwagenfahrt in der Ajoie im Schweizer Jura an. Zu ca. 50 Prozent mitfinanziert wurde das dreitägige Abenteuer von der Organisation „Jugend hilft!“.
