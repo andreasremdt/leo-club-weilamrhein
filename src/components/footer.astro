@@ -8,13 +8,19 @@ import Picture from "astro/components/Picture.astro";
 const images = (await getPosts())
   .map((post) => {
     if (post.data.images) {
-      return post.data.images.at(0);
+      let [image] = post.data.images;
+
+      return {
+        src: image.src,
+        alt: image.alt,
+        caption: post.data.title,
+      };
     }
 
     return null;
   })
   .filter(Boolean)
-  .slice(0, 9) as { src: string; alt?: string }[];
+  .slice(0, 9) as { src: string; alt?: string; caption: string }[];
 ---
 
 <footer class="bg-white py-8 shadow-upsert">

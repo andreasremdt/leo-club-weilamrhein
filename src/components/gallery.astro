@@ -6,6 +6,7 @@ export interface Props extends HTMLAttributes<"div"> {
   images: {
     src: string;
     alt?: string;
+    caption?: string;
   }[];
   width: number;
   height: number;
@@ -17,10 +18,18 @@ const { images, width, height, galleryId, class: className } = Astro.props;
 
 <figure class:list={["grid grid-cols-3 gap-1", className]}>
   {
-    images.map((image) => (
+    images.map((image, index) => (
       <a
         href={image.src}
         data-fancybox={galleryId}
+        data-caption={
+          image.caption ? `Bild von der Aktion "${image.caption}"` : undefined
+        }
+        aria-label={
+          image.caption
+            ? `bild von der aktion "${image.caption.toLowerCase()}"`
+            : `bild ${index + 1} von ${images.length}`
+        }
         class="group aspect-square overflow-hidden bg-yellow-600 outline-none"
       >
         <Picture

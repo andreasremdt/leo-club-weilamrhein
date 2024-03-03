@@ -95,7 +95,7 @@ import Layout from "@/layouts/default.astro";
   let button = form.querySelector('button[type="submit"]') as HTMLButtonElement;
 
   form.setAttribute("novalidate", "novalidate");
-  form.setAttribute("aria-assertive", "polite");
+  form.setAttribute("aria-live", "polite");
 
   function validate(input: HTMLInputElement) {
     if (!input.checkValidity() && !input.hasAttribute("aria-invalid")) {
