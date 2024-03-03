@@ -2,6 +2,7 @@
 import type { GetStaticPaths } from "astro";
 import { getPosts } from "@/lib/utils";
 import PostPreview from "@/components/post-preview.astro";
+import Pagination from "@/components/pagination.astro";
 import Layout from "@/layouts/default.astro";
 import CategorySelector from "@/components/category-selector.astro";
 
@@ -34,27 +35,5 @@ let { page } = Astro.props;
     ))
   }
 
-  <nav class="pagination">
-    <p>Seite {page.currentPage} von {page.lastPage}</p>
-    <ul>
-      {
-        page.url.prev && (
-          <li>
-            <a class="button" href={page.url.prev}>
-              Zurück
-            </a>
-          </li>
-        )
-      }
-      {
-        page.url.next && (
-          <li>
-            <a class="button" href={page.url.next}>
-              Weiter
-            </a>
-          </li>
-        )
-      }
-    </ul>
-  </nav>
+  <Pagination page={page} />
 </Layout>

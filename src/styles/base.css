@@ -51,11 +51,11 @@
 
 @layer components {
   .box {
-    @apply bg-white p-8 shadow-md shadow-stone-200;
+    @apply bg-white p-4 shadow-md shadow-stone-200 md:p-8;
   }
 
   .button {
-    @apply inline-flex h-10 cursor-pointer items-center rounded-sm border border-yellow-600 bg-white px-6 font-sans font-semibold uppercase text-yellow-600 transition-colors hover:border-stone-900 hover:text-stone-900 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-yellow-600/20 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-70;
+    @apply inline-flex h-10 cursor-pointer items-center border border-yellow-600 bg-white px-6 font-sans text-sm font-semibold uppercase text-yellow-600 transition-colors hover:border-stone-900 hover:text-stone-900 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-yellow-600/20 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-70 md:text-base;
   }
 
   .label {
@@ -67,14 +67,14 @@
   }
 
   .title {
-    @apply bg-stone-900 bg-no-repeat py-3 text-center font-sans font-semibold uppercase text-white;
+    @apply bg-stone-900 bg-no-repeat py-3 text-center font-sans text-sm font-semibold uppercase text-white md:text-base;
 
     background-image: url(/leafs-left.svg), url(/leafs-right.svg);
     background-position: 1rem, calc(100% - 1rem);
   }
 
   .h1 {
-    @apply font-serif text-4xl font-bold leading-none text-stone-900;
+    @apply font-serif text-2xl font-bold leading-none text-stone-900 md:text-3xl lg:text-4xl;
   }
 
   .h2 {
@@ -94,6 +94,6 @@
   }
 
   .content {
-    @apply prose max-w-none prose-a:border-b prose-a:border-yellow-600 prose-a:no-underline prose-a:outline-none prose-a:transition-colors hover:prose-a:border-stone-900 focus-visible:prose-a:text-yellow-600 focus-visible:prose-a:ring-4 focus-visible:prose-a:ring-yellow-600/20 prose-img:shadow-lg;
+    @apply prose max-w-none prose-headings:font-serif prose-a:border-b prose-a:border-yellow-600 prose-a:no-underline prose-a:outline-none prose-a:transition-colors hover:prose-a:border-stone-900 focus-visible:prose-a:text-yellow-600 focus-visible:prose-a:ring-4 focus-visible:prose-a:ring-yellow-600/20 prose-img:shadow-lg;
   }
 }

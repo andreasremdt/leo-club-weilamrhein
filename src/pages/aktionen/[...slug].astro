@@ -26,7 +26,7 @@ let { Content } = await entry.render();
 >
   {
     entry.data.images ? (
-      <figure class="-mx-12 -mt-8">
+      <figure class="-mx-4 -mt-4 sm:-mx-8 md:-mx-12 md:-mt-8">
         <Picture
           src={entry.data.images[0].src}
           formats={["avif", "webp"]}
@@ -43,7 +43,7 @@ let { Content } = await entry.render();
   }
 
   <header
-    class="relative mx-12 -mt-24 mb-8 flex flex-col items-center bg-white bg-[url(/leafs-center.svg)] bg-bottom bg-no-repeat p-8 pb-16 text-center"
+    class="mb-8 flex flex-col items-center bg-white bg-[url(/leafs-center.svg)] bg-bottom bg-no-repeat p-8 pb-16 text-center sm:relative sm:mx-8 sm:-mt-24 md:mx-12"
   >
     <h1 class="h1 mb-2">{entry.data.title}</h1>
     <time

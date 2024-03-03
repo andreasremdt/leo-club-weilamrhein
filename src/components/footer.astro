@@ -18,18 +18,20 @@ const images = (await getPosts())
 ---
 
 <footer class="bg-white py-8 shadow-upsert">
-  <div class="mx-auto grid max-w-7xl grid-cols-4 gap-8 px-2">
+  <div
+    class="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 md:grid-cols-2 lg:grid-cols-4"
+  >
     <section>
-      <h3 class="title mb-8">Über Uns</h3>
+      <h3 class="title mb-4 md:mb-8">Über Uns</h3>
 
       <Picture
         src="https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/logo.png"
         formats={["avif", "webp"]}
         alt="logo des leo clubs"
-        width={75}
-        height={75}
+        width={150}
+        height={150}
         quality={80}
-        class="float-left mr-4"
+        class="float-left mr-4 h-16 w-16"
       />
 
       <p class="mb-4">
@@ -49,17 +51,17 @@ const images = (await getPosts())
       </p>
     </section>
     <section>
-      <h3 class="title mb-8">Aktuelles</h3>
+      <h3 class="title mb-4 md:mb-8">Aktuelles</h3>
 
       <LatestPosts />
     </section>
     <section>
-      <h3 class="title mb-8">Bilder</h3>
+      <h3 class="title mb-4 md:mb-8">Bilder</h3>
 
-      <Gallery images={images} width={100} height={100} galleryId="footer" />
+      <Gallery images={images} width={250} height={250} galleryId="footer" />
     </section>
     <nav>
-      <h3 class="title mb-8">Menu</h3>
+      <h3 class="title mb-4 md:mb-8">Menu</h3>
 
       <ul class="list-disc pl-8">
         <li>
@@ -148,7 +150,7 @@ const images = (await getPosts())
 
   <div class="mt-8 border-t border-stone-200 pt-8">
     <div
-      class="mx-auto flex max-w-7xl justify-between px-2 font-sans text-sm font-semibold uppercase"
+      class="mx-auto flex max-w-7xl flex-col items-center gap-2 px-4 text-center font-sans text-xs font-semibold uppercase sm:text-sm md:flex-row md:items-start md:justify-between"
     >
       <SocialLinks hasText />
 

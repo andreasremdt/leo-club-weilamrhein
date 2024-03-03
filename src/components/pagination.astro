@@ -1,0 +1,31 @@
+---
+import type { Page } from "astro";
+
+interface Props {
+  page: Page;
+}
+
+let { page } = Astro.props;
+---
+
+<nav class="flex items-center justify-end">
+  <p class="mr-4">Seite {page.currentPage} von {page.lastPage}</p>
+  {
+    page.url.prev ? (
+      <a
+        class="button -mr-px"
+        href={page.url.prev}
+        aria-label="vorherige seite"
+      >
+        &laquo;
+      </a>
+    ) : null
+  }
+  {
+    page.url.next ? (
+      <a class="button" href={page.url.next} aria-label="nächste seite">
+        &raquo;
+      </a>
+    ) : null
+  }
+</nav>

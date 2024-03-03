@@ -22,7 +22,10 @@ import Layout from "@/layouts/default.astro";
     > anschreiben. Wir melden uns bei dir so schnell wie möglich.
   </p>
 
-  <form data-form class="grid grid-cols-2 gap-8">
+  <form
+    data-form
+    class="space-y-4 md:grid md:grid-cols-2 md:gap-8 md:space-y-0"
+  >
     <div class="relative">
       <label class="label" for="name">Vor- und Nachname</label>
       <input
@@ -105,10 +108,14 @@ import Layout from "@/layouts/default.astro";
         "m-0",
         "font-sans",
         "font-semibold",
-        "text-sm",
+        "md:text-sm",
+        "text-xs",
         "absolute",
-        "top-full",
-        "right-0",
+        "bottom-0",
+        "bg-white",
+        "px-2",
+        "translate-y-1/2",
+        "right-2",
       );
       error.textContent = input.getAttribute("data-error");
 

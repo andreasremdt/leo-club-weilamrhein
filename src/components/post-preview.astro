@@ -13,10 +13,10 @@ export interface Props {
 const { title, url, excerpt, date, thumbnail } = Astro.props;
 ---
 
-<article class="box mb-8 flex p-0">
+<article class="box mb-4 p-0 sm:flex md:mb-8">
   {
     thumbnail && (
-      <figure class="aspect-square w-1/3 flex-shrink-0">
+      <figure class="sm:aspect-square sm:w-1/3 sm:flex-shrink-0">
         <Picture
           src={thumbnail}
           formats={["avif", "webp"]}
@@ -24,14 +24,14 @@ const { title, url, excerpt, date, thumbnail } = Astro.props;
           width={400}
           height={400}
           quality={80}
-          class="h-full object-cover"
-          pictureAttributes={{ class: "bordered h-full" }}
+          class="aspect-video w-full object-cover sm:aspect-auto sm:h-full"
+          pictureAttributes={{ class: "bordered sm:h-full" }}
         />
       </figure>
     )
   }
 
-  <div class="p-8">
+  <div class="p-4 md:p-8">
     <h2 class="h2">
       <a
         class="outline-none transition-colors hover:text-yellow-600 focus-visible:text-yellow-600 focus-visible:ring-4 focus-visible:ring-yellow-600/20"

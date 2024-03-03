@@ -7,7 +7,7 @@ import Layout from "@/layouts/default.astro";
   title="Willkommen"
   description="Wir sind Jugendliche und Erwachsene und engagieren uns für das Wohl von benachteiligten Menschen, etwa aus Kinder- oder Pflegeheimen."
 >
-  <figure class="relative mb-48">
+  <figure class="relative mb-4 md:mb-48">
     <Picture
       src="https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/20-01.jpg"
       formats={["avif", "webp"]}
@@ -16,11 +16,11 @@ import Layout from "@/layouts/default.astro";
       height={700}
       loading="eager"
       quality={80}
-      class="aspect-video object-cover shadow-lg"
+      class="aspect-video object-cover md:shadow-lg"
       pictureAttributes={{ class: "bordered" }}
     />
     <figcaption
-      class="box absolute bottom-0 left-1/2 w-2/3 -translate-x-1/2 translate-y-1/2 space-y-4 p-8 text-center"
+      class="box space-y-4 py-8 text-center md:absolute md:bottom-0 md:left-1/2 md:w-4/5 md:-translate-x-1/2 md:translate-y-1/2 lg:w-2/3"
     >
       <h1 class="h1 bg-[url(/leafs-center.svg)] bg-bottom bg-no-repeat pb-16">
         Miteinander statt Gegeneinander
@@ -34,7 +34,7 @@ import Layout from "@/layouts/default.astro";
     </figcaption>
   </figure>
 
-  <div class="grid grid-cols-3 gap-x-8">
+  <div class="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
     <article class="box flex flex-col items-center text-center">
       <h2 class="title w-full">Engagieren</h2>
       <p class="my-4">
@@ -53,7 +53,9 @@ import Layout from "@/layouts/default.astro";
       <a class="button mt-auto" href="/aktionen/">Berichte lesen</a>
     </article>
 
-    <article class="box flex flex-col items-center text-center">
+    <article
+      class="box flex flex-col items-center text-center md:col-span-2 lg:col-span-1"
+    >
       <h2 class="title w-full">Mitmachen</h2>
       <p class="my-4">
         Unser Ziel ist eine Gesellschaft, in der sich jeder sozial engagiert und
@@ -63,7 +65,9 @@ import Layout from "@/layouts/default.astro";
     </article>
   </div>
 
-  <div class="mt-8 grid grid-cols-2 gap-x-8">
+  <div
+    class="mt-4 grid grid-cols-1 items-start gap-4 md:mt-8 md:grid-cols-2 md:gap-8"
+  >
     <figure class="box">
       <iframe
         width="560"
