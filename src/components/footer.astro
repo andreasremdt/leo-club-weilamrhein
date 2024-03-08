@@ -23,7 +23,9 @@ let images = (await getPosts())
   .slice(0, 9) as { src: string; alt?: string; caption: string }[];
 ---
 
-<footer class="bg-white py-8 shadow-upsert">
+<footer
+  class="bg-white py-8 shadow-upsert dark:bg-neutral-700 dark:shadow-neutral-900"
+>
   <div
     class="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 md:grid-cols-2 lg:grid-cols-4"
   >
@@ -72,43 +74,43 @@ let images = (await getPosts())
       <ul class="list-disc pl-8">
         <li>
           <a
-            class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+            class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
             href="/">Startseite</a
           >
         </li>
         <li>
           <a
-            class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+            class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
             href="/aktionen/">Aktionen</a
           >
           <ul class="list-disc pl-8">
             <li>
               <a
-                class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+                class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
                 href="/aktionen/begegnungen/">Begegnungen</a
               >
             </li>
             <li>
               <a
-                class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+                class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
                 href="/aktionen/pflegeheim">Pflegeheim</a
               >
             </li>
             <li>
               <a
-                class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+                class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
                 href="/aktionen/kinder/">Ausflüge mit Kindern</a
               >
             </li>
             <li>
               <a
-                class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+                class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
                 href="/aktionen/weitere/">Weitere Aktionen</a
               >
             </li>
             <li>
               <a
-                class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+                class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
                 href="/aktionen/neugkeiten/">Neuigkeiten</a
               >
             </li>
@@ -116,37 +118,37 @@ let images = (await getPosts())
         </li>
         <li>
           <a
-            class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+            class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
             href="/ueber-uns/">Über Uns</a
           >
         </li>
         <li>
           <a
-            class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+            class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
             href="/mitglied-werden/">Mitglied werden</a
           >
         </li>
         <li>
           <a
-            class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+            class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
             href="/kontakt/">Kontakt</a
           >
         </li>
         <li>
           <a
-            class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+            class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
             href="/impressum/">Impressum</a
           >
         </li>
         <li>
           <a
-            class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+            class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
             href="/datenschutz/">Datenschutz</a
           >
         </li>
         <li>
           <a
-            class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+            class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
             href="/sitemap/">Sitemap</a
           >
         </li>
@@ -154,7 +156,7 @@ let images = (await getPosts())
     </nav>
   </div>
 
-  <div class="mt-8 border-t border-neutral-200 pt-8">
+  <div class="mt-8 border-t border-neutral-200 pt-8 dark:border-neutral-600">
     <div
       class="mx-auto flex max-w-7xl flex-col items-center gap-2 px-4 text-center font-sans text-xs font-semibold uppercase sm:text-sm md:flex-row md:items-start md:justify-between"
     >

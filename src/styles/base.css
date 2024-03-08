@@ -46,7 +46,7 @@
   src:
     local("Titillium Web Bold"),
     local("TitilliumWeb-Bold"),
-    url(titillium-web-bold.woff2) format("woff2");
+    url(/fonts/titillium-web-bold.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
   font-display: swap;
@@ -64,42 +64,42 @@
 
 @layer components {
   .box {
-    @apply bg-white p-4 shadow-md shadow-neutral-200 md:p-8;
+    @apply bg-white p-4 shadow-md shadow-neutral-200 md:p-8 dark:bg-neutral-700 dark:shadow-neutral-900;
   }
 
   .button {
-    @apply border-primary-900 text-primary-900 focus-visible:ring-primary-900/20 inline-flex h-10 cursor-pointer items-center border bg-white px-6 font-sans text-sm font-semibold uppercase transition-colors hover:border-neutral-900 hover:text-neutral-900 focus-visible:outline-none focus-visible:ring-4 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-70 md:text-base;
+    @apply inline-flex h-10 cursor-pointer items-center border border-primary-900 bg-white px-6 font-sans text-sm font-semibold uppercase text-primary-900 transition-colors hover:border-neutral-900 hover:text-neutral-900 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary-900/20 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-70 md:text-base dark:border-white dark:bg-neutral-700 dark:text-white dark:hover:border-primary-200 dark:hover:text-primary-200 dark:focus-visible:border-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20;
   }
 
   .label {
-    @apply mb-1 block font-medium text-neutral-900;
+    @apply mb-1 block font-medium text-neutral-900 dark:text-white;
   }
 
   .link {
-    @apply border-primary-900 focus-visible:ring-primary-900/20 border-b text-neutral-900 outline-none transition-colors hover:border-neutral-900 focus-visible:ring-4 focus-visible:ring-offset-2;
+    @apply border-b border-primary-900 text-neutral-900 outline-none transition-colors hover:border-neutral-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 focus-visible:ring-offset-2 dark:border-primary-200 dark:text-white dark:hover:border-white dark:focus-visible:border-white dark:focus-visible:ring-primary-200/20;
   }
 
   .title {
-    @apply bg-neutral-900 bg-no-repeat py-3 text-center font-sans text-sm font-semibold uppercase text-white md:text-base;
+    @apply bg-neutral-900 bg-no-repeat py-3 text-center font-sans text-sm font-semibold uppercase text-white md:text-base dark:bg-neutral-800;
 
     background-image: url(/leafs-left.svg), url(/leafs-right.svg);
     background-position: 1rem, calc(100% - 1rem);
   }
 
   .h1 {
-    @apply font-serif text-2xl font-bold leading-none text-neutral-900 md:text-3xl lg:text-4xl;
+    @apply font-serif text-2xl font-bold leading-none text-neutral-900 md:text-3xl lg:text-4xl dark:text-white;
   }
 
   .h2 {
-    @apply font-serif text-2xl font-bold leading-none text-neutral-900;
+    @apply font-serif text-2xl font-bold leading-none text-neutral-900 dark:text-white;
   }
 
   .label {
-    @apply mb-1 block font-bold text-neutral-900;
+    @apply mb-1 block font-bold text-neutral-900 dark:text-white;
   }
 
   .input {
-    @apply focus:border-primary-900 focus:ring-primary-900/20 h-10 w-full border border-neutral-300 p-2 font-sans shadow-sm outline-none transition-colors hover:border-neutral-500 focus:ring-4 aria-[invalid]:border-red-600 aria-[invalid]:focus:ring-red-200;
+    @apply h-10 w-full border border-neutral-300 p-2 font-sans shadow-sm outline-none transition-colors hover:border-neutral-500 focus:border-primary-900 focus:ring-4 focus:ring-primary-900/20 aria-[invalid]:border-red-600 aria-[invalid]:focus:ring-red-200 dark:border-neutral-500 dark:bg-neutral-700 dark:hover:border-neutral-400 dark:focus-visible:border-primary-200 dark:focus-visible:ring-primary-200/20 dark:aria-[invalid]:border-red-300 dark:aria-[invalid]:focus:ring-red-200/20;
   }
 
   .bordered {
@@ -107,6 +107,6 @@
   }
 
   .content {
-    @apply prose-a:border-primary-900 focus-visible:prose-a:text-primary-900 focus-visible:prose-a:ring-primary-900/20 prose max-w-none prose-headings:font-serif prose-a:border-b prose-a:no-underline prose-a:outline-none prose-a:transition-colors hover:prose-a:border-neutral-900 focus-visible:prose-a:ring-4 prose-img:shadow-lg;
+    @apply prose max-w-none prose-headings:font-serif prose-a:border-b prose-a:border-primary-900 prose-a:no-underline prose-a:outline-none prose-a:transition-colors hover:prose-a:border-neutral-900 focus-visible:prose-a:text-primary-900 focus-visible:prose-a:ring-4 focus-visible:prose-a:ring-primary-900/20 prose-img:shadow-lg dark:text-neutral-200 dark:prose-a:border-primary-200 dark:prose-a:text-white dark:hover:prose-a:border-white dark:focus-visible:prose-a:border-white dark:focus-visible:prose-a:text-white dark:focus-visible:prose-a:ring-primary-200;
   }
 }

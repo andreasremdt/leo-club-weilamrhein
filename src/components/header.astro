@@ -2,7 +2,9 @@
 import { Picture } from "astro:assets";
 ---
 
-<header class="bg-white shadow-lg shadow-neutral-200">
+<header
+  class="bg-white shadow-lg shadow-neutral-200 dark:bg-neutral-700 dark:shadow-neutral-900"
+>
   <div class="relative mx-auto flex max-w-7xl items-center px-4 py-4">
     <span class="flex items-center gap-x-4 font-light uppercase">
       <Picture
@@ -15,9 +17,10 @@ import { Picture } from "astro:assets";
         class="h-14 w-14 lg:h-20 lg:w-20"
         loading="eager"
       />
-      <span class="text-primary-900 block text-xl leading-none lg:text-3xl"
+      <span
+        class="block text-xl leading-none text-primary-900 lg:text-3xl dark:text-primary-200"
         ><b class="font-bold">Leo</b> Club <span
-          class="block text-sm text-neutral-500 lg:text-base"
+          class="block text-sm text-neutral-500 lg:text-base dark:text-neutral-300"
           >Weil am Rhein - Dreiländereck</span
         ></span
       >
@@ -30,7 +33,7 @@ import { Picture } from "astro:assets";
       aria-controls="menu"
       aria-expanded="false"
       data-action="toggle-menu"
-      class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:outline-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:outline-primary-200 z-20 ml-auto text-neutral-900 transition-colors focus-visible:outline focus-visible:outline-4 focus-visible:outline-offset-2 md:hidden dark:text-white"
+      class="z-20 ml-auto text-neutral-900 transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:outline focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-primary-900/20 md:hidden dark:text-white dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:outline-primary-200"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -55,28 +58,28 @@ import { Picture } from "astro:assets";
 
     <nav
       aria-label="hauptnavigation"
-      class="pointer-events-none absolute left-0 right-0 top-full z-10 ml-auto flex flex-col items-center gap-x-4 gap-y-8 bg-white px-4 py-4 text-center opacity-0 shadow-lg shadow-neutral-400 transition-opacity md:pointer-events-auto md:static md:flex-row md:py-0 md:text-left md:opacity-100 md:shadow-none lg:gap-x-8"
+      class="pointer-events-none absolute left-0 right-0 top-full z-10 ml-auto flex flex-col items-center gap-x-4 gap-y-8 bg-white px-4 py-4 text-center opacity-0 shadow-lg shadow-neutral-400 transition-opacity md:pointer-events-auto md:static md:flex-row md:py-0 md:text-left md:opacity-100 md:shadow-none lg:gap-x-8 dark:bg-neutral-700 dark:shadow-neutral-800"
       data-action="menu"
       id="menu"
     >
       <a
-        class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-1 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
+        class="text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 focus-visible:ring-offset-2 md:text-base dark:text-white dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
         href="/">Home</a
       >
       <a
-        class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-1 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
+        class="text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 focus-visible:ring-offset-2 md:text-base dark:text-white dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
         href="/aktionen/">Aktionen</a
       >
       <a
-        class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-1 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
+        class="text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 focus-visible:ring-offset-2 md:text-base dark:text-white dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
         href="/ueber-uns/">Über Uns</a
       >
       <a
-        class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-3 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
+        class="text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 focus-visible:ring-offset-2 md:text-base dark:text-white dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
         href="/mitglied-werden/">Mitglied werden</a
       >
       <a
-        class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-3 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
+        class="text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 focus-visible:ring-offset-2 md:text-base dark:text-white dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
         href="/kontakt/">Kontakt</a
       >
     </nav>

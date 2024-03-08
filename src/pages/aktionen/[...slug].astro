@@ -36,7 +36,9 @@ let { Content } = await entry.render();
           quality={80}
           loading="eager"
           class="aspect-video object-cover"
-          pictureAttributes={{ class: "bordered bg-neutral-200" }}
+          pictureAttributes={{
+            class: "bordered bg-neutral-200 dark:bg-neutral-600",
+          }}
         />
       </figure>
     ) : null
@@ -44,7 +46,7 @@ let { Content } = await entry.render();
 
   <header
     class:list={[
-      "mb-8 flex flex-col items-center bg-white bg-[url(/leafs-center.svg)] bg-bottom bg-no-repeat p-8 pb-16 text-center",
+      "mb-8 flex flex-col items-center bg-white bg-[url(/leafs-center.svg)] bg-bottom bg-no-repeat p-8 pb-16 text-center dark:bg-neutral-700",
       {
         "sm:relative sm:mx-8 sm:-mt-24 md:mx-12": Boolean(entry.data.images),
       },
@@ -53,7 +55,7 @@ let { Content } = await entry.render();
     <h1 class="h1 mb-2">{entry.data.title}</h1>
     <time
       datetime={entry.data.created_at.toISOString()}
-      class="text-sm text-neutral-500"
+      class="text-sm text-neutral-500 dark:text-neutral-400"
     >
       Veröffentlicht am {formatDate(entry.data.created_at)}
     </time>

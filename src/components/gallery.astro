@@ -30,7 +30,7 @@ let { images, width, height, galleryId, class: className } = Astro.props;
             ? `bild von der aktion "${image.caption.toLowerCase()}"`
             : `bild ${index + 1} von ${images.length}`
         }
-        class="group aspect-square overflow-hidden bg-neutral-200 outline-none"
+        class="group aspect-square overflow-hidden bg-neutral-200 outline-none dark:bg-neutral-600"
       >
         <Picture
           src={image.src}

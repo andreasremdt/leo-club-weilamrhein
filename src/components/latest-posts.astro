@@ -10,14 +10,14 @@ let posts = await getPosts(3);
       <h3>
         <a
           href={`/aktionen/${post.slug}`}
-          class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 font-serif text-lg font-bold leading-tight text-neutral-900 outline-none transition-colors focus-visible:ring-4"
+          class="font-serif text-lg font-bold leading-tight text-neutral-900 outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:text-white dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
         >
           {post.data.title}
         </a>
       </h3>
       <time
         datetime={post.data.created_at.toISOString()}
-        class="text-sm text-neutral-500"
+        class="text-sm text-neutral-500 dark:text-neutral-400"
       >
         Veröffentlicht am {formatDate(post.data.created_at)}
       </time>

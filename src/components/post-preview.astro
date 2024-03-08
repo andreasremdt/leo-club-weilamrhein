@@ -34,12 +34,15 @@ let { title, url, excerpt, date, thumbnail } = Astro.props;
   <div class="p-4 md:p-8">
     <h2 class="h2">
       <a
-        class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 outline-none transition-colors focus-visible:ring-4"
+        class="outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
         href={`/aktionen/${url}`}>{title}</a
       >
     </h2>
 
-    <time datetime={date.toISOString()} class="text-sm text-neutral-500">
+    <time
+      datetime={date.toISOString()}
+      class="text-sm text-neutral-500 dark:text-neutral-400"
+    >
       Veröffentlicht am {formatDate(date)}
     </time>
 
