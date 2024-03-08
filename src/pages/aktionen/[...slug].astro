@@ -36,14 +36,19 @@ let { Content } = await entry.render();
           quality={80}
           loading="eager"
           class="aspect-video object-cover"
-          pictureAttributes={{ class: "bordered" }}
+          pictureAttributes={{ class: "bordered bg-neutral-200" }}
         />
       </figure>
     ) : null
   }
 
   <header
-    class="mb-8 flex flex-col items-center bg-white bg-[url(/leafs-center.svg)] bg-bottom bg-no-repeat p-8 pb-16 text-center sm:relative sm:mx-8 sm:-mt-24 md:mx-12"
+    class:list={[
+      "mb-8 flex flex-col items-center bg-white bg-[url(/leafs-center.svg)] bg-bottom bg-no-repeat p-8 pb-16 text-center",
+      {
+        "sm:relative sm:mx-8 sm:-mt-24 md:mx-12": Boolean(entry.data.images),
+      },
+    ]}
   >
     <h1 class="h1 mb-2">{entry.data.title}</h1>
     <time
