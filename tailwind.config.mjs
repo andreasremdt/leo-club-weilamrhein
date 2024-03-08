@@ -10,6 +10,20 @@ export default {
         sans: ["Titillium Web", ...theme.fontFamily.sans],
         serif: ["Lora", ...theme.fontFamily.serif],
       },
+      keyframes: {
+        "fade-in": {
+          "0%": { opacity: 0, translate: "0 -2rem" },
+          "100%": { opacity: 1, translate: "0 0" },
+        },
+        "fade-out": {
+          "0%": { opacity: 1, translate: "0 0" },
+          "100%": { opacity: 0, translate: "0 -2rem" },
+        },
+      },
+      animation: {
+        "fade-in": "fade-in 0.3s ease-out forwards",
+        "fade-out": "fade-out 0.3s ease-out forwards",
+      },
       colors: {
         primary: {
           50: "#eef8ff",

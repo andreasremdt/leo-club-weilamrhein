@@ -2,15 +2,9 @@
 import { Picture } from "astro:assets";
 ---
 
-<header class="bg-white px-4 shadow-lg shadow-neutral-200">
-  <nav
-    aria-label="hauptnavigation"
-    class="mx-auto flex max-w-7xl flex-wrap items-center justify-evenly gap-4 py-4 lg:py-6"
-  >
-    <a
-      class="focus-visible:ring-primary-900/20 flex w-full justify-center border-b border-neutral-300 pb-4 outline-none focus-visible:ring-4 focus-visible:ring-offset-2 lg:order-2 lg:w-auto lg:border-b-0 lg:pb-0"
-      href="/"
-    >
+<header class="bg-white shadow-lg shadow-neutral-200">
+  <div class="relative mx-auto flex max-w-7xl items-center px-4 py-4">
+    <span class="flex items-center gap-x-4 font-light uppercase">
       <Picture
         src="https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/logo.png"
         formats={["avif", "webp"]}
@@ -18,27 +12,160 @@ import { Picture } from "astro:assets";
         width={150}
         height={150}
         quality={80}
-        class="h-14 w-14 md:h-20 md:w-20"
+        class="h-14 w-14 lg:h-20 lg:w-20"
         loading="eager"
       />
-      <span class="sr-only">Startseite</span>
-    </a>
+      <span class="text-primary-900 block text-xl leading-none lg:text-3xl"
+        ><b class="font-bold">Leo</b> Club <span
+          class="block text-sm text-neutral-500 lg:text-base"
+          >Weil am Rhein - Dreiländereck</span
+        ></span
+      >
+    </span>
 
-    <a
-      class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-1 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
-      href="/aktionen/">Aktionen</a
+    <button
+      type="button"
+      aria-label="öffne das hauptmenü"
+      aria-live="polite"
+      aria-controls="menu"
+      aria-expanded="false"
+      data-action="toggle-menu"
+      class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:outline-primary-900/20 dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:outline-primary-200 z-20 ml-auto text-neutral-900 transition-colors focus-visible:outline focus-visible:outline-4 focus-visible:outline-offset-2 md:hidden dark:text-white"
     >
-    <a
-      class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-1 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
-      href="/ueber-uns/">Über Uns</a
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        aria-hidden="true"
+        stroke="currentColor"
+        class="z-20 h-10 w-10"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="hidden"
+          d="M6 18 18 6M6 6l12 12"></path>
+      </svg>
+    </button>
+
+    <nav
+      aria-label="hauptnavigation"
+      class="pointer-events-none absolute left-0 right-0 top-full z-10 ml-auto flex flex-col items-center gap-x-4 gap-y-8 bg-white px-4 py-4 text-center opacity-0 shadow-lg shadow-neutral-400 transition-opacity md:pointer-events-auto md:static md:flex-row md:py-0 md:text-left md:opacity-100 md:shadow-none lg:gap-x-8"
+      data-action="menu"
+      id="menu"
     >
-    <a
-      class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-3 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
-      href="/mitglied-werden/">Mitglied werden</a
-    >
-    <a
-      class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-3 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
-      href="/kontakt/">Kontakt</a
-    >
-  </nav>
+      <a
+        class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-1 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
+        href="/">Home</a
+      >
+      <a
+        class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-1 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
+        href="/aktionen/">Aktionen</a
+      >
+      <a
+        class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-1 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
+        href="/ueber-uns/">Über Uns</a
+      >
+      <a
+        class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-3 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
+        href="/mitglied-werden/">Mitglied werden</a
+      >
+      <a
+        class="hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-primary-900/20 order-3 font-sans text-sm font-semibold uppercase text-neutral-900 outline-none transition-colors focus-visible:ring-4 focus-visible:ring-offset-2 md:text-base"
+        href="/kontakt/">Kontakt</a
+      >
+    </nav>
+  </div>
 </header>
+
+<script>
+  let toggle = document.querySelector(
+    '[data-action="toggle-menu"]',
+  ) as HTMLButtonElement;
+  let menu = document.querySelector('[data-action="menu"]') as HTMLDivElement;
+  let [open, close] = toggle.querySelectorAll(
+    "path",
+  ) as NodeListOf<SVGPathElement>;
+  let links = menu.querySelectorAll("a") as NodeListOf<HTMLAnchorElement>;
+  let mediaQuery = window.matchMedia("(max-width: 768px)");
+  let firstLink = links[0];
+  let lastLink = links[links.length - 1];
+  let menuVisible = false;
+
+  function handleMenuToggle() {
+    menuVisible = !menuVisible;
+
+    menu.setAttribute("aria-hidden", String(!menuVisible));
+    toggle.setAttribute("aria-expanded", String(menuVisible));
+    toggle.setAttribute(
+      "aria-label",
+      `${menuVisible ? "schließe" : "öffne"} das hauptmenü`,
+    );
+    links.forEach((link) => (link.tabIndex = menuVisible ? 0 : -1));
+
+    if (menuVisible) {
+      menu.classList.remove(
+        "opacity-0",
+        "pointer-events-none",
+        "animate-fade-out",
+      );
+      menu.classList.add("animate-fade-in");
+      open.classList.add("hidden");
+      close.classList.remove("hidden");
+      document.body.classList.add("overflow-y-hidden");
+      firstLink.focus();
+    } else {
+      menu.classList.remove("animate-fade-in");
+      menu.classList.add("animate-fade-out", "pointer-events-none");
+      open.classList.remove("hidden");
+      close.classList.add("hidden");
+      document.body.classList.remove("overflow-y-hidden");
+      toggle.focus();
+    }
+  }
+
+  function handleFocusTrap(event: KeyboardEvent) {
+    if (event.shiftKey) {
+      if (document.activeElement === toggle) {
+        event.preventDefault();
+        lastLink.focus();
+      }
+    } else if (document.activeElement === lastLink) {
+      event.preventDefault();
+      toggle.focus();
+    }
+  }
+
+  function handleKeyDown(event: KeyboardEvent) {
+    if (menuVisible) {
+      if (event.key === "Escape") {
+        handleMenuToggle();
+      }
+
+      if (event.key === "Tab") {
+        handleFocusTrap(event);
+      }
+    }
+  }
+
+  function handleMediaChange(event: MediaQueryListEvent | MediaQueryList) {
+    if (event.matches) {
+      toggle.setAttribute("aria-expanded", String(menuVisible));
+      links.forEach((link) => (link.tabIndex = menuVisible ? 0 : -1));
+    } else {
+      menu.classList.remove("animate-fade-out");
+      links.forEach((link) => (link.tabIndex = 0));
+    }
+  }
+
+  toggle.addEventListener("click", handleMenuToggle);
+  document.addEventListener("keydown", handleKeyDown);
+  mediaQuery.addEventListener("change", handleMediaChange);
+
+  handleMediaChange(mediaQuery);
+</script>
