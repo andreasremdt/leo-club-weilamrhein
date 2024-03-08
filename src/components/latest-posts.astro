@@ -7,14 +7,14 @@ let posts = await getPosts(3);
 {
   posts.map((post) => (
     <article class="mb-4">
-      <h4>
+      <h3>
         <a
           href={`/aktionen/${post.slug}`}
           class="font-serif text-lg font-bold leading-tight text-stone-900 outline-none transition-colors hover:text-yellow-600 focus-visible:text-yellow-600 focus-visible:ring-4 focus-visible:ring-yellow-600/20"
         >
           {post.data.title}
         </a>
-      </h4>
+      </h3>
       <time
         datetime={post.data.created_at.toISOString()}
         class="text-sm text-stone-500"

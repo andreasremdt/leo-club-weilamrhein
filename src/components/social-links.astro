@@ -5,10 +5,10 @@ export interface Props extends HTMLAttributes<"div"> {
   hasText?: boolean;
 }
 
-let { class: className, hasText } = Astro.props;
+let { class: className, hasText, ...props } = Astro.props;
 ---
 
-<nav class:list={["flex gap-x-6", className]}>
+<nav {...props} class:list={["flex gap-x-6", className]}>
   <a
     href="https://www.facebook.com/pages/Leo-Club-Weil-am-Rhein/189139934566022"
     target="_blank"

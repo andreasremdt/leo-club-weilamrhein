@@ -5,10 +5,10 @@ import { CATEGORIES } from "@/lib/utils";
 ---
 
 <aside
-  class="mt-4 space-y-4 md:sticky md:top-8 md:col-span-4 md:mt-8 md:space-y-8 md:self-start lg:mt-0"
+  class="mt-4 space-y-4 md:col-span-4 md:mt-8 md:space-y-8 md:self-start lg:mt-0"
 >
   <section class="box space-y-4 text-center">
-    <h3 class="title">Über Uns</h3>
+    <h2 class="title">Über Uns</h2>
 
     <p>
       Wir sind Jugendliche und Erwachsene und engagieren uns für das Wohl von
@@ -19,23 +19,26 @@ import { CATEGORIES } from "@/lib/utils";
   </section>
 
   <section class="box space-y-4 text-center">
-    <h3 class="title">Netzwerke</h3>
+    <h2 class="title">Netzwerke</h2>
 
     <p>
       Folge uns in den sozialen Netzwerken, um keine Neuigkeiten zu verpassen!
     </p>
 
-    <SocialLinks class="justify-center" />
+    <SocialLinks
+      aria-label="soziale netzwerke (seitenleiste)"
+      class="justify-center"
+    />
   </section>
 
   <section class="box space-y-4">
-    <h3 class="title">Aktuelles</h3>
+    <h2 class="title">Aktuelles</h2>
 
     <LatestPosts />
   </section>
 
   <section class="box space-y-4">
-    <h3 class="title">Kategorien</h3>
+    <h2 class="title">Kategorien</h2>
 
     <ul class="ml-2">
       {
