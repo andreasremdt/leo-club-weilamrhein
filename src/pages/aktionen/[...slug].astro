@@ -48,7 +48,7 @@ let { Content } = await entry.render();
     <h1 class="h1 mb-2">{entry.data.title}</h1>
     <time
       datetime={entry.data.created_at.toISOString()}
-      class="text-sm text-stone-500"
+      class="text-sm text-neutral-500"
     >
       Veröffentlicht am {formatDate(entry.data.created_at)}
     </time>

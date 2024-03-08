@@ -16,69 +16,70 @@ let posts = await getPosts();
   <h2 class="h2 mb-4">Seiten</h2>
   <ul class="list-disc pl-8">
     <li>
-      <a class="transition-colors hover:text-yellow-600" href="/">Startseite</a>
+      <a class="hover:text-primary-900 transition-colors" href="/">Startseite</a
+      >
     </li>
     <li>
-      <a class="transition-colors hover:text-yellow-600" href="/aktionen/"
+      <a class="hover:text-primary-900 transition-colors" href="/aktionen/"
         >Aktionen</a
       >
       <ul class="list-disc pl-8">
         <li>
           <a
-            class="transition-colors hover:text-yellow-600"
+            class="hover:text-primary-900 transition-colors"
             href="/aktionen/begegnungen/"
             >Begegnungen mit Menschen mit Behinderung</a
           >
         </li>
         <li>
           <a
-            class="transition-colors hover:text-yellow-600"
+            class="hover:text-primary-900 transition-colors"
             href="/aktionen/kinder/">Ausflüge mit Kindern</a
           >
         </li>
         <li>
           <a
-            class="transition-colors hover:text-yellow-600"
+            class="hover:text-primary-900 transition-colors"
             href="/aktionen/pflegeheim/">Besuche im Pflegeheim</a
           >
         </li>
         <li>
           <a
-            class="transition-colors hover:text-yellow-600"
+            class="hover:text-primary-900 transition-colors"
             href="/aktionen/weitere/">Weitere Aktionen</a
           >
         </li>
         <li>
           <a
-            class="transition-colors hover:text-yellow-600"
+            class="hover:text-primary-900 transition-colors"
             href="/aktionen/news/">Neuigkeiten</a
           >
         </li>
       </ul>
     </li>
     <li>
-      <a class="transition-colors hover:text-yellow-600" href="/ueber-uns/"
+      <a class="hover:text-primary-900 transition-colors" href="/ueber-uns/"
         >Über Uns</a
       >
     </li>
     <li>
       <a
-        class="transition-colors hover:text-yellow-600"
+        class="hover:text-primary-900 transition-colors"
         href="/mitglied-werden/">Mitglied werden</a
       >
     </li>
     <li>
-      <a class="transition-colors hover:text-yellow-600" href="/kontakt/"
+      <a class="hover:text-primary-900 transition-colors" href="/kontakt/"
         >Kontakt</a
       >
     </li>
     <li>
-      <a class="transition-colors hover:text-yellow-600" href="/impressum/"
+      <a class="hover:text-primary-900 transition-colors" href="/impressum/"
         >Impressum</a
       >
     </li>
     <li>
-      <a class="transition-colors hover:text-yellow-600" href="/datenschutz/"
+      <a class="hover:text-primary-900 transition-colors" href="/datenschutz/"
         >Datenschutz</a
       >
     </li>
@@ -90,7 +91,7 @@ let posts = await getPosts();
       posts.map((post) => (
         <li>
           <a
-            class="transition-colors hover:text-yellow-600"
+            class="hover:text-primary-900 transition-colors"
             href={`/aktionen/${post.slug}`}
           >
             {formatDate(post.data.created_at)} - {post.data.title}

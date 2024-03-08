@@ -51,42 +51,42 @@
 
 @layer components {
   .box {
-    @apply bg-white p-4 shadow-md shadow-stone-200 md:p-8;
+    @apply bg-white p-4 shadow-md shadow-neutral-200 md:p-8;
   }
 
   .button {
-    @apply inline-flex h-10 cursor-pointer items-center border border-yellow-600 bg-white px-6 font-sans text-sm font-semibold uppercase text-yellow-600 transition-colors hover:border-stone-900 hover:text-stone-900 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-yellow-600/20 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-70 md:text-base;
+    @apply border-primary-900 text-primary-900 focus-visible:ring-primary-900/20 inline-flex h-10 cursor-pointer items-center border bg-white px-6 font-sans text-sm font-semibold uppercase transition-colors hover:border-neutral-900 hover:text-neutral-900 focus-visible:outline-none focus-visible:ring-4 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-70 md:text-base;
   }
 
   .label {
-    @apply mb-1 block font-medium text-gray-900;
+    @apply mb-1 block font-medium text-neutral-900;
   }
 
   .link {
-    @apply border-b border-yellow-600 text-stone-900 outline-none transition-colors hover:border-stone-900 focus-visible:ring-4 focus-visible:ring-yellow-600/20 focus-visible:ring-offset-2;
+    @apply border-primary-900 focus-visible:ring-primary-900/20 border-b text-neutral-900 outline-none transition-colors hover:border-neutral-900 focus-visible:ring-4 focus-visible:ring-offset-2;
   }
 
   .title {
-    @apply bg-stone-900 bg-no-repeat py-3 text-center font-sans text-sm font-semibold uppercase text-white md:text-base;
+    @apply bg-neutral-900 bg-no-repeat py-3 text-center font-sans text-sm font-semibold uppercase text-white md:text-base;
 
     background-image: url(/leafs-left.svg), url(/leafs-right.svg);
     background-position: 1rem, calc(100% - 1rem);
   }
 
   .h1 {
-    @apply font-serif text-2xl font-bold leading-none text-stone-900 md:text-3xl lg:text-4xl;
+    @apply font-serif text-2xl font-bold leading-none text-neutral-900 md:text-3xl lg:text-4xl;
   }
 
   .h2 {
-    @apply font-serif text-2xl font-bold leading-none text-stone-900;
+    @apply font-serif text-2xl font-bold leading-none text-neutral-900;
   }
 
   .label {
-    @apply mb-1 block font-bold text-stone-900;
+    @apply mb-1 block font-bold text-neutral-900;
   }
 
   .input {
-    @apply h-10 w-full border border-stone-300 p-2 font-sans shadow-sm outline-none transition-colors hover:border-stone-500 focus:border-yellow-600 focus:ring-4 focus:ring-yellow-600/20 aria-[invalid]:border-red-600 aria-[invalid]:focus:ring-red-200;
+    @apply focus:border-primary-900 focus:ring-primary-900/20 h-10 w-full border border-neutral-300 p-2 font-sans shadow-sm outline-none transition-colors hover:border-neutral-500 focus:ring-4 aria-[invalid]:border-red-600 aria-[invalid]:focus:ring-red-200;
   }
 
   .bordered {
@@ -94,6 +94,6 @@
   }
 
   .content {
-    @apply prose max-w-none prose-headings:font-serif prose-a:border-b prose-a:border-yellow-600 prose-a:no-underline prose-a:outline-none prose-a:transition-colors hover:prose-a:border-stone-900 focus-visible:prose-a:text-yellow-600 focus-visible:prose-a:ring-4 focus-visible:prose-a:ring-yellow-600/20 prose-img:shadow-lg;
+    @apply prose-a:border-primary-900 focus-visible:prose-a:text-primary-900 focus-visible:prose-a:ring-primary-900/20 prose max-w-none prose-headings:font-serif prose-a:border-b prose-a:no-underline prose-a:outline-none prose-a:transition-colors hover:prose-a:border-neutral-900 focus-visible:prose-a:ring-4 prose-img:shadow-lg;
   }
 }
