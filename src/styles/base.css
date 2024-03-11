@@ -68,7 +68,7 @@
   }
 
   .button {
-    @apply inline-flex h-10 cursor-pointer items-center border border-primary-900 bg-white px-6 font-sans text-sm font-semibold uppercase text-primary-900 transition-colors hover:border-neutral-900 hover:text-neutral-900 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary-900/20 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-70 md:text-base dark:border-white dark:bg-neutral-700 dark:text-white dark:hover:border-primary-200 dark:hover:text-primary-200 dark:focus-visible:border-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20;
+    @apply inline-flex h-10 cursor-pointer items-center border border-primary-900 bg-white px-6 font-sans text-sm font-semibold uppercase text-primary-900 transition-colors hover:border-neutral-900 hover:text-neutral-900 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary-900/20 disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-70 md:text-base dark:border-white dark:bg-neutral-700 dark:text-white dark:hover:border-primary-200 dark:hover:text-primary-200 dark:focus-visible:border-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20 print:hidden;
   }
 
   .label {
