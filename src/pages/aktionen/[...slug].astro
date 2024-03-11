@@ -23,6 +23,8 @@ let { Content } = await entry.render();
   description={entry.body.slice(0, 150)}
   hasSidebar
   hasBackground
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
 >
   {
     entry.data.images ? (
@@ -33,6 +35,9 @@ let { Content } = await entry.render();
           alt={entry.data.images[0].alt || ""}
           width={1000}
           height={600}
+          itemtype="https://schema.org/ImageObject"
+          itemscope
+          itemprop="thumbnail"
           quality={80}
           loading="eager"
           class="aspect-video object-cover"
@@ -52,8 +57,9 @@ let { Content } = await entry.render();
       },
     ]}
   >
-    <h1 class="h1 mb-2">{entry.data.title}</h1>
+    <h1 class="h1 mb-2" itemprop="headline">{entry.data.title}</h1>
     <time
+      itemprop="datePublished"
       datetime={entry.data.created_at.toISOString()}
       class="text-sm text-neutral-500 dark:text-neutral-400"
     >
@@ -61,7 +67,7 @@ let { Content } = await entry.render();
     </time>
   </header>
 
-  <div class="content">
+  <div class="content" itemprop="articleBody">
     <Content />
   </div>
 

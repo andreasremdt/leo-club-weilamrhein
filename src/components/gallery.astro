@@ -38,6 +38,9 @@ let { images, width, height, galleryId, class: className } = Astro.props;
           alt={image.alt || ""}
           width={width}
           height={height}
+          itemtype="https://schema.org/ImageObject"
+          itemscope
+          itemprop="image"
           quality={80}
           class="h-full w-full object-cover transition-all duration-300 hover:scale-110 hover:opacity-70 group-focus-within:opacity-60 group-focus-visible:scale-110"
         />

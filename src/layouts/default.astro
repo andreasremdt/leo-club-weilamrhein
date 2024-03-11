@@ -1,10 +1,11 @@
 ---
+import type { HTMLAttributes } from "astro/types";
 import Header from "@/components/header.astro";
 import Footer from "@/components/footer.astro";
 import "@/styles/base.css";
 import Sidebar from "@/components/sidebar.astro";
 
-interface Props {
+interface Props extends HTMLAttributes<"div"> {
   title: string;
   description: string;
   image?: string;
@@ -22,6 +23,7 @@ let {
   hasTitle,
   hasBackground,
   class: className,
+  ...props
 } = Astro.props;
 ---
 
@@ -52,6 +54,8 @@ let {
     <link rel="sitemap" href="/sitemap-index.xml" />
   </head>
   <body
+    itemscope
+    itemtype="https://schema.org/WebPage"
     class="bg-neutral-100 leading-relaxed text-neutral-700 selection:bg-primary-900/20 dark:bg-neutral-800 dark:text-neutral-200"
   >
     <a
@@ -71,7 +75,9 @@ let {
     >
       {
         hasTitle ? (
-          <h1 class="h1 mb-4 lg:col-span-12 lg:mb-0">{title}</h1>
+          <h1 class="h1 mb-4 lg:col-span-12 lg:mb-0" itemprop="headline">
+            {title}
+          </h1>
         ) : null
       }
       <div
@@ -82,6 +88,7 @@ let {
           },
           className,
         ]}
+        {...props}
       >
         <slot />
       </div>

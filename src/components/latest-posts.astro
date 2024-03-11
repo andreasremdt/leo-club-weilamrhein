@@ -6,9 +6,10 @@ let posts = await getPosts(3);
 
 {
   posts.map((post) => (
-    <article class="mb-4">
-      <h3>
+    <article class="mb-4" itemscope itemtype="https://schema.org/BlogPosting">
+      <h3 itemprop="headline">
         <a
+          itemprop="url"
           href={`/aktionen/${post.slug}`}
           class="font-serif text-lg font-bold leading-tight text-neutral-900 outline-none transition-colors hover:text-primary-900 focus-visible:text-primary-900 focus-visible:ring-4 focus-visible:ring-primary-900/20 dark:text-white dark:hover:text-primary-200 dark:focus-visible:text-primary-200 dark:focus-visible:ring-primary-200/20"
         >
@@ -16,6 +17,7 @@ let posts = await getPosts(3);
         </a>
       </h3>
       <time
+        itemprop="datePublished"
         datetime={post.data.created_at.toISOString()}
         class="text-sm text-neutral-500 dark:text-neutral-400"
       >
