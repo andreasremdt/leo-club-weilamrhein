@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # vercel
 .vercel/
+node_modules
+
+# tina cms
+__generated__
