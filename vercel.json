@@ -9,10 +9,6 @@
         {
           "key": "Permissions-Policy",
           "value": "accelerometer=(), microphone=(), geolocation=(), autoplay=(), camera=(), fullscreen=(self), gyroscope=(), interest-cohort=(), magnetometer=(), payment=(), sync-xhr=(self)"
-        },
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'self' www.youtube-nocookie.com; style-src 'self'; form-action 'self'; script-src 'self'; connect-src 'self'; img-src 'self' ik.imagekit.io; base-uri 'self'; frame-ancestors 'self'; object-src 'none';"
         }
       ]
     }
