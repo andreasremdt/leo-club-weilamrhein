@@ -3,8 +3,8 @@ title: Besuch des Schlossgrabenfests
 published: true
 created_at: 2015-09-20 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/77-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/77-02.jpg
+  - src: /src/images/begegnungen/77-01.jpg
+  - src: /src/images/begegnungen/77-02.jpg
 ---
 
 Mitten im September ging es mit den Bewohnern aus Wiechs zum Schlossgrabenfest nach Lörrach-Brombach. Die zahlreichen Stände waren interessant, wobei das Entenrennen ein eindeutiges Highlight für Bewohner und Leos war. Das Mittagessen fiel dabei eher klassisch mit Würstchen, Steak und Pommes aus. Nachdem wir uns auf dem Schlossgrabenfest umgesehen und so gut wie alle Stände betrachtet haben, wurde noch ein Interessensbild erstellt. Dabei handelt es sich um eine Liste mit Wünschen seitens der Bewohner für die nächsten Aktionen. Die Liste wuchs schnell und bietet einige sehr interessante Ideen, welche wir in diesem und nächsten Jahr zumindest teilweise umsetzen möchten.

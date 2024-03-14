@@ -3,7 +3,7 @@ title: Treffen bei „Miteinander 2012“
 published: true
 created_at: 2012-07-29 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/41-01.jpg
+  - src: /src/images/begegnungen/41-01.jpg
 ---
 
 Eine halbe Stunde vor Festbeginn: Die Leos blicken dem Großereignis ganz entspannt entgegen. Seit 11 Uhr haben sie bei den Vorbereitungsarbeiten geholfen. Auch der von Leo Sophia betreute Turm für das Kisten stapeln steht und die zehn Stationen des Teamparcours „Junior – Senior“ sind längst aufgebaut. Das Gelände hinter dem Mehrgenerationenhaus in der Riedlistraße im Stadtteil Friedlingen füllt sich mehr und mehr mit Besucherinnen und Besuchern.

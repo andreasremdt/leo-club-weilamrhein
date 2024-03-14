@@ -3,7 +3,7 @@ title: Grättimannaktion im Weiler Pflegeheim
 published: true
 created_at: 2014-12-08 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/19-01.jpg
+  - src: /src/images/pflegeheim/19-01.jpg
 ---
 
 “Schon wieder eine Grättimannaktion?”, wird sich der geneigte Leser beim Überfliegen des Titels fragen. “Das haben die Leos doch schon so oft gemacht.” Und das stimmt auch, denn wir halten gerne an Traditionen fest. Neben den Begegnungen sind die Besuche im Weiler Pflegeheim eine derselben, welche wir ungerne loslassen möchten. Und so kam es, dass der Leo-Club am 6. Dezember wieder im Weiler Pflegeheim Markgräflerland versammelt bereit stand, Grättimänner an die zahlreichen Bewohner auf den Stationen zu verteilen.

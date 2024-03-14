@@ -3,7 +3,7 @@ title: "Trotz Regen: gelungenes Sommerfest im Markus-Pflüger-Heim"
 published: true
 created_at: 2014-07-13 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/69-01.jpg
+  - src: /src/images/begegnungen/69-01.jpg
 ---
 
 Das Wetter war keineswegs auf unserer Seite, als wir am 13. Juli 2014 beim Sommerfest von Station Ahorn des Markus-Pflüger-Heims in Wiechs halfen. Wolken und starker Regen sorgten dafür, dass das Fest zeitweise im Inneren des Café Wiesentals stattfand. Dennoch war die Laune gut und das Fest ein Erfolg, doch der Reihe nach.

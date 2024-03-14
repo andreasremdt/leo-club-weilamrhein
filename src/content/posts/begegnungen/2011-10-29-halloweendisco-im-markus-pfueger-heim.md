@@ -3,8 +3,8 @@ title: Halloweendisco im Markus-Pfüger-Heim
 published: true
 created_at: 2011-10-29 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/29-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/29-02.jpg
+  - src: /src/images/begegnungen/29-01.jpg
+  - src: /src/images/begegnungen/29-02.jpg
 ---
 
 Wieder mal war es soweit: Rechtzeitig zum 29. Oktober veranstaltete der Leo Club Weil am Rhein eine Halloweendisco im Wiechser Pflegeheim. In diesem Jahr gab es ein paar besondere Highlights, welche wirklich allen gefallen haben. So wurde in diesem Jahr erstmals eine Hitparade mit den besten Songs zusammengestellt, zudem war ein ganz besonderer Gast unter den Feiernden. Doch der Reihe nach…

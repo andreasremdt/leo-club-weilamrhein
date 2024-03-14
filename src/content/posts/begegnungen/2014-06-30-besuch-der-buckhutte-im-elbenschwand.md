@@ -3,22 +3,22 @@ title: Besuch der Buckhütte im Elbenschwand
 published: true
 created_at: 2014-06-30 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-10.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-05.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-06.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-07.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-08.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-09.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-11.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-12.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-13.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-14.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-15.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/68-16.jpg
+  - src: /src/images/begegnungen/68-10.jpg
+  - src: /src/images/begegnungen/68-01.jpg
+  - src: /src/images/begegnungen/68-02.jpg
+  - src: /src/images/begegnungen/68-03.jpg
+  - src: /src/images/begegnungen/68-04.jpg
+  - src: /src/images/begegnungen/68-05.jpg
+  - src: /src/images/begegnungen/68-06.jpg
+  - src: /src/images/begegnungen/68-07.jpg
+  - src: /src/images/begegnungen/68-08.jpg
+  - src: /src/images/begegnungen/68-09.jpg
+  - src: /src/images/begegnungen/68-11.jpg
+  - src: /src/images/begegnungen/68-12.jpg
+  - src: /src/images/begegnungen/68-13.jpg
+  - src: /src/images/begegnungen/68-14.jpg
+  - src: /src/images/begegnungen/68-15.jpg
+  - src: /src/images/begegnungen/68-16.jpg
 ---
 
 Es war feucht und kalt, doch das hielt die Bewohner des Markus-Pflüger-Heims und einige Weiler Leos nicht davon ab, zusammen einen schönen Tag auf der im Schwarzwald gelegenen Buckhütte zu verbringen. Anlass war der Geburtstag von Bewohner Dieter, welcher seit Beginn des Projektes Begegnungen dabei ist. Er hatte die Idee, gemeinsam auf der Buckhütte zu grillen und so seinen Geburtstag nachträglich zu feiern. Der Einladung folgten dann auch viele andere Bewohner und 5 Leos, welche als Dankeschön eine kleine Geschenktüte mitbrachten und den Ausflug zu Teilen organisierten.

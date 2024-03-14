@@ -3,14 +3,14 @@ title: KiSEL auf dem Seebodenhof
 published: true
 created_at: 2014-06-07 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/14-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/14-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/14-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/14-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/14-05.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/14-06.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/14-07.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/14-08.jpg
+  - src: /src/images/kinder/14-04.jpg
+  - src: /src/images/kinder/14-02.jpg
+  - src: /src/images/kinder/14-01.jpg
+  - src: /src/images/kinder/14-03.jpg
+  - src: /src/images/kinder/14-05.jpg
+  - src: /src/images/kinder/14-06.jpg
+  - src: /src/images/kinder/14-07.jpg
+  - src: /src/images/kinder/14-08.jpg
 ---
 
 KiSEL und der Leo-Club Weil am Rhein sind sich nicht fremd. Bereits in der Vergangenheit unternahmen wir einige gemeinsame Aktionen, darunter eine Hausbootfahrt in Frankreich. Nach längerer Abstinenz haben wir uns wieder dazu entschlossen, eine gemeinsame Aktion zu machen, wenn auch nur für einen Tag. Nach kurzer Überlegung kam dann auch schon der entscheidende Vorschlag: ein Zehnkampf auf dem Seebodenhof!

@@ -16,8 +16,5 @@ export default defineConfig({
     sitemap(),
   ],
   output: "hybrid",
-  image: {
-    domains: ["ik.imagekit.io"],
-  },
   adapter: vercel(),
 });

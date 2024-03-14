@@ -3,7 +3,7 @@ title: Leos freuen sich über die Mithilfe einer Lörracher Schulklasse
 published: true
 created_at: 2011-03-16 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/15-01.jpg
+  - src: /src/images/weitere/15-01.jpg
 ---
 
 Gemeinsam mit ihrer Klassenlehrerin Petra Soder übernahm eine Hälfte der Klasse am Donnerstagnachmittag das monatlich einmal stattfindende Drehorgelspielen. Die Jugendlichen aus der Theodor-Heuss-Realschule machten ihre Sache hervorragend. Von Station zu Station bekamen sie mehr Gefühl für das altehrwürdige Musikinstrument. Einfühlsamkeit zeigten sie auch bei der Begegnung mit den Heimbewohnern. Schön war es, dass sie zahlreiche Heimbewohner in Rollstühlen zur Musik bewegten.

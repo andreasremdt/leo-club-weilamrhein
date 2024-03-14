@@ -3,8 +3,8 @@ title: "Seifenkistenwettbewerb beim Binzener Frühlingsfest: Der Leo-Club war da
 published: true
 created_at: 2011-04-10 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/23-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/23-02.jpg
+  - src: /src/images/begegnungen/23-01.jpg
+  - src: /src/images/begegnungen/23-02.jpg
 ---
 
 Zwei Tage lang, vom 9. bis zum 10. April, fand das alljährliche Frühlingsfest im Binzener Gewerbegebiet statt. Diverse Attraktionen wie ein Bauernmarkt, Cross Motorräder oder Modellboote in einem Wasserbecken warteten auf den Besucher. Einer der Höhepunkte dürfte aber der Seifenkisten Wettbewerb gewesen sein, an welchem auch der Leo-Club Weil am Rhein teilnahm.

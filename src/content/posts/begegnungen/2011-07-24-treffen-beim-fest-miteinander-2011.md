@@ -3,7 +3,7 @@ title: Treffen beim Fest “Miteinander” 2011
 published: true
 created_at: 2011-07-24 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/26-01.jpg
+  - src: /src/images/begegnungen/26-01.jpg
 ---
 
 Am 24.7.2011 hatten die Leos einen Großeinsatz beim Generationenfest “Miteinander” in Friedlingen. Von 11 Uhr an halfen sie bei den umfangreichen Vorbereitungen. Festzeltgarnituren wurden platziert, die Vorrichtung zum Kisten stapeln montiert und die zehn Stationen des Teamparcours “Junior – Senior” aufgebaut.

@@ -3,10 +3,10 @@ title: Hausbootfahrt mit Bewohnern in 2019
 published: true
 created_at: 2019-06-25 05:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/83-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/83-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/83-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/83-04.jpg
+  - src: /src/images/begegnungen/83-01.jpg
+  - src: /src/images/begegnungen/83-02.jpg
+  - src: /src/images/begegnungen/83-03.jpg
+  - src: /src/images/begegnungen/83-04.jpg
 ---
 
 Der Motor dreht spürbar, aber nicht zu laut auf, als Valentin den Gashebel langsam nach vorne drückt. Bloß nicht zu schnell, schließlich befinden wir uns noch im Hafengebiet und müssen große Wellen vermeiden. Nach 2 Minuten haben wir die Geborgenheit des Hafenbeckens bereits verlassen, betreten die Wasserstraße, die Wildnis, das Land. Vor uns: ein freier, lang gestreckter Kanal. Wenige Menschen werden uns in den nächsten Stunden begegnen, wir haben freie Bahn, nichts stellt sich uns in den Weg. Entschlossen macht Valentin den Gashebel mit dem Anschlag bekannt, das Boot beschleunigt spürbar und wir starten in eine neue Hausbootfahrt mit Bewohnern des Markus-Pflüger-Heims.

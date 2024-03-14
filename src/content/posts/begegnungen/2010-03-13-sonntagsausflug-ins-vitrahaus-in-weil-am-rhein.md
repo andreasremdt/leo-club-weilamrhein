@@ -3,8 +3,8 @@ title: Sonntagsausflug ins VitraHaus in Weil am Rhein
 published: true
 created_at: 2010-03-13 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/07-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/07-02.jpg
+  - src: /src/images/begegnungen/07-01.jpg
+  - src: /src/images/begegnungen/07-02.jpg
 ---
 
 Die VitraHaus Tour war fantastisch! Wenige Wochen nach der Eröffnung des spektakulären Ausstellungshauses machten 22 Teilnehmer des Leo-Projekts “Begegnungen” einen eineinhalbstündigen Rundgang durch das viergeschossige Gebäude. Stühle, Sofas und Liegen in unterschiedlichstem Design und aus verschiedenen Epochen luden zum Verweilen und Ausprobieren ein.

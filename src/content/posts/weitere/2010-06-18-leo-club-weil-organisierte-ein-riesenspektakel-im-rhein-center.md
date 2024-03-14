@@ -3,9 +3,9 @@ title: Leo-Club Weil organisierte ein Riesenspektakel im Rhein Center
 published: true
 created_at: 2010-06-18 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/04-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/04-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/04-02.jpg
+  - src: /src/images/weitere/04-01.jpg
+  - src: /src/images/weitere/04-03.jpg
+  - src: /src/images/weitere/04-02.jpg
 ---
 
 **Bericht vom Turnier am 18.6.2010**

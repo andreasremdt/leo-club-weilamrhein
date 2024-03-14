@@ -3,8 +3,8 @@ title: Dieter, Uwe & Co. waren Ehrengäste bei der Charterfeier des Leo-Clubs
 published: true
 created_at: 2011-03-19 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/22-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/22-02.jpg
+  - src: /src/images/begegnungen/22-01.jpg
+  - src: /src/images/begegnungen/22-02.jpg
 ---
 
 Am 19.3.2011 feierten die Weiler Leos mit 200 Gästen ihre Charterfeier in der Altrheinhalle in Märkt. Mit dabei waren auch zehn Bewohnerinnen und Bewohner des Markus-Pflüger-Heims sowie die Heimleiterin, die Sozialdienstleiterin sowie drei weitere Mitarbeiterinnen. Bei seiner Begrüßungsansprache hob Clubpräsident Murat Kükner die Bedeutung der langjährigen Freundschaft zwischen den heutigen Leos und den Heimbewohnern hervor: “Ein besonderes Anliegen war es uns, dass unsere Freunde vom Markus-Pflüger-Heim in Wiechs heute Abend mit uns feiern.”

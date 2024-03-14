@@ -3,8 +3,8 @@ title: Ostereierpyramide mit 12.000 Eiern
 published: true
 created_at: 2010-03-28 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/02-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/02-02.jpg
+  - src: /src/images/weitere/02-01.jpg
+  - src: /src/images/weitere/02-02.jpg
 ---
 
 Wie schon in den vergangenen sieben Jahren bildeten in der Karwoche wieder bunt gefärbte und adrett angeordnete Eier einen Blickfang in der Passage des Rhein Centers. Die essbaren Hinweise auf das Osterfest wurden am Sonntagnachmittag (28.3.) von Mitgliedern des Weiler Leo-Clubs auf einen riesengroßen Pyramidenstumpf mit fünfeckiger Grundfläche gesetzt. Solange der Vorrat reichte, wurden die Ostereier bis am Gründonnerstag täglich zwischen 8.30 und 20 Uhr zum Stückpreis von 25 Cent für einen guten Zweck verkauft.

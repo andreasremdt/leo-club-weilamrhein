@@ -3,11 +3,11 @@ title: Leo-Fasnachtsdisco 2012 im Markus-Pflüger-Heim
 published: true
 created_at: 2012-02-16 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/34-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/34-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/34-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/34-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/34-05.jpg
+  - src: /src/images/begegnungen/34-01.jpg
+  - src: /src/images/begegnungen/34-02.jpg
+  - src: /src/images/begegnungen/34-03.jpg
+  - src: /src/images/begegnungen/34-04.jpg
+  - src: /src/images/begegnungen/34-05.jpg
 ---
 
 Passend zur Zeit der Narren, der bunten Kostüme und der ausgelassenen Stimmung haben die Leos am 16. Februar die Bewohnerschaft des Wiechser Pflegeheims zu einer Fasnachtsdisco eingeladen. Dafür, dass an diesem Schmutzige Dunschdig viel geboten wurde, sorgte DJ Manfred Listl aus Weil-Friedlingen. An seinem Geburtstag war er Garant für eine tolle Musikauswahl und eine von 19 bis 21.45 Uhr jederzeit gefüllte Tanzfläche.

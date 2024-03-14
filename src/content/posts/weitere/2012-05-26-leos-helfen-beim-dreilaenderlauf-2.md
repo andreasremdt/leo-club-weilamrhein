@@ -3,10 +3,10 @@ title: Leos helfen beim Dreiländerlauf
 published: true
 created_at: 2012-05-26 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/24-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/24-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/24-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/24-04.jpg
+  - src: /src/images/weitere/24-01.jpg
+  - src: /src/images/weitere/24-02.jpg
+  - src: /src/images/weitere/24-03.jpg
+  - src: /src/images/weitere/24-04.jpg
 ---
 
 Mai 19: Große Ereignisse werfen ihre Schatten voraus. So auch der traditionelle Dreiländerlauf, der zum dritten Mal unter dem Patronat der Regio Lions durchgeführt wurde. Im Basler Einkaufscenter „Stücki“ holten sich am Vortag des Laufevents zahlreiche Teilnehmer ihre Startnummern ab. Zudem konnten sie Lose „für den guten Zweck“ zu einem Vorzugspreis erwerben. Als Hauptpreis lockte ein vom Autohaus Golz in Binzen gespendetes Auto. Acht Leos halfen den Lions ihres Weiler Patenclubs zwischen 10 und 15 Uhr beim Verkauf der Lose.

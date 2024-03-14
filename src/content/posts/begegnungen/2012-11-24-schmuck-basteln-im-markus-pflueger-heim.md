@@ -3,7 +3,7 @@ title: Schmuck basteln im Markus-Pflüger-Heim
 published: true
 created_at: 2012-11-24 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/46-01.jpg
+  - src: /src/images/begegnungen/46-01.jpg
 ---
 
 Das ist immer wieder schön! – Das Schmuck basteln unter Anleitung von Leo-Club – Gründungspräsidentin Leyla stößt im Markus-Pflüger-Heim in der Vorweihnachtszeit stets auf große Resonanz.

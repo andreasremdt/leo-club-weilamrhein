@@ -3,9 +3,9 @@ title: Besuch der Bad Bellinger Thermen
 published: true
 created_at: 2014-01-09 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/61-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/61-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/61-03.jpg
+  - src: /src/images/begegnungen/61-01.jpg
+  - src: /src/images/begegnungen/61-02.jpg
+  - src: /src/images/begegnungen/61-03.jpg
 ---
 
 Im Winter hat man das besondere Bedürfnis, sich in warme Decken vor dem Kamin einzumurmeln und das Haus möglichst nicht zu verlassen. Auch warme, ausgiebige Bäder sind stets willkommen. Und dieses Bedürfnis nach besonderer Wärme war der Mittelpunkt der Begegnung im Januar, dem ersten Ausflug mit den Bewohnern des Markus-Pflüger-Heims im frischen Jahr 2014.

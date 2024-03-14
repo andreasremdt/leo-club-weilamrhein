@@ -3,7 +3,7 @@ title: Fasnachtsdisco mit den Leos am Schmutzige Dunschdig
 published: true
 created_at: 2011-02-14 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/21-01.jpg
+  - src: /src/images/begegnungen/21-01.jpg
 ---
 
 Die Weiler Leos sorgen wieder einmal für Hochstimmung im Café Wiesental des Markus-Pflüger-Heims! Die Organisation der Leo-Fasnachtsdisco hatte Clubpräsident Murat übernommen. Als Glücksgriff erwies es sich, dass er mit Manfred Listl aus Friedlingen einen kompetenten Partner mit einer professionellen Anlage mitgebracht hatte.

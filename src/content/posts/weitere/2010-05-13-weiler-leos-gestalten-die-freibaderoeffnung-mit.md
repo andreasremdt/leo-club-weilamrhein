@@ -3,7 +3,7 @@ title: Weiler Leos gestalten die Freibaderöffnung mit
 published: true
 created_at: 2010-05-13 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/03-01.jpg
+  - src: /src/images/weitere/03-01.jpg
 ---
 
 Es ist Christi Himmelfahrt (“Vatertag”) und das Laguna-Freibad öffnet erstmals im Jahr 2010 seine Pforten. Punkt 8 Uhr sind die ersten Unerschrockenen da, bereit, bei regnerischem und kaltem Wetter ins Wasser zu gehen.Wer das kalte Nass scheute, hatte, wie bereits bei der entsprechenden Veranstaltung im Jahr 2009, eine hervorragende Alternative: Wasserfahrrad fahren. Leo-Club-Mitglied Léonie Spachtholz hatte einmal mehr das originelle Wassersportgerät aus dem Fahrradgeschäft ihres Vaters in Huningue mitgebracht.

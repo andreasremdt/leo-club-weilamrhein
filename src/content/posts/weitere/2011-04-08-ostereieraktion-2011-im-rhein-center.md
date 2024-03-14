@@ -3,16 +3,16 @@ title: Ostereieraktion 2011 im Rhein Center
 published: true
 created_at: 2011-04-08 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/16-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/16-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/16-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/16-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/16-05.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/16-06.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/16-07.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/16-08.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/16-09.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/16-10.jpg
+  - src: /src/images/weitere/16-01.jpg
+  - src: /src/images/weitere/16-03.jpg
+  - src: /src/images/weitere/16-02.jpg
+  - src: /src/images/weitere/16-04.jpg
+  - src: /src/images/weitere/16-05.jpg
+  - src: /src/images/weitere/16-06.jpg
+  - src: /src/images/weitere/16-07.jpg
+  - src: /src/images/weitere/16-08.jpg
+  - src: /src/images/weitere/16-09.jpg
+  - src: /src/images/weitere/16-10.jpg
 ---
 
 Unglaubliche 12.000 Ostereier, gestapelt auf einer 1,80 Meter hohen Pyramide inmitten eines belebten Einkaufszentrums im Dreiländereck Deutschland-Frankreich-Schweiz. Klingt vielversprechend? Absolut zu Recht, auch wenn sich dieses Spektakel jährlich zu Ostern wiederholt. Denn jedes Jahr, passend zu einer der schönsten Zeit des Jahres, verkaufen wir, der Leo-Club Weil am Rhein – Dreiländereck, all diese von der Werbegemeinschaft Rhein Center gestifteten Ostereier, optisch verziert auf einer großen Holzpyramide.

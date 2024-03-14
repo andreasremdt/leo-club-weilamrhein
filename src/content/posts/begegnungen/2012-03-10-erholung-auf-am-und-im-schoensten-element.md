@@ -3,7 +3,7 @@ title: “Erholung auf, am und im schönsten Element”
 published: true
 created_at: 2012-03-10 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/35-01.jpg
+  - src: /src/images/begegnungen/35-01.jpg
 ---
 
 Wie so oft, wenn Jugendliche und junge Erwachsene vom Leo-Club Weil am Rhein – Dreiländereck mit Bewohnerinnen und Bewohnern aus dem Markus-Pflüger-Heim in Wiechs sich zu einer gemeinsamen Unternehmung treffen, spielte im Monat März das Wasser eine Hauptrolle.“Erholung auf, am und im schönsten Element” kommt bei Jung und Alt immer gut an. Dies war bei gemeinsamen Tretboot- und mehrtägigen Hausbootfahrten ebenso der Fall wie bei Grillevents an Seen und bei allerlei Badevergnügen. In der langen Geschichte der “Begegnungen” stand das Baden in den Balinea Thermen nun zum dritten Mal auf dem Programm.Dieter, ein Projektteilnehmer der ersten Stunde, ließ es sich nicht nehmen, mit den jüngsten Leos vor allem die Wasserattraktionen im Außenbereich auszutesten. 60 Jahre Altersunterschied spielten beispielsweise im Oval des Strömungskanals keine Rolle. Gemeinsam ließ man sich treiben, tollte unbeschwert herum und lachte übermütig aus vollem Halse.

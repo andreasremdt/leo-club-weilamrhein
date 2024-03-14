@@ -3,7 +3,7 @@ title: Leos und Bewohner auf Hausbootfahrt in Frankreich
 published: true
 created_at: 2011-06-20 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/24-01.jpg
+  - src: /src/images/begegnungen/24-01.jpg
 ---
 
 Es ist ja nicht so, dass wir eine solche Unternehmung zum ersten Mal durchgeführt hätten. Dennoch ist sie immer wieder eine große Herausforderung und sorgt für Vorfreude bei allen Beteiligten.Am Montag, dem 20. Juni, ging es dann auch endlich los. Die diesjährige Hausbootfahrt mit Bewohnern des Markus-Pflüger-Heims begann im kleinen Hafen von Niderviller. Bei unseren Transportmitteln handelte es sich um drei Hausboote des Typs Vetus, wobei eines leicht größer als die anderen beiden war. Nach dem erfolgreichen Einrichten der Boote sowie der Verteilung der Schlafplätze starteten wir die Fahrt zunächst in westlicher Richtung, genauer gesagt zum Port de Houillon, vorbei an malerischen Landschaften, durch den relativ engen Rhein-Marne-Kanal.

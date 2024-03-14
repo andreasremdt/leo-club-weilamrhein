@@ -1,14 +1,13 @@
 ---
 import { Picture } from "astro:assets";
+import Logo from "@/images/logo.png";
 ---
 
-<header
-  class="bg-white shadow-lg shadow-neutral-200 dark:bg-neutral-700 dark:shadow-neutral-900 print:hidden"
->
+<header class="bg-white shadow-lg shadow-neutral-200 dark:bg-neutral-700 dark:shadow-neutral-900 print:hidden">
   <div class="relative mx-auto flex max-w-7xl items-center px-4 py-4">
     <span class="flex items-center gap-x-4 font-light uppercase">
       <Picture
-        src="https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/logo.png"
+        src={Logo}
         formats={["avif", "webp"]}
         alt="logo des leo clubs"
         width={150}
@@ -17,11 +16,9 @@ import { Picture } from "astro:assets";
         class="h-14 w-14 lg:h-20 lg:w-20"
         loading="eager"
       />
-      <span
-        class="block text-xl leading-none text-primary-900 lg:text-3xl dark:text-primary-200"
+      <span class="block text-xl leading-none text-primary-900 lg:text-3xl dark:text-primary-200"
         ><b class="font-bold">Leo</b> Club <span
-          class="block text-sm text-neutral-500 lg:text-base dark:text-neutral-300"
-          >Weil am Rhein - Dreiländereck</span
+          class="block text-sm text-neutral-500 lg:text-base dark:text-neutral-300">Weil am Rhein - Dreiländereck</span
         ></span
       >
     </span>
@@ -44,15 +41,8 @@ import { Picture } from "astro:assets";
         stroke="currentColor"
         class="z-20 h-10 w-10"
       >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="hidden"
-          d="M6 18 18 6M6 6l12 12"></path>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+        <path stroke-linecap="round" stroke-linejoin="round" class="hidden" d="M6 18 18 6M6 6l12 12"></path>
       </svg>
     </button>
 
@@ -87,13 +77,9 @@ import { Picture } from "astro:assets";
 </header>
 
 <script>
-  let toggle = document.querySelector(
-    '[data-action="toggle-menu"]',
-  ) as HTMLButtonElement;
+  let toggle = document.querySelector('[data-action="toggle-menu"]') as HTMLButtonElement;
   let menu = document.querySelector('[data-action="menu"]') as HTMLDivElement;
-  let [open, close] = toggle.querySelectorAll(
-    "path",
-  ) as NodeListOf<SVGPathElement>;
+  let [open, close] = toggle.querySelectorAll("path") as NodeListOf<SVGPathElement>;
   let links = menu.querySelectorAll("a") as NodeListOf<HTMLAnchorElement>;
   let mediaQuery = window.matchMedia("(max-width: 768px)");
   let firstLink = links[0];
@@ -105,18 +91,11 @@ import { Picture } from "astro:assets";
 
     menu.setAttribute("aria-hidden", String(!menuVisible));
     toggle.setAttribute("aria-expanded", String(menuVisible));
-    toggle.setAttribute(
-      "aria-label",
-      `${menuVisible ? "schließe" : "öffne"} das hauptmenü`,
-    );
+    toggle.setAttribute("aria-label", `${menuVisible ? "schließe" : "öffne"} das hauptmenü`);
     links.forEach((link) => (link.tabIndex = menuVisible ? 0 : -1));
 
     if (menuVisible) {
-      menu.classList.remove(
-        "opacity-0",
-        "pointer-events-none",
-        "animate-fade-out",
-      );
+      menu.classList.remove("opacity-0", "pointer-events-none", "animate-fade-out");
       menu.classList.add("animate-fade-in");
       open.classList.add("hidden");
       close.classList.remove("hidden");

@@ -3,8 +3,8 @@ title: Treffen bei “Miteinander”
 published: true
 created_at: 2010-09-26 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/14-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/14-02.jpg
+  - src: /src/images/begegnungen/14-01.jpg
+  - src: /src/images/begegnungen/14-02.jpg
 ---
 
 Das hat Tradition, dass Bewohnerinnen und Bewohner des Markus-Pflüger-Heims in Wiechs zum Generationenfest “Miteinander” nach Weil kommen!Am 26. September 2010 gehörte die vierzehnköpfige Delegation um Jürgen, Dieter & Co. zu den ersten Gästen, die sich auf dem Festgelände einfanden. Das war gut so, denn so konnten sich die beiden Clowns Rosina und Hupe ganz individuell um diese unternehmungslustige Gruppe kümmern. Urkomisch fanden es alle, wie Hupe eine Gießkanne als Musikinstrument umfunktionierte. Genial!

@@ -3,11 +3,11 @@ title: Fasnachtsdisco im Markus-Pflüger-Heim
 published: true
 created_at: 2014-02-12 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/65-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/65-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/65-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/65-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/65-05.jpg
+  - src: /src/images/begegnungen/65-01.jpg
+  - src: /src/images/begegnungen/65-02.jpg
+  - src: /src/images/begegnungen/65-03.jpg
+  - src: /src/images/begegnungen/65-04.jpg
+  - src: /src/images/begegnungen/65-05.jpg
 ---
 
 Altbewährtes Rezept, Erfolg garantiert. Bei der alljährlichen Fasnachtsdisco im Cafe Wiesental bei Schopfheim sorgten die Leos erneut für gute Stimmung und unterhielten die Bewohner mit zahlreichen Polonaisen, Tänzen und abwechslungsreicher Musik. Unverzichtbar ist inzwischen Manfred Listl geworden, welcher mit einer tollen Musikmischung aus vielen Jahrzehnten mal wieder ins Schwarze traf und viele Teilnehmer auf die Tanzfläche brachte.

@@ -3,29 +3,29 @@ title: "Jubiläum: Zur 200. Unternehmung hebt das Projekt „Begegnungen“ ab"
 published: true
 created_at: 2013-04-01 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-05.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-06.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-07.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-08.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-09.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-10.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-11.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-12.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-13.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-14.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-15.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-16.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-17.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-18.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-19.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-20.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-21.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-22.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/50-23.jpg
+  - src: /src/images/begegnungen/50-01.jpg
+  - src: /src/images/begegnungen/50-02.jpg
+  - src: /src/images/begegnungen/50-03.jpg
+  - src: /src/images/begegnungen/50-04.jpg
+  - src: /src/images/begegnungen/50-05.jpg
+  - src: /src/images/begegnungen/50-06.jpg
+  - src: /src/images/begegnungen/50-07.jpg
+  - src: /src/images/begegnungen/50-08.jpg
+  - src: /src/images/begegnungen/50-09.jpg
+  - src: /src/images/begegnungen/50-10.jpg
+  - src: /src/images/begegnungen/50-11.jpg
+  - src: /src/images/begegnungen/50-12.jpg
+  - src: /src/images/begegnungen/50-13.jpg
+  - src: /src/images/begegnungen/50-14.jpg
+  - src: /src/images/begegnungen/50-15.jpg
+  - src: /src/images/begegnungen/50-16.jpg
+  - src: /src/images/begegnungen/50-17.jpg
+  - src: /src/images/begegnungen/50-18.jpg
+  - src: /src/images/begegnungen/50-19.jpg
+  - src: /src/images/begegnungen/50-20.jpg
+  - src: /src/images/begegnungen/50-21.jpg
+  - src: /src/images/begegnungen/50-22.jpg
+  - src: /src/images/begegnungen/50-23.jpg
 ---
 
 Als das Projekt „Begegnungen“ im Jahr 2000 begonnen wurde, hätte keiner geahnt, dass es so erfolgreich werden würde. Zusammen mit Lehrer Gerhard Laux und einigen Schülern der Realschule Weil am Rhein, darunter auch Sadiye Aydin, welche heute Mitglied des Leo-Clubs ist, wurde der Grundstein für eine lange und großartige Serie von gemeinsamen Unternehmungen mit Jugendlichen und jungen Erwachsenen aus der Dreiländerecke sowie Bewohnern des Markus-Pflüger-Heims in Wiechs gelegt.

@@ -3,11 +3,11 @@ title: Und wieder bebt das Markus-Pflüger-Heim!
 published: true
 created_at: 2013-02-07 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/49-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/49-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/49-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/49-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/49-05.jpg
+  - src: /src/images/begegnungen/49-01.jpg
+  - src: /src/images/begegnungen/49-02.jpg
+  - src: /src/images/begegnungen/49-03.jpg
+  - src: /src/images/begegnungen/49-04.jpg
+  - src: /src/images/begegnungen/49-05.jpg
 ---
 
 Die Leo – Fasnachtsdisco am „Schmutzige Dunschdig“ ist im Markus-Pflüger-Heim ein Muss. Undenkbar wäre es, auf sie zu verzichten! 16 Leos und zahlreiche Heimbewohner nutzten auch in diesem Jahr wieder die Zeit der Narren und der Späße für ausgiebige Tänze, lautes Gegröle zu Kultsongs und ausgefallenen Kostümen.

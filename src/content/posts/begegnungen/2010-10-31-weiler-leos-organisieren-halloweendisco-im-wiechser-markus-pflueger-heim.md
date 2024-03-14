@@ -3,7 +3,7 @@ title: Weiler Leos organisieren Halloweendisco im Wiechser Markus-Pflüger-Heim
 published: true
 created_at: 2010-10-31 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/15-01.jpg
+  - src: /src/images/begegnungen/15-01.jpg
 ---
 
 “Halloween-Disco mit den Leos”. Das Hinweisschild an der Eingangstüre des heimeigenen Café Wiesental war einfarbig gestaltet. Umso bunter wurde dann aber die Party!Es war wieder einmal für alle Beteiligten super, was sich zwischen 19 und 22.30 Uhr auf der Tanzfläche abspielte. Es verdient Respekt, mit welcher Leidenschaft und mit welcher Ausdauer sich einige Heimbewohner von der Musik berauschen ließen!

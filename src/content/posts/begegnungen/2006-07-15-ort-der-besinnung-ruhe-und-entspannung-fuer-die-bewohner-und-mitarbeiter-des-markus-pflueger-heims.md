@@ -3,7 +3,7 @@ title: Ort der Besinnung, Ruhe und Entspannung für die Bewohner und Mitarbeiter
 published: true
 created_at: 2006-07-15 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/01-01.jpg
+  - src: /src/images/begegnungen/01-01.jpg
 ---
 
 Schopfheim. Das Ergebnis kann sich sehen lassen. Rund 50 Gäste bei der Einweihungsfeier am Mittwochabend stellten unisono fest, dass der neu gestaltete Raum auf Station “Eiche” im Haus Dinkelberg des Markus-Pflüger-Heims wunderschön geworden ist. Er ist durchdacht und zweckdienlich gestaltet und hat gleichzeitig Stil und Atmosphäre.

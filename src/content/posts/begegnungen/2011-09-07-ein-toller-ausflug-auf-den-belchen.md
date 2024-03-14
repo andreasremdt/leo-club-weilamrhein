@@ -3,10 +3,10 @@ title: Ein toller Ausflug auf den Belchen
 published: true
 created_at: 2011-09-07 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/28-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/28-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/28-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/28-04.jpg
+  - src: /src/images/begegnungen/28-01.jpg
+  - src: /src/images/begegnungen/28-02.jpg
+  - src: /src/images/begegnungen/28-03.jpg
+  - src: /src/images/begegnungen/28-04.jpg
 ---
 
 Der Weg ist mit steinigem Geröll übersät und es weht ein leichter Wind, während uns die Sonne knapp 1400 Meter über dem Meeresspiegel im Nacken brennt. Zu unserer Linken befindet sich ein steiler Abhang, mit freiem Blick auf die uns zu Füßen liegende Schwarzwaldlandschaft sowie das breite Rheintal, zu unserer Rechten wachsen Heidekraut und Heidelbeeren am seichten Hang. Nur noch ein paar Meter, dann haben wir den anstrengenden Aufstieg geschafft! Wir haben, wenn auch nicht als die Ersten, die Spitze des Belchen erreicht, des vierthöchsten Bergs des Schwarzwaldes. Erschöpft lassen wir uns auf das weiche Gras nieder und genießen den kilometerweiten Ausblick, folgen dem Horizont bis zu den Alpen, welche weit entfernt im Dunst emporragen. Zeit, den Tag noch einmal Revue passieren zu lassen.

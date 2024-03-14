@@ -3,7 +3,7 @@ title: Begegnung mit dem Weihnachtsmann
 published: true
 created_at: 2010-12-14 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/17-01.jpg
+  - src: /src/images/begegnungen/17-01.jpg
 ---
 
 Genau 100 Kilogramm Süßigkeiten verteilten Mitglieder des Weiler Leo-Clubs am ersten Samstag im Advent im Auftrag der Werbegemeinschaft Rhein Center. Zwischen 11 und 18 Uhr schlüpften sie abwechselnd in das stattliche Gewand des Weihnachtsmanns und erfreuten Jung und Alt. Immer waren auch mehrere “Engel” dabei, um den “Chef” in Rot zu unterstützen. Zeitweise im Einsatz waren auch sechs Praktikanten aus der Theodor-Heuss-Realschule Lörrach.Am Nachmittag bekamen die Leos Besuch aus Wiechs. Acht Heimbewohner wurden von einer Betreuerin mit dem Heimbus ins Rhein Center gebracht. Klar, dass diese Gäste etwas vom Weihnachtsmann bekamen. Wenn man kein Kind mehr ist, helfen eben gute Beziehungen!

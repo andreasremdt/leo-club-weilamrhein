@@ -3,10 +3,10 @@ title: Leos helfen beim Dreiländerlauf
 published: true
 created_at: 2011-05-22 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/18-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/18-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/18-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/18-04.jpg
+  - src: /src/images/weitere/18-01.jpg
+  - src: /src/images/weitere/18-02.jpg
+  - src: /src/images/weitere/18-03.jpg
+  - src: /src/images/weitere/18-04.jpg
 ---
 
 Bei der Durchführung eines Großanlasses wie dem Dreiländerlauf mit Start und Ziel auf dem Marktplatz in Basel werden viele Helferinnen und Helfer benötigt. Elf Mitglieder des Weiler Leo-Clubs sowie Gerhard und Inge aus dem Betreuerstab waren dabei, als am 22.5.2011 der 21. Dreiländerlauf stattfand, einige davon von 7 Uhr morgens als der Aufbau begann bis zum Abbau am Abend.

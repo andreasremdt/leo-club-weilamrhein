@@ -3,7 +3,7 @@ title: Leo-Club lädt 29 Kinder ins OKIDOKI ein
 published: true
 created_at: 2011-02-04 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/13-01.jpg
+  - src: /src/images/weitere/13-01.jpg
 ---
 
 Einen tollen Spiel- und Sporttag ermöglichte der Leo-Club der 6a der THR Lörrach. Als Dankeschön für ihre Mithilfe bei der Weihnachtsmann-Aktion im Rhein Center bezahlten die Leos den Kids den Eintritt ins OKIDOKI Kinderland Lörrach. Von 14 bis 19 Uhr konnten sich die Kinder nach Herzenslust austoben.

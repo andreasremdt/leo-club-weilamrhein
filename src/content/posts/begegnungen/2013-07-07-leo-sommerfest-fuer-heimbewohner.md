@@ -3,9 +3,9 @@ title: Leo-Sommerfest für Heimbewohner
 published: true
 created_at: 2013-07-07 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/55-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/55-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/54-01.jpg
+  - src: /src/images/begegnungen/55-01.jpg
+  - src: /src/images/begegnungen/55-02.jpg
+  - src: /src/images/begegnungen/54-01.jpg
 ---
 
 Früh morgens begannen die Leos mit den Vorbereitungen für das Sommerfest, das sie in Absprache und guter Zusammenarbeit mit der Heimleitung für die Bewohner der Stationen „Ahorn“ und „Linde“ veranstalteten. Für 80 Personen wurden Festzeltgarnituren aufgestellt und ein großer Grill aufgebaut. – An diesem GriIl sollten später diejenigen Leos Dienst tun, die im Laufe der Vorwoche eine Hygieneschulung mitgemacht hatten. Im  Café Wiesental wurden Getränke kühl gestellt, eine Salat- und eine Kuchentheke hergerichtet und eine Musikanlage installiert.

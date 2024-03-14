@@ -3,7 +3,7 @@ title: Zu Besuch bei den Spur 1-Freunden Südbaden
 published: true
 created_at: 2013-04-14 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/51-01.jpg
+  - src: /src/images/begegnungen/51-01.jpg
 ---
 
 Tag der Offenen Tür auf dem ehemaligen Schöpflin-Areal in Brombach. Für die Teilnehmer am Leo-Projekt „Begegnungen“ ein guter Grund, einmal die große Modelleisenbahn-Anlage der Spur 1-Freunde Südbaden zu besuchen.

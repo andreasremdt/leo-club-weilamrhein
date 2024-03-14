@@ -3,13 +3,13 @@ title: Auch 2011 ein voller Erfolg – das Fest Miteinander
 published: true
 created_at: 2011-08-27 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/19-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/19-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/19-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/19-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/19-05.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/19-06.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/19-07.jpg
+  - src: /src/images/weitere/19-01.jpg
+  - src: /src/images/weitere/19-02.jpg
+  - src: /src/images/weitere/19-03.jpg
+  - src: /src/images/weitere/19-04.jpg
+  - src: /src/images/weitere/19-05.jpg
+  - src: /src/images/weitere/19-06.jpg
+  - src: /src/images/weitere/19-07.jpg
 ---
 
 Ein spaßiger Sonntagnachmittag, der Zirkus Papperlapp, ein tolles Bühnenprogramm, ein Teamparcours Junior – Senior und viele Menschen unterschiedlichsten Alters beim gemütlichen Zusammensein – wonach klingt das? Genau, nach dem alljährlichen Generationenfest Miteinander!

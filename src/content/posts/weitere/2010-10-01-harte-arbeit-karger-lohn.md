@@ -3,7 +3,7 @@ title: Harte Arbeit, karger Lohn
 published: true
 created_at: 2010-10-01 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/10-01.jpg
+  - src: /src/images/weitere/10-01.jpg
 ---
 
 Ein warmer Herbsttag. Eigentlich ein idealer Tag für ein Herbstfest! Die Weiler Leos hofften, dass viele Besucher kommen würden, um bei der offiziellen Einweihung des neu gestalteten Platzes dabei zu sein. Vor Rosi’s Schuhlädeli hatten sie einen Verpflegungsstand aufgebaut und boten Neuen Süssen, Sauser, Fleischkäse- und Frikadellenbrötchen sowie belegte Brötchen an.

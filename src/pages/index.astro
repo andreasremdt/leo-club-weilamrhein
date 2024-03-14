@@ -1,6 +1,7 @@
 ---
 import { Picture } from "astro:assets";
 import Layout from "@/layouts/default.astro";
+import BannerImage from "@/images/pflegeheim/20-01.jpg";
 ---
 
 <Layout
@@ -9,7 +10,7 @@ import Layout from "@/layouts/default.astro";
 >
   <figure class="relative mb-4 md:mb-48">
     <Picture
-      src="https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/20-01.jpg"
+      src={BannerImage}
       formats={["avif", "webp"]}
       alt="leo-mitglieder verteilen rosen im weiler pflegeheim"
       width={1280}
@@ -22,13 +23,10 @@ import Layout from "@/layouts/default.astro";
     <figcaption
       class="box space-y-4 py-8 text-center md:absolute md:bottom-0 md:left-1/2 md:w-4/5 md:-translate-x-1/2 md:translate-y-1/2 lg:w-2/3"
     >
-      <h1 class="h1 bg-[url(/leafs-center.svg)] bg-bottom bg-no-repeat pb-16">
-        Miteinander statt Gegeneinander
-      </h1>
+      <h1 class="h1 bg-[url(/leafs-center.svg)] bg-bottom bg-no-repeat pb-16">Miteinander statt Gegeneinander</h1>
       <p>
-        Der Leo-Club Weil am Rhein ist ein sozial engagierter Jugendclub aus dem
-        Dreiländereck, dessen Mitglieder sich für Menschen mit Behinderung,
-        benachteiligte Kinder und Heimbewohner einsetzt.
+        Der Leo-Club Weil am Rhein ist ein sozial engagierter Jugendclub aus dem Dreiländereck, dessen Mitglieder sich
+        für Menschen mit Behinderung, benachteiligte Kinder und Heimbewohner einsetzt.
       </p>
       <a class="button" href="/ueber-uns/">Erfahre mehr über uns</a>
     </figcaption>
@@ -38,8 +36,8 @@ import Layout from "@/layouts/default.astro";
     <article class="box flex flex-col items-center text-center">
       <h2 class="title w-full">Engagieren</h2>
       <p class="my-4">
-        Wir sind Freiwillige im Alter zwischen 14 und 30 Jahren, welche sich
-        ehrenamtlich für benachteiligte Menschen einsetzen.
+        Wir sind Freiwillige im Alter zwischen 14 und 30 Jahren, welche sich ehrenamtlich für benachteiligte Menschen
+        einsetzen.
       </p>
       <a class="button mt-auto" href="/ueber-uns/">Erfahre mehr</a>
     </article>
@@ -47,27 +45,22 @@ import Layout from "@/layouts/default.astro";
     <article class="box flex flex-col items-center text-center">
       <h2 class="title w-full">Bewegen</h2>
       <p class="my-4">
-        Wir unternehmen Ausflüge mit Kindern oder Bewohnern eines Pflegeheims,
-        sammeln Spenden oder arbeiten mit den Lions zusammen.
+        Wir unternehmen Ausflüge mit Kindern oder Bewohnern eines Pflegeheims, sammeln Spenden oder arbeiten mit den
+        Lions zusammen.
       </p>
       <a class="button mt-auto" href="/aktionen/">Berichte lesen</a>
     </article>
 
-    <article
-      class="box flex flex-col items-center text-center md:col-span-2 lg:col-span-1"
-    >
+    <article class="box flex flex-col items-center text-center md:col-span-2 lg:col-span-1">
       <h2 class="title w-full">Mitmachen</h2>
       <p class="my-4">
-        Unser Ziel ist eine Gesellschaft, in der sich jeder sozial engagiert und
-        für hilfsbedürftige Menschen einsetzt.
+        Unser Ziel ist eine Gesellschaft, in der sich jeder sozial engagiert und für hilfsbedürftige Menschen einsetzt.
       </p>
       <a class="button mt-auto" href="/mitglied-werden/">Mitglied werden</a>
     </article>
   </div>
 
-  <div
-    class="mt-4 grid grid-cols-1 items-start gap-4 md:mt-8 md:grid-cols-2 md:gap-8"
-  >
+  <div class="mt-4 grid grid-cols-1 items-start gap-4 md:mt-8 md:grid-cols-2 md:gap-8">
     <figure class="box">
       <iframe
         width="560"
@@ -82,23 +75,24 @@ import Layout from "@/layouts/default.astro";
     <div class="box h-full space-y-4">
       <h2 class="h2">Wer ist der Leo-Club Weil am Rhein?</h2>
       <p>
-        Leo-Clubs ist eine weltweit tätige, zu den Lions gehörende Organisation
-        bestehend aus tausenden von Clubs und noch viel mehr Mitgliedern. In der
-        Regel kannst du ab 16 Jahre Leo werden, das Maximalalter liegt bei 30.
+        Leo-Clubs ist eine weltweit tätige, zu den Lions gehörende Organisation bestehend aus tausenden von Clubs und
+        noch viel mehr Mitgliedern. In der Regel kannst du ab 16 Jahre Leo werden, das Maximalalter liegt bei 30.
       </p>
 
       <p>
-        Unser Club wurde 2009 gegründet und hat seither mehr als 200 Aktionen
-        durchgeführt. Einen Teil dieser Aktionen kannst du im Video sehen.
+        Unser Club wurde 2009 gegründet und hat seither mehr als 200 Aktionen durchgeführt. Einen Teil dieser Aktionen
+        kannst du im Video sehen.
       </p>
 
       <p>
-        Hast du Lust, mitzumachen? Noch nicht sicher, worum es wirklich geht?
-        Informiere dich über <a class="link" href="/ueber-uns/"
-          >unsere Geschichte</a
+        Hast du Lust, mitzumachen? Noch nicht sicher, worum es wirklich geht? Informiere dich über <a
+          class="link"
+          href="/ueber-uns/">unsere Geschichte</a
         > oder entdecke
-        <a class="link" href="/aktionen/">unsere Aktionen</a>. Oder lerne mehr
-        über die <a class="link" href="/mitglied-werden/">Mitgliedschaft</a>.
+        <a class="link" href="/aktionen/">unsere Aktionen</a>. Oder lerne mehr über die <a
+          class="link"
+          href="/mitglied-werden/">Mitgliedschaft</a
+        >.
       </p>
     </div>
   </div>

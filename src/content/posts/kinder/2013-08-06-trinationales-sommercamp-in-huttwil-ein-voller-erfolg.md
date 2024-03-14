@@ -3,39 +3,39 @@ title: Drittes trinationales Sommercamp in Huttwil – ein voller Erfolg
 published: true
 created_at: 2013-08-06 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-05.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-06.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-07.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-08.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-09.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-10.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-11.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-12.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-13.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-14.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-15.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-16.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-17.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-18.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-19.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-20.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-21.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-22.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-23.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-24.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-25.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-26.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-27.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-28.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-29.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-30.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-31.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-32.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/13-33.jpg
+  - src: /src/images/kinder/13-01.jpg
+  - src: /src/images/kinder/13-02.jpg
+  - src: /src/images/kinder/13-03.jpg
+  - src: /src/images/kinder/13-04.jpg
+  - src: /src/images/kinder/13-05.jpg
+  - src: /src/images/kinder/13-06.jpg
+  - src: /src/images/kinder/13-07.jpg
+  - src: /src/images/kinder/13-08.jpg
+  - src: /src/images/kinder/13-09.jpg
+  - src: /src/images/kinder/13-10.jpg
+  - src: /src/images/kinder/13-11.jpg
+  - src: /src/images/kinder/13-12.jpg
+  - src: /src/images/kinder/13-13.jpg
+  - src: /src/images/kinder/13-14.jpg
+  - src: /src/images/kinder/13-15.jpg
+  - src: /src/images/kinder/13-16.jpg
+  - src: /src/images/kinder/13-17.jpg
+  - src: /src/images/kinder/13-18.jpg
+  - src: /src/images/kinder/13-19.jpg
+  - src: /src/images/kinder/13-20.jpg
+  - src: /src/images/kinder/13-21.jpg
+  - src: /src/images/kinder/13-22.jpg
+  - src: /src/images/kinder/13-23.jpg
+  - src: /src/images/kinder/13-24.jpg
+  - src: /src/images/kinder/13-25.jpg
+  - src: /src/images/kinder/13-26.jpg
+  - src: /src/images/kinder/13-27.jpg
+  - src: /src/images/kinder/13-28.jpg
+  - src: /src/images/kinder/13-29.jpg
+  - src: /src/images/kinder/13-30.jpg
+  - src: /src/images/kinder/13-31.jpg
+  - src: /src/images/kinder/13-32.jpg
+  - src: /src/images/kinder/13-33.jpg
 ---
 
 Alle guten Dinge sind drei – das ist zumindest eine Redensart, welche sich des öfteren als rechtmäßig erweist. So auch beim dritten trinationalen Sommercamp in Huttwil, welches in der ersten Ferienwoche Kinder aus Deutschland, Frankreich und der Schweiz auf einem Bauernhof vereinte. Dazu trugen unter anderem zahlreiche Spiele wie Wasserbombenweitwurf, Seilspringen oder Baden im Schwimmbad ebenso wie diverse, typische Arbeiten wie das Stapeln von Holz, Melken von Kühen oder Ausmisten eines Hühnergeheges bei.

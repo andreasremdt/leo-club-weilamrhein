@@ -3,7 +3,7 @@ title: Fasnachtsfeier im Pflegeheim mit vielen Mitmachelementen
 published: true
 created_at: 2012-02-07 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/15-01.jpg
+  - src: /src/images/pflegeheim/15-01.jpg
 ---
 
 Lange vor dem offiziellen Beginn um 14.44 Uhr hatte sich am Fasnachtsdienstag die Caféteria “Weiler Stuben” im Pflegeheim Markgräflerland mit Heimbewohnern, Gästen und Mitarbeitern gefüllt. Den ganzen Morgen lang hatte eine Schar ehrenamtlicher Helfer den Raum liebevoll für das närrische Treiben hergerichtet. Mit dabei: fünf Leos und drei Praktikanten des Leo-Clubs.

@@ -3,8 +3,8 @@ title: Treffen beim Weihnachtsessen
 published: true
 created_at: 2010-12-23 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/18-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/18-02.jpg
+  - src: /src/images/begegnungen/18-01.jpg
+  - src: /src/images/begegnungen/18-02.jpg
 ---
 
 Zum elften Mal nahmen Mitglieder des Projekts “Begegnungen” gemeinsam mit Heimbewohnern an einer Weihnachtsfeier im Markus-Pflüger-Heim teil. Nach der offiziellen Feier im Großen Saal begab man sich zum Weihnachtsessen auf Station “Ahorn”. Es gab Ente und für die Vegetarier Gemüsespieße mit diversen Beilagen. Das Lob an die Küche fiel euphorisch aus: “So gut wie noch nie!”

@@ -3,11 +3,11 @@ title: Kurzweilige Physikstunde und Ausflug in den Rosenfelspark
 published: true
 created_at: 2012-05-13 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/37-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/37-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/37-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/37-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/37-05.jpg
+  - src: /src/images/begegnungen/37-01.jpg
+  - src: /src/images/begegnungen/37-02.jpg
+  - src: /src/images/begegnungen/37-03.jpg
+  - src: /src/images/begegnungen/37-04.jpg
+  - src: /src/images/begegnungen/37-05.jpg
 ---
 
 Das hatte es bei den „Begegnungen“ bisher noch nicht gegeben: Eine gemeinsame Schulstunde. Bei der 187. Unternehmung im Rahmen dieses Projekts, an dem Bewohner aus dem Markus-Pflüger-Heim in Wiechs sowie Jugendliche und junge Erwachsene vom Leo-Club Weil am Rhein beteiligt sind, stand am letzten Aprilsamstag „Unterhaltungsphysik“ auf dem Stundenplan.

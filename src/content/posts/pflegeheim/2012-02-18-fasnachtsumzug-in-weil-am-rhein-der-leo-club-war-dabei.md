@@ -3,7 +3,7 @@ title: Fasnachtsumzug in Weil am Rhein – Der Leo Club war dabei!
 published: true
 created_at: 2012-02-18 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/pflegeheim/16-01.jpg
+  - src: /src/images/pflegeheim/16-01.jpg
 ---
 
 Hunderte Menschen standen am Straßenrand und wollten unbedingt Süßigkeiten oder andere Geschenke. Oft klappte dies auch, doch gab es andererseits auch sehr viel Konfetti von bunten Ungeheuern in den Nacken, wenn man nicht aufpasste. Kurzum – wir reden von dem alljährlichen Fasnachtsumzug in Weil am Rhein, den wir Leos uns gemeinsam mit weiteren ehrenamtlichen Helfern und zahlreichen Heimbewohnern in Rollstühlen nicht entgehen ließen.Um 13:00 Uhr ging es im Pflegeheim Markgräflerland los. Jeder Leo wurde von Betreuerin Hildegard Pfahler einer im Rollstuhl sitzenden Person zugeordnet. Im Konvoi begab sich die große Gruppe zum traditionellen Standort vis-à-vis des Nahkaufs an der Hauptstraße, wo wenig später unzählige bunte Wagen vorbeifahren und verkleidete Menschen entlanglaufen würden.

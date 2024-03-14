@@ -3,8 +3,8 @@ title: Basteln im Schmuckatelier “Ahorn”
 published: true
 created_at: 2011-11-11 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/30-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/30-02.jpg
+  - src: /src/images/begegnungen/30-01.jpg
+  - src: /src/images/begegnungen/30-02.jpg
 ---
 
 Egal ob bunt oder einfarbig, kugelrund oder in allerlei anderen Formen, für den Hals oder den Arm – wir hatten einiges zu bieten. Wie im Jahr zuvor trafen wir uns am ersten Sonntag im Advent mit den Heimbewohnern, um gemeinsam Schmuck herzustellen – sei es für den Eigenbedarf oder als Weihnachtsgeschenk für die Eltern oder als Überraschung für Verwandte. Denn wer freut sich nicht über selbst produzierte Geschenke?

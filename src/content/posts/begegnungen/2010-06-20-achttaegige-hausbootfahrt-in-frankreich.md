@@ -3,8 +3,8 @@ title: Achttägige Hausbootfahrt in Frankreich
 published: true
 created_at: 2010-06-20 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/10-02.jpg
+  - src: /src/images/begegnungen/10-01.jpg
+  - src: /src/images/begegnungen/10-02.jpg
 ---
 
 Es war die achte Hausbootfahrt im Rahmen des Projekts “Begegnungen” – und es war die gemütlichste und auch die mit acht Tagen deutlich längste. Die Weiler Leos haben sich dazu entschieden, dieses Mal wieder von Mittersheim am Saar-Kohlen-Kanal aus auf große Tour zu gehen. Dazu wurden beim Hausbootsvermieter Canal evasion drei Boote gemietet. Von Sonntag auf Montag wurde noch im Hafen übernachtet. Die Mädchen verbrachten die Nacht neben den Booten in einem Indiana-Zelt, alle anderen hatten genügend Platz auf den Hausbooten.

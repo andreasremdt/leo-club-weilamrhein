@@ -3,20 +3,20 @@ title: Ausflug zum Préhisto-Parc
 published: true
 created_at: 2012-05-28 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-05.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-06.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-07.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-08.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-09.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-10.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-11.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-12.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-13.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/38-14.jpg
+  - src: /src/images/begegnungen/38-01.jpg
+  - src: /src/images/begegnungen/38-02.jpg
+  - src: /src/images/begegnungen/38-03.jpg
+  - src: /src/images/begegnungen/38-04.jpg
+  - src: /src/images/begegnungen/38-05.jpg
+  - src: /src/images/begegnungen/38-06.jpg
+  - src: /src/images/begegnungen/38-07.jpg
+  - src: /src/images/begegnungen/38-08.jpg
+  - src: /src/images/begegnungen/38-09.jpg
+  - src: /src/images/begegnungen/38-10.jpg
+  - src: /src/images/begegnungen/38-11.jpg
+  - src: /src/images/begegnungen/38-12.jpg
+  - src: /src/images/begegnungen/38-13.jpg
+  - src: /src/images/begegnungen/38-14.jpg
 ---
 
 Der Ausflug am Pfingstsamstag zur Tropfsteinhöhle und zum Dinopark im Préhisto-Parc in Réclère im Schweizer Jura stellte insofern ein Novum in der langen Geschichte der „Begegnungen“ dar, als er das Hilfswerkskonto des Clubs nicht belastete: Der Lions Club Lörrach hatte die komplette Finanzierung übernommen.

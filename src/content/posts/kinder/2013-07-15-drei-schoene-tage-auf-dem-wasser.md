@@ -3,16 +3,16 @@ title: Drei schöne Tage auf dem Wasser
 published: true
 created_at: 2013-07-15 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/12-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/12-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/12-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/12-05.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/12-06.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/12-07.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/12-08.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/12-09.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/12-10.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/12-01.jpg
+  - src: /src/images/kinder/12-02.jpg
+  - src: /src/images/kinder/12-03.jpg
+  - src: /src/images/kinder/12-04.jpg
+  - src: /src/images/kinder/12-05.jpg
+  - src: /src/images/kinder/12-06.jpg
+  - src: /src/images/kinder/12-07.jpg
+  - src: /src/images/kinder/12-08.jpg
+  - src: /src/images/kinder/12-09.jpg
+  - src: /src/images/kinder/12-10.jpg
+  - src: /src/images/kinder/12-01.jpg
 ---
 
 „Schön war’s!“ – In dieser Einschätzung waren sich alle Beteiligten einig: Die Mitglieder des Leo-Clubs Weil am Rhein – Dreiländereck, die zu einem gemeinsamen Hausbootwochenende auf dem Rhein-Marne-Kanal eingeladen hatten, Betreuer aus dem Arbeitskreis Tschernobylkinder Weil am Rhein und die elf Mädchen aus Shlobin in Weißrussland, die Hauptpersonen bei dieser Unternehmung.

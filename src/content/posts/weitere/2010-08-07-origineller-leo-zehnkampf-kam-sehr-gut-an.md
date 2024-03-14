@@ -3,18 +3,18 @@ title: Origineller “Leo Zehnkampf” kam sehr gut an
 published: true
 created_at: 2010-08-07 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/05-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/05-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/05-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/05-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/05-05.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/05-06.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/05-07.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/05-08.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/05-09.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/05-10.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/05-11.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/05-12.jpg
+  - src: /src/images/weitere/05-01.jpg
+  - src: /src/images/weitere/05-02.jpg
+  - src: /src/images/weitere/05-03.jpg
+  - src: /src/images/weitere/05-04.jpg
+  - src: /src/images/weitere/05-05.jpg
+  - src: /src/images/weitere/05-06.jpg
+  - src: /src/images/weitere/05-07.jpg
+  - src: /src/images/weitere/05-08.jpg
+  - src: /src/images/weitere/05-09.jpg
+  - src: /src/images/weitere/05-10.jpg
+  - src: /src/images/weitere/05-11.jpg
+  - src: /src/images/weitere/05-12.jpg
 ---
 
 “Walk to the Gifiz Lake where we will participate in spezial Leo Olympic Games, organized by the Leo-Club Weil am Rhein.” – So lautete die Ankündigung des “Tags des Sports” im Programm der Teilnehmer eines trinationalen zehnkampfs in Offenburg. Die von deutschen Lions Clubs organisierte Tri-Jumelage führte 18 junge Erwachsene aus Deutschland, Frankreich und Ungarn zusammen.

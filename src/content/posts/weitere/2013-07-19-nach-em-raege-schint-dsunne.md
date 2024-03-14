@@ -3,8 +3,8 @@ title: „Nach em Räge schint d’Sunne”
 published: true
 created_at: 2013-07-19 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/29-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/weitere/29-02.jpg
+  - src: /src/images/weitere/29-01.jpg
+  - src: /src/images/weitere/29-02.jpg
 ---
 
 „Musikalische Grüße aus der Schweiz“, lautete der Titel des Benefizkonzerts, das das Hilfswerk des Leo-Clubs Weil am Rhein – Dreiländereck am 19. Juli im Gemeindehaus von St. Peter und Paul veranstaltete. Die Jugendlichen und jungen Erwachsenen um Clubpräsident Andreas Remdt konnten rund 200 Gäste ganz unterschiedlichen Alters begrüßen. „Ehrensache“ sei es für sie gewesen, sagte er bei der Anmoderation, zahlreichen Bewohnern des Pflegeheims Markgräflerland und deren ehrenamtlichen Begleitern Freikarten zukommen zu lassen. Und auch aus dem Markus-Pflüger-Heim in Wiechs wurden einige Menschen mit Behinderung an diesem Abend mit einem herzlichen „Grüezi“ begrüßt.

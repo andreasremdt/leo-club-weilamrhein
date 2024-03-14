@@ -3,12 +3,12 @@ title: Viel Spaß bei rasanten Fahrten
 published: true
 created_at: 2012-06-04 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/07-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/07-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/07-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/07-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/07-05.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/kinder/07-06.jpg
+  - src: /src/images/kinder/07-01.jpg
+  - src: /src/images/kinder/07-02.jpg
+  - src: /src/images/kinder/07-03.jpg
+  - src: /src/images/kinder/07-04.jpg
+  - src: /src/images/kinder/07-05.jpg
+  - src: /src/images/kinder/07-06.jpg
 ---
 
 Einer langen Tradition folgend, haben die Mitglieder des Weiler Leo-Clubs die Ferienkinder aus Weißrussland, die sich noch bis zum 4. Juli unter der Obhut des Arbeitskreises Tschernobyl-Waisenkinder in Friedlingen aufhalten werden, zu gemeinsamen Ausflügen eingeladen. Den Auftakt bildete ein Ganztagesausflug zum Steinwasenpark in Oberried. Um sich mit den zehn Jungen gut unterhalten zu können, hatten die Leos neben ihrem sprachkundigen Vize-Präsidenten Julian Sinenko noch fünf weitere Jugendliche russischer Abstammung mitgenommen.

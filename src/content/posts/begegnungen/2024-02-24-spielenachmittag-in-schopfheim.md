@@ -3,12 +3,9 @@ title: Spielenachmittag in Schopfheim
 published: true
 created_at: 2024-02-24T05:13:00.000Z
 images:
-  - src: >-
-      https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/IMG_20240225_160312.jpg?updatedAt=1709461765895
-  - src: >-
-      https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/IMG_20240225_160222.jpg?updatedAt=1709461764254
-  - src: >-
-      https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/IMG_20240225_160301.jpg?updatedAt=1709461766865
+  - src: ../../../images/begegnungen/IMG_20240225_160312.jpg
+  - src: ../../../images/begegnungen/IMG_20240225_160222.jpg
+  - src: ../../../images/begegnungen/IMG_20240225_160301.jpg
 ---
 
 Unter dem Motto "Es muss nicht immer eine Hausbootfahrt sein" trafen sich Bewohner und Leos zu einem entspannten Spielenachmittag in der Wohngruppe Linde in Schopfheim.

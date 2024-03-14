@@ -3,12 +3,12 @@ title: Halloweendisco im Markus-Pflüger-Heim
 published: true
 created_at: 2012-10-30 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/45-01.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/45-02.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/45-03.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/45-04.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/45-05.jpg
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/45-06.jpg
+  - src: /src/images/begegnungen/45-01.jpg
+  - src: /src/images/begegnungen/45-02.jpg
+  - src: /src/images/begegnungen/45-03.jpg
+  - src: /src/images/begegnungen/45-04.jpg
+  - src: /src/images/begegnungen/45-05.jpg
+  - src: /src/images/begegnungen/45-06.jpg
 ---
 
 Nun, nachdem ich den Motor meines Fahrzeuges abgestellt und den Innenraum verlassen hatte, war mir eines klar: ich war nicht warm genug angezogen. Eine leichte Schneeschicht überdeckte den Parkplatz des Markus-Pfüger-Heims in Wiechs und ließ in Kombination mit der frühen Dunkelheit eine winterliche Stimmung aufkommen – und das im Oktober. Der Moderator vom Radio hatte noch gesagt, dass es nur einmal in 30 Jahren zu einem derart frühen Wintereinbruch kommt.

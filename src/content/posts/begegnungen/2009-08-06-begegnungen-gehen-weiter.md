@@ -3,7 +3,7 @@ title: “Begegnungen” gehen weiter
 published: true
 created_at: 2009-08-06 01:13:00
 images:
-  - src: https://ik.imagekit.io/6uqkzvybwk/leo-club-weilamrhein/begegnungen/02-01.jpg
+  - src: /src/images/begegnungen/02-01.jpg
 ---
 
 Schon die Anfahrt zum Reiseziel gestaltete sich anders als bei den zahlreichen Unternehmungen, die junge Leute aus Weil gemeinsam mit Bewohnern des Markus-Pflüger-Heims in Wiechs während der letzten neun Jahren durchgeführt hatten. War man früher auf die Hilfe erwachsener Angehöriger angewiesen, so konnten nun die volljährigen Teilnehmer die Transferfahrten selbst übernehmen.
