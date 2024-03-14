@@ -1,5 +1,5 @@
 ---
-title: Spielenachmittag in Schopfheim (test)
+title: Spielenachmittag in Schopfheim
 published: true
 created_at: 2024-02-24T05:13:00.000Z
 images:
