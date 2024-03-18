@@ -73,13 +73,7 @@ let { Content } = await entry.render();
 
   {
     entry.data.images ? (
-      <Gallery
-        class="mt-6"
-        images={entry.data.images}
-        galleryId="post"
-        width={400}
-        height={400}
-      />
+      <Gallery class="mt-6" images={entry.data.images} galleryId="post" width={400} height={400} />
     ) : null
   }
 </Layout>
