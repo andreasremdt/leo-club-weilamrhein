@@ -22,7 +22,7 @@
     "typescript": "^5.4.3"
   },
   "devDependencies": {
-    "@tinacms/cli": "^1.5.42",
+    "@tinacms/cli": "^1.5.44",
     "@types/node": "^20.11.30",
     "tinacms": "^1.6.0",
     "prettier": "^3.2.5",
