@@ -1,7 +1,7 @@
 ---
 title: "Wasser von allen Seiten: eine nasse, aber tolle Hausbootfahrt"
 published: true
-created_at: 2024-06-94T05:13:00.000Z
+created_at: 2024-06-04T05:13:00.000Z
 images:
   - src: ../../../images/begegnungen/88-11.jpg
   - src: ../../../images/begegnungen/88-01.jpg
