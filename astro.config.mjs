@@ -9,6 +9,10 @@ export default defineConfig({
   prefetch: {
     prefetchAll: true,
   },
+  image: {
+    formats: ["webp"],
+    quality: 80,
+  },
   integrations: [
     tailwind({
       applyBaseStyles: false,
